@@ -8,9 +8,9 @@
     <cl:appspec/>
   </head>
   <body std:sid="body-6585a0fc">
-    <cl:group std:sid="group-0b464f24" id="grpData">
+    <cl:group std:sid="group-0b464f24" id="grpData" class="content-body">
       <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="885px" autosize="height"/>
-      <cl:group std:sid="group-b5aa1204" id="grp3" class="card type01">
+      <cl:group std:sid="group-b5aa1204" id="grpTotal" class="card type01">
         <cl:verticaldata std:sid="v-data-6ec449da" width="1024px" height="62px" autosize="height"/>
         <cl:group std:sid="group-a32b676f" id="grp1">
           <cl:formdata std:sid="f-data-30475dcb" row="0" col="0"/>
@@ -49,321 +49,325 @@
           <cl:columns length="1" unit="FRACTION"/>
         </cl:formlayout>
       </cl:group>
-      <cl:group std:sid="group-5cc370db" id="grp4" class="result-count">
-        <cl:verticaldata std:sid="v-data-bb117d32" width="1024px" height="20px" autosize="height"/>
-        <cl:output std:sid="output-4688dc71" id="opt1" value="8" displayexp="text + &quot; users&quot;">
-          <cl:flowlayoutdata std:sid="f-data-83451f1c" width="100px" height="20px" autosize="both"/>
-        </cl:output>
-        <cl:output std:sid="output-df1f3b73" id="opt49" value="·">
-          <cl:flowlayoutdata std:sid="f-data-40127dae" width="10px" height="20px" autosize="both"/>
-        </cl:output>
-        <cl:output std:sid="output-db665cfe" id="opt2" value="5" displayexp="&quot;Maker &quot; + text + &quot;/&quot; + userAttr(&quot;total&quot;)">
-          <cl:attribute name="total" value="5"/>
-          <cl:flowlayoutdata std:sid="f-data-1983cccf" width="100px" height="20px" autosize="both"/>
-        </cl:output>
-        <cl:output std:sid="output-1d09b0e5" id="opt48" value="·">
-          <cl:flowlayoutdata std:sid="f-data-48b95aa4" width="10px" height="20px" autosize="both"/>
-        </cl:output>
-        <cl:output std:sid="output-112c4e50" id="opt3" value="4" displayexp="&quot;Maker &quot; + text + &quot;/&quot; + userAttr(&quot;total&quot;)">
-          <cl:attribute name="total" value="5"/>
-          <cl:flowlayoutdata std:sid="f-data-08a181c3" width="100px" height="20px" autosize="both"/>
-        </cl:output>
-        <cl:flowlayout std:sid="f-layout-c6477825" scrollable="false" hspacing="4" vspacing="4"/>
-      </cl:group>
-      <cl:group std:sid="group-1b791d41" id="grp5" class="card-contents">
-        <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="739px" autosize="height"/>
-        <cl:group std:sid="group-9b74addf" id="grp6" class="card type02">
-          <cl:flowlayoutdata std:sid="f-data-24de9672" width="325px" height="331px" autosize="height"/>
-          <cl:group std:sid="group-6a6eb9bd" id="grp7">
-            <cl:verticaldata std:sid="v-data-3f9c2689" width="400px" height="20px"/>
-            <cl:output std:sid="output-5b801c1a" id="opt29" class="c-15 highlight" value="j.reyes">
-              <cl:formdata std:sid="f-data-7b8fa8a3" row="0" col="0"/>
-            </cl:output>
-            <cl:group std:sid="group-4c29e76b" id="grp25">
-              <cl:formdata std:sid="f-data-6a148351" row="0" col="1"/>
-              <cl:output std:sid="output-9a44aa8b" id="opt32" class="badge soft warning" value="S">
-                <cl:flowlayoutdata std:sid="f-data-74717476" width="29px" height="20px" autosize="both"/>
-              </cl:output>
-              <cl:flowlayout std:sid="f-layout-143f2321" hspacing="4" vspacing="0" halign="right"/>
-            </cl:group>
-            <cl:formlayout std:sid="f-layout-5b60ce1a" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-              <cl:rows length="1" unit="FRACTION"/>
-              <cl:columns length="1" unit="FRACTION"/>
-              <cl:columns length="1" unit="FRACTION"/>
-            </cl:formlayout>
-          </cl:group>
-          <cl:group std:sid="group-9d82c18b" id="grp8">
-            <cl:verticaldata std:sid="v-data-95041e7f" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-2557dbe6" id="opt4" class="c-13" value="Ramon T. Diaz">
-              <cl:verticaldata std:sid="v-data-c403166f" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-e2684ed9" id="opt5" value="john.reyes@pse.com">
-              <cl:verticaldata std:sid="v-data-a3ce7c96" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-0b0db046" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-9c07a888" id="grp9">
-            <cl:verticaldata std:sid="v-data-694d2a11" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-118ad4b0" id="opt6" class="label" value="Telephone">
-              <cl:verticaldata std:sid="v-data-ab1541f5" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-9b78d97c" id="opt7" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-d9536140" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-6557bf2d" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-f763703e" id="grp10">
-            <cl:verticaldata std:sid="v-data-4d645628" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-d640da39" id="opt8" class="label" value="Mobile">
-              <cl:verticaldata std:sid="v-data-45e687c9" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-345532c5" id="opt9" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-6d8a82f5" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-131b05a6" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-28ade823" id="grp11">
-            <cl:verticaldata std:sid="v-data-264fefcb" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-651b24be" id="opt10" class="label" value="Fax">
-              <cl:verticaldata std:sid="v-data-26a6d734" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-e82fb405" id="opt11" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-0f1bc0c1" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-d4318bd6" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-d99a1b70" id="grp36">
-            <cl:verticaldata std:sid="v-data-ace807ca" width="299px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-f363b121" id="opt47" class="label" value="Registration Date">
-              <cl:verticaldata std:sid="v-data-d2c3a2e8" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-8f9c1e5a" id="opt54" value="08-25-2026">
-              <cl:verticaldata std:sid="v-data-0e09557f" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-da6bb8fc" spacing="4"/>
-          </cl:group>
-          <cl:verticallayout std:sid="v-layout-5b10945a" spacing="12"/>
+      <cl:group std:sid="group-c9d6abb5" id="grpContent" class="content">
+        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="767px" autosize="height"/>
+        <cl:group std:sid="group-5cc370db" id="grpContentResult" class="content-result">
+          <cl:verticaldata std:sid="v-data-bb117d32" width="1024px" height="20px" autosize="height"/>
+          <cl:output std:sid="output-4688dc71" id="opt1" value="8" displayexp="text + &quot; users&quot;">
+            <cl:flowlayoutdata std:sid="f-data-83451f1c" width="100px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-df1f3b73" id="opt49" value="·">
+            <cl:flowlayoutdata std:sid="f-data-40127dae" width="10px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-db665cfe" id="opt2" value="5" displayexp="&quot;Maker &quot; + text + &quot;/&quot; + userAttr(&quot;total&quot;)">
+            <cl:attribute name="total" value="5"/>
+            <cl:flowlayoutdata std:sid="f-data-1983cccf" width="100px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-1d09b0e5" id="opt48" value="·">
+            <cl:flowlayoutdata std:sid="f-data-48b95aa4" width="10px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-112c4e50" id="opt3" value="4" displayexp="&quot;Maker &quot; + text + &quot;/&quot; + userAttr(&quot;total&quot;)">
+            <cl:attribute name="total" value="5"/>
+            <cl:flowlayoutdata std:sid="f-data-08a181c3" width="100px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:flowlayout std:sid="f-layout-c6477825" scrollable="false" hspacing="4" vspacing="4"/>
         </cl:group>
-        <cl:group std:sid="group-f46b7578" id="grp37" class="card type02">
-          <cl:flowlayoutdata std:sid="f-data-b4b30a0d" width="325px" height="331px" autosize="height"/>
-          <cl:group std:sid="group-feabfa9a" id="grp38">
-            <cl:verticaldata std:sid="v-data-fefc68fb" width="400px" height="20px"/>
-            <cl:output std:sid="output-06d88f63" id="opt55" class="c-15 highlight" value="a.cruz">
-              <cl:formdata std:sid="f-data-a9a16dd4" row="0" col="0"/>
-            </cl:output>
-            <cl:group std:sid="group-74e1ac71" id="grp39">
-              <cl:formdata std:sid="f-data-bbf8f657" row="0" col="1"/>
-              <cl:output std:sid="output-b86ae777" id="opt36" class="badge soft success" value="A">
-                <cl:flowlayoutdata std:sid="f-data-ba3bf791" width="29px" height="20px" autosize="both"/>
+        <cl:group std:sid="group-1b791d41" id="grpCard" class="card-contents">
+          <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="739px" autosize="height"/>
+          <cl:group std:sid="group-9b74addf" id="grp6" class="card type02">
+            <cl:flowlayoutdata std:sid="f-data-24de9672" width="325px" height="331px" autosize="height"/>
+            <cl:group std:sid="group-6a6eb9bd" id="grp7">
+              <cl:verticaldata std:sid="v-data-3f9c2689" width="400px" height="20px"/>
+              <cl:output std:sid="output-5b801c1a" id="opt29" class="c-15 highlight" value="j.reyes">
+                <cl:formdata std:sid="f-data-7b8fa8a3" row="0" col="0"/>
               </cl:output>
-              <cl:flowlayout std:sid="f-layout-c204eeea" hspacing="4" vspacing="0" halign="right"/>
+              <cl:group std:sid="group-4c29e76b" id="grp25">
+                <cl:formdata std:sid="f-data-6a148351" row="0" col="1"/>
+                <cl:output std:sid="output-9a44aa8b" id="opt32" class="badge soft warning" value="S">
+                  <cl:flowlayoutdata std:sid="f-data-74717476" width="29px" height="20px" autosize="both"/>
+                </cl:output>
+                <cl:flowlayout std:sid="f-layout-143f2321" hspacing="4" vspacing="0" halign="right"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-5b60ce1a" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
             </cl:group>
-            <cl:formlayout std:sid="f-layout-574209a4" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-              <cl:rows length="1" unit="FRACTION"/>
-              <cl:columns length="1" unit="FRACTION"/>
-              <cl:columns length="1" unit="FRACTION"/>
-            </cl:formlayout>
-          </cl:group>
-          <cl:group std:sid="group-2589fe1f" id="grp40">
-            <cl:verticaldata std:sid="v-data-848cb8b4" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-11a4e454" id="opt57" class="c-13" value="Ramon T. Diaz">
-              <cl:verticaldata std:sid="v-data-5845b40e" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-bae88a80" id="opt58" value="john.reyes@pse.com">
-              <cl:verticaldata std:sid="v-data-8dd0527b" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-9dbdc675" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-7742f4e6" id="grp41">
-            <cl:verticaldata std:sid="v-data-aefbc480" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-3f01f5b9" id="opt59" class="label" value="Telephone">
-              <cl:verticaldata std:sid="v-data-36d75cdf" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-de01935d" id="opt60" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-c58fc8d7" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-6db3d1e9" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-fe640487" id="grp42">
-            <cl:verticaldata std:sid="v-data-3787508e" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-81f5c59d" id="opt61" class="label" value="Mobile">
-              <cl:verticaldata std:sid="v-data-61bea946" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-24501c97" id="opt62" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-6d5fb5c1" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-6097e541" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-6f4412b4" id="grp43">
-            <cl:verticaldata std:sid="v-data-f75aec82" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-ee9c02ed" id="opt63" class="label" value="Fax">
-              <cl:verticaldata std:sid="v-data-5bec74bf" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-567875df" id="opt64" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-cfcf5759" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-bb05017e" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-b8b8b911" id="grp44">
-            <cl:verticaldata std:sid="v-data-a6ce25a4" width="299px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-0ec3f05d" id="opt65" class="label" value="Registration Date">
-              <cl:verticaldata std:sid="v-data-f450bf59" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-ffa727e6" id="opt66" value="08-25-2026">
-              <cl:verticaldata std:sid="v-data-58cd3cb0" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-2e6f44d4" spacing="4"/>
-          </cl:group>
-          <cl:verticallayout std:sid="v-layout-73ca761c" spacing="12"/>
-        </cl:group>
-        <cl:group std:sid="group-487a2066" id="grp2" class="card type02">
-          <cl:flowlayoutdata std:sid="f-data-5b966f20" width="325px" height="331px" autosize="height"/>
-          <cl:group std:sid="group-64fb22aa" id="grp18">
-            <cl:verticaldata std:sid="v-data-ea6e3a44" width="400px" height="20px"/>
-            <cl:output std:sid="output-dbe6ce06" id="opt20" class="c-15 highlight" value="s.garcia">
-              <cl:formdata std:sid="f-data-41e9470c" row="0" col="0"/>
-            </cl:output>
-            <cl:group std:sid="group-81c590e6" id="grp19">
-              <cl:formdata std:sid="f-data-a5daf87d" row="0" col="1"/>
-              <cl:output std:sid="output-3f043cee" id="opt33" class="badge soft information" value="M">
-                <cl:flowlayoutdata std:sid="f-data-4e5ce908" width="29px" height="20px" autosize="both"/>
+            <cl:group std:sid="group-9d82c18b" id="grp8">
+              <cl:verticaldata std:sid="v-data-95041e7f" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-2557dbe6" id="opt4" class="c-13" value="Ramon T. Diaz">
+                <cl:verticaldata std:sid="v-data-c403166f" width="100px" height="20px" autosize="height"/>
               </cl:output>
-              <cl:output std:sid="output-fca9560a" id="opt21" class="badge soft success" value="A">
-                <cl:flowlayoutdata std:sid="f-data-2e80c369" width="29px" height="20px" autosize="both"/>
+              <cl:output std:sid="output-e2684ed9" id="opt5" value="john.reyes@pse.com">
+                <cl:verticaldata std:sid="v-data-a3ce7c96" width="353px" height="20px" autosize="height"/>
               </cl:output>
-              <cl:flowlayout std:sid="f-layout-9a50dfbd" hspacing="4" vspacing="0" halign="right"/>
+              <cl:verticallayout std:sid="v-layout-0b0db046" spacing="4"/>
             </cl:group>
-            <cl:formlayout std:sid="f-layout-d2eafebf" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-              <cl:rows length="1" unit="FRACTION"/>
-              <cl:columns length="1" unit="FRACTION"/>
-              <cl:columns length="1" unit="FRACTION"/>
-            </cl:formlayout>
-          </cl:group>
-          <cl:group std:sid="group-51b429d3" id="grp20">
-            <cl:verticaldata std:sid="v-data-d1e960d9" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-2f48c16a" id="opt22" class="c-13" value="Ramon T. Diaz">
-              <cl:verticaldata std:sid="v-data-c69b5285" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-efb31f85" id="opt23" value="john.reyes@pse.com">
-              <cl:verticaldata std:sid="v-data-376ca1ea" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-2faafbf5" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-a8238273" id="grp21">
-            <cl:verticaldata std:sid="v-data-3ada502e" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-c6e9fc66" id="opt24" class="label" value="Telephone">
-              <cl:verticaldata std:sid="v-data-48cdedfb" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-bbb445ce" id="opt25" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-9442342d" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-bac0c7e8" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-8fc41bb5" id="grp22">
-            <cl:verticaldata std:sid="v-data-6a3c1f2e" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-68bea1d1" id="opt26" class="label" value="Mobile">
-              <cl:verticaldata std:sid="v-data-915201b2" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-cafd0832" id="opt27" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-60c6f672" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-f5d49240" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-f2b9f9be" id="grp23">
-            <cl:verticaldata std:sid="v-data-fa43dee7" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-01e8ddf3" id="opt31" class="label" value="Fax">
-              <cl:verticaldata std:sid="v-data-654cd099" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-e4cf3d12" id="opt34" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-5e40b169" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-9df376fb" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-e71ff75d" id="grp27">
-            <cl:verticaldata std:sid="v-data-2a755158" width="299px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-a7a94d78" id="opt35" class="label" value="Registration Date">
-              <cl:verticaldata std:sid="v-data-2eb8a978" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-065a600a" id="opt37" value="08-25-2026">
-              <cl:verticaldata std:sid="v-data-552715ad" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-dd9aef3f" spacing="4"/>
-          </cl:group>
-          <cl:verticallayout std:sid="v-layout-5094a2ec" spacing="12"/>
-        </cl:group>
-        <cl:group std:sid="group-7985dcb8" id="grp12" class="card type02">
-          <cl:flowlayoutdata std:sid="f-data-326653d9" width="325px" height="331px" autosize="height"/>
-          <cl:group std:sid="group-bfa450a7" id="grp13">
-            <cl:verticaldata std:sid="v-data-4cc9b5c9" width="400px" height="20px"/>
-            <cl:output std:sid="output-0ef793ff" id="opt12" class="c-15 highlight" value="j.reyes">
-              <cl:formdata std:sid="f-data-6aabf017" row="0" col="0"/>
-            </cl:output>
-            <cl:group std:sid="group-0cacc938" id="grp14">
-              <cl:formdata std:sid="f-data-4fba4d2b" row="0" col="1"/>
-              <cl:output std:sid="output-482f8c75" id="opt13" class="badge soft information" value="M">
-                <cl:flowlayoutdata std:sid="f-data-b43e4f80" width="29px" height="20px" autosize="both"/>
+            <cl:group std:sid="group-9c07a888" id="grp9">
+              <cl:verticaldata std:sid="v-data-694d2a11" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-118ad4b0" id="opt6" class="label" value="Telephone">
+                <cl:verticaldata std:sid="v-data-ab1541f5" width="100px" height="20px" autosize="height"/>
               </cl:output>
-              <cl:flowlayout std:sid="f-layout-fc22b856" hspacing="4" vspacing="0" halign="right"/>
+              <cl:output std:sid="output-9b78d97c" id="opt7" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-d9536140" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-6557bf2d" spacing="4"/>
             </cl:group>
-            <cl:formlayout std:sid="f-layout-1d1cdf98" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-              <cl:rows length="1" unit="FRACTION"/>
-              <cl:columns length="1" unit="FRACTION"/>
-              <cl:columns length="1" unit="FRACTION"/>
-            </cl:formlayout>
+            <cl:group std:sid="group-f763703e" id="grp10">
+              <cl:verticaldata std:sid="v-data-4d645628" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-d640da39" id="opt8" class="label" value="Mobile">
+                <cl:verticaldata std:sid="v-data-45e687c9" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-345532c5" id="opt9" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-6d8a82f5" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-131b05a6" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-28ade823" id="grp11">
+              <cl:verticaldata std:sid="v-data-264fefcb" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-651b24be" id="opt10" class="label" value="Fax">
+                <cl:verticaldata std:sid="v-data-26a6d734" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-e82fb405" id="opt11" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-0f1bc0c1" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-d4318bd6" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-d99a1b70" id="grp36">
+              <cl:verticaldata std:sid="v-data-ace807ca" width="299px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-f363b121" id="opt47" class="label" value="Registration Date">
+                <cl:verticaldata std:sid="v-data-d2c3a2e8" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-8f9c1e5a" id="opt54" value="08-25-2026">
+                <cl:verticaldata std:sid="v-data-0e09557f" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-da6bb8fc" spacing="4"/>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-5b10945a" spacing="12"/>
           </cl:group>
-          <cl:group std:sid="group-ae4d26c9" id="grp15">
-            <cl:verticaldata std:sid="v-data-1c7b9290" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-eda17237" id="opt15" class="c-13" value="Ramon T. Diaz">
-              <cl:verticaldata std:sid="v-data-1739ab65" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-1288a1b6" id="opt16" value="john.reyes@pse.com">
-              <cl:verticaldata std:sid="v-data-2ef7087d" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-20de2158" spacing="4"/>
+          <cl:group std:sid="group-f46b7578" id="grp37" class="card type02">
+            <cl:flowlayoutdata std:sid="f-data-b4b30a0d" width="325px" height="331px" autosize="height"/>
+            <cl:group std:sid="group-feabfa9a" id="grp38">
+              <cl:verticaldata std:sid="v-data-fefc68fb" width="400px" height="20px"/>
+              <cl:output std:sid="output-06d88f63" id="opt55" class="c-15 highlight" value="a.cruz">
+                <cl:formdata std:sid="f-data-a9a16dd4" row="0" col="0"/>
+              </cl:output>
+              <cl:group std:sid="group-74e1ac71" id="grp39">
+                <cl:formdata std:sid="f-data-bbf8f657" row="0" col="1"/>
+                <cl:output std:sid="output-b86ae777" id="opt36" class="badge soft success" value="A">
+                  <cl:flowlayoutdata std:sid="f-data-ba3bf791" width="29px" height="20px" autosize="both"/>
+                </cl:output>
+                <cl:flowlayout std:sid="f-layout-c204eeea" hspacing="4" vspacing="0" halign="right"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-574209a4" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:group std:sid="group-2589fe1f" id="grp40">
+              <cl:verticaldata std:sid="v-data-848cb8b4" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-11a4e454" id="opt57" class="c-13" value="Ramon T. Diaz">
+                <cl:verticaldata std:sid="v-data-5845b40e" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-bae88a80" id="opt58" value="john.reyes@pse.com">
+                <cl:verticaldata std:sid="v-data-8dd0527b" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-9dbdc675" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-7742f4e6" id="grp41">
+              <cl:verticaldata std:sid="v-data-aefbc480" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-3f01f5b9" id="opt59" class="label" value="Telephone">
+                <cl:verticaldata std:sid="v-data-36d75cdf" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-de01935d" id="opt60" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-c58fc8d7" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-6db3d1e9" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-fe640487" id="grp42">
+              <cl:verticaldata std:sid="v-data-3787508e" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-81f5c59d" id="opt61" class="label" value="Mobile">
+                <cl:verticaldata std:sid="v-data-61bea946" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-24501c97" id="opt62" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-6d5fb5c1" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-6097e541" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-6f4412b4" id="grp43">
+              <cl:verticaldata std:sid="v-data-f75aec82" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-ee9c02ed" id="opt63" class="label" value="Fax">
+                <cl:verticaldata std:sid="v-data-5bec74bf" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-567875df" id="opt64" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-cfcf5759" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-bb05017e" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-b8b8b911" id="grp44">
+              <cl:verticaldata std:sid="v-data-a6ce25a4" width="299px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-0ec3f05d" id="opt65" class="label" value="Registration Date">
+                <cl:verticaldata std:sid="v-data-f450bf59" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-ffa727e6" id="opt66" value="08-25-2026">
+                <cl:verticaldata std:sid="v-data-58cd3cb0" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-2e6f44d4" spacing="4"/>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-73ca761c" spacing="12"/>
           </cl:group>
-          <cl:group std:sid="group-2fe0cb2e" id="grp16">
-            <cl:verticaldata std:sid="v-data-918230fa" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-bb836968" id="opt17" class="label" value="Telephone">
-              <cl:verticaldata std:sid="v-data-cac94f3c" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-f1c08c85" id="opt18" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-2848d4ee" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-ffd7aff3" spacing="4"/>
+          <cl:group std:sid="group-487a2066" id="grp2" class="card type02">
+            <cl:flowlayoutdata std:sid="f-data-5b966f20" width="325px" height="331px" autosize="height"/>
+            <cl:group std:sid="group-64fb22aa" id="grp18">
+              <cl:verticaldata std:sid="v-data-ea6e3a44" width="400px" height="20px"/>
+              <cl:output std:sid="output-dbe6ce06" id="opt20" class="c-15 highlight" value="s.garcia">
+                <cl:formdata std:sid="f-data-41e9470c" row="0" col="0"/>
+              </cl:output>
+              <cl:group std:sid="group-81c590e6" id="grp19">
+                <cl:formdata std:sid="f-data-a5daf87d" row="0" col="1"/>
+                <cl:output std:sid="output-3f043cee" id="opt33" class="badge soft information" value="M">
+                  <cl:flowlayoutdata std:sid="f-data-4e5ce908" width="29px" height="20px" autosize="both"/>
+                </cl:output>
+                <cl:output std:sid="output-fca9560a" id="opt21" class="badge soft success" value="A">
+                  <cl:flowlayoutdata std:sid="f-data-2e80c369" width="29px" height="20px" autosize="both"/>
+                </cl:output>
+                <cl:flowlayout std:sid="f-layout-9a50dfbd" hspacing="4" vspacing="0" halign="right"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-d2eafebf" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:group std:sid="group-51b429d3" id="grp20">
+              <cl:verticaldata std:sid="v-data-d1e960d9" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-2f48c16a" id="opt22" class="c-13" value="Ramon T. Diaz">
+                <cl:verticaldata std:sid="v-data-c69b5285" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-efb31f85" id="opt23" value="john.reyes@pse.com">
+                <cl:verticaldata std:sid="v-data-376ca1ea" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-2faafbf5" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-a8238273" id="grp21">
+              <cl:verticaldata std:sid="v-data-3ada502e" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-c6e9fc66" id="opt24" class="label" value="Telephone">
+                <cl:verticaldata std:sid="v-data-48cdedfb" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-bbb445ce" id="opt25" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-9442342d" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-bac0c7e8" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-8fc41bb5" id="grp22">
+              <cl:verticaldata std:sid="v-data-6a3c1f2e" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-68bea1d1" id="opt26" class="label" value="Mobile">
+                <cl:verticaldata std:sid="v-data-915201b2" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-cafd0832" id="opt27" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-60c6f672" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-f5d49240" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-f2b9f9be" id="grp23">
+              <cl:verticaldata std:sid="v-data-fa43dee7" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-01e8ddf3" id="opt31" class="label" value="Fax">
+                <cl:verticaldata std:sid="v-data-654cd099" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-e4cf3d12" id="opt34" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-5e40b169" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-9df376fb" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-e71ff75d" id="grp27">
+              <cl:verticaldata std:sid="v-data-2a755158" width="299px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-a7a94d78" id="opt35" class="label" value="Registration Date">
+                <cl:verticaldata std:sid="v-data-2eb8a978" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-065a600a" id="opt37" value="08-25-2026">
+                <cl:verticaldata std:sid="v-data-552715ad" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-dd9aef3f" spacing="4"/>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-5094a2ec" spacing="12"/>
           </cl:group>
-          <cl:group std:sid="group-e3a1027b" id="grp17">
-            <cl:verticaldata std:sid="v-data-aafd9688" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-ce8eb01e" id="opt19" class="label" value="Mobile">
-              <cl:verticaldata std:sid="v-data-364d0bc7" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-3d9a72d6" id="opt30" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-e5ae8e63" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-faccab83" spacing="4"/>
+          <cl:group std:sid="group-7985dcb8" id="grp12" class="card type02">
+            <cl:flowlayoutdata std:sid="f-data-326653d9" width="325px" height="331px" autosize="height"/>
+            <cl:group std:sid="group-bfa450a7" id="grp13">
+              <cl:verticaldata std:sid="v-data-4cc9b5c9" width="400px" height="20px"/>
+              <cl:output std:sid="output-0ef793ff" id="opt12" class="c-15 highlight" value="j.reyes">
+                <cl:formdata std:sid="f-data-6aabf017" row="0" col="0"/>
+              </cl:output>
+              <cl:group std:sid="group-0cacc938" id="grp14">
+                <cl:formdata std:sid="f-data-4fba4d2b" row="0" col="1"/>
+                <cl:output std:sid="output-482f8c75" id="opt13" class="badge soft information" value="M">
+                  <cl:flowlayoutdata std:sid="f-data-b43e4f80" width="29px" height="20px" autosize="both"/>
+                </cl:output>
+                <cl:flowlayout std:sid="f-layout-fc22b856" hspacing="4" vspacing="0" halign="right"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-1d1cdf98" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:group std:sid="group-ae4d26c9" id="grp15">
+              <cl:verticaldata std:sid="v-data-1c7b9290" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-eda17237" id="opt15" class="c-13" value="Ramon T. Diaz">
+                <cl:verticaldata std:sid="v-data-1739ab65" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-1288a1b6" id="opt16" value="john.reyes@pse.com">
+                <cl:verticaldata std:sid="v-data-2ef7087d" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-20de2158" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-2fe0cb2e" id="grp16">
+              <cl:verticaldata std:sid="v-data-918230fa" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-bb836968" id="opt17" class="label" value="Telephone">
+                <cl:verticaldata std:sid="v-data-cac94f3c" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-f1c08c85" id="opt18" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-2848d4ee" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-ffd7aff3" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-e3a1027b" id="grp17">
+              <cl:verticaldata std:sid="v-data-aafd9688" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-ce8eb01e" id="opt19" class="label" value="Mobile">
+                <cl:verticaldata std:sid="v-data-364d0bc7" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-3d9a72d6" id="opt30" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-e5ae8e63" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-faccab83" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-568283b7" id="grp26">
+              <cl:verticaldata std:sid="v-data-3f6a6a8c" width="353px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-eccf0018" id="opt38" class="label" value="Fax">
+                <cl:verticaldata std:sid="v-data-077fa9f7" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-33961625" id="opt39" value="+63 918 234 5678">
+                <cl:verticaldata std:sid="v-data-a9e1e8eb" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-e2718f82" spacing="4"/>
+            </cl:group>
+            <cl:group std:sid="group-6640fee5" id="grp28">
+              <cl:verticaldata std:sid="v-data-be24fba4" width="299px" height="45px" autosize="height"/>
+              <cl:output std:sid="output-9519da29" id="opt40" class="label" value="Registration Date">
+                <cl:verticaldata std:sid="v-data-21f5b596" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-2b631c3f" id="opt41" value="08-25-2026">
+                <cl:verticaldata std:sid="v-data-2f3aefde" width="353px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-9e01f874" spacing="4"/>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-da858dec" spacing="12"/>
           </cl:group>
-          <cl:group std:sid="group-568283b7" id="grp26">
-            <cl:verticaldata std:sid="v-data-3f6a6a8c" width="353px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-eccf0018" id="opt38" class="label" value="Fax">
-              <cl:verticaldata std:sid="v-data-077fa9f7" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-33961625" id="opt39" value="+63 918 234 5678">
-              <cl:verticaldata std:sid="v-data-a9e1e8eb" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-e2718f82" spacing="4"/>
-          </cl:group>
-          <cl:group std:sid="group-6640fee5" id="grp28">
-            <cl:verticaldata std:sid="v-data-be24fba4" width="299px" height="45px" autosize="height"/>
-            <cl:output std:sid="output-9519da29" id="opt40" class="label" value="Registration Date">
-              <cl:verticaldata std:sid="v-data-21f5b596" width="100px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:output std:sid="output-2b631c3f" id="opt41" value="08-25-2026">
-              <cl:verticaldata std:sid="v-data-2f3aefde" width="353px" height="20px" autosize="height"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-9e01f874" spacing="4"/>
-          </cl:group>
-          <cl:verticallayout std:sid="v-layout-da858dec" spacing="12"/>
+          <cl:flowlayout std:sid="f-layout-9a0b1891" scrollable="false" hspacing="12" vspacing="12"/>
         </cl:group>
-        <cl:flowlayout std:sid="f-layout-9a0b1891" scrollable="false" hspacing="12" vspacing="12"/>
+        <cl:verticallayout std:sid="v-layout-edd42a47"/>
       </cl:group>
       <cl:verticallayout std:sid="v-layout-9dda75e2" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>
