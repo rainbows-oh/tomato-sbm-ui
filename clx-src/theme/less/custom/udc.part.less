@@ -1,6 +1,8 @@
 @import "../../custom-settings.part.less";
 
-//우측 버튼 그룹
+/************************************************
+ * [UDC] 컨텐츠 그리드/카드 토글
+ ************************************************/
 .cl-container.btn-content-toggle {
 	.cl-button.btn-show-grid,
 	.cl-button.btn-show-card {
@@ -43,6 +45,21 @@
 			.cl-icon {
 				background-image: url("@{img-path}/icons/pages/ico_card_active.svg") !important;
 			}
+		}
+	}
+}
+
+/************************************************
+ * [UDC] 조회영역 토글
+ ************************************************/
+.cl-container.udc-search-toggle {
+	.cl-button.btn-expand {
+		background: url("../../img/icons/ico_angle_up.svg") no-repeat center;
+		transform: rotate(180deg);
+		
+		&.collapse {
+			background: url("../../img/icons/ico_angle_up.svg") no-repeat center;
+			transform: rotate(0deg);
 		}
 	}
 }

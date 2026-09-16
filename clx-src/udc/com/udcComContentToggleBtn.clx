@@ -5,7 +5,7 @@
     <screen std:sid="screen-06d931c5" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
     <screen std:sid="screen-b8eba3ce" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
     <cl:model std:sid="model-3e25ac19"/>
-    <cl:appspec title="목록/카드 보기 전환 버튼" dev-description="btnShowGrid/btnShowCard 클릭에 따라 대상 그룹 두 개의 노출 여부를 전환하는 버튼">
+    <cl:appspec dev-description="btnShowGrid/btnShowCard 클릭에 따라 대상 그룹 두 개의 노출 여부를 전환하는 버튼" title="컨텐츠 그리드/카드 전환 버튼">
       <cl:property name="gridGroup" type="control" std:desc="[Group] btnShowGrid 클릭 시 보여줄 그룹(목록/그리드 영역) 컨트롤"/>
       <cl:property name="cardGroup" type="control" std:desc="[Group] btnShowCard 클릭 시 보여줄 그룹(카드 영역) 컨트롤"/>
     </cl:appspec>
