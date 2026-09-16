@@ -42,7 +42,11 @@
 		padding: 12px;
 		border-radius: 8px;
 		color: #273951;
-			
+		
+		.cl-output.badge {
+			min-width: 20px;
+		}
+		
 		.cl-output.c-15 {
 			font-size: 15px;
 			font-weight: 600;
@@ -68,82 +72,74 @@
 //grpContent 컨텐츠 영역 스타일 모음
 .cl-container.content {
 	//컨텐츠(카드, 리스트) 상단 그룹
-	.cl-container.content-top {
-		//좌측 개수 표시
-		.cl-container.content-result {
-			.cl-output {
-				color: #64748d;
-			}
+	.cl-container.content-result {
+		.cl-output {
+			color: #64748d;
 		}
-		
-		//우측 버튼 그룹
-		.cl-container.btn-group {
-			.cl-button.btn-show-grid,
-			.cl-button.btn-show-card {
-				&:not(.cl-disabled):hover,
-				&:not(.cl-disabled).cl-hover,
-				&:not(.cl-disabled):active,
-				&:not(.cl-disabled).cl-activated,
-				&.cl-focus {
-					background-color: #eef1f5;
-					background-size: 18px;
-				}
-			}
-			
-			.cl-button.btn-show-grid {
-				.cl-icon {
-					background-image: url("@{img-path}/icons/pages/ico_grid.svg") !important;
-				}
+	}
+	
+	.cl-tabfolder:not(.cl-mdifolder) {
+		> .content-tab {
+			> .cl-tabfolder-header {
+				padding: 16px;
 				
-				&:not(.cl-disabled):hover,
-				&:not(.cl-disabled).cl-hover,
-				&:not(.cl-disabled):active,
-				&:not(.cl-disabled).cl-activated,
-				&.cl-focus {
-					.cl-icon {
-						background-image: url("@{img-path}/icons/pages/ico_grid_active.svg") !important;
-					}
-				}
-			}
-			
-			.cl-button.btn-show-card {
-				.cl-icon {
-					background-image: url("@{img-path}/icons/pages/ico_card.svg") !important;
-				}
-				
-				&:not(.cl-disabled):hover,
-				&:not(.cl-disabled).cl-hover,
-				&:not(.cl-disabled):active,
-				&:not(.cl-disabled).cl-activated,
-				&.cl-focus {
-					.cl-icon {
-						background-image: url("@{img-path}/icons/pages/ico_card_active.svg") !important;
-					}
-				}
-			}
-		}
-		
-		.cl-tabfolder:not(.cl-mdifolder).fill,
-		.cl-mdifolder.fill {
-			> .content-tab {
-				> .cl-tabfolder-header {
-					&.cl-top,
-					&.cl-bottom {
-						background: transparent;
+				&.cl-top,
+				&.cl-bottom {
+					background: transparent;
+					
+					.cl-tabfolder-item {
+						border-radius: @size-component-radius;
+						padding: 0 @padding-3;
+						height: 32px;
+						border: none;
 						
-						.cl-tabfolder-item {
-							border-radius: @size-component-radius;
-							padding: 0 @padding-3;
+						.card,
+						.grid {
+							display: inline-block;
+							vertical-align: middle;
+							width: 20px;
+							height: 20px;
+							background-repeat: no-repeat;
+							background-position: center;
+						}
+						
+						.card {
+							background-image: url("../../img/icons/pages/ico_card.svg");
+						}
+						
+						.grid {
+							background-image: url("../../img/icons/pages/ico_grid.svg");
+						}
+						
+						/* hover */
+						&:not(.cl-selected):not(.cl-disabled):hover,
+						&.cl-selected {
+							background-color: #eef1f5;
+							color: @primary;
+							
+							.card {
+								background-image: url("../../img/icons/pages/ico_card_active.svg");
+							}
+							
+							.grid {
+								background-image: url("../../img/icons/pages/ico_grid_active.svg");
+							}
+						}
+						
+						/* disabled */
+						&.cl-disabled {
+							background-color: @color-action-disabled;
+							color: @gray-50;
 						}
 					}
 				}
 			}
 		}
-		
-		//카드 영역 상단 보더
-		.cl-container.card-contents {
-			border-top: 1px solid #e3e8ee;
-			padding: 12px;
-		}
+	}
+	
+	//카드 영역 상단 보더
+	.cl-container.card-contents {
+		border-top: 1px solid #e3e8ee;
+		padding: 12px;
 	}
 }
