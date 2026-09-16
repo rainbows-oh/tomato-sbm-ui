@@ -9,6 +9,7 @@
 .cl-container.content-header {
 	padding: 12px 16px;
 	border-bottom: 1px solid #e3e8ee;
+	background-color: @white;
 	
 	.cl-container.btn-group {
 		.btn-logo .cl-icon {
@@ -78,53 +79,6 @@
 		.cl-container.content-result {
 			.cl-output {
 				color: #64748d;
-			}
-		}
-		
-		//우측 버튼 그룹
-		.cl-container.btn-group {
-			.cl-button.btn-show-grid,
-			.cl-button.btn-show-card {
-				&:not(.cl-disabled):hover,
-				&:not(.cl-disabled).cl-hover,
-				&:not(.cl-disabled):active,
-				&:not(.cl-disabled).cl-activated,
-				&.cl-focus {
-					background-color: #eef1f5;
-					background-size: 18px;
-				}
-			}
-			
-			.cl-button.btn-show-grid {
-				.cl-icon {
-					background-image: url("@{img-path}/icons/pages/ico_grid.svg") !important;
-				}
-				
-				&:not(.cl-disabled):hover,
-				&:not(.cl-disabled).cl-hover,
-				&:not(.cl-disabled):active,
-				&:not(.cl-disabled).cl-activated,
-				&.cl-focus {
-					.cl-icon {
-						background-image: url("@{img-path}/icons/pages/ico_grid_active.svg") !important;
-					}
-				}
-			}
-			
-			.cl-button.btn-show-card {
-				.cl-icon {
-					background-image: url("@{img-path}/icons/pages/ico_card.svg") !important;
-				}
-				
-				&:not(.cl-disabled):hover,
-				&:not(.cl-disabled).cl-hover,
-				&:not(.cl-disabled):active,
-				&:not(.cl-disabled).cl-activated,
-				&.cl-focus {
-					.cl-icon {
-						background-image: url("@{img-path}/icons/pages/ico_card_active.svg") !important;
-					}
-				}
 			}
 		}
 	}

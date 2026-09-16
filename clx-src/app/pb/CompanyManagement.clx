@@ -59,7 +59,7 @@
   </head>
   <body std:sid="body-6585a0fc">
     <cl:group std:sid="group-0319b359" id="grpHeader" class="content-header">
-      <cl:verticaldata std:sid="v-data-dddbbb01" width="1024px" height="57px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-dddbbb01" width="1024px" height="57px" autosize="height" sticky="true"/>
       <cl:udc std:sid="ud-control-1d70da47" id="udccomappheader1" type="udc.com.udcComAppHeader">
         <cl:formdata std:sid="f-data-dc4ac2b2" row="0" col="0"/>
       </cl:udc>
@@ -110,12 +110,11 @@
           </cl:group>
           <cl:group std:sid="group-3d8dd200" id="grpContentBtns" class="btn-group">
             <cl:formdata std:sid="f-data-b1de6736" row="0" col="1" rowspan="1" colspan="1"/>
-            <cl:button std:sid="button-45caec0f" id="btnShowGrid" class="btn-show-grid icon" value="목록 그리드로 보기" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-55ea4b2a" width="32px" height="32px"/>
-            </cl:button>
-            <cl:button std:sid="button-246a30d3" id="btnShowCard" class="btn-show-card icon" value="목록 카드로 보기" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-6f835d24" width="32px" height="32px" autosize="none"/>
-            </cl:button>
+            <cl:udc std:sid="ud-control-9031ffa8" id="udccomcontenttogglebtn1" type="udc.com.udcComContentToggleBtn">
+              <cl:flowlayoutdata std:sid="f-data-41ae8583" width="68px" height="32px"/>
+              <cl:property name="gridGroup" value="grd" type="control"/>
+              <cl:property name="cardGroup" value="grpCard" type="control"/>
+            </cl:udc>
             <cl:flowlayout std:sid="f-layout-ab2f9747" halign="right"/>
           </cl:group>
           <cl:formlayout std:sid="f-layout-a13438d1" scrollable="false" hspace="12px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
@@ -181,7 +180,7 @@
             </cl:gridcell>
           </cl:griddetail>
         </cl:grid>
-        <cl:group std:sid="group-1b791d41" id="grpCard" class="card-contents">
+        <cl:group std:sid="group-1b791d41" id="grpCard" class="card-contents" visible="false">
           <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="739px" autosize="height"/>
           <cl:group std:sid="group-9b74addf" id="grp6" class="card type02">
             <cl:flowlayoutdata std:sid="f-data-24de9672" width="325px" height="331px" autosize="height"/>
