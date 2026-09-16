@@ -1,5 +1,5 @@
 custom-properties.custom=true
-default-js-path=platform\:/resource/tomato-sbm-ui/clx-src/runtime/defaults.js
+default-js-path=platform\:/resource/sbm-ui/clx-src/runtime/defaults.js
 eclipse.preferences.version=1
 id-policy.custom=true
 preferred-size.custom=true
