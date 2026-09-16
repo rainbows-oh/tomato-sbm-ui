@@ -426,7 +426,7 @@ function onBtnCalPrevClick(e) {
 function onBtnCalNextClick(e) {
 	var vcCal = app.lookup("calDeadline");
 	vcCal.next();
-	doAfterNavigate(vcCal);
+	doAfterNavigate(vcCal); 
 }
 
 function onBtnCalTodayClick(e) {
