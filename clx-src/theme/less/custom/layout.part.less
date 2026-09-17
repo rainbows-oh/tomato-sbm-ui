@@ -45,7 +45,16 @@
 		color: #273951;
 		
 		.cl-output.badge {
-			min-width: 20px;
+			&.sm {
+				font-size: 10px;
+				min-width: 16px;
+				min-height: 16px !important;
+			}
+			
+			&.md {
+				font-size: 11px;
+				min-width: 20px;
+			}
 		}
 		
 		.cl-output.c-tit {
@@ -54,15 +63,18 @@
 			color: #0d253d;
 		}
 		
-		.cl-button.c-tit-blue {
+		.cl-button.c-tit-blue,
+		.cl-button.c-tit-black {
 			font-size: 15px;
 			font-weight: 600;
+			text-align: left;
+		}
+		
+		.cl-button.c-tit-blue {
 			color: @primary;
 		}
 
 		.cl-button.c-tit-black {
-			font-size: 15px;
-			font-weight: 600;
 			color: #0d253d;
 		}
 		
@@ -70,10 +82,6 @@
 			font-size: 13px;
 			font-weight: 600;
 			color: #0d253d;
-		}
-		
-		.cl-output.badge {
-			border-radius: @border-radius-full;
 		}
 	}
 }

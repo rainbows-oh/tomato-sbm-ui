@@ -112,7 +112,7 @@
               </cl:group>
               <cl:group std:sid="group-4c29e76b" id="grp25">
                 <cl:formdata std:sid="f-data-6a148351" row="0" col="1"/>
-                <cl:output std:sid="output-9a44aa8b" id="opt32" class="badge soft warning" value="S">
+                <cl:output std:sid="output-9a44aa8b" id="opt32" class="badge soft warning md" value="S">
                   <cl:flowlayoutdata std:sid="f-data-74717476" width="29px" height="20px" autosize="both"/>
                 </cl:output>
                 <cl:flowlayout std:sid="f-layout-143f2321" hspacing="4" vspacing="0" halign="right"/>
@@ -188,7 +188,7 @@
               </cl:group>
               <cl:group std:sid="group-74e1ac71" id="grp39">
                 <cl:formdata std:sid="f-data-bbf8f657" row="0" col="1"/>
-                <cl:output std:sid="output-b86ae777" id="opt36" class="badge soft success" value="A">
+                <cl:output std:sid="output-b86ae777" id="opt36" class="badge soft success md" value="A">
                   <cl:flowlayoutdata std:sid="f-data-ba3bf791" width="29px" height="20px" autosize="both"/>
                 </cl:output>
                 <cl:flowlayout std:sid="f-layout-c204eeea" hspacing="4" vspacing="0" halign="right"/>
@@ -264,10 +264,10 @@
               </cl:group>
               <cl:group std:sid="group-81c590e6" id="grp19">
                 <cl:formdata std:sid="f-data-a5daf87d" row="0" col="1"/>
-                <cl:output std:sid="output-3f043cee" id="opt33" class="badge soft information" value="M">
+                <cl:output std:sid="output-3f043cee" id="opt33" class="badge soft information md" value="M">
                   <cl:flowlayoutdata std:sid="f-data-4e5ce908" width="29px" height="20px" autosize="both"/>
                 </cl:output>
-                <cl:output std:sid="output-fca9560a" id="opt21" class="badge soft success" value="A">
+                <cl:output std:sid="output-fca9560a" id="opt21" class="badge soft success md" value="A">
                   <cl:flowlayoutdata std:sid="f-data-2e80c369" width="29px" height="20px" autosize="both"/>
                 </cl:output>
                 <cl:flowlayout std:sid="f-layout-9a50dfbd" hspacing="4" vspacing="0" halign="right"/>
@@ -343,7 +343,7 @@
               </cl:group>
               <cl:group std:sid="group-0cacc938" id="grp14">
                 <cl:formdata std:sid="f-data-4fba4d2b" row="0" col="1"/>
-                <cl:output std:sid="output-482f8c75" id="opt13" class="badge soft information" value="M">
+                <cl:output std:sid="output-482f8c75" id="opt13" class="badge soft information md" value="M">
                   <cl:flowlayoutdata std:sid="f-data-b43e4f80" width="29px" height="20px" autosize="both"/>
                 </cl:output>
                 <cl:flowlayout std:sid="f-layout-fc22b856" hspacing="4" vspacing="0" halign="right"/>
