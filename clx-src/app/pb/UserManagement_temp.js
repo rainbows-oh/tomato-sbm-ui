@@ -99,6 +99,7 @@ function createDummyDataSet(app) {
  * (Event functions are automatically displayed below when events are created.)
  *******************************************************************************/
 
+
 /*
  * 루트 컨테이너에서 load 이벤트 발생 시 호출.
  * 앱이 최초 구성된후 최초 랜더링 직후에 발생하는 이벤트 입니다.
@@ -112,7 +113,7 @@ function onBodyLoad(e) {
 
 	// 4열로 만들고 싶을 때
 	util.FreeForm.createDynamicUdcForm(targetGroup, dsUser, "udc.com.UserCard", {
-        columnCount: 3,         // 4열 배치
+        columnCount: 3,         // 3열 배치
         rowHeight: "1fr",     // 카드 고정 높이
         onCardClick: function(userData) {
             // 카드를 클릭했을 때 각 화면별 개별 로직 수행

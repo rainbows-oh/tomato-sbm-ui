@@ -99,8 +99,12 @@
           </cl:formlayout>
         </cl:group>
         <cl:group std:sid="group-d4f44863" id="grpCard" class="card-contents">
+          <cl:attribute name="mobile-column-count" value="1"/>
           <cl:verticaldata std:sid="v-data-ea88e965" width="400px" height="360px" autosize="height"/>
-          <cl:verticallayout std:sid="v-layout-c03450c7"/>
+          <cl:formlayout std:sid="f-layout-aae7d873" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
         </cl:group>
         <cl:verticallayout std:sid="v-layout-edd42a47"/>
       </cl:group>
