@@ -1,0 +1,126 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-ac0a3a09" version="1.0.6190">
+  <head std:sid="head-f348d431">
+    <screen std:sid="screen-089ce281" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-b599d283" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-3af5d4f1" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-b1fb3a73">
+      <cl:datamap std:sid="d-map-e7f22525" id="dmUser">
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-828e2ac0" name="userId"/>
+          <cl:datacolumn std:sid="d-column-1e5405b8" name="userName"/>
+          <cl:datacolumn std:sid="d-column-d784a122" name="email"/>
+          <cl:datacolumn std:sid="d-column-1f49bbf8" name="telephone"/>
+          <cl:datacolumn std:sid="d-column-19afa9ab" name="mobile"/>
+          <cl:datacolumn std:sid="d-column-16781a52" name="fax"/>
+          <cl:datacolumn std:sid="d-column-39b4188d" name="regDate"/>
+          <cl:datacolumn std:sid="d-column-3fab8bc8" name="status"/>
+        </cl:datacolumnlist>
+      </cl:datamap>
+    </cl:model>
+    <cl:appspec>
+      <cl:event name="cardClick" type="cpr.events.CAppEvent"/>
+    </cl:appspec>
+  </head>
+  <body std:sid="body-7dadf58f" style="top:0px; left:0px; width:300px; height:300px;">
+    <cl:listener std:sid="listener-9e7fcfc8" name="click" handler="onBodyClick"/>
+    <cl:listener std:sid="listener-52c49c57" name="load" handler="onBodyLoad"/>
+    <cl:group std:sid="group-9b74addf" id="grp6" class="card type02">
+      <cl:formdata std:sid="f-data-c19b9ab4" row="0" col="0"/>
+      <cl:group std:sid="group-6a6eb9bd" id="grp7">
+        <cl:verticaldata std:sid="v-data-3f9c2689" width="400px" height="20px"/>
+        <cl:group std:sid="group-8dc57400" id="grp29">
+          <cl:formdata std:sid="f-data-e31b0370" row="0" col="0"/>
+          <cl:button std:sid="button-6e223a62" id="btn5" class="c-tit-blue">
+            <cl:datamapbind property="value" datacontrolid="dmUser" columnname="userId"/>
+            <cl:flowlayoutdata std:sid="f-data-7c0f0102" width="47px" height="20px" autosize="width"/>
+          </cl:button>
+          <cl:flowlayout std:sid="f-layout-8522c427"/>
+        </cl:group>
+        <cl:group std:sid="group-4c29e76b" id="grp25">
+          <cl:formdata std:sid="f-data-6a148351" row="0" col="1"/>
+          <cl:output std:sid="output-3f043cee" id="opt33" class="badge soft information md" value="M">
+            <cl:flowlayoutdata std:sid="f-data-4e5ce908" width="29px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-b86ae777" id="opt36" class="badge soft success md" value="A">
+            <cl:flowlayoutdata std:sid="f-data-ba3bf791" width="29px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-9a44aa8b" id="opt32" class="badge soft warning md" value="S">
+            <cl:flowlayoutdata std:sid="f-data-74717476" width="29px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:flowlayout std:sid="f-layout-143f2321" hspacing="4" vspacing="0" halign="right"/>
+        </cl:group>
+        <cl:formlayout std:sid="f-layout-5b60ce1a" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:rows length="1" unit="FRACTION"/>
+          <cl:columns length="1" unit="FRACTION"/>
+          <cl:columns length="1" unit="FRACTION"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:group std:sid="group-9d82c18b" id="grp8">
+        <cl:verticaldata std:sid="v-data-95041e7f" width="353px" height="45px" autosize="height"/>
+        <cl:output std:sid="output-2557dbe6" id="opt4" class="c-tit-sub">
+          <cl:datamapbind property="value" datacontrolid="dmUser" columnname="userName"/>
+          <cl:verticaldata std:sid="v-data-c403166f" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-e2684ed9" id="opt5">
+          <cl:datamapbind property="value" datacontrolid="dmUser" columnname="email"/>
+          <cl:verticaldata std:sid="v-data-a3ce7c96" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-0b0db046" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-9c07a888" id="grp9">
+        <cl:verticaldata std:sid="v-data-694d2a11" width="353px" height="45px" autosize="height"/>
+        <cl:output std:sid="output-118ad4b0" id="opt6" class="label" value="Telephone">
+          <cl:verticaldata std:sid="v-data-ab1541f5" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-9b78d97c" id="opt7">
+          <cl:datamapbind property="value" datacontrolid="dmUser" columnname="telephone"/>
+          <cl:verticaldata std:sid="v-data-d9536140" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-6557bf2d" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-f763703e" id="grp10">
+        <cl:verticaldata std:sid="v-data-4d645628" width="353px" height="45px" autosize="height"/>
+        <cl:output std:sid="output-d640da39" id="opt8" class="label" value="Mobile">
+          <cl:verticaldata std:sid="v-data-45e687c9" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-345532c5" id="opt9">
+          <cl:datamapbind property="value" datacontrolid="dmUser" columnname="mobile"/>
+          <cl:verticaldata std:sid="v-data-6d8a82f5" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-131b05a6" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-28ade823" id="grp11">
+        <cl:verticaldata std:sid="v-data-264fefcb" width="353px" height="45px" autosize="height"/>
+        <cl:output std:sid="output-651b24be" id="opt10" class="label" value="Fax">
+          <cl:verticaldata std:sid="v-data-26a6d734" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-e82fb405" id="opt11">
+          <cl:datamapbind property="value" datacontrolid="dmUser" columnname="fax"/>
+          <cl:verticaldata std:sid="v-data-0f1bc0c1" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-d4318bd6" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-d99a1b70" id="grp36">
+        <cl:verticaldata std:sid="v-data-ace807ca" width="299px" height="45px" autosize="height"/>
+        <cl:output std:sid="output-f363b121" id="opt47" class="label" value="Registration Date">
+          <cl:verticaldata std:sid="v-data-d2c3a2e8" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-8f9c1e5a" id="opt54">
+          <cl:datamapbind property="value" datacontrolid="dmUser" columnname="regDate"/>
+          <cl:verticaldata std:sid="v-data-0e09557f" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-da6bb8fc" spacing="4"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5b10945a" spacing="8"/>
+    </cl:group>
+    <cl:formlayout std:sid="f-layout-e26f03a9" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:columns length="1" unit="FRACTION"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>
