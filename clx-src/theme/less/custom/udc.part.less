@@ -66,12 +66,20 @@
  ************************************************/
 .cl-container.udc-search-toggle {
 	.cl-button.btn-expand {
-		background: url("../../img/icons/ico_angle_up.svg") no-repeat center;
-		transform: rotate(180deg);
+		text-align: left;
+		font-size: 15px;
+		font-weight: 600;
+		padding: 0px;
+		background: url("../../img/icons/ico_angle_down.svg") no-repeat center right;
+		
+		&:not(.cl-disabled):hover,
+		&:not(.cl-disabled).cl-hover {
+			background-color: #EFF1F5;
+		}
+		
 		
 		&.collapse {
-			background: url("../../img/icons/ico_angle_up.svg") no-repeat center;
-			transform: rotate(0deg);
+			background: url("../../img/icons/ico_angle_up.svg") no-repeat center right;
 		}
 	}
 }

@@ -70,22 +70,18 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-0b464f24" id="grpData" class="content-body">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1306px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1312px" autosize="height"/>
       <cl:group std:sid="group-d67e5267" id="grpSearch" class="search-box">
-        <cl:verticaldata std:sid="v-data-dd46bef3" width="976px" height="441px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-dd46bef3" width="976px" height="447px" autosize="height"/>
         <cl:group std:sid="group-04a4e2a0" id="grpSearchHeader" class="search-header">
-          <cl:formdata std:sid="f-data-64b454da" width="100" height="57" row="0" col="0" rowspan="1" colspan="1"/>
-          <cl:output std:sid="output-c11eaa4a" id="opt2" value="Search filters">
-            <cl:formdata std:sid="f-data-8a6e9ad7" row="0" col="0"/>
-          </cl:output>
+          <cl:formdata std:sid="f-data-64b454da" width="100" height="63" row="0" col="0" rowspan="1" colspan="1"/>
           <cl:udc std:sid="ud-control-354dcdbe" id="udccomsearchtoggle1" type="udc.com.udcComSearchToggle">
-            <cl:formdata std:sid="f-data-76414d93" valign="TOP" height="24" row="0" col="1"/>
+            <cl:formdata std:sid="f-data-76414d93" valign="TOP" height="24" row="0" col="0"/>
             <cl:property name="grpId" value="grpSearch" type="string"/>
           </cl:udc>
           <cl:formlayout std:sid="f-layout-7494c5ad" scrollable="false" hspace="0px" vspace="0px" hseparatorwidth="0" vseparatorwidth="0">
-            <cl:rows length="30" autoSizing="true" syncminlength="false"/>
+            <cl:rows length="24" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
             <cl:columns length="1" unit="FRACTION"/>
-            <cl:columns length="24" unit="PIXEL"/>
           </cl:formlayout>
         </cl:group>
         <cl:group std:sid="group-d1b3eac0" id="grpSearchContent" class="search-content">
@@ -99,7 +95,7 @@
             <cl:formdata std:sid="f-data-e48dcdc7" row="0" col="0"/>
             <cl:group std:sid="group-2b76d303" id="grp30">
               <cl:formdata std:sid="f-data-1b3d6535" row="0" col="0"/>
-              <cl:output std:sid="output-c9b4bfc4" id="opt3" value="Output">
+              <cl:output std:sid="output-c9b4bfc4" id="opt3" class="label" value="Classification">
                 <cl:verticaldata std:sid="v-data-6ef5b406" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:combobox std:sid="c-box-2fdce94a" id="cmb1">
@@ -109,7 +105,7 @@
             </cl:group>
             <cl:group std:sid="group-f33a85fd" id="grp31">
               <cl:formdata std:sid="f-data-9461ada7" row="0" col="1"/>
-              <cl:output std:sid="output-79887424" id="opt44" value="Output">
+              <cl:output std:sid="output-79887424" id="opt44" class="label" value="Reply Status">
                 <cl:verticaldata std:sid="v-data-0b09d96c" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:checkboxgroup std:sid="cb-group-6d10ab00" id="cbg1">
@@ -128,7 +124,7 @@
           <cl:group std:sid="group-3c537e26" id="grp5">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-2e9db263" row="1" col="0"/>
-            <cl:output std:sid="output-de54924d" id="opt48" value="Output">
+            <cl:output std:sid="output-de54924d" id="opt48" class="label" value="Period">
               <cl:verticaldata std:sid="v-data-b2349e51" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:group std:sid="group-06741d72" id="grp1">
@@ -158,7 +154,7 @@
           <cl:group std:sid="group-c9443abc" id="grp32">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-ae8c3b4e" row="1" col="1"/>
-            <cl:output std:sid="output-9df46468" id="opt53" value="Output">
+            <cl:output std:sid="output-9df46468" id="opt53" class="label" value="Deadline">
               <cl:verticaldata std:sid="v-data-fa3267b0" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:group std:sid="group-0c06f84a" id="grp33">
@@ -188,7 +184,7 @@
           <cl:group std:sid="group-0aaad812" id="grp4">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-b2bd130a" row="2" col="0"/>
-            <cl:output std:sid="output-6d652f44" id="opt49" value="Subject">
+            <cl:output std:sid="output-6d652f44" id="opt49" class="label" value="Subject">
               <cl:verticaldata std:sid="v-data-eef8ad07" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:inputbox std:sid="i-box-600b7436" id="ipb1">
@@ -199,7 +195,7 @@
           <cl:group std:sid="group-d9b16242" id="grp24">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-ff868c65" row="2" col="1"/>
-            <cl:output std:sid="output-842bd6b8" id="opt50" value="Keyword">
+            <cl:output std:sid="output-842bd6b8" id="opt50" class="label" value="Keyword">
               <cl:verticaldata std:sid="v-data-aa33c570" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:inputbox std:sid="i-box-814f8b12" id="ipb2">
@@ -230,7 +226,7 @@
           <cl:formdata std:sid="f-data-9a3d6788" row="2" col="0"/>
         </cl:output>
         <cl:formlayout std:sid="f-layout-d8fda8b0" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px" hseparatorwidth="0" vseparatorwidth="0">
-          <cl:rows length="62" autoSizing="true" syncminlength="false"/>
+          <cl:rows length="56" autoSizing="true" syncminlength="false"/>
           <cl:rows length="325" autoSizing="true" syncminlength="false"/>
           <cl:rows length="52" unit="PIXEL" autoSizing="true" hidden="true" syncminlength="false"/>
           <cl:columns length="1" unit="FRACTION"/>
