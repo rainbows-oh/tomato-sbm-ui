@@ -3114,21 +3114,21 @@ GridKit.prototype.init = function(app, paGridId) {
 				vcStatusColumnCtrl.style.bindClass().toExpression("switch (getStateString()) { case 'I' : 'state insert'  case 'U' : 'state update'  case 'D' : 'state delete'  default : ''}");
 			}
 		}
-		//인덱스컬럼
-		var voIndexColumn = getIndexDetailColumn(vcGrid);
-		if (voIndexColumn != null) {
-			voIndexColumn.style.css({
-				"text-align": "center"
-			});
-			var voHIndexColumn = vcGrid.header.getColumn(voIndexColumn.cellIndex);
-			
-			var vsHIndexText = "No";
-			if (typeof AppProperties !== 'undefined' && AppProperties.GRID_INDEX_COL_HEADER_TEXT) {
-				vsHIndexText = AppProperties.GRID_INDEX_COL_HEADER_TEXT;
-			}
-	
-			if (voHIndexColumn && voHIndexColumn.text != vsHIndexText) voHIndexColumn.text = vsHIndexText;
-		}
+		//인덱스컬럼(해당기능 주석처리)
+//		var voIndexColumn = getIndexDetailColumn(vcGrid);
+//		if (voIndexColumn != null) {
+//			voIndexColumn.style.css({
+//				"text-align": "center"
+//			});
+//			var voHIndexColumn = vcGrid.header.getColumn(voIndexColumn.cellIndex);
+//			
+//			var vsHIndexText = "No";
+//			if (typeof AppProperties !== 'undefined' && AppProperties.GRID_INDEX_COL_HEADER_TEXT) {
+//				vsHIndexText = AppProperties.GRID_INDEX_COL_HEADER_TEXT;
+//			}
+//	
+//			if (voHIndexColumn && voHIndexColumn.text != vsHIndexText) voHIndexColumn.text = vsHIndexText;
+//		}
 		
 		//소트/필터 컬럼 자동지정
 		var voDColumn, vaHColumns;
