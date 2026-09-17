@@ -109,7 +109,7 @@
             <cl:columns length="488" unit="PIXEL" autoSizing="true" syncminlength="false"/>
           </cl:formlayout>
         </cl:group>
-        <cl:grid std:sid="grid-43f52f03" id="grd" datasetid="ds1">
+        <cl:grid std:sid="grid-43f52f03" id="grd" datasetid="ds1" autofit="1, 2, 3">
           <cl:verticaldata std:sid="v-data-da3977da" width="976px" height="200px" autosize="height"/>
           <cl:gridcolumn std:sid="g-column-716b89df"/>
           <cl:gridcolumn std:sid="g-column-0845e745"/>
