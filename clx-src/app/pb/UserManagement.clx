@@ -105,7 +105,7 @@
               <cl:verticaldata std:sid="v-data-3f9c2689" width="400px" height="20px"/>
               <cl:group std:sid="group-8dc57400" id="grp29">
                 <cl:formdata std:sid="f-data-e31b0370" row="0" col="0"/>
-                <cl:button std:sid="button-6e223a62" id="btn5" class="c-tit" value="r.diaz">
+                <cl:button std:sid="button-6e223a62" id="btn5" class="c-tit-blue" value="r.diaz">
                   <cl:flowlayoutdata std:sid="f-data-7c0f0102" width="47px" height="20px" autosize="width"/>
                 </cl:button>
                 <cl:flowlayout std:sid="f-layout-8522c427"/>
@@ -181,7 +181,7 @@
               <cl:verticaldata std:sid="v-data-fefc68fb" width="400px" height="20px"/>
               <cl:group std:sid="group-3c001c4d" id="grp4">
                 <cl:formdata std:sid="f-data-11ec4473" row="0" col="0" rowspan="1" colspan="1"/>
-                <cl:button std:sid="button-2e350499" id="btn2" class="c-tit" value="a.cruz">
+                <cl:button std:sid="button-2e350499" id="btn2" class="c-tit-blue" value="a.cruz">
                   <cl:flowlayoutdata std:sid="f-data-5ae807b5" width="47px" height="20px" autosize="width"/>
                 </cl:button>
                 <cl:flowlayout std:sid="f-layout-f5a6cf94"/>
@@ -257,7 +257,7 @@
               <cl:verticaldata std:sid="v-data-ea6e3a44" width="400px" height="20px"/>
               <cl:group std:sid="group-bfe858a0" id="grp24">
                 <cl:formdata std:sid="f-data-b33a3e83" row="0" col="0"/>
-                <cl:button std:sid="button-8760311a" id="btn4" class="c-tit" value="j.reyes">
+                <cl:button std:sid="button-8760311a" id="btn4" class="c-tit-blue" value="j.reyes">
                   <cl:flowlayoutdata std:sid="f-data-e032e4d3" width="47px" height="20px" autosize="width"/>
                 </cl:button>
                 <cl:flowlayout std:sid="f-layout-ae775a44"/>
@@ -336,7 +336,7 @@
               <cl:verticaldata std:sid="v-data-4cc9b5c9" width="400px" height="20px"/>
               <cl:group std:sid="group-98e783d4" id="grp5">
                 <cl:formdata std:sid="f-data-2d06d5b4" row="0" col="0"/>
-                <cl:button std:sid="button-aef69b30" id="btn3" class="c-tit" value="s.garcia">
+                <cl:button std:sid="button-aef69b30" id="btn3" class="c-tit-blue" value="s.garcia">
                   <cl:flowlayoutdata std:sid="f-data-f43eed6e" width="58px" height="20px" autosize="width"/>
                 </cl:button>
                 <cl:flowlayout std:sid="f-layout-7816b708"/>

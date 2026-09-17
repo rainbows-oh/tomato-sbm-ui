@@ -174,7 +174,7 @@
               <cl:verticaldata std:sid="v-data-d17184df" width="299px" height="20px" autosize="none"/>
               <cl:group std:sid="group-8dc57400" id="grp29">
                 <cl:formdata std:sid="f-data-e31b0370" row="0" col="0"/>
-                <cl:button std:sid="button-6e223a62" id="btn5" class="c-tit" value="Version 4">
+                <cl:button std:sid="button-6e223a62" id="btn5" class="c-tit-blue" value="Version 4">
                   <cl:flowlayoutdata std:sid="f-data-7c0f0102" width="67px" height="20px" autosize="width"/>
                 </cl:button>
                 <cl:flowlayout std:sid="f-layout-8522c427"/>
@@ -186,7 +186,7 @@
             </cl:group>
             <cl:group std:sid="group-9d82c18b" id="grp8">
               <cl:verticaldata std:sid="v-data-95041e7f" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-2557dbe6" id="opt4" class="c-13" value="Submitted">
+              <cl:output std:sid="output-2557dbe6" id="opt4" class="label" value="Submitted">
                 <cl:verticaldata std:sid="v-data-c403166f" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:output std:sid="output-e2684ed9" id="opt5" value="08-25-2026 02:56:18 PM">
@@ -256,7 +256,7 @@
               <cl:verticaldata std:sid="v-data-9a375198" width="299px" height="20px" autosize="none"/>
               <cl:group std:sid="group-65e6e6df" id="grp12">
                 <cl:formdata std:sid="f-data-eb56826d" row="0" col="0"/>
-                <cl:button std:sid="button-6e463304" id="btn3" class="c-tit" value="Version 3">
+                <cl:button std:sid="button-6e463304" id="btn3" class="c-tit-blue" value="Version 3">
                   <cl:flowlayoutdata std:sid="f-data-f6ac81a1" width="67px" height="20px" autosize="width"/>
                 </cl:button>
                 <cl:flowlayout std:sid="f-layout-8bcda96c"/>
@@ -268,7 +268,7 @@
             </cl:group>
             <cl:group std:sid="group-b7155b97" id="grp13">
               <cl:verticaldata std:sid="v-data-758dbc95" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-4b03e0c6" id="opt12" class="c-13" value="Submitted">
+              <cl:output std:sid="output-4b03e0c6" id="opt12" class="label" value="Submitted">
                 <cl:verticaldata std:sid="v-data-c8f6ca39" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:output std:sid="output-8a3bc779" id="opt13" value="08-25-2026 02:56:18 PM">
@@ -338,7 +338,7 @@
               <cl:verticaldata std:sid="v-data-c03d72e1" width="299px" height="20px" autosize="none"/>
               <cl:group std:sid="group-82dfadd1" id="grp22">
                 <cl:formdata std:sid="f-data-f8a0dd20" row="0" col="0"/>
-                <cl:button std:sid="button-2bec9fdb" id="btn4" class="c-tit" value="Version 2">
+                <cl:button std:sid="button-2bec9fdb" id="btn4" class="c-tit-blue" value="Version 2">
                   <cl:flowlayoutdata std:sid="f-data-352aaf81" width="67px" height="20px" autosize="width"/>
                 </cl:button>
                 <cl:flowlayout std:sid="f-layout-d29b1b9f"/>
@@ -350,7 +350,7 @@
             </cl:group>
             <cl:group std:sid="group-7397e9fd" id="grp23">
               <cl:verticaldata std:sid="v-data-0fe08185" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-e28485b7" id="opt25" class="c-13" value="Submitted">
+              <cl:output std:sid="output-e28485b7" id="opt25" class="label" value="Submitted">
                 <cl:verticaldata std:sid="v-data-8216e79d" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:output std:sid="output-b3efde5e" id="opt26" value="08-25-2026 02:56:18 PM">
@@ -420,7 +420,7 @@
               <cl:verticaldata std:sid="v-data-a305aef1" width="299px" height="20px" autosize="none"/>
               <cl:group std:sid="group-9263deca" id="grp33">
                 <cl:formdata std:sid="f-data-9b16d952" row="0" col="0"/>
-                <cl:button std:sid="button-27df3716" id="btn6" class="c-tit" value="Version 1">
+                <cl:button std:sid="button-27df3716" id="btn6" class="c-tit-blue" value="Version 1">
                   <cl:flowlayoutdata std:sid="f-data-5d4af87c" width="67px" height="20px" autosize="width"/>
                 </cl:button>
                 <cl:flowlayout std:sid="f-layout-945641fd"/>
@@ -432,7 +432,7 @@
             </cl:group>
             <cl:group std:sid="group-4fd26495" id="grp34">
               <cl:verticaldata std:sid="v-data-2bbfe23e" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-7bdd5e8e" id="opt38" class="c-13" value="Submitted">
+              <cl:output std:sid="output-7bdd5e8e" id="opt38" class="label" value="Submitted">
                 <cl:verticaldata std:sid="v-data-a9f7aad3" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:output std:sid="output-441d9903" id="opt39" value="08-25-2026 02:56:18 PM">
