@@ -27,7 +27,7 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-0b464f24" id="grpData" class="content-body">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="885px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="805px" autosize="height"/>
       <cl:group std:sid="group-b5aa1204" id="grpTotal" class="card type01">
         <cl:verticaldata std:sid="v-data-6ec449da" width="1024px" height="62px" autosize="height"/>
         <cl:group std:sid="group-a32b676f" id="grp1">
@@ -68,7 +68,7 @@
         </cl:formlayout>
       </cl:group>
       <cl:group std:sid="group-c9d6abb5" id="grpContent" class="content">
-        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="767px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="687px" autosize="height"/>
         <cl:group std:sid="group-41bf4708" id="grpContentTop" class="content-top">
           <cl:verticaldata std:sid="v-data-4e757330" width="976px" height="32px" autosize="height"/>
           <cl:group std:sid="group-af64787d" id="grpContentResult" class="content-result">
@@ -98,14 +98,18 @@
           </cl:formlayout>
         </cl:group>
         <cl:group std:sid="group-1b791d41" id="grpCard" class="card-contents">
-          <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="739px" autosize="height"/>
+          <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="659px" autosize="height"/>
           <cl:group std:sid="group-9b74addf" id="grp6" class="card type02">
-            <cl:flowlayoutdata std:sid="f-data-24de9672" width="325px" height="331px" autosize="height"/>
+            <cl:flowlayoutdata std:sid="f-data-24de9672" width="325px" height="311px" autosize="height"/>
             <cl:group std:sid="group-6a6eb9bd" id="grp7">
               <cl:verticaldata std:sid="v-data-3f9c2689" width="400px" height="20px"/>
-              <cl:output std:sid="output-5b801c1a" id="opt29" class="c-15 highlight" value="j.reyes">
-                <cl:formdata std:sid="f-data-7b8fa8a3" row="0" col="0"/>
-              </cl:output>
+              <cl:group std:sid="group-8dc57400" id="grp29">
+                <cl:formdata std:sid="f-data-e31b0370" row="0" col="0"/>
+                <cl:button std:sid="button-6e223a62" id="btn5" class="c-tit" value="r.diaz">
+                  <cl:flowlayoutdata std:sid="f-data-7c0f0102" width="47px" height="20px" autosize="width"/>
+                </cl:button>
+                <cl:flowlayout std:sid="f-layout-8522c427"/>
+              </cl:group>
               <cl:group std:sid="group-4c29e76b" id="grp25">
                 <cl:formdata std:sid="f-data-6a148351" row="0" col="1"/>
                 <cl:output std:sid="output-9a44aa8b" id="opt32" class="badge soft warning" value="S">
@@ -121,7 +125,7 @@
             </cl:group>
             <cl:group std:sid="group-9d82c18b" id="grp8">
               <cl:verticaldata std:sid="v-data-95041e7f" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-2557dbe6" id="opt4" class="c-13" value="Ramon T. Diaz">
+              <cl:output std:sid="output-2557dbe6" id="opt4" class="c-tit-sub" value="Ramon T. Diaz">
                 <cl:verticaldata std:sid="v-data-c403166f" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:output std:sid="output-e2684ed9" id="opt5" value="john.reyes@pse.com">
@@ -169,15 +173,19 @@
               </cl:output>
               <cl:verticallayout std:sid="v-layout-da6bb8fc" spacing="4"/>
             </cl:group>
-            <cl:verticallayout std:sid="v-layout-5b10945a" spacing="12"/>
+            <cl:verticallayout std:sid="v-layout-5b10945a" spacing="8"/>
           </cl:group>
           <cl:group std:sid="group-f46b7578" id="grp37" class="card type02">
-            <cl:flowlayoutdata std:sid="f-data-b4b30a0d" width="325px" height="331px" autosize="height"/>
+            <cl:flowlayoutdata std:sid="f-data-b4b30a0d" width="325px" height="311px" autosize="height"/>
             <cl:group std:sid="group-feabfa9a" id="grp38">
               <cl:verticaldata std:sid="v-data-fefc68fb" width="400px" height="20px"/>
-              <cl:output std:sid="output-06d88f63" id="opt55" class="c-15 highlight" value="a.cruz">
-                <cl:formdata std:sid="f-data-a9a16dd4" row="0" col="0"/>
-              </cl:output>
+              <cl:group std:sid="group-3c001c4d" id="grp4">
+                <cl:formdata std:sid="f-data-11ec4473" row="0" col="0" rowspan="1" colspan="1"/>
+                <cl:button std:sid="button-2e350499" id="btn2" class="c-tit" value="a.cruz">
+                  <cl:flowlayoutdata std:sid="f-data-5ae807b5" width="47px" height="20px" autosize="width"/>
+                </cl:button>
+                <cl:flowlayout std:sid="f-layout-f5a6cf94"/>
+              </cl:group>
               <cl:group std:sid="group-74e1ac71" id="grp39">
                 <cl:formdata std:sid="f-data-bbf8f657" row="0" col="1"/>
                 <cl:output std:sid="output-b86ae777" id="opt36" class="badge soft success" value="A">
@@ -193,7 +201,7 @@
             </cl:group>
             <cl:group std:sid="group-2589fe1f" id="grp40">
               <cl:verticaldata std:sid="v-data-848cb8b4" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-11a4e454" id="opt57" class="c-13" value="Ramon T. Diaz">
+              <cl:output std:sid="output-11a4e454" id="opt57" class="c-tit-sub" value="Ramon T. Diaz">
                 <cl:verticaldata std:sid="v-data-5845b40e" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:output std:sid="output-bae88a80" id="opt58" value="john.reyes@pse.com">
@@ -241,15 +249,19 @@
               </cl:output>
               <cl:verticallayout std:sid="v-layout-2e6f44d4" spacing="4"/>
             </cl:group>
-            <cl:verticallayout std:sid="v-layout-73ca761c" spacing="12"/>
+            <cl:verticallayout std:sid="v-layout-73ca761c" spacing="8"/>
           </cl:group>
           <cl:group std:sid="group-487a2066" id="grp2" class="card type02">
-            <cl:flowlayoutdata std:sid="f-data-5b966f20" width="325px" height="331px" autosize="height"/>
+            <cl:flowlayoutdata std:sid="f-data-5b966f20" width="325px" height="311px" autosize="height"/>
             <cl:group std:sid="group-64fb22aa" id="grp18">
               <cl:verticaldata std:sid="v-data-ea6e3a44" width="400px" height="20px"/>
-              <cl:output std:sid="output-dbe6ce06" id="opt20" class="c-15 highlight" value="s.garcia">
-                <cl:formdata std:sid="f-data-41e9470c" row="0" col="0"/>
-              </cl:output>
+              <cl:group std:sid="group-bfe858a0" id="grp24">
+                <cl:formdata std:sid="f-data-b33a3e83" row="0" col="0"/>
+                <cl:button std:sid="button-8760311a" id="btn4" class="c-tit" value="j.reyes">
+                  <cl:flowlayoutdata std:sid="f-data-e032e4d3" width="47px" height="20px" autosize="width"/>
+                </cl:button>
+                <cl:flowlayout std:sid="f-layout-ae775a44"/>
+              </cl:group>
               <cl:group std:sid="group-81c590e6" id="grp19">
                 <cl:formdata std:sid="f-data-a5daf87d" row="0" col="1"/>
                 <cl:output std:sid="output-3f043cee" id="opt33" class="badge soft information" value="M">
@@ -268,7 +280,7 @@
             </cl:group>
             <cl:group std:sid="group-51b429d3" id="grp20">
               <cl:verticaldata std:sid="v-data-d1e960d9" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-2f48c16a" id="opt22" class="c-13" value="Ramon T. Diaz">
+              <cl:output std:sid="output-2f48c16a" id="opt22" class="c-tit-sub" value="Ramon T. Diaz">
                 <cl:verticaldata std:sid="v-data-c69b5285" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:output std:sid="output-efb31f85" id="opt23" value="john.reyes@pse.com">
@@ -316,15 +328,19 @@
               </cl:output>
               <cl:verticallayout std:sid="v-layout-dd9aef3f" spacing="4"/>
             </cl:group>
-            <cl:verticallayout std:sid="v-layout-5094a2ec" spacing="12"/>
+            <cl:verticallayout std:sid="v-layout-5094a2ec" spacing="8"/>
           </cl:group>
           <cl:group std:sid="group-7985dcb8" id="grp12" class="card type02">
-            <cl:flowlayoutdata std:sid="f-data-326653d9" width="325px" height="331px" autosize="height"/>
+            <cl:flowlayoutdata std:sid="f-data-326653d9" width="325px" height="311px" autosize="height"/>
             <cl:group std:sid="group-bfa450a7" id="grp13">
               <cl:verticaldata std:sid="v-data-4cc9b5c9" width="400px" height="20px"/>
-              <cl:output std:sid="output-0ef793ff" id="opt12" class="c-15 highlight" value="j.reyes">
-                <cl:formdata std:sid="f-data-6aabf017" row="0" col="0"/>
-              </cl:output>
+              <cl:group std:sid="group-98e783d4" id="grp5">
+                <cl:formdata std:sid="f-data-2d06d5b4" row="0" col="0"/>
+                <cl:button std:sid="button-aef69b30" id="btn3" class="c-tit" value="s.garcia">
+                  <cl:flowlayoutdata std:sid="f-data-f43eed6e" width="58px" height="20px" autosize="width"/>
+                </cl:button>
+                <cl:flowlayout std:sid="f-layout-7816b708"/>
+              </cl:group>
               <cl:group std:sid="group-0cacc938" id="grp14">
                 <cl:formdata std:sid="f-data-4fba4d2b" row="0" col="1"/>
                 <cl:output std:sid="output-482f8c75" id="opt13" class="badge soft information" value="M">
@@ -340,7 +356,7 @@
             </cl:group>
             <cl:group std:sid="group-ae4d26c9" id="grp15">
               <cl:verticaldata std:sid="v-data-1c7b9290" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-eda17237" id="opt15" class="c-13" value="Ramon T. Diaz">
+              <cl:output std:sid="output-eda17237" id="opt15" class="c-tit-sub" value="Ramon T. Diaz">
                 <cl:verticaldata std:sid="v-data-1739ab65" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:output std:sid="output-1288a1b6" id="opt16" value="john.reyes@pse.com">
@@ -388,7 +404,7 @@
               </cl:output>
               <cl:verticallayout std:sid="v-layout-9e01f874" spacing="4"/>
             </cl:group>
-            <cl:verticallayout std:sid="v-layout-da858dec" spacing="12"/>
+            <cl:verticallayout std:sid="v-layout-da858dec" spacing="8"/>
           </cl:group>
           <cl:flowlayout std:sid="f-layout-9a0b1891" scrollable="false" hspacing="12" vspacing="12"/>
         </cl:group>
