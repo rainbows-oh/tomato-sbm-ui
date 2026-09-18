@@ -243,7 +243,7 @@
           <cl:gridcolumn std:sid="g-column-1769b721" width="140px"/>
           <cl:gridcolumn std:sid="g-column-b27da0dd" width="140px"/>
           <cl:gridheader std:sid="gh-band-c794df5b">
-            <cl:gridrow std:sid="g-row-92f412c2" height="33px"/>
+            <cl:gridrow std:sid="g-row-92f412c2" height="32px"/>
             <cl:gridcell std:sid="gh-cell-1b07b863" rowindex="0" colindex="0" sortable="false" filterable="false" text="No"/>
             <cl:gridcell std:sid="gh-cell-1fb876e8" rowindex="0" colindex="1" targetcolumnname="column2" sortable="true" filterable="false" text="Subject"/>
             <cl:gridcell std:sid="gh-cell-00f4748e" rowindex="0" colindex="2" targetcolumnname="column6" sortable="true" filterable="false" text="Submitted By"/>
@@ -252,7 +252,7 @@
             <cl:gridcell std:sid="gh-cell-fc4b5750" rowindex="0" colindex="5" targetcolumnname="column5" sortable="true" filterable="false" text="Response Date and Time"/>
           </cl:gridheader>
           <cl:griddetail std:sid="gd-band-59ed2ade">
-            <cl:gridrow std:sid="g-row-486b5cc7" height="33px"/>
+            <cl:gridrow std:sid="g-row-486b5cc7" height="50px"/>
             <cl:gridcell std:sid="gd-cell-68765e51" rowindex="0" colindex="0" columntype="rowindex"/>
             <cl:gridcell std:sid="gd-cell-f3b019ec" rowindex="0" colindex="1" columnname="column2">
               <cl:button std:sid="button-4f90c2a9" id="btn8" value="Button" displayexp="switch(column7){&#xD;&#xA;&#x9;case &quot;1&quot; : column2 + sstr(column7, [&quot;btn-grid-badge-red&quot;])&#xD;&#xA;&#x9;case &quot;&quot; : column2&#xD;&#xA;&#x9;default : column2 + sstr(column7, [&quot;btn-grid-badge-gray&quot;])&#xD;&#xA;}">

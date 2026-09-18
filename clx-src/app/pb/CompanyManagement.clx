@@ -119,7 +119,7 @@
           <cl:gridcolumn std:sid="g-column-52e12b34" width="160px"/>
           <cl:gridcolumn std:sid="g-column-3bf1d55d" width="160px"/>
           <cl:gridheader std:sid="gh-band-4c427810">
-            <cl:gridrow std:sid="g-row-669a558d" height="33px"/>
+            <cl:gridrow std:sid="g-row-669a558d" height="32px"/>
             <cl:gridcell std:sid="gh-cell-928719b3" rowindex="0" colindex="0" targetcolumnname="column1" sortable="true" filterable="false" text="Version"/>
             <cl:gridcell std:sid="gh-cell-6541844f" rowindex="0" colindex="1" targetcolumnname="column2" sortable="true" filterable="false" text="Submission Date and Time"/>
             <cl:gridcell std:sid="gh-cell-239777da" rowindex="0" colindex="2" targetcolumnname="column3" sortable="true" filterable="false" text="Submitted By"/>
@@ -129,7 +129,7 @@
             <cl:gridcell std:sid="gh-cell-39d6ac3f" rowindex="0" colindex="6" targetcolumnname="column7" sortable="true" filterable="false" text="Final Status"/>
           </cl:gridheader>
           <cl:griddetail std:sid="gd-band-9d9a1b13">
-            <cl:gridrow std:sid="g-row-a3b55d98" height="33px"/>
+            <cl:gridrow std:sid="g-row-a3b55d98" height="50px"/>
             <cl:gridcell std:sid="gd-cell-52530c43" rowindex="0" colindex="0" columntype="rowindex" columnname="column1"/>
             <cl:gridcell std:sid="gd-cell-025673d9" rowindex="0" colindex="1" columnname="column2">
               <cl:output std:sid="output-bdc042ce" id="opt14">
