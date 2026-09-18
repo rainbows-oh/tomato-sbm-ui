@@ -118,6 +118,7 @@ function onBodyLoad(e) {
         onCardClick: function(userData) {
             // 카드를 클릭했을 때 각 화면별 개별 로직 수행
             console.log("선택된 사용자 데이터:", userData);
+            util.AppStack.openLoadPage(app, "app/pb/CompanyManagement");
         }
     });
 }
@@ -127,5 +128,5 @@ function onBodyLoad(e) {
  */
 function onUsercard1CardClick(e) {
 	var usercard1 = e.control;
-	debugger;
+	
 }
