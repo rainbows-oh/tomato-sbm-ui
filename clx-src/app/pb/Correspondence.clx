@@ -286,7 +286,7 @@
             <cl:columns length="488" unit="PIXEL" autoSizing="true" syncminlength="false"/>
           </cl:formlayout>
         </cl:group>
-        <cl:grid std:sid="grid-43f52f03" id="grd" datasetid="ds1" autofit="1, 2, 4" autorowheight="1">
+        <cl:grid std:sid="grid-43f52f03" id="grd" datasetid="ds1" autofit="1, 2, 4" autorowheight="none">
           <cl:verticaldata std:sid="v-data-da3977da" width="976px" height="200px" autosize="height"/>
           <cl:gridcolumn std:sid="g-column-b0b3e607" width="60px"/>
           <cl:gridcolumn std:sid="g-column-f9033f8e" width="300px"/>
@@ -305,7 +305,7 @@
             <cl:gridrow std:sid="g-row-d55358b3" height="33px"/>
             <cl:gridcell std:sid="gd-cell-2dd201c5" rowindex="0" colindex="0" columntype="rowindex"/>
             <cl:gridcell std:sid="gd-cell-7ec9501f" rowindex="0" colindex="1" columnname="column2">
-              <cl:button std:sid="button-5a09a2ec" id="btn8" class="btn-row-height" value="Button" displayexp="switch(column6){&#xD;&#xA;&#x9;case &quot;1&quot; : column2 + sstr(column6, [&quot;btn-grid-badge-red&quot;])&#xD;&#xA;&#x9;case &quot;&quot; : column2&#xD;&#xA;&#x9;default : column2 + sstr(column6, [&quot;btn-grid-badge-gray&quot;])&#xD;&#xA;}">
+              <cl:button std:sid="button-5a09a2ec" id="btn8" value="Button" displayexp="switch(column6){&#xD;&#xA;&#x9;case &quot;1&quot; : column2 + sstr(column6, [&quot;btn-grid-badge-red&quot;])&#xD;&#xA;&#x9;case &quot;&quot; : column2&#xD;&#xA;&#x9;default : column2 + sstr(column6, [&quot;btn-grid-badge-gray&quot;])&#xD;&#xA;}">
                 <cl:celldata std:sid="c-data-26d0237b"/>
               </cl:button>
             </cl:gridcell>
