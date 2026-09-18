@@ -304,6 +304,8 @@
   <body std:sid="body-6787dea8" class="submission">
     <cl:listener std:sid="listener-580dcce5" name="init" handler="onBodyInit"/>
     <cl:listener std:sid="listener-82265e47" name="load" handler="onBodyLoad"/>
+    <cl:attribute name="mobile-fit" value="true"/>
+    <cl:attribute name="tablet-fit" value="true"/>
     <cl:group std:sid="group-c5c746ae" class="submission-wrap">
       <cl:verticaldata std:sid="v-data-3d3a320a" width="1440px" height="728px" autosize="none" grow="1"/>
       <cl:group std:sid="group-6b39bc63" class="top-bar">
