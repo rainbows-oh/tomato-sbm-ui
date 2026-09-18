@@ -147,21 +147,18 @@
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-0a233498" rowindex="0" colindex="4" columnname="column5">
-              <cl:output std:sid="output-e1243590" id="opt46">
-                <cl:expbind property="class" category="CLASS" expression="column5 == &quot;Approved&quot; ? &quot;badge soft success&quot; : &quot;badge soft warning&quot;"/>
-                <cl:celldata std:sid="c-data-2b8e15d6" topSpacing="3.0" bottomSpacing="3.0" leftSpacing="12.0" rightSpacing="12.0"/>
+              <cl:output std:sid="output-e1243590" id="opt46" displayexp="switch(column5){&#xD;&#xA;&#x9;case &quot;Approved&quot; : sstr(&quot;Approved&quot;, [&quot;badge soft success&quot;])&#xD;&#xA;&#x9;case &quot;Pending&quot; : sstr(&quot;Pending&quot;, [&quot;badge soft warning&quot;])&#xD;&#xA;&#x9;default : sstr(&quot;Rejected&quot;, [&quot;badge soft danger&quot;])&#xD;&#xA;}">
+                <cl:celldata std:sid="c-data-2b8e15d6" topSpacing="0.0" bottomSpacing="0.0" leftSpacing="0.0" rightSpacing="0.0"/>
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-ebd44d18" rowindex="0" colindex="5" columnname="column6">
-              <cl:output std:sid="output-235c2e06" id="opt42">
-                <cl:expbind property="class" category="CLASS" expression="column6 === &quot;Approved&quot; ? &quot;badge soft success&quot; : column6 === &quot;Rejected&quot; ? &quot;badge soft danger&quot; : &quot;badge soft warning&quot;"/>
-                <cl:celldata std:sid="c-data-acea9be8" topSpacing="3.0" bottomSpacing="3.0" leftSpacing="12.0" rightSpacing="12.0"/>
+              <cl:output std:sid="output-235c2e06" id="opt42" displayexp="switch(column6){&#xD;&#xA;&#x9;case &quot;Approved&quot; : sstr(&quot;Approved&quot;, [&quot;badge soft success&quot;])&#xD;&#xA;&#x9;case &quot;Not started&quot; : sstr(&quot;Not started&quot;, [&quot;badge soft warning&quot;])&#xD;&#xA;&#x9;default : sstr(&quot;Rejected&quot;, [&quot;badge soft danger&quot;])&#xD;&#xA;}">
+                <cl:celldata std:sid="c-data-acea9be8"/>
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-959a71a0" rowindex="0" colindex="6" columnname="column7">
-              <cl:output std:sid="output-4daf9b25" id="opt43">
-                <cl:expbind property="class" category="CLASS" expression="column7 === &quot;Approved&quot; ? &quot;badge soft success&quot; : column7 === &quot;Rejected&quot; ? &quot;badge soft danger&quot; : &quot;badge soft warning&quot;"/>
-                <cl:celldata std:sid="c-data-d418466c" topSpacing="3.0" bottomSpacing="3.0" leftSpacing="12.0" rightSpacing="12.0"/>
+              <cl:output std:sid="output-4daf9b25" id="opt43" displayexp="switch(column7){&#xD;&#xA;&#x9;case &quot;Approved&quot; : sstr(&quot;Approved&quot;, [&quot;badge soft success&quot;])&#xD;&#xA;&#x9;case &quot;Pending Approval&quot; : sstr(&quot;Pending Approval&quot;, [&quot;badge soft warning&quot;])&#xD;&#xA;&#x9;default : sstr(&quot;Rejected&quot;, [&quot;badge soft danger&quot;])&#xD;&#xA;}">
+                <cl:celldata std:sid="c-data-d418466c"/>
               </cl:output>
             </cl:gridcell>
           </cl:griddetail>

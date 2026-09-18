@@ -255,7 +255,7 @@
             <cl:gridrow std:sid="g-row-486b5cc7" height="33px"/>
             <cl:gridcell std:sid="gd-cell-68765e51" rowindex="0" colindex="0" columntype="rowindex"/>
             <cl:gridcell std:sid="gd-cell-f3b019ec" rowindex="0" colindex="1" columnname="column2">
-              <cl:button std:sid="button-4f90c2a9" id="btn8" value="Button" displayexp="text + (column7 == &quot;&quot; ? &quot;&quot; : &quot; &quot; + sstr(column7, column7 == &quot;1&quot; ? [&quot;badge fill danger md&quot;] : [&quot;badge fill disable md&quot;]))">
+              <cl:button std:sid="button-4f90c2a9" id="btn8" value="Button" displayexp="switch(column7){&#xD;&#xA;&#x9;case &quot;1&quot; : column2 + sstr(column7, [&quot;btn-grid-badge-red&quot;])&#xD;&#xA;&#x9;case &quot;&quot; : column2&#xD;&#xA;&#x9;default : column2 + sstr(column7, [&quot;btn-grid-badge-gray&quot;])&#xD;&#xA;}">
                 <cl:celldata std:sid="c-data-910c9f72"/>
               </cl:button>
             </cl:gridcell>
@@ -265,9 +265,8 @@
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-f948ff4f" rowindex="0" colindex="3" columnname="column3">
-              <cl:output std:sid="output-f0d9c90e" id="opt28">
-                <cl:expbind property="class" category="CLASS" expression="column3 == &quot;Submitted&quot; ? &quot;badge soft warning&quot; : text == &quot;Closed&quot; ? &quot;badge soft success&quot; : &quot;badge soft information&quot;"/>
-                <cl:celldata std:sid="c-data-dc9e22b0" topSpacing="3.0" bottomSpacing="3.0" leftSpacing="12.0" rightSpacing="12.0"/>
+              <cl:output std:sid="output-f0d9c90e" id="opt28" displayexp="switch(column3){&#xD;&#xA;&#x9;case &quot;Closed&quot; : sstr(&quot;Closed&quot;, [&quot;badge soft success&quot;])&#xD;&#xA;&#x9;case &quot;Submitted&quot; : sstr(&quot;Submitted&quot;, [&quot;badge soft warning&quot;])&#xD;&#xA;&#x9;default : sstr(&quot;Answered&quot;, [&quot;badge soft information&quot;])&#xD;&#xA;}">
+                <cl:celldata std:sid="c-data-dc9e22b0"/>
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-8e90e209" rowindex="0" colindex="4" columnname="column4">

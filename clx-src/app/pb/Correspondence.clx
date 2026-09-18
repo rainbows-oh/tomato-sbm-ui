@@ -15,7 +15,7 @@
         </cl:datacolumnlist>
         <cl:datarowlist>
           <cl:datarow>
-            <cl:datavalue columnname="column2"><![CDATA[Please review the updated disclosure submission requirements.]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[Please review the updated disclosure submission requirements. Please review the updated disclosure submission requirements.]]></cl:datavalue>
             <cl:datavalue columnname="column3"><![CDATA[Listings & Disclosure]]></cl:datavalue>
             <cl:datavalue columnname="column4"><![CDATA[Open]]></cl:datavalue>
             <cl:datavalue columnname="column5"><![CDATA[08-25-2026 01:14:29 PM]]></cl:datavalue>
@@ -286,7 +286,7 @@
             <cl:columns length="488" unit="PIXEL" autoSizing="true" syncminlength="false"/>
           </cl:formlayout>
         </cl:group>
-        <cl:grid std:sid="grid-43f52f03" id="grd" datasetid="ds1" autofit="1, 2, 4">
+        <cl:grid std:sid="grid-43f52f03" id="grd" datasetid="ds1" autofit="1, 2, 4" autorowheight="1">
           <cl:verticaldata std:sid="v-data-da3977da" width="976px" height="200px" autosize="height"/>
           <cl:gridcolumn std:sid="g-column-b0b3e607" width="60px"/>
           <cl:gridcolumn std:sid="g-column-f9033f8e" width="300px"/>
@@ -305,7 +305,7 @@
             <cl:gridrow std:sid="g-row-d55358b3" height="33px"/>
             <cl:gridcell std:sid="gd-cell-2dd201c5" rowindex="0" colindex="0" columntype="rowindex"/>
             <cl:gridcell std:sid="gd-cell-7ec9501f" rowindex="0" colindex="1" columnname="column2">
-              <cl:button std:sid="button-5a09a2ec" id="btn8" value="Button" displayexp="text + (column6 == &quot;&quot; ? &quot;&quot; : &quot; &quot; + sstr(column6, column6 == &quot;1&quot; ? [&quot;badge fill danger md&quot;] : [&quot;badge fill disable md&quot;]))">
+              <cl:button std:sid="button-5a09a2ec" id="btn8" class="btn-row-height" value="Button" displayexp="switch(column6){&#xD;&#xA;&#x9;case &quot;1&quot; : column2 + sstr(column6, [&quot;btn-grid-badge-red&quot;])&#xD;&#xA;&#x9;case &quot;&quot; : column2&#xD;&#xA;&#x9;default : column2 + sstr(column6, [&quot;btn-grid-badge-gray&quot;])&#xD;&#xA;}">
                 <cl:celldata std:sid="c-data-26d0237b"/>
               </cl:button>
             </cl:gridcell>
@@ -315,9 +315,8 @@
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-898695a6" rowindex="0" colindex="3" columnname="column4">
-              <cl:output std:sid="output-8f94d9af" id="opt31">
-                <cl:expbind property="class" category="CLASS" expression="column4 == &quot;Open&quot; ? &quot;badge soft warning&quot; : text == &quot;Closed&quot; ? &quot;badge soft success&quot; : &quot;&quot;"/>
-                <cl:celldata std:sid="c-data-de2abc9e" topSpacing="3.0" bottomSpacing="3.0" leftSpacing="12.0" rightSpacing="12.0"/>
+              <cl:output std:sid="output-8f94d9af" id="opt31" displayexp="switch(column4){&#xD;&#xA;&#x9;case &quot;Closed&quot; : sstr(&quot;Closed&quot;, [&quot;badge soft success&quot;])&#xD;&#xA;&#x9;case &quot;Open&quot; : sstr(&quot;Open&quot;, [&quot;badge soft warning&quot;])&#xD;&#xA;&#x9;default : sstr(&quot;-&quot;, [&quot;&quot;])&#xD;&#xA;}">
+                <cl:celldata std:sid="c-data-de2abc9e"/>
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-3eab8275" rowindex="0" colindex="4" columnname="column5">
