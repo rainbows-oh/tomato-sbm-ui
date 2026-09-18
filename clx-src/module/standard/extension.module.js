@@ -3097,18 +3097,24 @@ FreeFormKit.prototype.createDynamicUdcForm = function(targetGroup, dataSet, udcP
 
 	targetGroup.setLayout(formLayout);
 
-	// 4. UDC 동적 배치 및 initData 호출
+	// 4. UDC 동적 생성, initData 주입 및 클릭 이벤트 바인딩
 	for (var i = 0; i < totalCount; i++) {
 		var udcInstance = new UdcConstructor("udc_dyn_" + i);
 		var rowData = dataSet.getRowData(i);
 
-		// [요구사항 반영] initData 함수 호출
+		// 데이터 주입 (initData 필수 적용)
 		if (typeof udcInstance.initData === "function") {
 			udcInstance.initData(rowData);
 		}
 
-		// 디버깅 로그 실행
-		debugUdcInitData(udcInstance, rowData, i);
+		// 카드 클릭 이벤트 바인딩 (onCardClick)
+		(function(index, data, instance) {
+			instance.addEventListener("click", function(e) {
+				if (typeof options.onCardClick === "function") {
+					options.onCardClick(data, index, instance, e);
+				}
+			});
+		})(i, rowData, udcInstance);
 
 		var rIdx = Math.floor(i / cols);
 		var cIdx = i % cols;
@@ -3137,26 +3143,7 @@ FreeFormKit.prototype.createDynamicUdcForm = function(targetGroup, dataSet, udcP
 	}
 
 	targetGroup.redraw();
-}
-
-/**
- * [선제 디버깅] UDC initData 메소드 존재 여부 및 호출 결과 추적
- */
-function debugUdcInitData(udcInstance, rowData, index) {
-	console.log("========== [UDC INIT_DATA DEBUG] ==========");
-	console.log("[DEBUG 1] UDC Index:", index);
-	console.log("[DEBUG 2] UDC Instance ID:", udcInstance ? udcInstance.id : "NULL");
-	
-	if (udcInstance) {
-		var hasInitData = typeof udcInstance.initData === "function";
-		console.log("[DEBUG 3] initData 메소드 존재 여부:", hasInitData);
-		if (!hasInitData) {
-			console.warn("[WARN] 해당 UDC에 initData() 메소드가 정의되어 있지 않습니다.");
-		}
-	}
-	console.log("[DEBUG 4] 전달할 RowData Sample:", rowData);
-	console.log("===========================================");
-}
+};
 
 /**
  * 그리드(Grid) 컨트롤 유틸

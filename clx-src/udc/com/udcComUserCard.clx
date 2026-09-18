@@ -18,13 +18,12 @@
         </cl:datacolumnlist>
       </cl:datamap>
     </cl:model>
-    <cl:appspec>
+    <cl:appspec title="고객 카드">
       <cl:event name="cardClick" type="cpr.events.CAppEvent"/>
     </cl:appspec>
   </head>
   <body std:sid="body-7dadf58f" style="top:0px; left:0px; width:300px; height:300px;">
     <cl:listener std:sid="listener-9e7fcfc8" name="click" handler="onBodyClick"/>
-    <cl:listener std:sid="listener-52c49c57" name="load" handler="onBodyLoad"/>
     <cl:group std:sid="group-9b74addf" id="grp6" class="card type02">
       <cl:formdata std:sid="f-data-c19b9ab4" row="0" col="0"/>
       <cl:group std:sid="group-6a6eb9bd" id="grp7">
