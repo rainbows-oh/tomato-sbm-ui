@@ -112,7 +112,7 @@ function onBodyLoad(e) {
 	var dsUser = createDummyDataSet(app);
 
 	// 4열로 만들고 싶을 때
-	util.FreeForm.createDynamicUdcForm(targetGroup, dsUser, "udc.com.udcComUserCard", {
+	util.FreeForm.createDynamicUdcForm(targetGroup, dsUser, "udc.com.udcComUserCard_temp", {
         columnCount: 3,         // 3열 배치
         rowHeight: "1fr",     // 카드 고정 높이
         onCardClick: function(userData) {
