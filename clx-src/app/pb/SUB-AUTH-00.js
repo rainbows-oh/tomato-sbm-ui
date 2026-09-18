@@ -227,6 +227,23 @@ function onDocMousedownForPopover(e) {
 }
 
 /**
+ * Look up the CALL_PAGE (linked screen path) for the given MENU_ID in dsAllMenu.
+ * @param {String} psMenuId menu ID
+ * @return {String} CALL_PAGE value (empty string if not found)
+ */
+function doGetMenuCallPage(psMenuId) {
+	var vcDs = app.lookup("dsAllMenu");
+	if (!vcDs) return "";
+
+	for (var i = 0; i < vcDs.getRowCount(); i++) {
+		if (vcDs.getValue(i, "MENU_ID") == psMenuId) {
+			return vcDs.getValue(i, "CALL_PAGE") || "";
+		}
+	}
+	return "";
+}
+
+/**
  * Load an app into the content EmbeddedApp
  * @param {#app} psAppId app ID to load
  * @param {Object} poInitValue? value passed as the "initValue" app property
@@ -414,7 +431,10 @@ function onBtnUserPopCloseClick(e) {
 
 function onSideNavigationItemClick(e) {
 	var voItem = e.item;
-	doLoadContent(voItem.value, { menuId: voItem.value, menuNm: voItem.label });
+	var vsCallPage = doGetMenuCallPage(voItem.value);
+	if (!vsCallPage) return; // Ignore menus without a CALL_PAGE (e.g. top-level categories)
+
+	doLoadContent(vsCallPage, { menuId: voItem.value, menuNm: voItem.label });
 }
 
 function onBtnCalPrevClick(e) {

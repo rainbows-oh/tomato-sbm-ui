@@ -57,21 +57,25 @@
             <cl:datavalue columnname="MENU_NM"><![CDATA[Correspondence]]></cl:datavalue>
             <cl:datavalue columnname="MENU_ID">MENU_ID9</cl:datavalue>
             <cl:datavalue columnname="UP_MENU_ID"><![CDATA[]]></cl:datavalue>
+            <cl:datavalue columnname="CALL_PAGE"><![CDATA[app/pb/Correspondence]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="MENU_NM"><![CDATA[Q&A]]></cl:datavalue>
             <cl:datavalue columnname="MENU_ID">MENU_ID10</cl:datavalue>
             <cl:datavalue columnname="UP_MENU_ID"><![CDATA[]]></cl:datavalue>
+            <cl:datavalue columnname="CALL_PAGE"><![CDATA[app/pb/Q&A]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="MENU_NM"><![CDATA[User Management]]></cl:datavalue>
             <cl:datavalue columnname="MENU_ID">MENU_ID11</cl:datavalue>
             <cl:datavalue columnname="UP_MENU_ID"><![CDATA[]]></cl:datavalue>
+            <cl:datavalue columnname="CALL_PAGE"><![CDATA[app/pb/UserManagement]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="MENU_NM"><![CDATA[Company Management]]></cl:datavalue>
             <cl:datavalue columnname="MENU_ID">MENU_ID12</cl:datavalue>
             <cl:datavalue columnname="UP_MENU_ID"><![CDATA[]]></cl:datavalue>
+            <cl:datavalue columnname="CALL_PAGE"><![CDATA[app/pb/CompanyManagement]]></cl:datavalue>
           </cl:datarow>
         </cl:datarowlist>
       </cl:dataset>

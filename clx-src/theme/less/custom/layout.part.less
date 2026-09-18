@@ -6,6 +6,19 @@
 	color: #64748d;
 }
 
+.badge {
+	&.sm {
+		font-size: 10px !important;
+		min-width: 16px !important;
+		min-height: 16px !important;
+	}
+	
+	&.md {
+		font-size: 11px !important;
+		min-width: 20px !important;
+	}
+}
+
 .cl-container.content-header {
 	padding: 12px 16px;
 	border-bottom: 1px solid #e3e8ee;
@@ -44,19 +57,6 @@
 		border-radius: 8px;
 		color: #273951;
 		
-		.cl-output.badge {
-			&.sm {
-				font-size: 10px;
-				min-width: 16px;
-				min-height: 16px !important;
-			}
-			
-			&.md {
-				font-size: 11px;
-				min-width: 20px;
-			}
-		}
-		
 		.cl-output.c-tit {
 			font-size: 15px;
 			font-weight: 600;
@@ -86,6 +86,19 @@
 	}
 }
 
+.cl-button {
+	&.ellipsis-2 {
+		.cl-text {
+			display: -webkit-box !important;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: normal;
+		}
+	}
+}
+
 //grpContent 컨텐츠 영역 스타일 모음
 .cl-container.content {
 	
@@ -103,5 +116,44 @@
 	.cl-container.card-contents {
 		border-top: 1px solid #e3e8ee;
 		padding: 12px;
+	}
+}
+
+.cl-grid {
+	border: none;
+	border-top: 1px solid #e3e8ee;
+	border-bottom: 1px solid #e3e8ee;
+	
+	.cl-grid-header {
+		background-color: #f6f9fc;
+		color: #64748d;
+		
+		.cl-grid-cell {
+			border-right: none;
+		}
+		
+		.cl-sortable-cell {
+			&.cl-sort-asc,
+			&.cl-sort-desc {
+				color: #533afd;
+				font-weight: 600;
+			}
+		}
+	}
+	
+	.cl-grid-cell {
+		border-right: none;
+		border-bottom-color: #e3e8ee;
+		
+		.cl-control {
+			&.cl-default-cell,
+			&.cl-output,
+			&.cl-checkbox
+			&.cl-checkboxgroup,
+			&.cl-radiobutton {
+				padding: 8px 12px;
+				text-align: left;
+			}
+		}
 	}
 }

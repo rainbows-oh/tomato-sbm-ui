@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-889d5596" version="1.0.0.0">
   <head std:sid="head-464d3caa">
     <title>pageindexpolicy</title>
-    <screen std:sid="screen-6902be29" id="EXB-FULL" name="EXB-FULL" width="1580px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="1626" active="true"/>
-    <screen std:sid="screen-c10126c1" id="EXB-DIV" name="EXB-DIV" width="1128px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
-    <screen std:sid="screen-9faed1dd" id="EXB-PART" name="EXB-PART" width="672px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-c1f7b7f1" id="EXB-FULL" name="EXB-FULL" width="1580px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="1626" active="true"/>
+    <screen std:sid="screen-ea48c134" id="EXB-DIV" name="EXB-DIV" width="1128px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-3233b8e3" id="EXB-PART" name="EXB-PART" width="672px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
     <cl:model std:sid="model-c289c007"/>
     <cl:appspec title="페이지 인덱서">
       <cl:property name="ctrl" type="control" std:desc="[Grid] 대상 그리드 객체"/>
@@ -13,7 +13,7 @@
       <cl:event name="before-pagechange" type="cpr.events.CSelectionEvent"/>
     </cl:appspec>
   </head>
-  <body std:sid="body-ab560aa1" style="top:0px; left:0px; width:1000px; height:36px;" class="udc-pagination">
+  <body std:sid="body-ab560aa1" style="top:0px; left:0px; width:1000px; height:32px;" class="udc-pagination">
     <cl:listener std:sid="listener-497d5d94" name="load" handler="onBodyLoad"/>
     <cl:listener std:sid="listener-287c526d" name="screen-change" handler="onBodyScreenChange"/>
     <cl:attribute name="hide-on-mobile" value=""/>

@@ -80,9 +80,9 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-0b464f24" id="grpData" class="content-body">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1125px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="742px" autosize="height"/>
       <cl:group std:sid="group-c9d6abb5" id="grpContent" class="content">
-        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="1025px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="642px" autosize="height"/>
         <cl:group std:sid="group-41bf4708" id="grpContentTop" class="content-top">
           <cl:attribute name="mobile-column-count" value="1"/>
           <cl:verticaldata std:sid="v-data-4e757330" width="976px" height="32px" autosize="height"/>
@@ -111,22 +111,22 @@
         </cl:group>
         <cl:grid std:sid="grid-43f52f03" id="grd" datasetid="ds1" autofit="1, 2, 3">
           <cl:verticaldata std:sid="v-data-da3977da" width="976px" height="200px" autosize="height"/>
-          <cl:gridcolumn std:sid="g-column-716b89df"/>
+          <cl:gridcolumn std:sid="g-column-716b89df" width="60px"/>
           <cl:gridcolumn std:sid="g-column-0845e745"/>
           <cl:gridcolumn std:sid="g-column-d52ec627"/>
           <cl:gridcolumn std:sid="g-column-d6afa4db"/>
-          <cl:gridcolumn std:sid="g-column-be173b60"/>
-          <cl:gridcolumn std:sid="g-column-52e12b34"/>
-          <cl:gridcolumn std:sid="g-column-3bf1d55d"/>
+          <cl:gridcolumn std:sid="g-column-be173b60" width="160px"/>
+          <cl:gridcolumn std:sid="g-column-52e12b34" width="160px"/>
+          <cl:gridcolumn std:sid="g-column-3bf1d55d" width="160px"/>
           <cl:gridheader std:sid="gh-band-4c427810">
             <cl:gridrow std:sid="g-row-669a558d" height="33px"/>
-            <cl:gridcell std:sid="gh-cell-928719b3" rowindex="0" colindex="0" targetcolumnname="column1" sortable="false" filterable="false" text="Version"/>
-            <cl:gridcell std:sid="gh-cell-6541844f" rowindex="0" colindex="1" targetcolumnname="column2" sortable="false" filterable="false" text="Submission Date and Time"/>
-            <cl:gridcell std:sid="gh-cell-239777da" rowindex="0" colindex="2" targetcolumnname="column3" sortable="false" filterable="false" text="Submitted By"/>
-            <cl:gridcell std:sid="gh-cell-71310902" rowindex="0" colindex="3" targetcolumnname="column4" sortable="false" filterable="false" text="Endorsed To"/>
-            <cl:gridcell std:sid="gh-cell-ff358264" rowindex="0" colindex="4" targetcolumnname="column5" sortable="false" filterable="false" text="Approver Result"/>
-            <cl:gridcell std:sid="gh-cell-0c7b60ff" rowindex="0" colindex="5" targetcolumnname="column6" sortable="false" filterable="false" text="PSE Admin Result"/>
-            <cl:gridcell std:sid="gh-cell-39d6ac3f" rowindex="0" colindex="6" targetcolumnname="column7" sortable="false" filterable="false" text="Final Status"/>
+            <cl:gridcell std:sid="gh-cell-928719b3" rowindex="0" colindex="0" targetcolumnname="column1" sortable="true" filterable="false" text="Version"/>
+            <cl:gridcell std:sid="gh-cell-6541844f" rowindex="0" colindex="1" targetcolumnname="column2" sortable="true" filterable="false" text="Submission Date and Time"/>
+            <cl:gridcell std:sid="gh-cell-239777da" rowindex="0" colindex="2" targetcolumnname="column3" sortable="true" filterable="false" text="Submitted By"/>
+            <cl:gridcell std:sid="gh-cell-71310902" rowindex="0" colindex="3" targetcolumnname="column4" sortable="true" filterable="false" text="Endorsed To"/>
+            <cl:gridcell std:sid="gh-cell-ff358264" rowindex="0" colindex="4" targetcolumnname="column5" sortable="true" filterable="false" text="Approver Result"/>
+            <cl:gridcell std:sid="gh-cell-0c7b60ff" rowindex="0" colindex="5" targetcolumnname="column6" sortable="true" filterable="false" text="PSE Admin Result"/>
+            <cl:gridcell std:sid="gh-cell-39d6ac3f" rowindex="0" colindex="6" targetcolumnname="column7" sortable="true" filterable="false" text="Final Status"/>
           </cl:gridheader>
           <cl:griddetail std:sid="gd-band-9d9a1b13">
             <cl:gridrow std:sid="g-row-a3b55d98" height="33px"/>
@@ -166,342 +166,28 @@
             </cl:gridcell>
           </cl:griddetail>
         </cl:grid>
-        <cl:group std:sid="group-1b791d41" id="grpCard" class="card-contents" visible="false">
-          <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="777px" autosize="height"/>
-          <cl:group std:sid="group-9b74addf" id="grp6" class="card type02">
-            <cl:flowlayoutdata std:sid="f-data-24de9672" width="325px" height="369px" autosize="height"/>
-            <cl:group std:sid="group-875ebfa1" id="grp2">
-              <cl:verticaldata std:sid="v-data-d17184df" width="299px" height="20px" autosize="none"/>
-              <cl:group std:sid="group-8dc57400" id="grp29">
-                <cl:formdata std:sid="f-data-e31b0370" row="0" col="0"/>
-                <cl:button std:sid="button-6e223a62" id="btn5" class="c-tit-blue" value="Version 4">
-                  <cl:flowlayoutdata std:sid="f-data-7c0f0102" width="67px" height="20px" autosize="width"/>
-                </cl:button>
-                <cl:flowlayout std:sid="f-layout-8522c427"/>
-              </cl:group>
-              <cl:formlayout std:sid="f-layout-16b76eca" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-                <cl:rows length="1" unit="FRACTION"/>
-                <cl:columns length="1" unit="FRACTION"/>
-              </cl:formlayout>
-            </cl:group>
-            <cl:group std:sid="group-9d82c18b" id="grp8">
-              <cl:verticaldata std:sid="v-data-95041e7f" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-2557dbe6" id="opt4" class="label" value="Submitted">
-                <cl:verticaldata std:sid="v-data-c403166f" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-e2684ed9" id="opt5" value="08-25-2026 02:56:18 PM">
-                <cl:verticaldata std:sid="v-data-a3ce7c96" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-0b0db046" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-9c07a888" id="grp9">
-              <cl:verticaldata std:sid="v-data-694d2a11" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-118ad4b0" id="opt6" class="label" value="Submitted By">
-                <cl:verticaldata std:sid="v-data-ab1541f5" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-9b78d97c" id="opt7" value="Alex Thompson">
-                <cl:verticaldata std:sid="v-data-d9536140" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-6557bf2d" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-f763703e" id="grp10">
-              <cl:verticaldata std:sid="v-data-4d645628" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-d640da39" id="opt8" class="label" value="Endorsed To">
-                <cl:verticaldata std:sid="v-data-45e687c9" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-345532c5" id="opt9" value="Alex Thompson">
-                <cl:verticaldata std:sid="v-data-6d8a82f5" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-131b05a6" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-28ade823" id="grp11">
-              <cl:verticaldata std:sid="v-data-264fefcb" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-651b24be" id="opt10" class="label" value="Approver Result">
-                <cl:verticaldata std:sid="v-data-26a6d734" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-e82fb405" id="opt11" value="Pending">
-                <cl:verticaldata std:sid="v-data-0f1bc0c1" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-d4318bd6" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-d99a1b70" id="grp36">
-              <cl:verticaldata std:sid="v-data-ace807ca" width="299px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-f363b121" id="opt47" class="label" value="PSE Admin Result">
-                <cl:verticaldata std:sid="v-data-d2c3a2e8" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-8f9c1e5a" id="opt54" value="Not started">
-                <cl:verticaldata std:sid="v-data-0e09557f" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-da6bb8fc" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-07caed73" id="grp4">
-              <cl:verticaldata std:sid="v-data-181d6e5c" width="299px" height="50px" autosize="height"/>
-              <cl:output std:sid="output-1fe3586b" id="opt2" class="label" value="Final Status">
-                <cl:verticaldata std:sid="v-data-286fd438" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:group std:sid="group-108beb6d" id="grp1">
-                <cl:verticaldata std:sid="v-data-48185a4a" width="299px" height="26px" autosize="height"/>
-                <cl:output std:sid="output-b8530e63" id="opt3" class="badge soft warning" value="Pending Approval">
-                  <cl:flowlayoutdata std:sid="f-data-031935d6" width="144px" height="26px" autosize="width"/>
-                </cl:output>
-                <cl:flowlayout std:sid="f-layout-4f8392e6"/>
-              </cl:group>
-              <cl:verticallayout std:sid="v-layout-7b942b72" spacing="4"/>
-            </cl:group>
-            <cl:verticallayout std:sid="v-layout-5b10945a" spacing="8"/>
-          </cl:group>
-          <cl:group std:sid="group-bc115cc6" id="grp5" class="card type02">
-            <cl:flowlayoutdata std:sid="f-data-b932c7e4" width="325px" height="369px" autosize="height"/>
-            <cl:group std:sid="group-47168f2f" id="grp7">
-              <cl:verticaldata std:sid="v-data-9a375198" width="299px" height="20px" autosize="none"/>
-              <cl:group std:sid="group-65e6e6df" id="grp12">
-                <cl:formdata std:sid="f-data-eb56826d" row="0" col="0"/>
-                <cl:button std:sid="button-6e463304" id="btn3" class="c-tit-blue" value="Version 3">
-                  <cl:flowlayoutdata std:sid="f-data-f6ac81a1" width="67px" height="20px" autosize="width"/>
-                </cl:button>
-                <cl:flowlayout std:sid="f-layout-8bcda96c"/>
-              </cl:group>
-              <cl:formlayout std:sid="f-layout-72fa7291" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-                <cl:rows length="1" unit="FRACTION"/>
-                <cl:columns length="1" unit="FRACTION"/>
-              </cl:formlayout>
-            </cl:group>
-            <cl:group std:sid="group-b7155b97" id="grp13">
-              <cl:verticaldata std:sid="v-data-758dbc95" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-4b03e0c6" id="opt12" class="label" value="Submitted">
-                <cl:verticaldata std:sid="v-data-c8f6ca39" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-8a3bc779" id="opt13" value="08-25-2026 02:56:18 PM">
-                <cl:verticaldata std:sid="v-data-24620639" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-65e9eaf9" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-43c539b1" id="grp14">
-              <cl:verticaldata std:sid="v-data-5899fdda" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-ddd52e57" id="opt15" class="label" value="Submitted By">
-                <cl:verticaldata std:sid="v-data-a70888a6" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-69a768c0" id="opt16" value="Alex Thompson">
-                <cl:verticaldata std:sid="v-data-1cd2d407" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-f3ba41f6" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-e9bfc82a" id="grp15">
-              <cl:verticaldata std:sid="v-data-c7936cf8" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-3db94734" id="opt17" class="label" value="Endorsed To">
-                <cl:verticaldata std:sid="v-data-02275bcb" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-bd56feff" id="opt18" value="Alex Thompson">
-                <cl:verticaldata std:sid="v-data-5940d14e" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-e51bae7b" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-069987ef" id="grp16">
-              <cl:verticaldata std:sid="v-data-7fc87562" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-614602ec" id="opt19" class="label" value="Approver Result">
-                <cl:verticaldata std:sid="v-data-9f818924" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-09c6aed1" id="opt20" value="Pending">
-                <cl:verticaldata std:sid="v-data-7629a836" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-eedf3745" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-77016d26" id="grp17">
-              <cl:verticaldata std:sid="v-data-1aaebb6d" width="299px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-6b3b4528" id="opt21" class="label" value="PSE Admin Result">
-                <cl:verticaldata std:sid="v-data-66f51f6a" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-79a8d9ee" id="opt22" value="Not started">
-                <cl:verticaldata std:sid="v-data-14dc70bd" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-b7ba4512" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-f88afc9b" id="grp18">
-              <cl:verticaldata std:sid="v-data-8347f35e" width="299px" height="50px" autosize="height"/>
-              <cl:output std:sid="output-75d9a270" id="opt23" class="label" value="Final Status">
-                <cl:verticaldata std:sid="v-data-edbdc8a4" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:group std:sid="group-8720ea21" id="grp19">
-                <cl:verticaldata std:sid="v-data-3f0f6918" width="299px" height="26px" autosize="height"/>
-                <cl:output std:sid="output-15e1c4d9" id="opt24" class="badge soft danger" value="Rejected">
-                  <cl:flowlayoutdata std:sid="f-data-37039b41" width="144px" height="26px" autosize="width"/>
-                </cl:output>
-                <cl:flowlayout std:sid="f-layout-f110705a"/>
-              </cl:group>
-              <cl:verticallayout std:sid="v-layout-378f0dfb" spacing="4"/>
-            </cl:group>
-            <cl:verticallayout std:sid="v-layout-d919082a" spacing="8"/>
-          </cl:group>
-          <cl:group std:sid="group-77c78026" id="grp20" class="card type02">
-            <cl:flowlayoutdata std:sid="f-data-a9b6b515" width="325px" height="369px" autosize="height"/>
-            <cl:group std:sid="group-c787e3ed" id="grp21">
-              <cl:verticaldata std:sid="v-data-c03d72e1" width="299px" height="20px" autosize="none"/>
-              <cl:group std:sid="group-82dfadd1" id="grp22">
-                <cl:formdata std:sid="f-data-f8a0dd20" row="0" col="0"/>
-                <cl:button std:sid="button-2bec9fdb" id="btn4" class="c-tit-blue" value="Version 2">
-                  <cl:flowlayoutdata std:sid="f-data-352aaf81" width="67px" height="20px" autosize="width"/>
-                </cl:button>
-                <cl:flowlayout std:sid="f-layout-d29b1b9f"/>
-              </cl:group>
-              <cl:formlayout std:sid="f-layout-3524731e" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-                <cl:rows length="1" unit="FRACTION"/>
-                <cl:columns length="1" unit="FRACTION"/>
-              </cl:formlayout>
-            </cl:group>
-            <cl:group std:sid="group-7397e9fd" id="grp23">
-              <cl:verticaldata std:sid="v-data-0fe08185" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-e28485b7" id="opt25" class="label" value="Submitted">
-                <cl:verticaldata std:sid="v-data-8216e79d" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-b3efde5e" id="opt26" value="08-25-2026 02:56:18 PM">
-                <cl:verticaldata std:sid="v-data-d7471591" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-2af74b27" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-acf47e66" id="grp24">
-              <cl:verticaldata std:sid="v-data-a722919b" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-dceba0ea" id="opt27" class="label" value="Submitted By">
-                <cl:verticaldata std:sid="v-data-fea18a4b" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-47f83d17" id="opt29" value="Alex Thompson">
-                <cl:verticaldata std:sid="v-data-911f9dea" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-67a30428" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-e5e11f75" id="grp25">
-              <cl:verticaldata std:sid="v-data-14abaeef" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-282efc5e" id="opt30" class="label" value="Endorsed To">
-                <cl:verticaldata std:sid="v-data-85a7652a" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-329f69ca" id="opt31" value="Alex Thompson">
-                <cl:verticaldata std:sid="v-data-a58e91e8" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-f545ae68" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-dea0f449" id="grp26">
-              <cl:verticaldata std:sid="v-data-3329fa6a" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-5ee3c10b" id="opt32" class="label" value="Approver Result">
-                <cl:verticaldata std:sid="v-data-a33cfba0" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-f85950cf" id="opt33" value="Pending">
-                <cl:verticaldata std:sid="v-data-d1c491d3" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-e1b1efff" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-7b1947c5" id="grp27">
-              <cl:verticaldata std:sid="v-data-88dc40aa" width="299px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-63930f86" id="opt34" class="label" value="PSE Admin Result">
-                <cl:verticaldata std:sid="v-data-75dc0be2" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-92d9c502" id="opt35" value="Not started">
-                <cl:verticaldata std:sid="v-data-4dbfaf5c" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-a24037eb" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-521e555b" id="grp28">
-              <cl:verticaldata std:sid="v-data-3c1a8672" width="299px" height="50px" autosize="height"/>
-              <cl:output std:sid="output-4d782835" id="opt36" class="label" value="Final Status">
-                <cl:verticaldata std:sid="v-data-22b07471" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:group std:sid="group-17fa87ef" id="grp30">
-                <cl:verticaldata std:sid="v-data-0c66b6e6" width="299px" height="26px" autosize="height"/>
-                <cl:output std:sid="output-b43e3fc4" id="opt37" class="badge soft danger" value="Rejected">
-                  <cl:flowlayoutdata std:sid="f-data-4e5df1f9" width="144px" height="26px" autosize="width"/>
-                </cl:output>
-                <cl:flowlayout std:sid="f-layout-7f6ea294"/>
-              </cl:group>
-              <cl:verticallayout std:sid="v-layout-72b0f7e5" spacing="4"/>
-            </cl:group>
-            <cl:verticallayout std:sid="v-layout-ad5ca08a" spacing="8"/>
-          </cl:group>
-          <cl:group std:sid="group-d6edc174" id="grp31" class="card type02">
-            <cl:flowlayoutdata std:sid="f-data-d7f72583" width="325px" height="369px" autosize="height"/>
-            <cl:group std:sid="group-80442cf3" id="grp32">
-              <cl:verticaldata std:sid="v-data-a305aef1" width="299px" height="20px" autosize="none"/>
-              <cl:group std:sid="group-9263deca" id="grp33">
-                <cl:formdata std:sid="f-data-9b16d952" row="0" col="0"/>
-                <cl:button std:sid="button-27df3716" id="btn6" class="c-tit-blue" value="Version 1">
-                  <cl:flowlayoutdata std:sid="f-data-5d4af87c" width="67px" height="20px" autosize="width"/>
-                </cl:button>
-                <cl:flowlayout std:sid="f-layout-945641fd"/>
-              </cl:group>
-              <cl:formlayout std:sid="f-layout-0dab7341" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-                <cl:rows length="1" unit="FRACTION"/>
-                <cl:columns length="1" unit="FRACTION"/>
-              </cl:formlayout>
-            </cl:group>
-            <cl:group std:sid="group-4fd26495" id="grp34">
-              <cl:verticaldata std:sid="v-data-2bbfe23e" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-7bdd5e8e" id="opt38" class="label" value="Submitted">
-                <cl:verticaldata std:sid="v-data-a9f7aad3" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-441d9903" id="opt39" value="08-25-2026 02:56:18 PM">
-                <cl:verticaldata std:sid="v-data-eff44a90" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-4102b51f" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-69c094a0" id="grp35">
-              <cl:verticaldata std:sid="v-data-37fa717b" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-c88b11fd" id="opt40" class="label" value="Submitted By">
-                <cl:verticaldata std:sid="v-data-25545b59" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-bf655669" id="opt41" value="Alex Thompson">
-                <cl:verticaldata std:sid="v-data-fb2de92c" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-c07bbf81" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-c44e9e0f" id="grp37">
-              <cl:verticaldata std:sid="v-data-2bb5886d" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-f3314217" id="opt44" class="label" value="Endorsed To">
-                <cl:verticaldata std:sid="v-data-334db3f3" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-f7bb21a3" id="opt48" value="Alex Thompson">
-                <cl:verticaldata std:sid="v-data-85bbd7fa" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-f2fa3617" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-310ea0be" id="grp38">
-              <cl:verticaldata std:sid="v-data-5c3724a8" width="353px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-aef7bf46" id="opt49" class="label" value="Approver Result">
-                <cl:verticaldata std:sid="v-data-2226b421" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-aaad35d7" id="opt50" value="Pending">
-                <cl:verticaldata std:sid="v-data-a108c8c9" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-1ada667f" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-b5d0adcd" id="grp39">
-              <cl:verticaldata std:sid="v-data-5c7c3aea" width="299px" height="45px" autosize="height"/>
-              <cl:output std:sid="output-7e8585e8" id="opt51" class="label" value="PSE Admin Result">
-                <cl:verticaldata std:sid="v-data-2108021f" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-7e92b915" id="opt52" value="Not started">
-                <cl:verticaldata std:sid="v-data-883187d6" width="353px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-9dca2b89" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-f8204285" id="grp40">
-              <cl:verticaldata std:sid="v-data-f88e8a5b" width="299px" height="50px" autosize="height"/>
-              <cl:output std:sid="output-8cf7905c" id="opt53" class="label" value="Final Status">
-                <cl:verticaldata std:sid="v-data-fda71471" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:group std:sid="group-b7e5a8c1" id="grp41">
-                <cl:verticaldata std:sid="v-data-97d28ab0" width="299px" height="26px" autosize="height"/>
-                <cl:output std:sid="output-325f7712" id="opt55" class="badge soft success" value="Approved">
-                  <cl:flowlayoutdata std:sid="f-data-69a9708a" width="144px" height="26px" autosize="width"/>
-                </cl:output>
-                <cl:flowlayout std:sid="f-layout-36c4d4af"/>
-              </cl:group>
-              <cl:verticallayout std:sid="v-layout-fd8c0e53" spacing="4"/>
-            </cl:group>
-            <cl:verticallayout std:sid="v-layout-256cdb9d" spacing="8"/>
-          </cl:group>
-          <cl:flowlayout std:sid="f-layout-9a0b1891" scrollable="false" hspacing="12" vspacing="12"/>
+        <cl:group std:sid="group-20876b71" id="grpCard" class="card-contents" visible="false">
+          <cl:verticaldata std:sid="v-data-a2e88243" width="976px" height="394px" autosize="height"/>
+          <cl:udc std:sid="ud-control-52d55fab" id="udccomcompanymanagementcard1" type="udc.com.udcComCompanyManagementCard">
+            <cl:formdata std:sid="f-data-6ea974e3" row="0" col="0"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-cda2a092" id="udccomcompanymanagementcard2" type="udc.com.udcComCompanyManagementCard">
+            <cl:formdata std:sid="f-data-6e8e56ba" row="0" col="1"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-6daa2b1d" id="udccomcompanymanagementcard3" type="udc.com.udcComCompanyManagementCard">
+            <cl:formdata std:sid="f-data-c476d595" row="0" col="2"/>
+          </cl:udc>
+          <cl:formlayout std:sid="f-layout-d413d9c1" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
         </cl:group>
         <cl:verticallayout std:sid="v-layout-edd42a47"/>
       </cl:group>
       <cl:udc std:sid="ud-control-40bf5d23" id="udccompageindexer_new1" type="udc.com.udcComPageindexer_new">
-        <cl:verticaldata std:sid="v-data-c0eec6ba" width="1000px" height="36px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-c0eec6ba" width="1000px" height="32px" autosize="none"/>
       </cl:udc>
       <cl:verticallayout std:sid="v-layout-9dda75e2" spacing="16" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>
