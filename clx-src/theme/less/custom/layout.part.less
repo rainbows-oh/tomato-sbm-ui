@@ -1,10 +1,4 @@
-@import "../../custom-settings.part.less";
-
-.cl-output.label {
-	font-size: 11px;
-	font-weight: 600;
-	color: #64748d;
-}
+@import (reference) "../../custom-settings.part.less";
 
 //카드
 .cl-container.card {
@@ -131,6 +125,51 @@
 .cl-container.card-section {
 	border-top: 1px solid #e3e8ee;
 	padding: 12px;
+}
+
+//임력 폼 스타일
+.cl-container.form-group {
+	background-color: #ffffff;
+	border: 1px solid #e3e8ee;
+	border-radius: 12px;
+	box-shadow: 0 1px 3px rgba(0,55,112,0.08);
+	
+	.label {
+		font-size: 13px;
+		color: #0d253d;
+	}
+	
+	.group {
+		&:not(.cl-last-row) {
+			border-bottom: 1px solid #e3e8ee;
+			padding-bottom: 24px;
+		}
+		
+		.group-tit {
+			font-size: 15px;
+			font-weight: 600;
+			color: #0d253d;
+		}
+	}
+	
+	.cl-container.btn-wrap {
+		padding-top: 16px;
+
+		.cl-button {
+			padding: 0px 12px;
+		}
+	}
+}
+
+.cl-button.btn-go-back {
+	text-align: left;
+	font-weight: 600;
+	font-size: 15px;
+	color: #0d253d;
+	
+	.cl-icon {
+		background-image: url("../../img/icons/ico_arrow_left.svg") !important;
+	}
 }
 
 //조회 영역 grpSearch
