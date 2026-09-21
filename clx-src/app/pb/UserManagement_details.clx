@@ -84,7 +84,7 @@
                 <cl:output std:sid="output-77711b7d" id="opt11" class="label required" value="Last Name">
                   <cl:verticaldata std:sid="v-data-4ab82e7f" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-bcb5b53c" id="ipb10" fieldLabel="Last Name" placeholder="Enter last name">
+                <cl:inputbox std:sid="i-box-bcb5b53c" id="ipb10" fieldLabel="Last Name" value="Diaz" placeholder="Enter last name">
                   <cl:verticaldata std:sid="v-data-1ba62884" width="457px" height="32px" autosize="none"/>
                 </cl:inputbox>
                 <cl:output std:sid="output-8e56c245" id="opt12" class="form-hint" value="50" displayexp="&quot;Maximum &quot; + text + &quot; characters&quot;">
@@ -98,7 +98,7 @@
                 <cl:output std:sid="output-14b1912f" id="opt13" class="label required" value="First Name">
                   <cl:verticaldata std:sid="v-data-2c24bd7d" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-f791308a" id="ipb11" fieldLabel="First Name" placeholder="Enter first name">
+                <cl:inputbox std:sid="i-box-f791308a" id="ipb11" fieldLabel="First Name" value="Ramon" placeholder="Enter first name">
                   <cl:verticaldata std:sid="v-data-901afa33" width="457px" height="32px" autosize="none"/>
                 </cl:inputbox>
                 <cl:output std:sid="output-f24db54a" id="opt14" class="form-hint" value="50" displayexp="&quot;Maximum &quot; + text + &quot; characters&quot;">
@@ -121,7 +121,7 @@
                 <cl:output std:sid="output-294a07f4" id="opt9" class="label" value="Middle Name">
                   <cl:verticaldata std:sid="v-data-9aa6186c" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-ddc16669" id="ipb12" fieldLabel="Middle Name" placeholder="Enter middle name (optional)">
+                <cl:inputbox std:sid="i-box-ddc16669" id="ipb12" fieldLabel="Middle Name" value="T." placeholder="Enter middle name (optional)">
                   <cl:verticaldata std:sid="v-data-634b6042" width="457px" height="32px" autosize="none"/>
                 </cl:inputbox>
                 <cl:output std:sid="output-861d7935" id="opt10" class="form-hint" value="50" displayexp="&quot;Maximum &quot; + text + &quot; characters&quot;">
@@ -135,7 +135,7 @@
                 <cl:output std:sid="output-7629ed23" id="opt3" class="label required" value="User Name">
                   <cl:verticaldata std:sid="v-data-776a638f" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-bd1079e3" id="ipb13" fieldLabel="User Name" placeholder="3–20 characters">
+                <cl:inputbox std:sid="i-box-bd1079e3" id="ipb13" fieldLabel="User Name" value="r.diaz" placeholder="3–20 characters">
                   <cl:verticaldata std:sid="v-data-658cdfd4" width="457px" height="32px" autosize="none"/>
                 </cl:inputbox>
                 <cl:output std:sid="output-25352c3d" id="opt8" class="form-hint" value="20" displayexp="&quot;Maximum &quot; + text + &quot; characters&quot;">
@@ -165,7 +165,7 @@
                 <cl:output std:sid="output-02403be8" id="opt17" class="label" value="Company">
                   <cl:verticaldata std:sid="v-data-38f9fa9e" width="457px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-211380b7" id="ipb1" fieldLabel="Company" placeholder="Pacific Horizon Securities, Inc.">
+                <cl:inputbox std:sid="i-box-211380b7" id="ipb1" fieldLabel="Company" readonly="true" value="Pacific Horizon Securities, Inc." placeholder="Pacific Horizon Securities, Inc.">
                   <cl:verticaldata std:sid="v-data-b5759be3" width="100px" height="32px"/>
                 </cl:inputbox>
                 <cl:verticallayout std:sid="v-layout-57ad5dcb"/>
@@ -176,7 +176,7 @@
                 <cl:output std:sid="output-9d83a600" id="opt15" class="label required" value="Department/Division">
                   <cl:verticaldata std:sid="v-data-6be29ea6" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-156cb711" id="ipb2" fieldLabel="Department/Division" placeholder="Enter department or division">
+                <cl:inputbox std:sid="i-box-156cb711" id="ipb2" fieldLabel="Department/Division" value="Corporate Disclosure" placeholder="Enter department or division">
                   <cl:verticaldata std:sid="v-data-6c64cd84" width="100px" height="32px"/>
                 </cl:inputbox>
                 <cl:output std:sid="output-5e93ef55" id="opt16" class="form-hint" value="200" displayexp="&quot;Maximum &quot; + text + &quot; characters&quot;">
@@ -199,7 +199,7 @@
                 <cl:output std:sid="output-57ff7227" id="opt19" class="label required" value="Position/Designation">
                   <cl:verticaldata std:sid="v-data-57d8da5c" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-71d5869d" id="ipb3" fieldLabel="Position/Designation" placeholder="Enter position or designation">
+                <cl:inputbox std:sid="i-box-71d5869d" id="ipb3" fieldLabel="Position/Designation" value="Disclosure Officer" placeholder="Enter position or designation">
                   <cl:verticaldata std:sid="v-data-3dcdae1c" width="457px" height="32px" autosize="none"/>
                 </cl:inputbox>
                 <cl:output std:sid="output-7383f8b6" id="opt20" class="form-hint" value="200" displayexp="&quot;Maximum &quot; + text + &quot; characters&quot;">
@@ -229,7 +229,7 @@
                 <cl:output std:sid="output-14e4dfbd" id="opt7" class="label required" value="Email Address">
                   <cl:verticaldata std:sid="v-data-c4d953f5" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-ee4e1673" id="ipb4" fieldLabel="Email Address" placeholder="name@company.com">
+                <cl:inputbox std:sid="i-box-ee4e1673" id="ipb4" fieldLabel="Email Address" value="ramon.diaz@pse.com" placeholder="name@company.com">
                   <cl:verticaldata std:sid="v-data-1f0fd161" width="100px" height="32px"/>
                 </cl:inputbox>
                 <cl:verticallayout std:sid="v-layout-68525e6b"/>
@@ -260,7 +260,7 @@
                 <cl:output std:sid="output-01cfab64" id="opt23" class="label" value="Office Address">
                   <cl:verticaldata std:sid="v-data-cb70195d" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-5495dc2b" id="ipb7" fieldLabel="Office Address" placeholder="Enter office address">
+                <cl:inputbox std:sid="i-box-5495dc2b" id="ipb7" fieldLabel="Office Address" value="18F Horizon Tower, Ayala Avenue, Makati City" placeholder="Enter office address">
                   <cl:verticaldata std:sid="v-data-f1ce042d" width="100px" height="32px"/>
                 </cl:inputbox>
                 <cl:output std:sid="output-6082598a" id="opt24" class="form-hint" value="200" displayexp="&quot;Maximum &quot; + text + &quot; characters&quot;">
@@ -274,7 +274,7 @@
                 <cl:output std:sid="output-21572ddb" id="opt25" class="label required" value="Telephone Number">
                   <cl:verticaldata std:sid="v-data-a6119e0c" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-52025270" id="ipb6" fieldLabel="Telephone Number" placeholder="Enter telephone number">
+                <cl:inputbox std:sid="i-box-52025270" id="ipb6" fieldLabel="Telephone Number" value="+63 2 8789 0123" placeholder="Enter telephone number">
                   <cl:verticaldata std:sid="v-data-1e1f4c31" width="100px" height="32px"/>
                 </cl:inputbox>
                 <cl:output std:sid="output-abf1f540" id="opt26" class="form-hint" value="50" displayexp="&quot;Maximum &quot; + text + &quot; characters&quot;">
@@ -297,7 +297,7 @@
                 <cl:output std:sid="output-6f024ad4" id="opt27" class="label" value="Mobile Number">
                   <cl:verticaldata std:sid="v-data-58dcaf4a" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-f697173d" id="ipb8" fieldLabel="Mobile Number" placeholder="Enter mobile number">
+                <cl:inputbox std:sid="i-box-f697173d" id="ipb8" fieldLabel="Mobile Number" value="+63 924 890 1234" placeholder="Enter mobile number">
                   <cl:verticaldata std:sid="v-data-918fb233" width="100px" height="32px"/>
                 </cl:inputbox>
                 <cl:output std:sid="output-8daa68ee" id="opt28" class="form-hint" value="50" displayexp="&quot;Maximum &quot; + text + &quot; characters&quot;">
@@ -311,7 +311,7 @@
                 <cl:output std:sid="output-3d852aaf" id="opt29" class="label required" value="Fax Number">
                   <cl:verticaldata std:sid="v-data-29496a9d" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:inputbox std:sid="i-box-5544b671" id="ipb9" fieldLabel="Fax Number" placeholder="Enter fax number">
+                <cl:inputbox std:sid="i-box-5544b671" id="ipb9" fieldLabel="Fax Number" value="+63 2 8789 0124" placeholder="Enter fax number">
                   <cl:verticaldata std:sid="v-data-84e37959" width="100px" height="32px"/>
                 </cl:inputbox>
                 <cl:output std:sid="output-4b6c2af5" id="opt30" class="form-hint" value="50" displayexp="&quot;Maximum &quot; + text + &quot; characters&quot;">
@@ -355,11 +355,14 @@
           <cl:verticaldata std:sid="v-data-15c632b2" width="926px" height="52px" autosize="height"/>
           <cl:group std:sid="group-d1d984cf" id="grp33">
             <cl:formdata std:sid="f-data-538be251" row="0" col="0" rowspan="1" colspan="1"/>
+            <cl:button std:sid="button-7a7a1c5b" id="btn4" class="btn-link p-0" value="Back to list">
+              <cl:flowlayoutdata std:sid="f-data-0ba45eea" width="83px" height="36px" autosize="width"/>
+            </cl:button>
             <cl:flowlayout std:sid="f-layout-3f27f967"/>
           </cl:group>
           <cl:group std:sid="group-ca849921" id="grp30">
             <cl:formdata std:sid="f-data-5677a1b6" row="0" col="1"/>
-            <cl:button std:sid="button-0c4a93a7" id="btn2" class="btn-base" value="Cancel">
+            <cl:button std:sid="button-0c4a93a7" id="btn2" class="btn-inline" value="Delete">
               <cl:flowlayoutdata std:sid="f-data-860ce9ba" width="100px" height="36px" autosize="width"/>
             </cl:button>
             <cl:button std:sid="button-f12b589d" id="btn3" class="btn-save" value="Save">
