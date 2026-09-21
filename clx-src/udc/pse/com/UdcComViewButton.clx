@@ -18,12 +18,12 @@
   <body std:sid="body-b9e20b4b" style="top:0px; left:0px; width:68px; height:32px;" class="viewmode" fieldLabel="Results view">
     <cl:listener std:sid="listener-c6850c21" name="property-change" handler="onBodyPropertyChange"/>
     <cl:listener std:sid="listener-41a4f119" name="init" handler="onBodyInit"/>
-    <cl:button std:sid="button-188529e6" id="btnShowGrid" style="background-color:pink;" class="active" value="Table view" displayexp="sstr(text, [&quot;cl-sound-only&quot;])" icon="0">
-      <cl:listener std:sid="listener-bd306c80" name="click" handler="onBtnShowGridClick2"/>
+    <cl:button std:sid="button-188529e6" id="btnShowGrid" class="btn-grid active" value="Table view" displayexp="sstr(text, [&quot;cl-sound-only&quot;])" icon="0">
+      <cl:listener std:sid="listener-bd306c80" name="click" handler="onBtnShowGridClick"/>
       <cl:flowlayoutdata std:sid="f-data-11b08e23" width="32px" height="32px"/>
     </cl:button>
-    <cl:button std:sid="button-24b4f02d" id="btnShowCard" style="background-color:yellow; background-image:none;" value="Card view" displayexp="sstr(text, [&quot;cl-sound-only&quot;])" icon="0">
-      <cl:listener std:sid="listener-4e32536c" name="click" handler="onBtnShowCardClick2"/>
+    <cl:button std:sid="button-24b4f02d" id="btnShowCard" class="btn-card" value="Card view" displayexp="sstr(text, [&quot;cl-sound-only&quot;])" icon="0">
+      <cl:listener std:sid="listener-4e32536c" name="click" handler="onBtnShowCardClick"/>
       <cl:flowlayoutdata std:sid="f-data-947e8700" width="32px" height="32px"/>
     </cl:button>
     <cl:flowlayout std:sid="f-layout-ba69191e" scrollable="false" hspacing="4" vspacing="0" linewrap="false"/>

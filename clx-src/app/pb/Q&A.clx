@@ -256,7 +256,7 @@
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-qas000134" rowindex="0" colindex="1" columnname="subject">
-              <cl:button std:sid="button-qas000135" class="btn-row-height" value="Button" displayexp="switch(urgent){case &quot;1&quot; : subject + sstr(badge, [&quot;btn-grid-badge-red&quot;]) case &quot;&quot; : subject default : subject + sstr(badge, [&quot;btn-grid-badge-gray&quot;])}">
+              <cl:button std:sid="button-qas000135" value="Button" displayexp="switch(urgent){case &quot;1&quot; : subject + sstr(badge, [&quot;btn-grid-badge-red&quot;]) case &quot;&quot; : subject default : subject + sstr(badge, [&quot;btn-grid-badge-gray&quot;])}">
                 <cl:celldata std:sid="c-data-qas000136"/>
               </cl:button>
             </cl:gridcell>

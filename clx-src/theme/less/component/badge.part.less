@@ -29,7 +29,6 @@
 	border-color: fade(@text, 30%) !important;
 	color: @text !important;
 	border-radius: @border-radius-full !important;
-	padding: 0px 8px;
 }
 
 /* ==========================================================================
@@ -49,7 +48,6 @@
 	&.sm {
 		font-size: 10px !important;
 		min-width: 16px !important;
-		min-height: 16px !important;
 	}
 	
 	&.md {
@@ -71,7 +69,11 @@
 }
 
 .cl-control.badge {
-	min-height: @size-component-height-small !important;
+	min-height: 16px !important;
+	
+	&.md {
+		min-height: 20px !important;
+	}
 	
 	&.large {
 		min-height: @size-component-height !important;

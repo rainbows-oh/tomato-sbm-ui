@@ -75,7 +75,7 @@
             <cl:datavalue columnname="MENU_NM"><![CDATA[Company Management]]></cl:datavalue>
             <cl:datavalue columnname="MENU_ID">MENU_ID12</cl:datavalue>
             <cl:datavalue columnname="UP_MENU_ID"><![CDATA[]]></cl:datavalue>
-            <cl:datavalue columnname="CALL_PAGE"><![CDATA[app/pb/CompanyManagement_sbm]]></cl:datavalue>
+            <cl:datavalue columnname="CALL_PAGE"><![CDATA[app/pb/CompanyManagement]]></cl:datavalue>
           </cl:datarow>
         </cl:datarowlist>
       </cl:dataset>

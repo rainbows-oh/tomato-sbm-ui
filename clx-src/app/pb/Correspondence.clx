@@ -18,7 +18,7 @@
         <cl:datarowlist>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[1]]></cl:datavalue>
-            <cl:datavalue columnname="subject"><![CDATA[Please review the updated disclosure submission requirements. Please review the updated disclosure submission requirements.]]></cl:datavalue>
+            <cl:datavalue columnname="subject"><![CDATA[Please review the updated disclosure submission requirements.]]></cl:datavalue>
             <cl:datavalue columnname="from"><![CDATA[Listings & Disclosure]]></cl:datavalue>
             <cl:datavalue columnname="replyStatus"><![CDATA[open]]></cl:datavalue>
             <cl:datavalue columnname="date"><![CDATA[08252026011429]]></cl:datavalue>
@@ -307,7 +307,7 @@
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-csm000157" rowindex="0" colindex="1" columnname="subject">
-              <cl:button std:sid="button-csm000158" class="btn-row-height" value="Button" displayexp="switch(urgent){case &quot;1&quot; : subject + sstr(badge, [&quot;btn-grid-badge-red&quot;]) case &quot;&quot; : subject default : subject + sstr(badge, [&quot;btn-grid-badge-gray&quot;])}">
+              <cl:button std:sid="button-csm000158" value="Button" displayexp="switch(urgent){case &quot;1&quot; : subject + sstr(badge, [&quot;btn-grid-badge-red&quot;]) case &quot;&quot; : subject default : subject + sstr(badge, [&quot;btn-grid-badge-gray&quot;])}">
                 <cl:celldata std:sid="c-data-csm000159"/>
               </cl:button>
             </cl:gridcell>

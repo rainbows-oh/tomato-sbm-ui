@@ -90,6 +90,7 @@ var CPR_DEFAULTS = {
 			maxNotifyCount: 1,
 		},
 		output: {
+			dateValueFormat: "MMDDYYYYHHmmssSSS",
 			unselectable: false
 		},
 		pageindexer: {

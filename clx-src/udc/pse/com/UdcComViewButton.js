@@ -88,18 +88,24 @@ function onBodyPropertyChange(e) {
  * "Table view" 버튼(btnShowGrid)에서 click 이벤트 발생 시 호출.
  * 사용자가 컨트롤을 클릭할 때 발생하는 이벤트.
  */
-function onBtnShowGridClick2(e) {
+function onBtnShowGridClick(e) {
 	var btnShowGrid = e.control;
 
 	app.setAppProperty("value", "table");
+	
+	app.lookup("btnShowGrid").style.setClasses("btn-grid active");
+	app.lookup("btnShowCard").style.setClasses("btn-card");
 }
 
 /*
  * "Card view" 버튼(btnShowCard)에서 click 이벤트 발생 시 호출.
  * 사용자가 컨트롤을 클릭할 때 발생하는 이벤트.
  */
-function onBtnShowCardClick2(e) {
+function onBtnShowCardClick(e) {
 	var btnShowCard = e.control;
 
 	app.setAppProperty("value", "card");
+	
+	app.lookup("btnShowGrid").style.setClasses("btn-grid");
+	app.lookup("btnShowCard").style.setClasses("btn-card active");
 }

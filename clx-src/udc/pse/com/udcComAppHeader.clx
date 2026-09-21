@@ -1,9 +1,9 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-1bfcceb2" version="1.0.5186">
   <head std:sid="head-c44bf217">
-    <screen std:sid="screen-6a50664d" id="EXB-FULL" name="EXB-FULL" width="1580px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="true"/>
-    <screen std:sid="screen-470fd32c" id="EXB-DIV" name="EXB-DIV" width="1128px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
-    <screen std:sid="screen-6a87266a" id="EXB-PART" name="EXB-PART" width="672px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
+    <screen std:sid="screen-fbe639c8" id="EXB-FULL" name="EXB-FULL" width="1580px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="true"/>
+    <screen std:sid="screen-7eb23e79" id="EXB-DIV" name="EXB-DIV" width="1128px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
+    <screen std:sid="screen-056620c2" id="EXB-PART" name="EXB-PART" width="672px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
     <cl:model std:sid="model-f47cf99e"/>
     <cl:appspec dev-description="앱 헤더" title="앱 헤더">
       <cl:property name="title" type="string" default="타이틀을 입력하세요" bindable="true" std:desc="[String] 앱타이틀"/>
@@ -18,7 +18,7 @@
       <cl:property name="ignoreTreeIds" type="string" std:desc="[String] 트리 초기화 시, 제외할 트리 ID&#xD;&#xA;&#xD;&#xA;콤마(,)로 연결하여 여러 개의 트리를 작성 할 수 있으며, 작성한 트리 ID는 앱 로드시 트리 초기화에서 제외됩니다."/>
     </cl:appspec>
   </head>
-  <body std:sid="body-264c4ad9" style="top:0px; left:0px; width:900px; height:100px;" class="app-header">
+  <body std:sid="body-264c4ad9" style="top:0px; left:0px; width:900px; height:32px;" class="app-header">
     <cl:listener std:sid="listener-e2975343" name="load" handler="onBodyLoad"/>
     <cl:listener std:sid="listener-f0c29aac" name="screen-change" handler="onBodyScreenChange"/>
     <cl:attribute name="mobile-column-count" value="1"/>
