@@ -8,7 +8,7 @@
     <cl:appspec/>
   </head>
   <body std:sid="body-6585a0fc">
-    <cl:group comment="content-header -> page-title-wrap" std:sid="group-0319b359" id="grpHeader" class="page-title-wrap">
+    <cl:group std:sid="group-0319b359" id="grpHeader" class="page-title-wrap">
       <cl:verticaldata std:sid="v-data-dddbbb01" width="1024px" height="57px" autosize="height" sticky="true"/>
       <cl:udc std:sid="ud-control-1d70da47" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
         <cl:formdata std:sid="f-data-dc4ac2b2" row="0" col="0"/>
@@ -26,7 +26,7 @@
         <cl:columns length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
       </cl:formlayout>
     </cl:group>
-    <cl:group comment="content-body -> inner" std:sid="group-0b464f24" id="grpData" class="inner">
+    <cl:group std:sid="group-0b464f24" id="grpData" class="inner">
       <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="502px" autosize="height"/>
       <cl:group std:sid="group-b5aa1204" id="grpTotal" class="card type01">
         <cl:verticaldata std:sid="v-data-6ec449da" width="1024px" height="62px" autosize="height"/>
@@ -67,9 +67,9 @@
           <cl:columns length="1" unit="FRACTION"/>
         </cl:formlayout>
       </cl:group>
-      <cl:group comment="content -> section" std:sid="group-c9d6abb5" id="grpContent" class="section">
+      <cl:group std:sid="group-c9d6abb5" id="grpContent" class="section">
         <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="376px" autosize="height"/>
-        <cl:group std:sid="group-af64787d" id="grpContentResult">
+        <cl:group std:sid="group-af64787d">
           <cl:verticaldata std:sid="v-data-3a1524af" width="944px" height="32px" autosize="height"/>
           <cl:output std:sid="output-12ab8723" id="opt14" class="sch-info" value="8" displayexp="text + &quot; users&quot;">
             <cl:flowlayoutdata std:sid="f-data-2d07c3b3" width="100px" height="32px" autosize="both"/>

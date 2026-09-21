@@ -58,7 +58,7 @@
     <cl:appspec/>
   </head>
   <body std:sid="body-cm000015">
-    <cl:group std:sid="group-cm000016" class="page-title-wrap">
+    <cl:group std:sid="group-cm000016" id="grpHeader" class="page-title-wrap">
       <cl:verticaldata std:sid="v-data-cm000017" width="1024px" height="56px" autosize="height" sticky="true" stickytopoffset="0"/>
       <cl:group std:sid="group-cm000020" class="btn-wrap">
         <cl:formdata std:sid="f-data-cm000021" valign="FILL" height="32" row="0" col="1"/>
@@ -81,7 +81,7 @@
     </cl:group>
     <cl:group std:sid="group-cm000028" id="grpBody" class="inner">
       <cl:verticaldata std:sid="v-data-cm000029" width="1024px" height="685px" autosize="height"/>
-      <cl:group std:sid="group-cm000030" class="section">
+      <cl:group std:sid="group-cm000030" id="grpContent" class="section">
         <cl:verticaldata std:sid="v-data-cm000031" width="976px" height="637px" autosize="height"/>
         <cl:group std:sid="group-cm000032" class="search-list-top">
           <cl:verticaldata std:sid="v-data-cm000033" width="400px" height="64px" autosize="height"/>

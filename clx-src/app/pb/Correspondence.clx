@@ -58,7 +58,7 @@
     <cl:appspec/>
   </head>
   <body std:sid="body-csm000015">
-    <cl:group std:sid="group-csm000016" class="page-title-wrap">
+    <cl:group std:sid="group-csm000016" id="grpHeader" class="page-title-wrap">
       <cl:verticaldata std:sid="v-data-csm000017" width="1024px" height="56px" autosize="height" sticky="true" stickytopoffset="0"/>
       <cl:group std:sid="group-csm000020" class="btn-wrap">
         <cl:formdata std:sid="f-data-csm000021" valign="FILL" height="32" row="0" col="1"/>
@@ -74,8 +74,8 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-csm000024" id="grpBody" class="inner">
-      <cl:verticaldata std:sid="v-data-csm000025" width="1024px" height="1152px" autosize="height"/>
-      <cl:group std:sid="group-csm000026" class="search-top-box active">
+      <cl:verticaldata std:sid="v-data-csm000025" width="1024px" height="1103px" autosize="height"/>
+      <cl:group std:sid="group-csm000026" id="grpSearch" class="search-top-box">
         <cl:verticaldata std:sid="v-data-csm000027" width="976px" height="402px" autosize="height"/>
         <cl:group std:sid="group-csm000028" class="search-head">
           <cl:verticaldata std:sid="v-data-csm000029" width="974px" height="81px" autosize="height"/>
@@ -262,8 +262,8 @@
         </cl:group>
         <cl:verticallayout std:sid="v-layout-csm000125" scrollable="false" spacing="0"/>
       </cl:group>
-      <cl:group std:sid="group-csm000126" class="section">
-        <cl:verticaldata std:sid="v-data-csm000127" width="400px" height="686px" autosize="height"/>
+      <cl:group std:sid="group-csm000126" id="grpContent" class="section">
+        <cl:verticaldata std:sid="v-data-csm000127" width="976px" height="637px" autosize="height"/>
         <cl:group std:sid="group-csm000128" class="search-list-top">
           <cl:verticaldata std:sid="v-data-csm000129" width="400px" height="64px" autosize="height"/>
           <cl:output std:sid="output-csm000130" class="sch-info" value="12" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; correspondence items&quot;">

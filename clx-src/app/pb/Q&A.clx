@@ -63,7 +63,7 @@
     <cl:appspec/>
   </head>
   <body std:sid="body-qas000016">
-    <cl:group std:sid="group-qas000017" class="page-title-wrap">
+    <cl:group std:sid="group-qas000017" id="grpHeader" class="page-title-wrap">
       <cl:verticaldata std:sid="v-data-qas000018" width="1024px" height="56px" autosize="height" sticky="true" stickytopoffset="0"/>
       <cl:udc std:sid="ud-control-086a9a4e" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
         <cl:formdata std:sid="f-data-6a316ed8" row="0" col="0"/>
@@ -82,8 +82,8 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-qas000027" id="grpBody" class="inner">
-      <cl:verticaldata std:sid="v-data-qas000028" width="1024px" height="1078px" autosize="height"/>
-      <cl:group std:sid="group-qas000029" class="search-top-box active">
+      <cl:verticaldata std:sid="v-data-qas000028" width="1024px" height="1052px" autosize="height"/>
+      <cl:group std:sid="group-qas000029" id="grpSearch" class="search-top-box">
         <cl:verticaldata std:sid="v-data-qas000030" width="976px" height="328px" autosize="height"/>
         <cl:group std:sid="group-qas000031" class="search-head">
           <cl:verticaldata std:sid="v-data-qas000032" width="974px" height="81px" autosize="height"/>
@@ -209,8 +209,8 @@
         </cl:group>
         <cl:verticallayout std:sid="v-layout-qas000100" scrollable="false" spacing="0"/>
       </cl:group>
-      <cl:group std:sid="group-qas000101" class="section">
-        <cl:verticaldata std:sid="v-data-qas000102" width="400px" height="686px" autosize="height"/>
+      <cl:group std:sid="group-qas000101" id="grpContent" class="section">
+        <cl:verticaldata std:sid="v-data-qas000102" width="976px" height="660px" autosize="height"/>
         <cl:group std:sid="group-qas000103" class="search-list-top">
           <cl:verticaldata std:sid="v-data-qas000104" width="400px" height="64px" autosize="height"/>
           <cl:output std:sid="output-qas000105" class="sch-info" value="12" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; questions&quot;">
