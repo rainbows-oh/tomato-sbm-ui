@@ -62,7 +62,7 @@
       <cl:verticaldata std:sid="v-data-cm000017" width="1024px" height="56px" autosize="height" sticky="true" stickytopoffset="0"/>
       <cl:group std:sid="group-cm000020" class="btn-wrap">
         <cl:formdata std:sid="f-data-cm000021" valign="FILL" height="32" row="0" col="1"/>
-        <cl:button std:sid="button-cm000022" class="btn-base" value="Logo" icon="0">
+        <cl:button std:sid="button-cm000022" class="btn-base" value="Logo">
           <cl:flowlayoutdata std:sid="f-data-cm000023" width="86px" height="32px" autosize="width"/>
         </cl:button>
         <cl:button std:sid="button-cm000024" class="btn-add" value="Update Company Info" icon="0">
