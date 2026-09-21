@@ -146,7 +146,7 @@
   <body std:sid="body-8413b667" class="subpage">
     <cl:listener std:sid="listener-e63895b8" name="load" handler="onBodyLoad"/>
     <cl:listener std:sid="listener-1b98a858" name="before-unload" handler="onBodyBeforeUnload"/>
-    <cl:udc std:sid="ud-control-7756a4bf" id="udccomappheader1" type="udc.com.udcComAppHeader">
+    <cl:udc std:sid="ud-control-7756a4bf" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
       <cl:verticaldata std:sid="v-data-8d7c7504" width="800px" height="30px" autosize="height"/>
       <cl:property name="titile" value="차트" type="string"/>
     </cl:udc>

@@ -1,194 +1,192 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-ab4e79cf" version="1.0.6164">
-  <head std:sid="head-fef2a59d">
-    <screen std:sid="screen-fce5e969" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
-    <screen std:sid="screen-5dac1053" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
-    <screen std:sid="screen-74b548ad" id="EXB-PART" name="EXB-PART" width="360px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
-    <cl:model std:sid="model-e918cc57">
-      <cl:dataset std:sid="d-set-4f33ee41" id="ds1">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-cm000001" version="1.0.6190">
+  <head std:sid="head-cm000002">
+    <screen std:sid="screen-cm000003" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-cm000004" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-cm000005" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-cm000006">
+      <cl:dataset std:sid="d-set-cm000007" id="dsList">
         <cl:datacolumnlist>
-          <cl:datacolumn comment="Version" std:sid="d-column-e6260290" name="column1"/>
-          <cl:datacolumn comment="Submission Date and Time" std:sid="d-column-a18942ab" name="column2" datatype="string"/>
-          <cl:datacolumn comment="Submitted By" std:sid="d-column-e68e4cc7" name="column3"/>
-          <cl:datacolumn comment="Endorsed To" std:sid="d-column-6102104e" name="column4"/>
-          <cl:datacolumn comment="Approver Result" std:sid="d-column-32ddd0ab" name="column5"/>
-          <cl:datacolumn comment="PSE Admin Result" std:sid="d-column-eb908891" name="column6"/>
-          <cl:datacolumn comment="Final Status" std:sid="d-column-20bed57a" name="column7"/>
+          <cl:datacolumn comment="Version" std:sid="d-column-cm000008" name="version"/>
+          <cl:datacolumn comment="Submission Date and Time" std:sid="d-column-cm000009" name="submissionDate"/>
+          <cl:datacolumn comment="Submitted By" std:sid="d-column-cm000010" name="submittedBy"/>
+          <cl:datacolumn comment="Endorsed To" std:sid="d-column-cm000011" name="endorsedTo"/>
+          <cl:datacolumn comment="Approver Result" std:sid="d-column-cm000012" name="approverResult"/>
+          <cl:datacolumn comment="PSE Admin Result" std:sid="d-column-cm000013" name="pseAdminResult"/>
+          <cl:datacolumn comment="Final Status" std:sid="d-column-cm000014" name="finalStatus"/>
         </cl:datacolumnlist>
         <cl:datarowlist>
           <cl:datarow>
-            <cl:datavalue columnname="column1"><![CDATA[1]]></cl:datavalue>
-            <cl:datavalue columnname="column2"><![CDATA[08-20-2026 09:12:44 AM]]></cl:datavalue>
-            <cl:datavalue columnname="column3"><![CDATA[Alex Thompson]]></cl:datavalue>
-            <cl:datavalue columnname="column4"><![CDATA[Alex Thompson]]></cl:datavalue>
-            <cl:datavalue columnname="column5"><![CDATA[Pending]]></cl:datavalue>
-            <cl:datavalue columnname="column6"><![CDATA[Not started]]></cl:datavalue>
-            <cl:datavalue columnname="column7"><![CDATA[Pending Approval]]></cl:datavalue>
+            <cl:datavalue columnname="version"><![CDATA[1]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[08202026091244]]></cl:datavalue>
+            <cl:datavalue columnname="submittedBy"><![CDATA[Alex Thompson]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Alex Thompson]]></cl:datavalue>
+            <cl:datavalue columnname="approverResult"><![CDATA[pending]]></cl:datavalue>
+            <cl:datavalue columnname="pseAdminResult"><![CDATA[notStarted]]></cl:datavalue>
+            <cl:datavalue columnname="finalStatus"><![CDATA[pendingApproval]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
-            <cl:datavalue columnname="column1"><![CDATA[2]]></cl:datavalue>
-            <cl:datavalue columnname="column2"><![CDATA[08-20-2026 09:12:44 AM]]></cl:datavalue>
-            <cl:datavalue columnname="column3"><![CDATA[Alex Thompson]]></cl:datavalue>
-            <cl:datavalue columnname="column4"><![CDATA[Alex Thompson]]></cl:datavalue>
-            <cl:datavalue columnname="column5"><![CDATA[Approved]]></cl:datavalue>
-            <cl:datavalue columnname="column6"><![CDATA[Rejected]]></cl:datavalue>
-            <cl:datavalue columnname="column7"><![CDATA[Rejected]]></cl:datavalue>
+            <cl:datavalue columnname="version"><![CDATA[2]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[08202026091244]]></cl:datavalue>
+            <cl:datavalue columnname="submittedBy"><![CDATA[Alex Thompson]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Alex Thompson]]></cl:datavalue>
+            <cl:datavalue columnname="approverResult"><![CDATA[approved]]></cl:datavalue>
+            <cl:datavalue columnname="pseAdminResult"><![CDATA[rejected]]></cl:datavalue>
+            <cl:datavalue columnname="finalStatus"><![CDATA[rejected]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
-            <cl:datavalue columnname="column1"><![CDATA[3]]></cl:datavalue>
-            <cl:datavalue columnname="column2"><![CDATA[08-20-2026 09:12:44 AM]]></cl:datavalue>
-            <cl:datavalue columnname="column3"><![CDATA[Alex Thompson]]></cl:datavalue>
-            <cl:datavalue columnname="column4"><![CDATA[Alex Thompson]]></cl:datavalue>
-            <cl:datavalue columnname="column5"><![CDATA[Rejected]]></cl:datavalue>
-            <cl:datavalue columnname="column6"><![CDATA[Not started]]></cl:datavalue>
-            <cl:datavalue columnname="column7"><![CDATA[Rejected]]></cl:datavalue>
+            <cl:datavalue columnname="version"><![CDATA[3]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[08202026091244]]></cl:datavalue>
+            <cl:datavalue columnname="submittedBy"><![CDATA[Alex Thompson]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Alex Thompson]]></cl:datavalue>
+            <cl:datavalue columnname="approverResult"><![CDATA[rejected]]></cl:datavalue>
+            <cl:datavalue columnname="pseAdminResult"><![CDATA[notStarted]]></cl:datavalue>
+            <cl:datavalue columnname="finalStatus"><![CDATA[rejected]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
-            <cl:datavalue columnname="column1"><![CDATA[4]]></cl:datavalue>
-            <cl:datavalue columnname="column2"><![CDATA[08-20-2026 09:12:44 AM]]></cl:datavalue>
-            <cl:datavalue columnname="column3"><![CDATA[Alex Thompson]]></cl:datavalue>
-            <cl:datavalue columnname="column4"><![CDATA[Alex Thompson]]></cl:datavalue>
-            <cl:datavalue columnname="column5"><![CDATA[Approved]]></cl:datavalue>
-            <cl:datavalue columnname="column6"><![CDATA[Approved]]></cl:datavalue>
-            <cl:datavalue columnname="column7"><![CDATA[Approved]]></cl:datavalue>
+            <cl:datavalue columnname="version"><![CDATA[4]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[08202026091244]]></cl:datavalue>
+            <cl:datavalue columnname="submittedBy"><![CDATA[Alex Thompson]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Alex Thompson]]></cl:datavalue>
+            <cl:datavalue columnname="approverResult"><![CDATA[approved]]></cl:datavalue>
+            <cl:datavalue columnname="pseAdminResult"><![CDATA[approved]]></cl:datavalue>
+            <cl:datavalue columnname="finalStatus"><![CDATA[approved]]></cl:datavalue>
           </cl:datarow>
         </cl:datarowlist>
       </cl:dataset>
     </cl:model>
     <cl:appspec/>
   </head>
-  <body std:sid="body-6585a0fc">
-    <cl:group std:sid="group-0319b359" id="grpHeader" class="content-header">
-      <cl:verticaldata std:sid="v-data-dddbbb01" width="1024px" height="57px" autosize="height" sticky="true"/>
-      <cl:udc std:sid="ud-control-1d70da47" id="udccomappheader1" type="udc.com.udcComAppHeader">
-        <cl:formdata std:sid="f-data-dc4ac2b2" row="0" col="0"/>
-      </cl:udc>
-      <cl:group std:sid="group-d1de98a3" id="grp3" class="btn-group">
-        <cl:formdata std:sid="f-data-e5a11c32" row="0" col="1"/>
-        <cl:button std:sid="button-cb2440ed" id="btn2" class="btn-inline btn-logo" value="Logo" icon="0">
-          <cl:flowlayoutdata std:sid="f-data-22856876" width="100px" height="32px" autosize="width"/>
+  <body std:sid="body-cm000015">
+    <cl:group std:sid="group-cm000016" class="page-title-wrap">
+      <cl:verticaldata std:sid="v-data-cm000017" width="1024px" height="56px" autosize="height" sticky="true" stickytopoffset="0"/>
+      <cl:group std:sid="group-cm000020" class="btn-wrap">
+        <cl:formdata std:sid="f-data-cm000021" valign="FILL" height="32" row="0" col="1"/>
+        <cl:button std:sid="button-cm000022" class="btn-base" value="Logo" icon="0">
+          <cl:flowlayoutdata std:sid="f-data-cm000023" width="86px" height="32px" autosize="width"/>
         </cl:button>
-        <cl:button std:sid="button-16448066" id="btn1" class="btn-add" value="Update Company Info" icon="0">
-          <cl:flowlayoutdata std:sid="f-data-14ccac92" width="140px" height="32px" autosize="width"/>
+        <cl:button std:sid="button-cm000024" class="btn-add" value="Update Company Info" icon="0">
+          <cl:flowlayoutdata std:sid="f-data-cm000025" width="180px" height="32px" autosize="width"/>
         </cl:button>
-        <cl:flowlayout std:sid="f-layout-ea5ceda2" halign="right"/>
+        <cl:flowlayout std:sid="f-layout-cm000026" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
       </cl:group>
-      <cl:formlayout std:sid="f-layout-631b2075" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-        <cl:rows length="32" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-        <cl:columns length="512" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-        <cl:columns length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+      <cl:udc std:sid="ud-control-a245490b" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
+        <cl:formdata std:sid="f-data-b53b218e" row="0" col="0"/>
+      </cl:udc>
+      <cl:formlayout std:sid="f-layout-cm000027" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="1" unit="FRACTION"/>
+        <cl:columns length="1" unit="FRACTION"/>
+        <cl:columns length="300" unit="PIXEL" autoSizing="true" syncminlength="false"/>
       </cl:formlayout>
     </cl:group>
-    <cl:group std:sid="group-0b464f24" id="grpData" class="content-body">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="742px" autosize="height"/>
-      <cl:group std:sid="group-c9d6abb5" id="grpContent" class="content">
-        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="642px" autosize="height"/>
-        <cl:group std:sid="group-41bf4708" id="grpContentTop" class="content-top">
-          <cl:attribute name="mobile-column-count" value="1"/>
-          <cl:verticaldata std:sid="v-data-4e757330" width="976px" height="32px" autosize="height"/>
-          <cl:group std:sid="group-5cc370db" id="grpContentResult" class="content-result">
-            <cl:attribute name="needs-auto-height" value="true"/>
-            <cl:formdata std:sid="f-data-55cbdd1c" valign="FILL" height="20" row="0" col="0"/>
-            <cl:output std:sid="output-4688dc71" id="opt1" value="4" displayexp="text + &quot; company information update versions&quot;">
-              <cl:flowlayoutdata std:sid="f-data-83451f1c" width="344px" height="20px" autosize="both"/>
-            </cl:output>
-            <cl:flowlayout std:sid="f-layout-c6477825" scrollable="false" hspacing="4" vspacing="4" leftmargin="0" rightmargin="0" topmargin="6" bottommargin="6"/>
-          </cl:group>
-          <cl:group std:sid="group-3d8dd200" id="grpContentBtns" class="btn-group">
-            <cl:formdata std:sid="f-data-b1de6736" row="0" col="1" rowspan="1" colspan="1"/>
-            <cl:udc std:sid="ud-control-9031ffa8" id="udccomcontenttogglebtn1" type="udc.com.udcComContentToggleBtn">
-              <cl:flowlayoutdata std:sid="f-data-41ae8583" width="68px" height="32px"/>
-              <cl:property name="gridGroup" value="grd" type="control"/>
-              <cl:property name="cardGroup" value="grpCard" type="control"/>
+    <cl:group std:sid="group-cm000028" id="grpBody" class="inner">
+      <cl:verticaldata std:sid="v-data-cm000029" width="1024px" height="685px" autosize="height"/>
+      <cl:group std:sid="group-cm000030" class="section">
+        <cl:verticaldata std:sid="v-data-cm000031" width="976px" height="637px" autosize="height"/>
+        <cl:group std:sid="group-cm000032" class="search-list-top">
+          <cl:verticaldata std:sid="v-data-cm000033" width="400px" height="64px" autosize="height"/>
+          <cl:output std:sid="output-cm000034" class="sch-info" value="4" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; company information update versions&quot;">
+            <cl:formdata std:sid="f-data-cm000035" row="0" col="0"/>
+          </cl:output>
+          <cl:group std:sid="group-cm000036">
+            <cl:formdata std:sid="f-data-cm000037" row="0" col="1"/>
+            <cl:udc std:sid="ud-control-cm000038" id="udccomviewbutton1" type="udc.pse.com.UdcComViewButton">
+              <cl:flowlayoutdata std:sid="f-data-cm000039" width="68px" height="32px" autosize="both"/>
+              <cl:property name="targetTable" value="grpGridSection" type="control"/>
+              <cl:property name="targetCard" value="grpCardSection" type="control"/>
             </cl:udc>
-            <cl:flowlayout std:sid="f-layout-ab2f9747" halign="right"/>
+            <cl:flowlayout std:sid="f-layout-cm000040" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
           </cl:group>
-          <cl:formlayout std:sid="f-layout-a13438d1" scrollable="false" hspace="12px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-            <cl:rows length="32" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-            <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
-            <cl:columns length="488" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          <cl:formlayout std:sid="f-layout-cm000041" scrollable="false" hspace="1fr" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="300" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="68" unit="PIXEL" autoSizing="true" syncminlength="false"/>
           </cl:formlayout>
         </cl:group>
-        <cl:grid std:sid="grid-43f52f03" id="grd" datasetid="ds1" autofit="1, 2, 3">
-          <cl:verticaldata std:sid="v-data-da3977da" width="976px" height="200px" autosize="height"/>
-          <cl:gridcolumn std:sid="g-column-716b89df" width="60px"/>
-          <cl:gridcolumn std:sid="g-column-0845e745"/>
-          <cl:gridcolumn std:sid="g-column-d52ec627"/>
-          <cl:gridcolumn std:sid="g-column-d6afa4db"/>
-          <cl:gridcolumn std:sid="g-column-be173b60" width="160px"/>
-          <cl:gridcolumn std:sid="g-column-52e12b34" width="160px"/>
-          <cl:gridcolumn std:sid="g-column-3bf1d55d" width="160px"/>
-          <cl:gridheader std:sid="gh-band-4c427810">
-            <cl:gridrow std:sid="g-row-669a558d" height="32px"/>
-            <cl:gridcell std:sid="gh-cell-928719b3" rowindex="0" colindex="0" targetcolumnname="column1" sortable="true" filterable="false" text="Version"/>
-            <cl:gridcell std:sid="gh-cell-6541844f" rowindex="0" colindex="1" targetcolumnname="column2" sortable="true" filterable="false" text="Submission Date and Time"/>
-            <cl:gridcell std:sid="gh-cell-239777da" rowindex="0" colindex="2" targetcolumnname="column3" sortable="true" filterable="false" text="Submitted By"/>
-            <cl:gridcell std:sid="gh-cell-71310902" rowindex="0" colindex="3" targetcolumnname="column4" sortable="true" filterable="false" text="Endorsed To"/>
-            <cl:gridcell std:sid="gh-cell-ff358264" rowindex="0" colindex="4" targetcolumnname="column5" sortable="true" filterable="false" text="Approver Result"/>
-            <cl:gridcell std:sid="gh-cell-0c7b60ff" rowindex="0" colindex="5" targetcolumnname="column6" sortable="true" filterable="false" text="PSE Admin Result"/>
-            <cl:gridcell std:sid="gh-cell-39d6ac3f" rowindex="0" colindex="6" targetcolumnname="column7" sortable="true" filterable="false" text="Final Status"/>
+        <cl:grid std:sid="grid-cm000042" id="grpGridSection" datasetid="dsList" autofit="1, 2, 3, 4, 5, 6" resizablecolumns="all" columnMovable="true">
+          <cl:verticaldata std:sid="v-data-cm000043" width="400px" height="200px" autosize="height"/>
+          <cl:gridcolumn std:sid="g-column-cm000044" width="72px"/>
+          <cl:gridcolumn std:sid="g-column-cm000045" width="190px"/>
+          <cl:gridcolumn std:sid="g-column-cm000046" width="160px"/>
+          <cl:gridcolumn std:sid="g-column-cm000047" width="160px"/>
+          <cl:gridcolumn std:sid="g-column-cm000048" width="140px"/>
+          <cl:gridcolumn std:sid="g-column-cm000049" width="140px"/>
+          <cl:gridcolumn std:sid="g-column-cm000050" width="140px"/>
+          <cl:gridheader std:sid="gh-band-cm000051">
+            <cl:gridrow std:sid="g-row-cm000052" height="32px"/>
+            <cl:gridcell std:sid="gh-cell-cm000053" rowindex="0" colindex="0" targetcolumnname="version" sortable="true" filterable="false" text="Version"/>
+            <cl:gridcell std:sid="gh-cell-cm000054" rowindex="0" colindex="1" targetcolumnname="submissionDate" sortable="true" filterable="false" text="Submission Date and Time"/>
+            <cl:gridcell std:sid="gh-cell-cm000055" rowindex="0" colindex="2" targetcolumnname="submittedBy" sortable="true" filterable="false" text="Submitted By"/>
+            <cl:gridcell std:sid="gh-cell-cm000056" rowindex="0" colindex="3" targetcolumnname="endorsedTo" sortable="true" filterable="false" text="Endorsed To"/>
+            <cl:gridcell std:sid="gh-cell-cm000057" rowindex="0" colindex="4" targetcolumnname="approverResult" sortable="true" filterable="false" text="Approver Result"/>
+            <cl:gridcell std:sid="gh-cell-cm000058" rowindex="0" colindex="5" targetcolumnname="pseAdminResult" sortable="true" filterable="false" text="PSE Admin Result"/>
+            <cl:gridcell std:sid="gh-cell-cm000059" rowindex="0" colindex="6" targetcolumnname="finalStatus" sortable="true" filterable="false" text="Final Status"/>
           </cl:gridheader>
-          <cl:griddetail std:sid="gd-band-9d9a1b13">
-            <cl:gridrow std:sid="g-row-a3b55d98" height="50px"/>
-            <cl:gridcell std:sid="gd-cell-52530c43" rowindex="0" colindex="0" columntype="rowindex" columnname="column1"/>
-            <cl:gridcell std:sid="gd-cell-025673d9" rowindex="0" colindex="1" columnname="column2">
-              <cl:output std:sid="output-bdc042ce" id="opt14">
-                <cl:celldata std:sid="c-data-bf577fd2"/>
+          <cl:griddetail std:sid="gd-band-cm000060">
+            <cl:gridrow std:sid="g-row-cm000061" height="50px"/>
+            <cl:gridcell std:sid="gd-cell-cm000062" rowindex="0" colindex="0" columnname="version">
+              <cl:button std:sid="button-cm000063" class="btn-link" value="Button">
+                <cl:celldata std:sid="c-data-cm000064"/>
+              </cl:button>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-cm000065" rowindex="0" colindex="1" columnname="submissionDate">
+              <cl:output std:sid="output-cm000066" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+                <cl:celldata std:sid="c-data-cm000067"/>
               </cl:output>
             </cl:gridcell>
-            <cl:gridcell std:sid="gd-cell-0ef04800" rowindex="0" colindex="2" columnname="column3">
-              <cl:output std:sid="output-8bbea4ce" id="opt28">
-                <cl:celldata std:sid="c-data-e0ef5a0f"/>
+            <cl:gridcell std:sid="gd-cell-cm000068" rowindex="0" colindex="2" columnname="submittedBy">
+              <cl:output std:sid="output-cm000069">
+                <cl:celldata std:sid="c-data-cm000070"/>
               </cl:output>
             </cl:gridcell>
-            <cl:gridcell std:sid="gd-cell-cb0af98d" rowindex="0" colindex="3" columnname="column4">
-              <cl:output std:sid="output-c228437a" id="opt45">
-                <cl:celldata std:sid="c-data-13328330"/>
+            <cl:gridcell std:sid="gd-cell-cm000071" rowindex="0" colindex="3" columnname="endorsedTo">
+              <cl:output std:sid="output-cm000072">
+                <cl:celldata std:sid="c-data-cm000073"/>
               </cl:output>
             </cl:gridcell>
-            <cl:gridcell std:sid="gd-cell-0a233498" rowindex="0" colindex="4" columnname="column5">
-              <cl:output std:sid="output-e1243590" id="opt46" displayexp="switch(column5){&#xD;&#xA;&#x9;case &quot;Approved&quot; : sstr(&quot;Approved&quot;, [&quot;badge soft success&quot;])&#xD;&#xA;&#x9;case &quot;Pending&quot; : sstr(&quot;Pending&quot;, [&quot;badge soft warning&quot;])&#xD;&#xA;&#x9;default : sstr(&quot;Rejected&quot;, [&quot;badge soft danger&quot;])&#xD;&#xA;}">
-                <cl:celldata std:sid="c-data-2b8e15d6" topSpacing="0.0" bottomSpacing="0.0" leftSpacing="0.0" rightSpacing="0.0"/>
+            <cl:gridcell std:sid="gd-cell-cm000074" rowindex="0" colindex="4" columnname="approverResult">
+              <cl:output std:sid="output-cm000075" displayexp="sstr(switch(approverResult){case &quot;pending&quot; : &quot;Pending&quot; case &quot;approved&quot; : &quot;Approved&quot; case &quot;rejected&quot; : &quot;Rejected&quot; default : &quot;-&quot;}, switch(approverResult){case &quot;pending&quot; : &quot;badge soft warning&quot; case &quot;approved&quot; : &quot;badge soft success&quot; case &quot;rejected&quot; : &quot;badge soft danger&quot; default : &quot;badge soft information&quot;})">
+                <cl:celldata std:sid="c-data-cm000076"/>
               </cl:output>
             </cl:gridcell>
-            <cl:gridcell std:sid="gd-cell-ebd44d18" rowindex="0" colindex="5" columnname="column6">
-              <cl:output std:sid="output-235c2e06" id="opt42" displayexp="switch(column6){&#xD;&#xA;&#x9;case &quot;Approved&quot; : sstr(&quot;Approved&quot;, [&quot;badge soft success&quot;])&#xD;&#xA;&#x9;case &quot;Not started&quot; : sstr(&quot;Not started&quot;, [&quot;badge soft warning&quot;])&#xD;&#xA;&#x9;default : sstr(&quot;Rejected&quot;, [&quot;badge soft danger&quot;])&#xD;&#xA;}">
-                <cl:celldata std:sid="c-data-acea9be8"/>
+            <cl:gridcell std:sid="gd-cell-cm000077" rowindex="0" colindex="5" columnname="pseAdminResult">
+              <cl:output std:sid="output-cm000078" displayexp="sstr(switch(pseAdminResult){case &quot;notStarted&quot; : &quot;Not started&quot; case &quot;approved&quot; : &quot;Approved&quot; case &quot;rejected&quot; : &quot;Rejected&quot; default : &quot;-&quot;}, switch(pseAdminResult){case &quot;notStarted&quot; : &quot;badge soft warning&quot; case &quot;approved&quot; : &quot;badge soft success&quot; case &quot;rejected&quot; : &quot;badge soft danger&quot; default : &quot;badge soft information&quot;})">
+                <cl:celldata std:sid="c-data-cm000079"/>
               </cl:output>
             </cl:gridcell>
-            <cl:gridcell std:sid="gd-cell-959a71a0" rowindex="0" colindex="6" columnname="column7">
-              <cl:output std:sid="output-4daf9b25" id="opt43" displayexp="switch(column7){&#xD;&#xA;&#x9;case &quot;Approved&quot; : sstr(&quot;Approved&quot;, [&quot;badge soft success&quot;])&#xD;&#xA;&#x9;case &quot;Pending Approval&quot; : sstr(&quot;Pending Approval&quot;, [&quot;badge soft warning&quot;])&#xD;&#xA;&#x9;default : sstr(&quot;Rejected&quot;, [&quot;badge soft danger&quot;])&#xD;&#xA;}">
-                <cl:celldata std:sid="c-data-d418466c"/>
+            <cl:gridcell std:sid="gd-cell-cm000080" rowindex="0" colindex="6" columnname="finalStatus">
+              <cl:output std:sid="output-cm000081" displayexp="sstr(switch(finalStatus){case &quot;pendingApproval&quot; : &quot;Pending Approval&quot; case &quot;approved&quot; : &quot;Approved&quot; case &quot;rejected&quot; : &quot;Rejected&quot; default : &quot;-&quot;}, switch(finalStatus){case &quot;pendingApproval&quot; : &quot;badge soft warning&quot; case &quot;approved&quot; : &quot;badge soft success&quot; case &quot;rejected&quot; : &quot;badge soft danger&quot; default : &quot;badge soft information&quot;})">
+                <cl:celldata std:sid="c-data-cm000082"/>
               </cl:output>
             </cl:gridcell>
           </cl:griddetail>
         </cl:grid>
-        <cl:group std:sid="group-20876b71" id="grpCard" class="card-contents" visible="false">
-          <cl:verticaldata std:sid="v-data-a2e88243" width="976px" height="394px" autosize="height"/>
-          <cl:udc std:sid="ud-control-52d55fab" id="udccomcompanymanagementcard1" type="udc.com.udcComCompanyManagementCard">
-            <cl:formdata std:sid="f-data-6ea974e3" row="0" col="0"/>
+        <cl:group std:sid="group-1b791d41" id="grpCardSection" class="card-section" visible="false">
+          <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="313px" autosize="height"/>
+          <cl:udc std:sid="ud-control-8fe2ffed" id="udccomcompanymanagementcard1" type="udc.pse.com.udcComCompanyManagementCard">
+            <cl:formdata std:sid="f-data-5d7803f1" row="0" col="0"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-cda2a092" id="udccomcompanymanagementcard2" type="udc.com.udcComCompanyManagementCard">
-            <cl:formdata std:sid="f-data-6e8e56ba" row="0" col="1"/>
+          <cl:udc std:sid="ud-control-d32188be" id="udccomcompanymanagementcard2" type="udc.pse.com.udcComCompanyManagementCard">
+            <cl:formdata std:sid="f-data-12fbedbd" row="0" col="1"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-6daa2b1d" id="udccomcompanymanagementcard3" type="udc.com.udcComCompanyManagementCard">
-            <cl:formdata std:sid="f-data-c476d595" row="0" col="2"/>
+          <cl:udc std:sid="ud-control-116b3599" id="udccomcompanymanagementcard3" type="udc.pse.com.udcComCompanyManagementCard">
+            <cl:formdata std:sid="f-data-898a7ab7" row="0" col="2"/>
           </cl:udc>
-          <cl:formlayout std:sid="f-layout-d413d9c1" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-            <cl:rows length="1" unit="FRACTION" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+          <cl:formlayout std:sid="f-layout-9ec8d59e" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
             <cl:columns length="1" unit="FRACTION"/>
             <cl:columns length="1" unit="FRACTION"/>
             <cl:columns length="1" unit="FRACTION"/>
           </cl:formlayout>
         </cl:group>
-        <cl:verticallayout std:sid="v-layout-edd42a47"/>
+        <cl:udc std:sid="ud-control-cm000083" id="udccompagination1" type="udc.pse.com.UdcComPagination">
+          <cl:verticaldata std:sid="v-data-cm000084" width="1024px" height="60px" autosize="height"/>
+        </cl:udc>
+        <cl:verticallayout std:sid="v-layout-cm000085" scrollable="false" spacing="0"/>
       </cl:group>
-      <cl:udc std:sid="ud-control-40bf5d23" id="udccompageindexer_new1" type="udc.com.udcComPageindexer_new">
-        <cl:verticaldata std:sid="v-data-c0eec6ba" width="1000px" height="32px" autosize="none"/>
-      </cl:udc>
-      <cl:verticallayout std:sid="v-layout-9dda75e2" spacing="16" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+      <cl:verticallayout std:sid="v-layout-cm000086" scrollable="false" spacing="16" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>
-    <cl:verticallayout std:sid="v-layout-85c69965" spacing="0"/>
+    <cl:verticallayout std:sid="v-layout-cm000087" scrollable="true" spacing="0"/>
   </body>
   <std:studiosetting>
     <std:hruler/>

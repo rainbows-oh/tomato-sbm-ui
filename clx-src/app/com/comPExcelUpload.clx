@@ -102,7 +102,7 @@
   </head>
   <body std:sid="body-d424f3c6" style="top:0px; left:0px; width:800px; height:600px;" class="pop-content-wrapper" visible="true">
     <cl:listener std:sid="listener-eeeb85f6" name="load" handler="onBodyLoad"/>
-    <cl:udc std:sid="ud-control-60040a86" id="udccomappheader1" type="udc.com.udcComAppHeader">
+    <cl:udc std:sid="ud-control-60040a86" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
       <cl:formdata std:sid="f-data-04a91adb" row="0" col="0"/>
       <cl:property name="titile" value="엑셀 업로드팝업" type="string"/>
       <cl:property name="groupBoxIds" value="grpData" type="string"/>

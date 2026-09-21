@@ -93,7 +93,7 @@
   </head>
   <body std:sid="body-8413b667" class="subpage">
     <cl:listener std:sid="listener-fb91a991" name="load" handler="onBodyLoad2"/>
-    <cl:udc std:sid="ud-control-7756a4bf" id="udccomappheader1" type="udc.com.udcComAppHeader">
+    <cl:udc std:sid="ud-control-7756a4bf" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
       <cl:verticaldata std:sid="v-data-8d7c7504" width="800px" height="30px" autosize="height"/>
       <cl:property name="titile" value="파일 업로드" type="string"/>
     </cl:udc>

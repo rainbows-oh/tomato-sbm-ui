@@ -8,12 +8,12 @@
     <cl:appspec/>
   </head>
   <body std:sid="body-6585a0fc">
-    <cl:group std:sid="group-0319b359" id="grpHeader" class="content-header">
+    <cl:group comment="content-header -> page-title-wrap" std:sid="group-0319b359" id="grpHeader" class="page-title-wrap">
       <cl:verticaldata std:sid="v-data-dddbbb01" width="1024px" height="57px" autosize="height" sticky="true"/>
-      <cl:udc std:sid="ud-control-1d70da47" id="udccomappheader1" type="udc.com.udcComAppHeader">
+      <cl:udc std:sid="ud-control-1d70da47" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
         <cl:formdata std:sid="f-data-dc4ac2b2" row="0" col="0"/>
       </cl:udc>
-      <cl:group std:sid="group-d1de98a3" id="grp3" class="btn-group">
+      <cl:group std:sid="group-d1de98a3" id="grp3" class="btn-wrap">
         <cl:formdata std:sid="f-data-e5a11c32" row="0" col="1"/>
         <cl:button std:sid="button-3214795f" id="btn6" class="btn-add" value="Add New User" icon="0">
           <cl:flowlayoutdata std:sid="f-data-2dfac457" width="140px" height="32px" autosize="width"/>
@@ -26,8 +26,8 @@
         <cl:columns length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
       </cl:formlayout>
     </cl:group>
-    <cl:group std:sid="group-0b464f24" id="grpData" class="content-body">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="482px" autosize="height"/>
+    <cl:group comment="content-body -> inner" std:sid="group-0b464f24" id="grpData" class="inner">
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="502px" autosize="height"/>
       <cl:group std:sid="group-b5aa1204" id="grpTotal" class="card type01">
         <cl:verticaldata std:sid="v-data-6ec449da" width="1024px" height="62px" autosize="height"/>
         <cl:group std:sid="group-a32b676f" id="grp1">
@@ -67,45 +67,38 @@
           <cl:columns length="1" unit="FRACTION"/>
         </cl:formlayout>
       </cl:group>
-      <cl:group std:sid="group-c9d6abb5" id="grpContent" class="content">
-        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="364px" autosize="height"/>
-        <cl:group std:sid="group-41bf4708" id="grpContentTop" class="content-top">
-          <cl:verticaldata std:sid="v-data-4e757330" width="976px" height="32px" autosize="height"/>
-          <cl:group std:sid="group-af64787d" id="grpContentResult" class="content-result">
-            <cl:formdata std:sid="f-data-55cbdd1c" valign="FILL" height="20" row="0" col="0"/>
-            <cl:output std:sid="output-12ab8723" id="opt14" value="8" displayexp="text + &quot; users&quot;">
-              <cl:flowlayoutdata std:sid="f-data-2d07c3b3" width="100px" height="20px" autosize="both"/>
-            </cl:output>
-            <cl:output std:sid="output-cb2ef1fe" id="opt28" value="·">
-              <cl:flowlayoutdata std:sid="f-data-74df93ae" width="10px" height="20px" autosize="both"/>
-            </cl:output>
-            <cl:output std:sid="output-a8c4444a" id="opt42" value="5" displayexp="&quot;Maker &quot; + text + &quot;/&quot; + userAttr(&quot;total&quot;)">
-              <cl:attribute name="total" value="5"/>
-              <cl:flowlayoutdata std:sid="f-data-bcbd2195" width="100px" height="20px" autosize="both"/>
-            </cl:output>
-            <cl:output std:sid="output-05aec2ac" id="opt43" value="·">
-              <cl:flowlayoutdata std:sid="f-data-ce3d528d" width="10px" height="20px" autosize="both"/>
-            </cl:output>
-            <cl:output std:sid="output-ff8a47c2" id="opt44" value="4" displayexp="&quot;Maker &quot; + text + &quot;/&quot; + userAttr(&quot;total&quot;)">
-              <cl:attribute name="total" value="5"/>
-              <cl:flowlayoutdata std:sid="f-data-fa800847" width="100px" height="20px" autosize="both"/>
-            </cl:output>
-            <cl:flowlayout std:sid="f-layout-22074e2c" scrollable="false" hspacing="4" vspacing="4"/>
-          </cl:group>
-          <cl:formlayout std:sid="f-layout-a13438d1" scrollable="false" hspace="12px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-            <cl:rows length="32" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-            <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
-          </cl:formlayout>
+      <cl:group comment="content -> section" std:sid="group-c9d6abb5" id="grpContent" class="section">
+        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="376px" autosize="height"/>
+        <cl:group std:sid="group-af64787d" id="grpContentResult">
+          <cl:verticaldata std:sid="v-data-3a1524af" width="944px" height="32px" autosize="height"/>
+          <cl:output std:sid="output-12ab8723" id="opt14" class="sch-info" value="8" displayexp="text + &quot; users&quot;">
+            <cl:flowlayoutdata std:sid="f-data-2d07c3b3" width="100px" height="32px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-cb2ef1fe" id="opt28" class="sch-info" value="·">
+            <cl:flowlayoutdata std:sid="f-data-74df93ae" width="10px" height="32px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-a8c4444a" id="opt42" class="sch-info" value="5" displayexp="&quot;Maker &quot; + text + &quot;/&quot; + userAttr(&quot;total&quot;)">
+            <cl:attribute name="total" value="5"/>
+            <cl:flowlayoutdata std:sid="f-data-bcbd2195" width="100px" height="32px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-05aec2ac" id="opt43" class="sch-info" value="·">
+            <cl:flowlayoutdata std:sid="f-data-ce3d528d" width="10px" height="32px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-ff8a47c2" id="opt44" class="sch-info" value="4" displayexp="&quot;Maker &quot; + text + &quot;/&quot; + userAttr(&quot;total&quot;)">
+            <cl:attribute name="total" value="5"/>
+            <cl:flowlayoutdata std:sid="f-data-fa800847" width="100px" height="32px" autosize="both"/>
+          </cl:output>
+          <cl:flowlayout std:sid="f-layout-22074e2c" scrollable="false" hspacing="4" vspacing="4"/>
         </cl:group>
-        <cl:group std:sid="group-1b791d41" id="grpCard" class="card-contents">
+        <cl:group std:sid="group-1b791d41" id="grpCardSection" class="card-section">
           <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="336px" autosize="height"/>
-          <cl:udc std:sid="ud-control-de0d8b90" type="udc.com.udcComUserCard">
+          <cl:udc std:sid="ud-control-de0d8b90" type="udc.pse.com.udcComUserCard">
             <cl:formdata std:sid="f-data-50755924" row="0" col="0"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-eafde098" type="udc.com.udcComUserCard">
+          <cl:udc std:sid="ud-control-eafde098" type="udc.pse.com.udcComUserCard">
             <cl:formdata std:sid="f-data-a4a3c04a" row="0" col="1"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-63ab4ea3" type="udc.com.udcComUserCard">
+          <cl:udc std:sid="ud-control-63ab4ea3" type="udc.pse.com.udcComUserCard">
             <cl:formdata std:sid="f-data-0689e4e5" row="0" col="2"/>
           </cl:udc>
           <cl:formlayout std:sid="f-layout-d413d9c1" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
@@ -115,9 +108,9 @@
             <cl:columns length="1" unit="FRACTION"/>
           </cl:formlayout>
         </cl:group>
-        <cl:verticallayout std:sid="v-layout-edd42a47"/>
+        <cl:verticallayout std:sid="v-layout-edd42a47" spacing="8"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-9dda75e2" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+      <cl:verticallayout std:sid="v-layout-9dda75e2" spacing="16" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>
     <cl:verticallayout std:sid="v-layout-85c69965" spacing="0"/>
   </body>
