@@ -115,13 +115,13 @@
                   <cl:verticaldata std:sid="v-data-qas000049" width="457px" height="32px" autosize="height"/>
                   <cl:group std:sid="group-qas000050">
                     <cl:formdata std:sid="f-data-qas000051" row="0" col="0" rowspan="1" colspan="1"/>
-                    <cl:dateinput std:sid="d-input-qas000052" fieldLabel="Period" hidebutton="true" placeholder="MM-DD-YYYY">
+                    <cl:dateinput std:sid="d-input-qas000052" fieldLabel="Period start" hidebutton="true" placeholder="MM-DD-YYYY">
                       <cl:formdata std:sid="f-data-qas000053" row="0" col="0"/>
                     </cl:dateinput>
                     <cl:output std:sid="output-qas000054" value="~">
                       <cl:formdata std:sid="f-data-qas000055" row="0" col="1"/>
                     </cl:output>
-                    <cl:dateinput std:sid="d-input-qas000056" fieldLabel="Period" hidebutton="true" placeholder="MM-DD-YYYY">
+                    <cl:dateinput std:sid="d-input-qas000056" fieldLabel="Period end" hidebutton="true" placeholder="MM-DD-YYYY">
                       <cl:formdata std:sid="f-data-qas000057" row="0" col="2"/>
                     </cl:dateinput>
                     <cl:formlayout std:sid="f-layout-qas000058" scrollable="false" hspace="8px" vspace="8px">
