@@ -115,11 +115,17 @@ function onBodyLoad(e) {
 	util.FreeForm.createDynamicUdcForm(targetGroup, dsUser, "udc.com.udcComUserCard_temp", {
         columnCount: 3,         // 3열 배치
         rowHeight: "1fr",     // 카드 고정 높이
-        onCardClick: function(userData) {
-            // 카드를 클릭했을 때 각 화면별 개별 로직 수행
-            console.log("선택된 사용자 데이터:", userData);
-            util.AppStack.openLoadPage(app, "app/pb/CompanyManagement");
-        }
+		// UDC 내부의 여러 출판 이벤트를 Key-Value 형태로 전달
+		events: {
+			// UDC 바디 클릭 시
+			"userIdClick": function(rowData, index, udcInstance, e) {
+				console.log("userId 클릭:", rowData.userId);
+			},
+			// UDC 내부 '수정' 버튼 클릭 시 출판된 이벤트
+			"userNmClick": function(rowData, index, udcInstance, e) {
+				console.log("userNm 클릭:", rowData.userName);
+			}
+		}
     });
 }
 

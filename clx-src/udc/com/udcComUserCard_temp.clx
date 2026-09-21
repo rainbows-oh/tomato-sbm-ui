@@ -19,11 +19,11 @@
       </cl:datamap>
     </cl:model>
     <cl:appspec title="고객 카드">
-      <cl:event name="cardClick" type="cpr.events.CAppEvent"/>
+      <cl:event name="userIdClick" type="cpr.events.CAppEvent"/>
+      <cl:event name="userNmClick" type="cpr.events.CAppEvent"/>
     </cl:appspec>
   </head>
   <body std:sid="body-7dadf58f" style="top:0px; left:0px; width:300px; height:300px;">
-    <cl:listener std:sid="listener-9e7fcfc8" name="click" handler="onBodyClick"/>
     <cl:group std:sid="group-9b74addf" id="grp6" class="card type02">
       <cl:formdata std:sid="f-data-c19b9ab4" row="0" col="0"/>
       <cl:group std:sid="group-6a6eb9bd" id="grp7">
@@ -31,6 +31,7 @@
         <cl:group std:sid="group-8dc57400" id="grp29">
           <cl:formdata std:sid="f-data-e31b0370" row="0" col="0"/>
           <cl:button std:sid="button-6e223a62" id="btn5" class="c-tit-blue">
+            <cl:listener std:sid="listener-b08b4189" name="click" handler="onBtn5Click"/>
             <cl:datamapbind property="value" datacontrolid="dmUser" columnname="userId"/>
             <cl:flowlayoutdata std:sid="f-data-7c0f0102" width="47px" height="20px" autosize="width"/>
           </cl:button>
@@ -58,6 +59,7 @@
       <cl:group std:sid="group-9d82c18b" id="grp8">
         <cl:verticaldata std:sid="v-data-95041e7f" width="353px" height="45px" autosize="height"/>
         <cl:output std:sid="output-2557dbe6" id="opt4" class="c-tit-sub">
+          <cl:listener std:sid="listener-d8eb70b4" name="click" handler="onOpt4Click"/>
           <cl:datamapbind property="value" datacontrolid="dmUser" columnname="userName"/>
           <cl:verticaldata std:sid="v-data-c403166f" width="100px" height="20px" autosize="height"/>
         </cl:output>
