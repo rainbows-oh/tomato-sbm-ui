@@ -165,7 +165,7 @@
                   </cl:combobox>
                   <cl:formlayout std:sid="f-layout-csm000077" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
                     <cl:rows length="32" unit="PIXEL"/>
-                    <cl:columns length="274" unit="PIXEL"/>
+                    <cl:columns length="2" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
                     <cl:columns length="1" unit="FRACTION"/>
                   </cl:formlayout>
                 </cl:group>
@@ -203,7 +203,7 @@
                   </cl:combobox>
                   <cl:formlayout std:sid="f-layout-csm000096" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
                     <cl:rows length="32" unit="PIXEL"/>
-                    <cl:columns length="274" unit="PIXEL"/>
+                    <cl:columns length="2" unit="FRACTION"/>
                     <cl:columns length="1" unit="FRACTION"/>
                   </cl:formlayout>
                 </cl:group>

@@ -136,8 +136,8 @@
                   </cl:combobox>
                   <cl:formlayout std:sid="f-layout-qas000061" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
                     <cl:rows length="32" unit="PIXEL"/>
-                    <cl:columns length="274" unit="PIXEL"/>
-                    <cl:columns length="1" unit="FRACTION"/>
+                    <cl:columns length="2" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+                    <cl:columns length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
                   </cl:formlayout>
                 </cl:group>
                 <cl:verticallayout std:sid="v-layout-qas000062"/>
@@ -149,7 +149,8 @@
                   <cl:verticaldata std:sid="v-data-qas000066" width="100px" height="18px" autosize="height"/>
                 </cl:output>
                 <cl:checkboxgroup std:sid="cb-group-qas000067" fieldLabel="Status">
-                  <cl:verticaldata std:sid="v-data-qas000068" width="440px" height="32px" autosize="none"/>
+                  <cl:attribute name="needs-auto-height" value=""/>
+                  <cl:verticaldata std:sid="v-data-qas000068" width="440px" height="32px" syncminheight="true" autosize="height"/>
                   <cl:item std:sid="item-qas000069" label="Submitted" value="value1"/>
                   <cl:item std:sid="item-qas000070" label="Answered" value="value2"/>
                   <cl:item std:sid="item-qas000071" label="Closed" value="value3"/>
