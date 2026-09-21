@@ -5,7 +5,7 @@
     <screen std:sid="screen-bba2fe7d" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
     <screen std:sid="screen-cab4b96e" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
     <cl:model std:sid="model-9f428c95"/>
-    <cl:appspec title="그리드/카드 뷰 선택 버튼">
+    <cl:appspec title="뷰 선택 버튼(그리드/카드)">
       <cl:property name="value" type="enumeration" default="table" bindable="true" translatable="false" std:desc="Change view (Table or card)">
         <cl:available-value>table</cl:available-value>
         <cl:available-value>card</cl:available-value>
