@@ -85,7 +85,7 @@
             <cl:columns length="1" unit="FRACTION"/>
           </cl:formlayout>
         </cl:group>
-        <cl:img std:sid="image-f3c06abe" id="img1">
+        <cl:img std:sid="image-f3c06abe" id="img1" alt="logo image">
           <cl:formdata std:sid="f-data-73053b0b" halign="CENTER" valign="CENTER" width="64" height="64" row="0" col="1"/>
         </cl:img>
         <cl:formlayout std:sid="f-layout-cfabf988" scrollable="false" hspace="8px" vspace="8px" top-margin="16px" right-margin="16px" bottom-margin="16px" left-margin="16px" hseparatorwidth="0" vseparatorwidth="0">

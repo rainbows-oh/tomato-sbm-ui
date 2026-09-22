@@ -1,20 +1,20 @@
 /*******************************************************************************
  * Business Category :
- * Screen ID : CompanyManagement.js
- * Screen Name :
- * Created Date :  2026. 9. 19. 오후 3:00:00
- * Creator : ryu
+ * Screen ID : CompanyManagement_LogoDig.js
+ * Screen Name : 
+ * Created Date :  2026. 9. 22. 오후 1:08:36
+ * Creator : chwec
  * Revision History
  *******************************************************************************
  * Date				Name				Description
  *******************************************************************************
- *
+ * 
  *******************************************************************************/
 
 /*******************************************************************************
  * Common Module Area
  *******************************************************************************/
-var util = createCommonUtil();
+
 
 /*******************************************************************************
  * Business Common Module Area
@@ -35,7 +35,7 @@ var util = createCommonUtil();
 /*******************************************************************************
  * Validation Check Area
  *******************************************************************************/
-
+ 
 
 /*******************************************************************************
  * User-Defined JavaScript Functions
@@ -47,14 +47,3 @@ var util = createCommonUtil();
  * (Event functions are automatically displayed below when events are created.)
  *******************************************************************************/
 
-/*
- * "Logo" 버튼에서 click 이벤트 발생 시 호출.
- * 사용자가 컨트롤을 클릭할 때 발생하는 이벤트.
- */
-function onButtonClick(e) {
-	var button = e.control;
-	
-	util.Dialog.open(app, "app/pb/CompanyManagement_LogoDia", 400, -1, function(){
-		
-	});
-}

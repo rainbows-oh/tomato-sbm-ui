@@ -63,6 +63,7 @@
       <cl:group std:sid="group-cm000020" class="btn-wrap">
         <cl:formdata std:sid="f-data-cm000021" valign="FILL" height="32" row="0" col="1"/>
         <cl:button std:sid="button-cm000022" class="btn-base" value="Logo">
+          <cl:listener std:sid="listener-d17afb41" name="click" handler="onButtonClick"/>
           <cl:flowlayoutdata std:sid="f-data-cm000023" width="86px" height="32px" autosize="width"/>
         </cl:button>
         <cl:button std:sid="button-cm000024" class="btn-add" value="Update Company Info" icon="0">
