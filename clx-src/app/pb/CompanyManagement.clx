@@ -63,7 +63,7 @@
       <cl:group std:sid="group-cm000020" class="btn-wrap">
         <cl:formdata std:sid="f-data-cm000021" valign="FILL" height="32" row="0" col="1"/>
         <cl:button std:sid="button-cm000022" class="btn-base" value="Logo">
-          <cl:listener std:sid="listener-d17afb41" name="click" handler="onButtonClick"/>
+          <cl:listener std:sid="listener-9f0eb538" name="click" handler="onButtonClick2"/>
           <cl:flowlayoutdata std:sid="f-data-cm000023" width="86px" height="32px" autosize="width"/>
         </cl:button>
         <cl:button std:sid="button-cm000024" class="btn-add" value="Update Company Info" icon="0">
@@ -127,6 +127,7 @@
             <cl:gridrow std:sid="g-row-cm000061" height="50px"/>
             <cl:gridcell std:sid="gd-cell-cm000062" rowindex="0" colindex="0" columnname="version">
               <cl:button std:sid="button-cm000063" class="btn-link" value="Button">
+                <cl:listener std:sid="listener-c2f0b03b" name="click" handler="onButtonClick"/>
                 <cl:celldata std:sid="c-data-cm000064"/>
               </cl:button>
             </cl:gridcell>

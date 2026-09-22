@@ -68,7 +68,7 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-0b464f24" id="grpData" class="inner">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1974px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="2118px" autosize="height"/>
       <cl:group std:sid="group-90449c9b" id="grp2" class="card type03">
         <cl:verticaldata std:sid="v-data-2fa7e7f1" width="132px" height="98px" autosize="none"/>
         <cl:group std:sid="group-8cf37d6d" id="grp47">
@@ -95,9 +95,12 @@
         </cl:formlayout>
       </cl:group>
       <cl:group std:sid="group-c9d6abb5" id="grpContent" class="section">
-        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="1804px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="1948px" autosize="height"/>
         <cl:group std:sid="group-6b56372d" id="grp34">
-          <cl:verticaldata std:sid="v-data-ad67b939" width="976px" height="1728px" autosize="height"/>
+          <cl:verticaldata std:sid="v-data-ad67b939" width="976px" height="1872px" autosize="height"/>
+          <cl:textarea std:sid="t-area-4b247271" id="txa2" class="resizable">
+            <cl:verticaldata std:sid="v-data-77e39af2" width="942px" height="160px" syncminheight="false" autosize="height"/>
+          </cl:textarea>
           <cl:group std:sid="group-ce6dacd7" id="grp13" class="card type05 highlight">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:verticaldata std:sid="v-data-bb7758af" width="976px" height="76px" autosize="height"/>
@@ -110,28 +113,20 @@
             <cl:verticallayout std:sid="v-layout-742193d7" spacing="4"/>
           </cl:group>
           <cl:group std:sid="group-c9c6f2ce" id="grp6" class="card type05">
-            <cl:verticaldata std:sid="v-data-1ce4ae3a" width="976px" height="292px" autosize="height"/>
+            <cl:verticaldata std:sid="v-data-1ce4ae3a" width="976px" height="252px" autosize="height"/>
             <cl:output std:sid="output-6dff8ea0" id="opt3" class="c-tit" value="Company Description">
               <cl:verticaldata std:sid="v-data-6aef81d6" width="100px" height="20px" autosize="height"/>
             </cl:output>
-            <cl:group std:sid="group-a1de5fdf" id="grp7" class="row">
-              <cl:attribute name="mobile-column-count" value="1"/>
-              <cl:verticaldata std:sid="v-data-5ad90777" width="942px" height="222px" autosize="height"/>
-              <cl:group std:sid="group-f8c370d4" id="grp8">
-                <cl:attribute name="needs-auto-height" value="true"/>
-                <cl:formdata std:sid="f-data-55828181" width="100" height="189" row="0" col="0"/>
-                <cl:output std:sid="output-06521b8a" id="opt5" class="label" value="Description">
-                  <cl:verticaldata std:sid="v-data-e31485d5" width="100px" height="18px" autosize="height"/>
-                </cl:output>
-                <cl:textarea std:sid="t-area-141f307b" id="txa1">
-                  <cl:verticaldata std:sid="v-data-f80d198f" width="100px" height="200px"/>
-                </cl:textarea>
-                <cl:verticallayout std:sid="v-layout-cc02bf1b" spacing="4"/>
-              </cl:group>
-              <cl:formlayout std:sid="f-layout-bfe77bd9" scrollable="false" hspace="12px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-                <cl:rows length="1" unit="FRACTION"/>
-                <cl:columns length="1" unit="FRACTION"/>
-              </cl:formlayout>
+            <cl:group std:sid="group-f8c370d4" id="grp8">
+              <cl:attribute name="needs-auto-height" value="true"/>
+              <cl:verticaldata std:sid="v-data-b8ec13f3" width="942px" height="182px" autosize="height"/>
+              <cl:output std:sid="output-06521b8a" id="opt5" class="label" value="Description">
+                <cl:verticaldata std:sid="v-data-e31485d5" width="100px" height="18px" autosize="height"/>
+              </cl:output>
+              <cl:textarea std:sid="t-area-141f307b" id="txa1" class="resizable">
+                <cl:verticaldata std:sid="v-data-f80d198f" width="100px" height="160px" syncminheight="false" autosize="height"/>
+              </cl:textarea>
+              <cl:verticallayout std:sid="v-layout-cc02bf1b" spacing="4"/>
             </cl:group>
             <cl:verticallayout std:sid="v-layout-ca338e70" spacing="16"/>
           </cl:group>
