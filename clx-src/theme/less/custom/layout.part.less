@@ -9,6 +9,8 @@
 //카드
 .cl-container.card {
 	border: 1px solid #e3e8ee;
+	background-color: @white;
+	box-shadow: 0 1px 3px rgba(0,55,112,0.08);
 	
 	//user management - total 표시
 	&.type01 {
@@ -72,6 +74,24 @@
 			font-size: 13px;
 			font-weight: 400;
 			color: #273951;
+		}
+	}
+	
+	//details 페이지 카드 형태 그룹 스타일
+	&.type04 {
+		padding: 16px;
+		border-radius: 8px;
+		color: #273951;
+		
+		&.highlight {
+			background-color: #eeecff;
+			border: 1px solid #533afd;
+		}
+		
+		.cl-output.c-tit {
+			font-size: 15px;
+			font-weight: 600;
+			color: #0d253d;
 		}
 	}
 }
