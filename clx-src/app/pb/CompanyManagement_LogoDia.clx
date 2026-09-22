@@ -15,7 +15,7 @@
       </cl:output>
       <cl:group std:sid="group-a2fa4558" id="grp1">
         <cl:verticaldata std:sid="v-data-06c951b8" width="400px" height="128px" autosize="height"/>
-        <cl:img std:sid="image-3f67b1c8" id="img1" alt="logo image">
+        <cl:img std:sid="image-3f67b1c8" id="img1" fieldLabel="logo image" alt="logo image">
           <cl:formdata std:sid="f-data-d515528b" row="0" col="0"/>
         </cl:img>
         <cl:group std:sid="group-c01e3bf7" id="grp3">
@@ -74,7 +74,7 @@
         </cl:group>
         <cl:group std:sid="group-1ff29fa0" id="grp6" class="btn-wrap">
           <cl:formdata std:sid="f-data-d683eb04" valign="CENTER" height="36" row="0" col="1" rowspan="1" colspan="1"/>
-          <cl:button std:sid="button-6514893a" id="btn2" class="btn-close" value="" icon="0">
+          <cl:button std:sid="button-6514893a" id="btn2" class="btn-close" fieldLabel="delete" value="" icon="0">
             <cl:flowlayoutdata std:sid="f-data-46cbf643" width="32px" height="32px" autosize="none"/>
           </cl:button>
           <cl:button std:sid="button-bb1924b8" id="btn3" class="btn-save" value="Upload">

@@ -29,7 +29,7 @@
         <cl:attribute name="mobile-column-count" value="2"/>
         <cl:attribute name="tablet-column-count" value="2"/>
         <cl:verticaldata std:sid="v-data-b8422b32" width="976px" height="60px" autosize="none"/>
-        <cl:button std:sid="button-2551d9d7" id="btn6" class="btn-go-back" value="" icon="0">
+        <cl:button std:sid="button-2551d9d7" id="btn6" class="btn-go-back" fieldLabel="Go back" value="" icon="0">
           <cl:formdata std:sid="f-data-d00a3209" row="0" col="0" rowspan="1" colspan="1"/>
         </cl:button>
         <cl:output std:sid="output-efdeb18e" id="opt31" class="c-tit" value="User Details">
