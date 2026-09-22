@@ -55,14 +55,14 @@
         </cl:output>
         <cl:group std:sid="group-108beb6d" id="grp13">
           <cl:verticaldata std:sid="v-data-48185a4a" width="299px" height="26px" autosize="height"/>
-          <cl:output std:sid="output-b8530e63" id="opt13" class="badge soft warning md" value="Open">
+          <cl:output std:sid="output-b8530e63" id="opt13" value="open" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
             <cl:flowlayoutdata std:sid="f-data-031935d6" width="60px" height="26px" autosize="both"/>
           </cl:output>
-          <cl:output std:sid="output-d419dffa" id="opt21" class="badge soft success md" value="Closed">
+          <cl:output std:sid="output-d419dffa" id="opt21" value="closed" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
             <cl:flowlayoutdata std:sid="f-data-ff6f1e9f" width="80px" height="26px" autosize="both"/>
           </cl:output>
-          <cl:output std:sid="output-86d62909" id="opt26" value="-">
-            <cl:flowlayoutdata std:sid="f-data-3f4decae" width="31px" height="20px" autosize="both"/>
+          <cl:output std:sid="output-86d62909" id="opt26" value="-" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
+            <cl:flowlayoutdata std:sid="f-data-3f4decae" width="80px" height="26px" autosize="both"/>
           </cl:output>
           <cl:flowlayout std:sid="f-layout-4f8392e6"/>
         </cl:group>

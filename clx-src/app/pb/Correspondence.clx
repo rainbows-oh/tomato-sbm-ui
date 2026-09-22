@@ -317,7 +317,7 @@
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-csm000163" rowindex="0" colindex="3" columnname="replyStatus">
-              <cl:output std:sid="output-csm000164" displayexp="sstr(switch(replyStatus){case &quot;open&quot; : &quot;Open&quot; case &quot;closed&quot; : &quot;Closed&quot; default : &quot;-&quot;}, switch(replyStatus){case &quot;open&quot; : &quot;badge soft warning&quot; case &quot;closed&quot; : &quot;badge soft success&quot; default : &quot;&quot;})">
+              <cl:output std:sid="output-csm000164" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
                 <cl:celldata std:sid="c-data-csm000165"/>
               </cl:output>
             </cl:gridcell>

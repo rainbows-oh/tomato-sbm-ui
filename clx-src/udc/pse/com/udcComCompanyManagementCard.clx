@@ -81,13 +81,13 @@
         </cl:output>
         <cl:group std:sid="group-b7e5a8c1" id="grp41">
           <cl:verticaldata std:sid="v-data-97d28ab0" width="299px" height="26px" autosize="height"/>
-          <cl:output std:sid="output-325f7712" id="opt55" class="badge soft success" value="Approved">
+          <cl:output std:sid="output-325f7712" id="opt55" value="approved" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
             <cl:flowlayoutdata std:sid="f-data-69a9708a" width="69px" height="26px" autosize="width"/>
           </cl:output>
-          <cl:output std:sid="output-b8530e63" id="opt3" class="badge soft warning" value="Pending Approval">
+          <cl:output std:sid="output-b8530e63" id="opt3" value="pendingApproval" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
             <cl:flowlayoutdata std:sid="f-data-031935d6" width="95px" height="26px" autosize="width"/>
           </cl:output>
-          <cl:output std:sid="output-b43e3fc4" id="opt37" class="badge soft danger" value="Rejected">
+          <cl:output std:sid="output-b43e3fc4" id="opt37" value="rejected" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
             <cl:flowlayoutdata std:sid="f-data-4e5df1f9" width="75px" height="26px" autosize="width"/>
           </cl:output>
           <cl:flowlayout std:sid="f-layout-36c4d4af"/>

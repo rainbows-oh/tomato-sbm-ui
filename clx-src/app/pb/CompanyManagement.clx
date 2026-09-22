@@ -146,17 +146,17 @@
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-cm000074" rowindex="0" colindex="4" columnname="approverResult">
-              <cl:output std:sid="output-cm000075" displayexp="sstr(switch(approverResult){case &quot;pending&quot; : &quot;Pending&quot; case &quot;approved&quot; : &quot;Approved&quot; case &quot;rejected&quot; : &quot;Rejected&quot; default : &quot;-&quot;}, switch(approverResult){case &quot;pending&quot; : &quot;badge soft warning&quot; case &quot;approved&quot; : &quot;badge soft success&quot; case &quot;rejected&quot; : &quot;badge soft danger&quot; default : &quot;badge soft information&quot;})">
+              <cl:output std:sid="output-cm000075" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
                 <cl:celldata std:sid="c-data-cm000076"/>
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-cm000077" rowindex="0" colindex="5" columnname="pseAdminResult">
-              <cl:output std:sid="output-cm000078" displayexp="sstr(switch(pseAdminResult){case &quot;notStarted&quot; : &quot;Not started&quot; case &quot;approved&quot; : &quot;Approved&quot; case &quot;rejected&quot; : &quot;Rejected&quot; default : &quot;-&quot;}, switch(pseAdminResult){case &quot;notStarted&quot; : &quot;badge soft warning&quot; case &quot;approved&quot; : &quot;badge soft success&quot; case &quot;rejected&quot; : &quot;badge soft danger&quot; default : &quot;badge soft information&quot;})">
+              <cl:output std:sid="output-cm000078" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
                 <cl:celldata std:sid="c-data-cm000079"/>
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-cm000080" rowindex="0" colindex="6" columnname="finalStatus">
-              <cl:output std:sid="output-cm000081" displayexp="sstr(switch(finalStatus){case &quot;pendingApproval&quot; : &quot;Pending Approval&quot; case &quot;approved&quot; : &quot;Approved&quot; case &quot;rejected&quot; : &quot;Rejected&quot; default : &quot;-&quot;}, switch(finalStatus){case &quot;pendingApproval&quot; : &quot;badge soft warning&quot; case &quot;approved&quot; : &quot;badge soft success&quot; case &quot;rejected&quot; : &quot;badge soft danger&quot; default : &quot;badge soft information&quot;})">
+              <cl:output std:sid="output-cm000081" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
                 <cl:celldata std:sid="c-data-cm000082"/>
               </cl:output>
             </cl:gridcell>

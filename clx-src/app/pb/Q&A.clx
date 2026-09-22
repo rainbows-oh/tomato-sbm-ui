@@ -267,7 +267,7 @@
               </cl:output>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-qas000140" rowindex="0" colindex="3" columnname="status">
-              <cl:output std:sid="output-qas000141" displayexp="sstr(switch(status){case &quot;answered&quot; : &quot;Answered&quot; case &quot;closed&quot; : &quot;Closed&quot; default : &quot;Submitted&quot;}, switch(status){case &quot;answered&quot; : &quot;badge soft primary&quot; case &quot;closed&quot; : &quot;badge soft success&quot; default : &quot;badge soft warning&quot;})">
+              <cl:output std:sid="output-qas000141" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
                 <cl:celldata std:sid="c-data-qas000142"/>
               </cl:output>
             </cl:gridcell>
