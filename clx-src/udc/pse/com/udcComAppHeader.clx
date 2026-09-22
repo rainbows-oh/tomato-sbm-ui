@@ -5,7 +5,7 @@
     <screen std:sid="screen-7eb23e79" id="EXB-DIV" name="EXB-DIV" width="1128px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
     <screen std:sid="screen-056620c2" id="EXB-PART" name="EXB-PART" width="672px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
     <cl:model std:sid="model-f47cf99e"/>
-    <cl:appspec dev-description="앱 헤더" title="앱 헤더">
+    <cl:appspec dev-description="앱 헤더" title="앱 타이틀">
       <cl:property name="title" type="string" default="타이틀을 입력하세요" bindable="true" std:desc="[String] 앱타이틀"/>
       <cl:property name="searchBoxId" type="string" default="grpSearch" bindable="true" std:desc="[String] 조회조건 그룹 ID (default: grpSearch)&#xD;&#xA;&#xD;&#xA;콤마(,)로 연결하여 여러 개의 조회조건 그룹을 작성 할 수 있으며, 작성되어 있는 그룹ID 를 통해 조회조건 초기화 기능이 수행됩니다.&#xD;&#xA;&#xD;&#xA;&lt;조회조건 초기화 기능>&#xD;&#xA;1. 조회영역내 조회조건 컨트롤의 selection-change, value-change시 작업영역(groupBoxIds 속성에 설정한 그룹ID) disable 처리&#xD;&#xA;2. 조회영역 내에 인풋 컨트롤(인풋박스,넘버에디터) 의 사용자 속성에 autoKeydownSearch = &quot;Y&quot; 지정시 keydown 이벤트 등록(조회버튼 클릭)"/>
       <cl:property name="groupBoxIds" type="string" default="grpData" bindable="true" std:desc="[String] 작업영역 그룹/탭 ID (default: grpData)&#xD;&#xA;&#xD;&#xA;콤마(,)로 연결하여 여러 개의 작업영역 컨트롤 ID를 작성 할 수 있습니다.&#xD;&#xA;비활성 처리는 isGrpDataDisable=true 일 경우에만 동작합니다.&#xD;&#xA;"/>
