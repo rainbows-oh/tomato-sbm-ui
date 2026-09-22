@@ -24,7 +24,7 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-0b464f24" id="grpData" class="inner">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1456px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1440px" autosize="height"/>
       <cl:group std:sid="group-9677c655" id="grp35" class="card type03">
         <cl:attribute name="mobile-column-count" value="2"/>
         <cl:attribute name="tablet-column-count" value="2"/>
@@ -37,12 +37,12 @@
         </cl:output>
         <cl:formlayout std:sid="f-layout-9210d825" scrollable="false" hspace="8px" vspace="4px" top-margin="16px" right-margin="16px" bottom-margin="16px" left-margin="16px">
           <cl:rows length="26" unit="PIXEL" autoSizing="false" syncminlength="true"/>
-          <cl:columns length="26" unit="PIXEL"/>
+          <cl:columns length="26" unit="PIXEL" shadetype="NONE" shadecolor="transparent"/>
           <cl:columns length="1" unit="FRACTION"/>
         </cl:formlayout>
       </cl:group>
       <cl:group std:sid="group-c9d6abb5" id="grpContent" class="form-group">
-        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="1305px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="1289px" autosize="height"/>
         <cl:group std:sid="group-6b56372d" id="grp34">
           <cl:verticaldata std:sid="v-data-ad67b939" width="926px" height="1179px" autosize="height"/>
           <cl:group std:sid="group-fcd1ca3f" id="grp2" class="group">
@@ -354,7 +354,7 @@
           <cl:verticallayout std:sid="v-layout-1f0b571d" spacing="24"/>
         </cl:group>
         <cl:group std:sid="group-2d048319" id="grp32" class="btn-wrap">
-          <cl:verticaldata std:sid="v-data-15c632b2" width="926px" height="52px" autosize="height"/>
+          <cl:verticaldata std:sid="v-data-15c632b2" width="926px" height="36px" autosize="height"/>
           <cl:group std:sid="group-d1d984cf" id="grp33">
             <cl:formdata std:sid="f-data-538be251" row="0" col="0" rowspan="1" colspan="1"/>
             <cl:button std:sid="button-7a7a1c5b" id="btn4" class="btn-link p-0" value="Back to list">

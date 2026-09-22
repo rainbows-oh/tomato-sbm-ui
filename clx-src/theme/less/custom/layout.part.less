@@ -6,6 +6,16 @@
 	}
 }
 
+//페이지 하단 버튼 영역
+.cl-container.footer-btn-wrap {
+	padding-top: 16px;
+	border-top: 1px solid #e3e8ee;
+	
+	.cl-button {
+		padding: 0px 12px;
+	}
+}
+
 //카드
 .cl-container.card {
 	border: 1px solid #e3e8ee;
@@ -81,7 +91,6 @@
 	&.type04 {
 		padding: 16px;
 		border-radius: 8px;
-		color: #273951;
 		
 		&.highlight {
 			background-color: #eeecff;
@@ -92,6 +101,28 @@
 			font-size: 15px;
 			font-weight: 600;
 			color: #0d253d;
+		}
+	}
+	
+	//details 페이지 카드 형태 그룹 입력 스타일
+	&.type05 {
+		padding: 16px;
+		border-radius: 8px;
+		
+		&.highlight {
+			background-color: #eeecff;
+			border: 1px solid #533afd;
+		}
+		
+		.cl-output.c-tit {
+			font-size: 15px;
+			font-weight: 600;
+			color: #0d253d;
+		}
+		
+		.label {
+			font-size: 13px;
+			color: #273951;
 		}
 	}
 }
@@ -192,15 +223,6 @@
 			font-size: 15px;
 			font-weight: 600;
 			color: #0d253d;
-		}
-	}
-	
-	.cl-container.btn-wrap {
-		padding-top: 16px;
-		border-top: 1px solid #e3e8ee;
-		
-		.cl-button {
-			padding: 0px 12px;
 		}
 	}
 }

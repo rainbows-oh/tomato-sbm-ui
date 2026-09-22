@@ -37,7 +37,7 @@
         </cl:output>
         <cl:formlayout std:sid="f-layout-cfabf988" scrollable="false" hspace="8px" vspace="8px" top-margin="16px" right-margin="16px" bottom-margin="16px" left-margin="16px" hseparatorwidth="0" vseparatorwidth="0">
           <cl:rows length="26" unit="PIXEL" autoSizing="false" syncminlength="true"/>
-          <cl:columns length="26" unit="PIXEL"/>
+          <cl:columns length="26" unit="PIXEL" shadetype="NONE" shadecolor="transparent"/>
           <cl:columns length="1" unit="FRACTION"/>
         </cl:formlayout>
       </cl:group>
@@ -353,7 +353,7 @@
           </cl:group>
           <cl:verticallayout std:sid="v-layout-1f0b571d" spacing="24"/>
         </cl:group>
-        <cl:group std:sid="group-2d048319" id="grp32" class="btn-wrap">
+        <cl:group std:sid="group-2d048319" id="grp32" class="footer-btn-wrap">
           <cl:verticaldata std:sid="v-data-15c632b2" width="926px" height="52px" autosize="height"/>
           <cl:group std:sid="group-d1d984cf" id="grp33">
             <cl:formdata std:sid="f-data-538be251" row="0" col="0" rowspan="1" colspan="1"/>
