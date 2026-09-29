@@ -24,7 +24,7 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-0b464f24" id="grpData" class="inner">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1154px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1166px" autosize="height"/>
       <cl:group std:sid="group-b5aa1204" class="card type03">
         <cl:attribute name="mobile-column-count" value="2"/>
         <cl:verticaldata std:sid="v-data-6ec449da" width="976px" height="78px" autosize="height"/>
@@ -60,13 +60,10 @@
         </cl:formlayout>
       </cl:group>
       <cl:group std:sid="group-c9d6abb5" id="grpContent" class="form-group">
-        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="1004px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="1016px" autosize="height"/>
         <cl:tabfolder std:sid="t-folder-bacf902d" id="fld1" class="line" childcombinatorclass="tablist" item-sizing="fill" item-spacing="0">
-          <cl:verticaldata std:sid="v-data-e447e368" width="926px" height="954px" autosize="height"/>
+          <cl:verticaldata std:sid="v-data-e447e368" width="926px" height="966px" autosize="height"/>
           <cl:tabitem std:sid="t-item-94ea1e2e" selected="true" text="Message">
-            <std:metadata>
-              <std:property key="is-active-item" value="true"/>
-            </std:metadata>
             <cl:group std:sid="group-0c899a3d" id="grp1">
               <std:metadata>
                 <std:property key="locked" value="true"/>
@@ -231,16 +228,33 @@
             </cl:group>
           </cl:tabitem>
           <cl:tabitem std:sid="t-item-178c7f99" selected="true" text="Replies" displayexp="text + &quot;(&quot; + userAttr(&quot;total&quot;) + &quot;)&quot;">
+            <std:metadata>
+              <std:property key="is-active-item" value="true"/>
+            </std:metadata>
             <cl:attribute name="total" value="7"/>
             <cl:group std:sid="group-adf94d8d" id="grp10">
               <std:metadata>
                 <std:property key="locked" value="true"/>
               </std:metadata>
               <cl:group std:sid="group-b443274c" id="grp11" class="group">
-                <cl:verticaldata std:sid="v-data-0d709c3e" width="926px" height="221px" autosize="height"/>
-                <cl:output std:sid="output-b15fba66" id="opt9" value="Case reply thread with Your listed company. Company and management messages appear in chronological order.">
-                  <cl:verticaldata std:sid="v-data-63f54b4b" width="100px" height="20px" autosize="height"/>
-                </cl:output>
+                <cl:verticaldata std:sid="v-data-0d709c3e" width="926px" height="233px" autosize="height"/>
+                <cl:group std:sid="group-180dd289" id="grp24">
+                  <cl:attribute name="mobile-column-count" value="1"/>
+                  <cl:verticaldata std:sid="v-data-2cb1b303" width="926px" height="32px" autosize="height"/>
+                  <cl:output std:sid="output-b15fba66" id="opt9" value="Reply thread with PSE Management. Company and management messages appear in chronological order.">
+                    <cl:attribute name="needs-auto-height" value="true"/>
+                    <cl:formdata std:sid="f-data-58ffc923" row="0" col="0"/>
+                  </cl:output>
+                  <cl:udc std:sid="ud-control-dfb38332" id="udccomrepliestoggle1" type="udc.pse.com.udcComRepliesToggle">
+                    <cl:attribute name="needs-auto-height" value="true"/>
+                    <cl:formdata std:sid="f-data-33c332d5" row="0" col="1"/>
+                  </cl:udc>
+                  <cl:formlayout std:sid="f-layout-3637cd08" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                    <cl:rows length="32" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+                    <cl:columns length="1" unit="FRACTION"/>
+                    <cl:columns length="140" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+                  </cl:formlayout>
+                </cl:group>
                 <cl:group std:sid="group-0596de69" id="grp16" class="replies">
                   <cl:verticaldata std:sid="v-data-8247d4f2" width="926px" height="160px" autosize="height"/>
                   <cl:group std:sid="group-b5c2d9ce" id="grp12" class="other-chat">
