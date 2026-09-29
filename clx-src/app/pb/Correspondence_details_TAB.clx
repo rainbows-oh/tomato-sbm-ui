@@ -26,7 +26,6 @@
     <cl:group std:sid="group-0b464f24" id="grpData" class="inner">
       <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1166px" autosize="height"/>
       <cl:group std:sid="group-b5aa1204" class="card type03">
-        <cl:attribute name="mobile-column-count" value="2"/>
         <cl:verticaldata std:sid="v-data-6ec449da" width="976px" height="78px" autosize="height"/>
         <cl:group std:sid="group-4756f973" id="grp36" class="btn-wrap">
           <cl:formdata std:sid="f-data-bbdb1180" valign="CENTER" height="36" row="0" col="1"/>
