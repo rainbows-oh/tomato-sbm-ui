@@ -5,7 +5,7 @@
     <screen std:sid="screen-b760997a" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
     <screen std:sid="screen-ecf80c9f" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
     <cl:model std:sid="model-368ed25d"/>
-    <cl:appspec>
+    <cl:appspec title="상세 페이지의 답글 종료 토글">
       <cl:property name="value" type="enumeration" default="value1" bindable="true" std:desc="[String] 선택된 값 (value1: Open, value2: Closed)">
         <cl:available-value>value1</cl:available-value>
         <cl:available-value>value2</cl:available-value>
