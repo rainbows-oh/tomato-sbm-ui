@@ -271,7 +271,7 @@
           </cl:output>
           <cl:group std:sid="group-csm000132">
             <cl:formdata std:sid="f-data-csm000133" row="0" col="1"/>
-            <cl:udc std:sid="ud-control-csm000134" id="udccomviewbutton1" type="udc.pse.com.UdcComViewButton">
+            <cl:udc std:sid="ud-control-csm000134" id="udccomviewbutton1" type="udc.pse.com.udcComViewButton">
               <cl:flowlayoutdata std:sid="f-data-csm000135" width="68px" height="32px" autosize="both"/>
               <cl:property name="targetCard" value="grpCardSection" type="control"/>
               <cl:property name="targetTable" value="grpGridSection" type="control"/>
@@ -346,7 +346,7 @@
             <cl:columns length="1" unit="FRACTION"/>
           </cl:formlayout>
         </cl:group>
-        <cl:udc std:sid="ud-control-csm000169" id="udccompagination1" type="udc.pse.com.UdcComPagination">
+        <cl:udc std:sid="ud-control-csm000169" id="udccompagination1" type="udc.pse.com.udcComPagination">
           <cl:verticaldata std:sid="v-data-csm000170" width="1024px" height="60px" autosize="height"/>
         </cl:udc>
         <cl:verticallayout std:sid="v-layout-csm000171" scrollable="false" spacing="0"/>
