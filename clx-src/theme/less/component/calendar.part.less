@@ -22,7 +22,6 @@
 @cal--head-padding-x: @padding-3;
 @cal--head-padding-y: @padding-3;
 @cal--head-gap: @gap-2;
-@cal--head-font-size: @font-size-heading-xsmall;
 @cal--head-font-weight: @font-weight-semibold;
 @cal--head-button-size: @size-8;
 @cal--head-button-icon-size: @size-icon-small;
@@ -33,18 +32,15 @@
 @cal--anni-head-color-text: @color-component-text;
 @cal--anni-head-padding-x: @padding-5;
 @cal--anni-head-padding-y: @padding-3;
-@cal--anni-head-font-size: @font-size-heading-small;
 @cal--anni-head-font-weight: @font-weight-bold;
 /* 요일 헤더 */
 @cal--week-color-background: transparent;
 @cal--week-color-text: @color-text-subtle;
-@cal--week-font-size: @font-size-label-xsmall;
 /* 날짜 셀 공통 */
 @cal--date-size: @size-10;
 @cal--date-border-radius: @border-radius-full;
 @cal--date-padding: @padding-1;
 @cal--date-gap: @gap-1;
-@cal--date-font-size: @font-size-label-xsmall;
 /* 날짜 셀 색상 */
 @cal--date-color-text: @color-component-text;
 @cal--date-color-text-sun: @danger-60;
@@ -71,7 +67,6 @@
 /* 푸터 */
 @cal--foot-color-border: @gray-10;
 @cal--foot-padding-y: @padding-3;
-@cal--foot-font-size: @font-size-label-small;
 /* 월/년 셀 */
 @cal--month-year-size-width: @size-13;
 @cal--month-year-border-radius: @size-component-radius;
@@ -80,7 +75,6 @@
 @cal--item-size-height: @size-8;
 @cal--item-padding-x: @padding-2;
 @cal--item-gap: @gap-2;
-@cal--item-font-size: @font-size-label-xsmall;
 @cal--item-color-background: @primary-5;
 @cal--item-color-text: @information;
 @cal--anniversary-color-text: @primary-80;
@@ -183,7 +177,7 @@
 	width: 100%;
 	background-color: @cal--head-color-background;
 	color: @cal--head-color-text;
-	font-size: @cal--head-font-size;
+	#font-heading();
 	font-weight: @cal--head-font-weight;
 	padding: @cal--head-padding-y @cal--head-padding-x;
 	text-align: center;
@@ -263,7 +257,7 @@
 		border: 0;
 		color: @cal--week-color-text;
 		cursor: default;
-		font-size: @cal--week-font-size;
+		#font-caption();
 		font-weight: @font-weight-medium;
 		text-transform: uppercase;
 	}
@@ -307,7 +301,7 @@
 	.cl-text .cl-date-sub {
 		display: block;
 		color: @cal--week-color-text;
-		font-size: @font-size-label-xsmall;
+		#font-caption();
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
@@ -317,7 +311,7 @@
 /* 푸터 */
 .cl-calendar .cl-calendar-footer {
 	border-top: 1px solid @cal--foot-color-border;
-	font-size: @cal--foot-font-size;
+	#font-label();
 	padding: @cal--foot-padding-y @padding-5;
 	text-align: right;
 	
@@ -331,7 +325,7 @@
 		border-radius: @size-component-radius;
 		color: @color-component-text;
 		cursor: pointer;
-		font-size: @cal--foot-font-size;
+		#font-label();
 		font-weight: @font-weight-medium;
 		padding: 0 @padding-2;
 		text-decoration: none !important;
@@ -530,7 +524,7 @@
 		background-color: @cal--anni-head-color-background;
 		border-bottom: 1px solid @cal--anni-head-color-border;
 		color: @cal--anni-head-color-text;
-		font-size: @cal--anni-head-font-size;
+		#font-display();
 		font-weight: @cal--anni-head-font-weight;
 		padding: @cal--anni-head-padding-y @cal--anni-head-padding-x;
 		text-align: left;
@@ -592,7 +586,7 @@
 					top: 0;
 					right: 0;
 					color: @cal--week-color-text;
-					font-size: @cal--week-font-size;
+					#font-caption();
 					line-height: 1;
 				}
 			}
@@ -664,7 +658,7 @@
 		align-items: center;
 		height: @cal--item-size-height;
 		border-radius: 0;
-		font-size: @cal--item-font-size;
+		#font-caption();
 		font-weight: @font-weight-medium;
 		margin: 0;
 		padding: 0 @cal--item-padding-x;

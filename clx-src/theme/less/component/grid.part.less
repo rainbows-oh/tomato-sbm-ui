@@ -67,7 +67,7 @@
 	background-color: @primary;
 	border-radius: @size-component-radius;
 	color: @white;
-	font-size: @font-size-label-xxsmall;
+	#font-micro();
 	font-weight: @font-weight-medium;
 	line-height: 1;
 	min-width: 14px;
@@ -95,7 +95,7 @@
 	border-top: 1px solid #e3e8ee;
 	border-bottom: 1px solid #e3e8ee;
 	border-radius: @size-grid-radius;
-	font-size: @size-grid-font;
+	#font-body-s();
 	
 	> :not([class]) {
 		min-height: auto !important;
@@ -257,7 +257,7 @@
 	border: 0;
 	color: @color-grid-head-text;
 	cursor: default;
-	font-size: @size-grid-head-font;
+	#font-label();
 	font-weight: @size-grid-head-font-weight;
 	text-align: center;
 	
@@ -345,7 +345,7 @@
 		.cl-sort {
 			display: none;
 			width: auto;
-			font-size: @font-size-label-xxsmall;
+			#font-micro();
 			
 			.cl-sort-icon {
 				#grid--sort-icon();
@@ -615,7 +615,7 @@
 		background-image: none;
 		border-bottom: 1px solid @color-grid-head-border;
 		color: @color-grid-head-text;
-		font-size: @font-size-heading-xsmall;
+		#font-heading();
 		font-weight: @font-weight-medium;
 		padding: @padding-3 @padding-6;
 		
