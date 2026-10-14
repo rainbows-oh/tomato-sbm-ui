@@ -31,11 +31,15 @@
 }
 
 #radio--hover() {
-	background-image: url("@{img-path}/icons/ico_radio.svg");
+	background-image: url("@{img-path}/icons/ico_radio_hover.svg");
 }
 
 #radio--selected() {
 	background-image: url("@{img-path}/icons/ico_radio_selected.svg");
+}
+
+#radio--selected-hover() {
+	background-image: url("@{img-path}/icons/ico_radio_selected_hover.svg");
 }
 
 #radio--focus() {
@@ -119,10 +123,13 @@
 			#radio--hover();
 		}
 		
-		&.cl-selected .cl-radiobutton-icon,
+		&.cl-selected .cl-radiobutton-icon {
+			#radio--selected();
+		}
+		
 		&.cl-selected.cl-hover .cl-radiobutton-icon,
 		&.cl-selected:hover .cl-radiobutton-icon {
-			#radio--selected();
+			#radio--selected-hover();
 		}
 	}
 	
