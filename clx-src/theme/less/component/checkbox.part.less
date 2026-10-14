@@ -31,7 +31,7 @@
 }
 
 #checkbox--hover() {
-	background-image: url("@{img-path}/icons/ico_checkbox.svg");
+	background-image: url("@{img-path}/icons/ico_checkbox_hover.svg");
 }
 
 #checkbox--selected() {
@@ -39,7 +39,7 @@
 }
 
 #checkbox--partial() {
-	background-image: url("@{img-path}/icons/ico_checkbox.svg");
+	background-image: url("@{img-path}/icons/ico_checkbox_partial.svg");
 }
 
 #checkbox--focus() {
@@ -144,16 +144,22 @@
 		#checkbox--hover();
 	}
 	
-	&.cl-checked .cl-checkbox-icon,
-	&.cl-checked.cl-hover .cl-checkbox-icon,
-	&.cl-checked:hover .cl-checkbox-icon {
-		#checkbox--selected();
+	&.cl-checked .cl-checkbox-icon {
+		background-image: url("../../img/icons/ico_checkbox_selected.svg");
 	}
 	
-	&.cl-partialchecked .cl-checkbox-icon,
+	&.cl-checked.cl-hover .cl-checkbox-icon,
+	&.cl-checked:hover .cl-checkbox-icon {
+		background-image: url("../../img/icons/ico_checkbox_selected_hover.svg");
+	}
+	
+	&.cl-partialchecked .cl-checkbox-icon {
+		background-image: url("../../img/icons/ico_checkbox_partial.svg");
+	}
+	
 	&.cl-partialchecked:hover .cl-checkbox-icon,
 	&.cl-partialchecked.cl-hover .cl-checkbox-icon {
-		#checkbox--partial();
+		background-image: url("../../img/icons/ico_checkbox_partial_hover.svg");
 	}
 	
 	&.cl-focus,
@@ -172,7 +178,10 @@
 	&.cl-disabled {
 		color: @color-component-text-disabled;
 		
-		.cl-checkbox-icon,
+		.cl-checkbox-icon {
+			background-image: url("../../img/icons/ico_checkbox_disable.svg");
+		}
+		
 		&:hover .cl-checkbox-icon,
 		&.cl-hover .cl-checkbox-icon {
 			#checkbox--disabled();
@@ -181,7 +190,7 @@
 		&.cl-partialchecked .cl-checkbox-icon,
 		&.cl-partialchecked:hover .cl-checkbox-icon,
 		&.cl-partialchecked.cl-hover .cl-checkbox-icon {
-			#checkbox--disabled();
+			background-image: url("../../img/icons/ico_checkbox_partial_disabled.svg");
 		}
 		
 		&.cl-checked .cl-checkbox-icon,

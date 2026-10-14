@@ -33,6 +33,13 @@ function onBodyLoad(e){
 		output.value = tooltipOwner.tooltip;
 		return output;
 	});
+	
+	var cmb = app.lookup("cmb");
+	var item = cmb.getItemByValue(2);
+	
+	if (item) {
+		cmb.setItemEnable(item, false);
+	}
 }
 
 /*
@@ -80,4 +87,32 @@ function onBtnMsgDlgClick(e){
 		dialog.resizable = false;
 		dialog.style.addClass("modal");
 	});
+}
+
+/*
+ * 콤보 박스에서 open 이벤트 발생 시 호출.
+ * 리스트박스를 열때 발생하는 이벤트.
+ */
+function onCmbOpen(e) {
+	var cmb = e.control;
+	
+	setTimeout(function(){
+		if(cmb.isOpened()) {
+			debugger;
+		}
+	}, 200);
+}
+
+/*
+ * 콤보 박스에서 open 이벤트 발생 시 호출.
+ * 리스트박스를 열때 발생하는 이벤트.
+ */
+function onCmb6Open(e) {
+	var cmb6 = e.control;
+	
+	setTimeout(function(){
+		if(cmb6.isOpened()) {
+			debugger;
+		}
+	}, 200);
 }
