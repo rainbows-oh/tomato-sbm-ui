@@ -311,7 +311,8 @@
 		background-image: url("@{img-path}/icons/ico_date.svg");
 	}
 	
-	&.cl-disabled .cl-dateinput-button {
+	&.cl-disabled .cl-dateinput-button,
+	&.cl-readonly .cl-dateinput-button {
 		background-image: url("@{img-path}/icons/ico_date_disable.svg");
 	}
 	
@@ -387,13 +388,28 @@
 		}
 	}
 	
+	&:not(.cl-disabled) {
+		&.cl-hover,
+		&:hover {
+			border-color: @gray-40;
+			
+			.cl-dateinput-button {
+				background-image: url("@{img-path}/icons/ico_date_hover.svg") !important;
+			}
+		}
+	}
+	
 	&.cl-focus,
 	&:focus {
 		#input--focus();
+		
+		.cl-dateinput-button {
+			background-image: url("@{img-path}/icons/ico_date_focus.svg") !important;
+		}
 	}
 	
 	&.cl-readonly {
-		#input--readonly();
+		#input--disabled();
 	}
 	
 	&.cl-disabled {
