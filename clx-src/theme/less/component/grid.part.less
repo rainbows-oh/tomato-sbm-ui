@@ -14,6 +14,17 @@
 @import (reference) "checkbox.part.less";
 @import (reference) "button.part.less";
 
+/* 파일 지역 변수 (@grid-- 접두어) — 공통 그리드 스타일 */
+@grid--color-background:   @white;
+@grid--color-border:       #D1D5DB;  /* 바깥 보더 (팔레트에 없는 값) */
+@grid--color-row-border:   @gray-20; /* #E2E8F0 — 행 간 보더 */
+@grid--border-radius:      @border-radius-5; /* 8px */
+@grid--head-color-text:    @gray-50; /* #64748B */
+@grid--head-color-sorted:  @primary-70; /* #1D4ED8 */
+@grid--head-padding:       10px 16px;
+@grid--cell-color-text:    #273951;  /* 데이터 텍스트 (팔레트에 없는 값) */
+@grid--cell-padding:       16px 17px;
+
 /* ==========================================================================
  Mixins
  ========================================================================== */
@@ -32,16 +43,10 @@
 		&.cl-checkbox,
 		&.cl-checkboxgroup,
 		&.cl-radiobutton {
-			padding: 8px 12px;
+			padding: @grid--cell-padding;
 			text-align: left;
 		}
-		
-		&.cl-output.cl-number-format,
-		&.cl-output.cl-format-number,
-		&.cl-numbereditor {
-			text-align: right;
-		}
-		
+
 		&.cl-checkbox,
 		&.cl-checkboxgroup,
 		&.cl-radiobutton {
@@ -90,13 +95,14 @@
  Base — 루트
  ========================================================================== */
 .cl-grid {
-	background-color: @color-grid-surface;
-	border: none;
-	border-top: 1px solid #e3e8ee;
-	border-bottom: 1px solid #e3e8ee;
-	border-radius: @size-grid-radius;
-	#font-body-s();
-	
+	background-color: @grid--color-background;
+	border: 1px solid @grid--color-border;
+	border-radius: @grid--border-radius;
+	color: @grid--cell-color-text;
+	#font-body(); /* 14px / 20px */
+	font-weight: @font-weight-normal;
+	overflow: hidden; /* radius 안쪽으로 헤더·행 배경 자르기 */
+
 	> :not([class]) {
 		min-height: auto !important;
 	}
@@ -175,7 +181,7 @@
 .cl-grid .cl-grid-cell {
 	#grid--cell-base();
 	border: 0;
-	border-bottom: 1px solid #e3e8ee;
+	border-bottom: 1px solid @grid--color-row-border;
 	border-right: none;
 
 	&.cl-last-column {
@@ -252,18 +258,24 @@
  Base — 헤더
  ========================================================================== */
 .cl-grid .cl-grid-header {
-	background-color: #f6f9fc;
+	background-color: @grid--color-background;
 	background-image: none;
 	border: 0;
-	color: @color-grid-head-text;
+	color: @grid--head-color-text;
 	cursor: default;
-	#font-label();
-	font-weight: @size-grid-head-font-weight;
-	text-align: center;
+	#font-caption(); /* 12px / 16px */
+	font-weight: @font-weight-medium;
+	text-align: left;
 	
 	.cl-grid-cell {
-		border-bottom: 1px solid @color-grid-head-border;
+		border-bottom: 1px solid @grid--color-row-border;
 		border-right: none;
+		
+		/* 헤더 항목 padding (셀 공통 데이터 padding 덮어씀) */
+		.cl-control.cl-default-cell,
+		.cl-control.cl-output {
+			padding: @grid--head-padding;
+		}
 
 		&:focus {
 			outline: none;
@@ -338,8 +350,7 @@
 	.cl-sortable-cell {
 		&.cl-sort-asc,
 		&.cl-sort-desc {
-			color: #533afd;
-			font-weight: @font-weight-semibold;
+			color: @grid--head-color-sorted;
 		}
 
 		.cl-sort {
@@ -458,7 +469,7 @@
  행 상태
  ========================================================================== */
 .cl-grid .cl-grid-detail .cl-grid-row {
-	color: @color-grid-text;
+	color: @grid--cell-color-text;
 	
 	.cl-default-cell,
 	.cl-grid-ctrl-inherit {

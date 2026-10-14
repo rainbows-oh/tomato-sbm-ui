@@ -831,32 +831,17 @@
       <cl:output std:sid="output-9901a99e" value="배지">
         <cl:flowlayoutdata std:sid="f-data-4394db20" width="160px" height="24px" syncminheight="true" autosize="height"/>
       </cl:output>
-      <cl:output std:sid="output-ab676c50" class="badge fill primary" value="배지">
-        <cl:flowlayoutdata std:sid="f-data-d7b17771" width="68px" height="20px" autosize="both"/>
-      </cl:output>
-      <cl:output std:sid="output-4e2ecc01" class="badge fill secondary" value="배지">
-        <cl:flowlayoutdata std:sid="f-data-36a57e6f" width="68px" height="20px" autosize="both"/>
-      </cl:output>
-      <cl:output std:sid="output-15c555e4" class="badge fill gray" value="배지">
-        <cl:flowlayoutdata std:sid="f-data-ec6264d7" width="68px" height="20px" autosize="both"/>
-      </cl:output>
-      <cl:output std:sid="output-aff440c0" class="badge fill point" value="배지">
-        <cl:flowlayoutdata std:sid="f-data-9b48ffc5" width="68px" height="20px" autosize="both"/>
-      </cl:output>
-      <cl:output std:sid="output-12886102" class="badge fill danger" value="배지">
+      <cl:output std:sid="output-12886102" class="badge fill danger" value="Rejected">
         <cl:flowlayoutdata std:sid="f-data-a1dbd6eb" width="68px" height="20px" autosize="both"/>
       </cl:output>
-      <cl:output std:sid="output-8f8252d4" class="badge fill warning" value="배지">
+      <cl:output std:sid="output-8f8252d4" class="badge fill warning" value="Changed">
         <cl:flowlayoutdata std:sid="f-data-1982d6fe" width="68px" height="20px" autosize="both"/>
       </cl:output>
-      <cl:output std:sid="output-83c870c9" class="badge fill success" value="배지">
+      <cl:output std:sid="output-83c870c9" class="badge fill success" value="Approved">
         <cl:flowlayoutdata std:sid="f-data-03243110" width="68px" height="20px" autosize="both"/>
       </cl:output>
-      <cl:output std:sid="output-95f3d8f3" class="badge fill information" value="배지">
+      <cl:output std:sid="output-95f3d8f3" class="badge fill information" value="Submitted">
         <cl:flowlayoutdata std:sid="f-data-f94d18da" width="68px" height="20px" autosize="both"/>
-      </cl:output>
-      <cl:output std:sid="output-88a64b67" class="badge fill disable" value="배지">
-        <cl:flowlayoutdata std:sid="f-data-9d73047f" width="68px" height="20px" autosize="both"/>
       </cl:output>
       <cl:flowlayout std:sid="f-layout-9167dbc8" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
     </cl:group>
@@ -973,7 +958,7 @@
         <cl:gridcolumn std:sid="g-column-19f62a6e"/>
         <cl:gridcolumn std:sid="g-column-3514cece"/>
         <cl:gridheader std:sid="gh-band-fedf9f3f">
-          <cl:gridrow std:sid="g-row-60da454c" height="31px"/>
+          <cl:gridrow std:sid="g-row-60da454c" height="35px"/>
           <cl:gridcell std:sid="gh-cell-7eba79ac" rowindex="0" colindex="0" sortable="false" filterable="false" text="선택"/>
           <cl:gridcell std:sid="gh-cell-7affe931" rowindex="0" colindex="1" sortable="false" filterable="false" columntype="checkbox"/>
           <cl:gridcell std:sid="gh-cell-8395382c" rowindex="0" colindex="2" sortable="false" filterable="false" text="NO"/>
@@ -985,7 +970,7 @@
           <cl:gridcell std:sid="gh-cell-541a8fc5" rowindex="0" colindex="8" targetcolumnname="SALES_ST" sortable="true" filterable="true" text="상태"/>
         </cl:gridheader>
         <cl:griddetail std:sid="gd-band-2701d3b5">
-          <cl:gridrow std:sid="g-row-7fea761c" height="29px"/>
+          <cl:gridrow std:sid="g-row-7fea761c" height="54px"/>
           <cl:gridcell std:sid="gd-cell-fb598ba7" rowindex="0" colindex="0" columntype="radio"/>
           <cl:gridcell std:sid="gd-cell-8fc773d6" rowindex="0" colindex="1" columntype="checkbox"/>
           <cl:gridcell std:sid="gd-cell-dde9117a" rowindex="0" colindex="2" columntype="rowindex"/>
@@ -1023,7 +1008,7 @@
           </cl:gridcell>
         </cl:griddetail>
         <cl:gridfooter std:sid="gf-band-fca9499c">
-          <cl:gridrow std:sid="g-row-156b8ba7" height="29px"/>
+          <cl:gridrow std:sid="g-row-156b8ba7" height="54px"/>
           <cl:gridcell std:sid="gf-cell-71a3f464" rowindex="0" colindex="0" rowspan="1" colspan="5" expr="&quot;합계&quot;"/>
           <cl:gridcell std:sid="gf-cell-0f39d069" rowindex="0" colindex="5" expr="getSum(&quot;PRICE&quot;)">
             <cl:output std:sid="output-afb5f04b" value="Output" datatype="number" format="s#,##0" displayexp="text + &quot;원&quot;">
@@ -1581,7 +1566,7 @@
       </cl:output>
       <cl:accordion std:sid="accordion-4a072e1b">
         <cl:flowlayoutdata std:sid="f-data-ff038ecf" width="1024px" height="200px" autosize="height"/>
-        <cl:sectionitem std:sid="s-item-683d9da1" title="아코디언 타이틀">
+        <cl:sectionitem std:sid="s-item-683d9da1" title="Correspondence">
           <cl:group std:sid="group-869df89e">
             <std:metadata>
               <std:property key="locked" value="true"/>
@@ -1592,7 +1577,7 @@
             </cl:formlayout>
           </cl:group>
         </cl:sectionitem>
-        <cl:sectionitem std:sid="s-item-8bd98414" selected="true" title="아코디언 타이틀">
+        <cl:sectionitem std:sid="s-item-8bd98414" selected="true" title="CMIC Inquiry">
           <std:metadata>
             <std:property key="is-active-item" value="true"/>
           </std:metadata>
@@ -1606,7 +1591,7 @@
             </cl:formlayout>
           </cl:group>
         </cl:sectionitem>
-        <cl:sectionitem std:sid="s-item-b2548300" title="아코디언 타이틀">
+        <cl:sectionitem std:sid="s-item-b2548300" title="Approval">
           <cl:group std:sid="group-44033ec5">
             <std:metadata>
               <std:property key="locked" value="true"/>
@@ -1845,10 +1830,13 @@
       <cl:flowlayout std:sid="f-layout-99946419" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
     </cl:group>
     <cl:group std:sid="group-d92daad7" clipcontent="false">
-      <cl:verticaldata std:sid="v-data-3b454d5b" width="1440px" height="303px" autosize="both"/>
+      <cl:verticaldata std:sid="v-data-3b454d5b" width="1440px" height="400px" autosize="both"/>
       <cl:output std:sid="output-fa680702" value="캘린더">
         <cl:flowlayoutdata std:sid="f-data-044a37b9" width="160px" height="24px" syncminheight="true" autosize="height"/>
       </cl:output>
+      <cl:calendar std:sid="calendar-5808c652" id="cal1" footervisible="true">
+        <cl:flowlayoutdata std:sid="f-data-76a565a0" width="359px" height="366px" autosize="both"/>
+      </cl:calendar>
       <cl:calendar std:sid="calendar-73168057" id="date">
         <cl:flowlayoutdata std:sid="f-data-463e92f7" width="250px" height="303px" autosize="both"/>
       </cl:calendar>

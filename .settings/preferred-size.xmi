@@ -3,7 +3,7 @@
   <settings:PreferredSize typeName="Accordion" preferredWidth="200" preferredHeight="300"/>
   <settings:PreferredSize typeName="Audio" preferredWidth="100" preferredHeight="32"/>
   <settings:PreferredSize typeName="Button" preferredWidth="100" preferredHeight="32"/>
-  <settings:PreferredSize typeName="Calendar" preferredWidth="240" preferredHeight="270"/>
+  <settings:PreferredSize typeName="Calendar" preferredWidth="359" preferredHeight="366"/>
   <settings:PreferredSize typeName="CheckBox" preferredWidth="100" preferredHeight="32"/>
   <settings:PreferredSize typeName="CheckBoxGroup" preferredWidth="200" preferredHeight="32"/>
   <settings:PreferredSize typeName="ComboBox" preferredWidth="100" preferredHeight="32"/>

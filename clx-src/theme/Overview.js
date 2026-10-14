@@ -40,6 +40,13 @@ function onBodyLoad(e){
 	if (item) {
 		cmb.setItemEnable(item, false);
 	}
+	
+	var calendar = app.lookup("cal1");
+	
+	calendar.addAnniversary({
+		date: "2026-10-13",
+		className: "cal-urgent"
+	});
 }
 
 /*
