@@ -64,10 +64,12 @@
 /* ==========================================================================
    Base
    ========================================================================== */
-.cl-button {
-	background-color: transparent;
+.cl-button,
+.cl-button.btn-primary {
+	background-color: @color-button-primary-fill-default;
 	background-image: none;
 	border: none;
+	color: @color-button-primary-color;
 	line-height: @line-height-base !important; /* line-height: 100% 제거 */
 	text-shadow: none;
 	transition: @transition-base;
@@ -107,22 +109,21 @@
 	
 	&:not(.cl-disabled).cl-hover,
     &:not(.cl-disabled):hover {
-    	color: @color-component-text;
+    	color: @color-button-primary-color;
+    	background-color: @color-button-primary-fill-hover;
     }
     
     &:not(.cl-disabled).cl-activated,
-    &:not(.cl-disabled):active {
-    	background-image: none;
-    }
-    
+    &:not(.cl-disabled):active,
     &.cl-focus {
-    	border: none;
+    	background-image: none;
+    	color: @color-button-primary-color;
+    	background-color: @color-button-primary-fill-pressed;
     }
     
     &.cl-disabled {
-    	background-color: @color-button-disabled-fill;
-    	border-color: @color-button-disabled-border;
-    	color: @color-button-disabled-text;
+    	background-color: @color-button-primary-fill-disabled;
+    	color: @color-button-primary-color-disabled;
     }
 }
 
@@ -134,22 +135,26 @@
 	#btn--base();
 }
 
-/* --- Base (Tertiary) --- */
-.btn-base {
-	#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-component-text);
+/* --- secondary --- */
+.btn-secondary {
+	#btn--default(@color-button-secondary-fill-default, @color-button-secondary-border-default, @color-button-secondary-color);
 	
 	&:not(.cl-disabled):hover,
 	&:not(.cl-disabled).cl-hover {
-		#btn--hover(@color-button-tertiary-fill-hover, @color-button-tertiary-border, @color-component-text);
+		#btn--hover(@color-button-secondary-fill-hover, @color-button-secondary-border-hover, @color-button-secondary-color);
 	}
 	
 	&:not(.cl-disabled).cl-activated,
 	&:not(.cl-disabled):active {
-		#btn--pressed(@color-button-tertiary-fill-pressed, @color-button-tertiary-border, @color-component-text);
+		#btn--pressed(@color-button-secondary-fill-pressed, @color-button-secondary-border-hover, @color-button-secondary-color);
 	}
 	
 	&.cl-focus {
-		#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-component-text);
+		#btn--pressed(@color-button-secondary-fill-pressed, @color-button-secondary-border-hover, @color-button-secondary-color);
+	}
+	
+	&.cl-disabled {
+		#btn--default(@color-button-secondary-fill-disabled, @color-button-secondary-border-disabled, @color-button-secondary-color-disabled);
 	}
 }
 
@@ -158,21 +163,77 @@
 	&.cl-modified,
 	&.cl-selected,
 	&.cl-editing {
-		.cl-button.btn-base {
-			#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-component-text);
+		.cl-button.btn-secondary {
+			#btn--default(@color-button-secondary-fill-default, @color-button-secondary-border-default, @color-button-secondary-color);
 			
 			&:not(.cl-disabled):hover,
 			&:not(.cl-disabled).cl-hover {
-				#btn--hover(@color-button-tertiary-fill-hover, @color-button-tertiary-border, @color-component-text);
+				#btn--hover(@color-button-secondary-fill-hover, @color-button-secondary-border-hover, @color-button-secondary-color);
 			}
 			
 			&:not(.cl-disabled).cl-activated,
 			&:not(.cl-disabled):active {
-				#btn--pressed(@color-button-tertiary-fill-pressed, @color-button-tertiary-border, @color-component-text);
+				#btn--pressed(@color-button-secondary-fill-pressed, @color-button-secondary-border-hover, @color-button-secondary-color);
 			}
 			
 			&.cl-focus {
-				#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-component-text);
+				#btn--pressed(@color-button-secondary-fill-pressed, @color-button-secondary-border-hover, @color-button-secondary-color);
+			}
+			
+			&.cl-disabled {
+				#btn--default(@color-button-secondary-fill-disabled, @color-button-secondary-border-disabled, @color-button-secondary-color-disabled);
+			}
+		}
+	}
+}
+
+/* --- tertiary --- */
+.btn-tertiary {
+	#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-button-tertiary-color);
+	
+	&:not(.cl-disabled):hover,
+	&:not(.cl-disabled).cl-hover {
+		#btn--hover(@color-button-tertiary-fill-hover, @color-button-tertiary-border, @color-button-tertiary-color);
+	}
+	
+	&:not(.cl-disabled).cl-activated,
+	&:not(.cl-disabled):active {
+		#btn--pressed(@color-button-tertiary-fill-pressed, @color-button-tertiary-border, @color-button-tertiary-color);
+	}
+	
+	&.cl-focus {
+		#btn--pressed(@color-button-tertiary-fill-pressed, @color-button-tertiary-border, @color-button-tertiary-color);
+	}
+	
+	&.cl-disabled {
+		#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-button-tertiary-color-disabled);
+	}
+}
+
+.cl-grid-row {
+	&.cl-inserted,
+	&.cl-modified,
+	&.cl-selected,
+	&.cl-editing {
+		.cl-button.btn-tertiary {
+			#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-button-tertiary-color);
+			
+			&:not(.cl-disabled):hover,
+			&:not(.cl-disabled).cl-hover {
+				#btn--hover(@color-button-tertiary-fill-hover, @color-button-tertiary-border, @color-button-tertiary-color);
+			}
+			
+			&:not(.cl-disabled).cl-activated,
+			&:not(.cl-disabled):active {
+				#btn--pressed(@color-button-tertiary-fill-pressed, @color-button-tertiary-border, @color-button-tertiary-color);
+			}
+			
+			&.cl-focus {
+				#btn--pressed(@color-button-tertiary-fill-pressed, @color-button-tertiary-border, @color-button-tertiary-color);
+			}
+			
+			&.cl-disabled {
+				#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-button-tertiary-color-disabled);
 			}
 		}
 	}
@@ -180,20 +241,24 @@
 
 /* --- Inline --- */
 .btn-inline {
-	#btn--default(@color-button-secondary-fill-default, @color-button-secondary-border, @color-component-text-active);
+	#btn--default(@color-button-secondary-fill-default, @color-component-text-active, @color-component-text-active);
 	
 	&:not(.cl-disabled):hover,
 	&:not(.cl-disabled).cl-hover {
-		#btn--hover(@color-button-secondary-fill-hover, @color-button-secondary-border, @color-component-text-active);
+		#btn--hover(@color-button-secondary-fill-default, @color-component-text-active, @color-component-text-active);
 	}
 	
 	&:not(.cl-disabled).cl-activated,
 	&:not(.cl-disabled):active {
-		#btn--pressed(@color-button-secondary-fill-pressed, @color-button-secondary-border, @color-component-text-active);
+		#btn--pressed(@color-button-secondary-fill-default, @color-component-text-active, @color-component-text-active);
 	}
 	
 	&.cl-focus {
-		#btn--default(@color-button-secondary-fill-default, @color-button-secondary-border, @color-component-text-active);
+		#btn--default(@color-button-secondary-fill-default, @color-component-text-active, @color-component-text-active);
+	}
+	
+	&.cl-disabled {
+		#btn--default(@color-button-secondary-fill-disabled, @color-button-secondary-border-disabled, @color-button-secondary-color-disabled);
 	}
 }
 
@@ -203,41 +268,49 @@
 	&.cl-selected,
 	&.cl-editing {
 		.btn-inline {
-			#btn--default(@color-button-secondary-fill-default, @color-button-secondary-border, @color-component-text-active);
+			#btn--default(@color-button-secondary-fill-default, @color-component-text-active, @color-component-text-active);
 			
 			&:not(.cl-disabled):hover,
 			&:not(.cl-disabled).cl-hover {
-				#btn--hover(@color-button-secondary-fill-hover, @color-button-secondary-border, @color-component-text-active);
+				#btn--hover(@color-button-secondary-fill-default, @color-component-text-active, @color-component-text-active);
 			}
 			
 			&:not(.cl-disabled).cl-activated,
 			&:not(.cl-disabled):active {
-				#btn--pressed(@color-button-secondary-fill-pressed, @color-button-secondary-border, @color-component-text-active);
+				#btn--pressed(@color-button-secondary-fill-default, @color-component-text-active, @color-component-text-active);
 			}
 			
 			&.cl-focus {
-				#btn--default(@color-button-secondary-fill-default, @color-button-secondary-border, @color-component-text-active);
+				#btn--default(@color-button-secondary-fill-default, @color-component-text-active, @color-component-text-active);
+			}
+			
+			&.cl-disabled {
+				#btn--default(@color-button-secondary-fill-disabled, @color-button-secondary-border-disabled, @color-button-secondary-color-disabled);
 			}
 		}
 	}
 }
 
-/* --- Submit (Primary) --- */
-.btn-submit {
-	#btn--default(@color-button-primary-fill-default, @color-button-primary-border, @color-text-inverse);
+/* --- btn-danger --- */
+.btn-danger {
+	#btn--default(@color-button-danger-fill-default, @color-button-danger-border, @color-button-danger-color);
 	
 	&:not(.cl-disabled):hover,
 	&:not(.cl-disabled).cl-hover {
-		#btn--hover(@color-button-primary-fill-hover, @color-button-primary-fill-hover, @color-text-inverse);
+		#btn--hover(@color-button-danger-fill-hover, @color-button-danger-border, @color-button-danger-color);
 	}
 	
 	&:not(.cl-disabled).cl-activated,
 	&:not(.cl-disabled):active {
-		#btn--pressed(@color-button-primary-fill-pressed, @color-button-primary-fill-pressed, @color-text-inverse);
+		#btn--pressed(@color-button-danger-fill-pressed, @color-button-danger-border, @color-button-danger-color);
 	}
 	
 	&.cl-focus {
-		#btn--default(@color-button-primary-fill-default, @color-button-primary-border, @color-text-inverse);
+		#btn--pressed(@color-button-danger-fill-pressed, @color-button-danger-border, @color-button-danger-color);
+	}
+	
+	&.cl-disabled {
+		#btn--default(@color-button-danger-fill-disabled, @color-button-danger-border, @color-button-danger-color-disabled);
 	}
 }
 
@@ -246,21 +319,25 @@
 	&.cl-modified,
 	&.cl-selected,
 	&.cl-editing {
-		.cl-button.btn-submit {
-			#btn--default(@color-button-primary-fill-default, @color-button-primary-border, @color-text-inverse);
+		.cl-button.btn-danger {
+			#btn--default(@color-button-danger-fill-default, @color-button-danger-border, @color-button-danger-color);
 			
 			&:not(.cl-disabled):hover,
 			&:not(.cl-disabled).cl-hover {
-				#btn--hover(@color-button-primary-fill-hover, @color-button-primary-border, @color-text-inverse);
+				#btn--hover(@color-button-danger-fill-hover, @color-button-danger-border, @color-button-danger-color);
 			}
 			
 			&:not(.cl-disabled).cl-activated,
 			&:not(.cl-disabled):active {
-				#btn--pressed(@color-button-primary-fill-pressed, @color-button-primary-border, @color-text-inverse);
+				#btn--pressed(@color-button-danger-fill-pressed, @color-button-danger-border, @color-button-danger-color);
 			}
 			
 			&.cl-focus {
-				#btn--default(@color-button-primary-fill-default, @color-button-primary-border, @color-text-inverse);
+				#btn--pressed(@color-button-danger-fill-pressed, @color-button-danger-border, @color-button-danger-color);
+			}
+			
+			&.cl-disabled {
+				#btn--default(@color-button-danger-fill-disabled, @color-button-danger-border, @color-button-danger-color-disabled);
 			}
 		}
 	}

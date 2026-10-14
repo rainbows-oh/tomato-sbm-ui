@@ -543,62 +543,81 @@
       </cl:checkbox>
       <cl:flowlayout std:sid="f-layout-6b094c2a" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
     </cl:group>
-    <cl:group std:sid="group-c8d0b8ef" clipcontent="false">
-      <cl:verticaldata std:sid="v-data-371e48c4" width="1440px" height="24px" autosize="both"/>
-      <cl:output std:sid="output-0a969544" value="버튼 (기본)">
-        <cl:flowlayoutdata std:sid="f-data-c44ac386" width="160px" height="24px" syncminheight="true" autosize="height"/>
-      </cl:output>
-      <cl:button std:sid="button-44367910" value="버튼">
-        <cl:flowlayoutdata std:sid="f-data-3fb70925" width="68px" height="24px"/>
-      </cl:button>
-      <cl:button std:sid="button-464547ce" value="버튼">
-        <cl:flowlayoutdata std:sid="f-data-36732f6e" width="68px" height="24px"/>
-      </cl:button>
-      <cl:button std:sid="button-559defb2" value="버튼">
-        <cl:flowlayoutdata std:sid="f-data-dbb11b8b" width="68px" height="24px"/>
-      </cl:button>
-      <cl:button std:sid="button-07b64873" value="버튼">
-        <cl:flowlayoutdata std:sid="f-data-4b563538" width="68px" height="24px"/>
-      </cl:button>
-      <cl:flowlayout std:sid="f-layout-a2b239fa" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
-    </cl:group>
     <cl:group std:sid="group-8f1915c7" clipcontent="false">
       <cl:verticaldata std:sid="v-data-dee3d8a4" width="1440px" height="24px" autosize="both"/>
-      <cl:output std:sid="output-90517922" value="- btn-submit">
+      <cl:output std:sid="output-90517922" value="- 기본 or btn-primary">
         <cl:flowlayoutdata std:sid="f-data-5e4c9501" width="160px" height="24px" syncminheight="true" autosize="height"/>
       </cl:output>
-      <cl:button std:sid="button-78d9d1df" class="btn-submit" value="버튼">
+      <cl:button std:sid="button-78d9d1df" class="btn-primary" value="버튼">
         <cl:flowlayoutdata std:sid="f-data-eb5890ea" width="68px" height="24px"/>
       </cl:button>
-      <cl:button std:sid="button-fba37d6c" class="btn-submit cl-hover" value="버튼">
+      <cl:button std:sid="button-fba37d6c" class="btn-primary cl-hover" value="버튼">
         <cl:flowlayoutdata std:sid="f-data-2b9a9b7f" width="68px" height="24px"/>
       </cl:button>
-      <cl:button std:sid="button-d4f2583f" class="btn-submit cl-activated" value="버튼">
+      <cl:button std:sid="button-d4f2583f" class="btn-primary cl-activated" value="버튼">
         <cl:flowlayoutdata std:sid="f-data-9bdb4f60" width="68px" height="24px"/>
       </cl:button>
-      <cl:button std:sid="button-e2fa018a" class="btn-submit" enabled="false" value="버튼">
+      <cl:button std:sid="button-e2fa018a" class="btn-primary" enabled="false" value="버튼">
         <cl:flowlayoutdata std:sid="f-data-6a0454f7" width="68px" height="24px"/>
       </cl:button>
       <cl:flowlayout std:sid="f-layout-c4700717" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
     </cl:group>
     <cl:group std:sid="group-8a3153af" clipcontent="false">
       <cl:verticaldata std:sid="v-data-c58213b1" width="1440px" height="24px" autosize="both"/>
-      <cl:output std:sid="output-956b0e03" value="- btn-base">
+      <cl:output std:sid="output-956b0e03" value="- btn-secondary">
         <cl:flowlayoutdata std:sid="f-data-3acb51fa" width="160px" height="24px" syncminheight="true" autosize="height"/>
       </cl:output>
-      <cl:button std:sid="button-aa3a8a91" class="btn-base" value="버튼">
+      <cl:button std:sid="button-aa3a8a91" class="btn-secondary" value="버튼">
         <cl:flowlayoutdata std:sid="f-data-9be23eaa" width="68px" height="24px"/>
       </cl:button>
-      <cl:button std:sid="button-13bb9c95" class="btn-base cl-hover" value="버튼">
+      <cl:button std:sid="button-13bb9c95" class="btn-secondary cl-hover" value="버튼">
         <cl:flowlayoutdata std:sid="f-data-94a6708a" width="68px" height="24px"/>
       </cl:button>
-      <cl:button std:sid="button-f007a872" class="btn-base cl-activated" value="버튼">
+      <cl:button std:sid="button-f007a872" class="btn-secondary cl-activated" value="버튼">
         <cl:flowlayoutdata std:sid="f-data-32c339a1" width="68px" height="24px"/>
       </cl:button>
-      <cl:button std:sid="button-7e89b53b" class="btn-base" enabled="false" value="버튼">
+      <cl:button std:sid="button-7e89b53b" class="btn-secondary" enabled="false" value="버튼">
         <cl:flowlayoutdata std:sid="f-data-103bc472" width="68px" height="24px"/>
       </cl:button>
       <cl:flowlayout std:sid="f-layout-5b64ca54" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
+    </cl:group>
+    <cl:group std:sid="group-c8d0b8ef" clipcontent="false">
+      <cl:verticaldata std:sid="v-data-371e48c4" width="1440px" height="24px" autosize="both"/>
+      <cl:output std:sid="output-0a969544" class="btn-tertiary" value="- btn-tertiary">
+        <cl:flowlayoutdata std:sid="f-data-c44ac386" width="160px" height="24px" syncminheight="true" autosize="height"/>
+      </cl:output>
+      <cl:button std:sid="button-44367910" class="btn-tertiary" value="버튼">
+        <cl:flowlayoutdata std:sid="f-data-3fb70925" width="68px" height="24px"/>
+      </cl:button>
+      <cl:button std:sid="button-bb9e8126" id="btn5" class="btn-tertiary cl-hover" value="버튼">
+        <cl:flowlayoutdata std:sid="f-data-0bddfb8f" width="68px" height="24px" autosize="none"/>
+      </cl:button>
+      <cl:button std:sid="button-c52bcdcd" id="btn6" class="btn-tertiary cl-activated" value="버튼">
+        <cl:flowlayoutdata std:sid="f-data-9a7c2a81" width="68px" height="24px" autosize="none"/>
+      </cl:button>
+      <cl:button std:sid="button-8edaec0e" id="btn7" class="btn-tertiary" enabled="false" value="버튼">
+        <cl:flowlayoutdata std:sid="f-data-2753472c" width="68px" height="24px" autosize="none"/>
+      </cl:button>
+      <cl:flowlayout std:sid="f-layout-a2b239fa" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
+    </cl:group>
+    <cl:group std:sid="group-140b6706" id="grp1" clipcontent="false">
+      <cl:verticaldata std:sid="v-data-8bc0a6ed" width="1440px" height="24px" autosize="both"/>
+      <cl:output std:sid="output-5d4d74af" id="opt1" value="- btn-danger">
+        <cl:flowlayoutdata std:sid="f-data-794cc829" width="160px" height="24px" syncminheight="true" autosize="height"/>
+      </cl:output>
+      <cl:button std:sid="button-cedf8d64" id="btn1" class="btn-danger" value="버튼">
+        <cl:flowlayoutdata std:sid="f-data-6c04c75d" width="68px" height="24px" autosize="none"/>
+      </cl:button>
+      <cl:button std:sid="button-52eb7326" id="btn2" class="btn-danger cl-hover" value="버튼">
+        <cl:flowlayoutdata std:sid="f-data-857b6ec1" width="68px" height="24px" autosize="none"/>
+      </cl:button>
+      <cl:button std:sid="button-920ef768" id="btn3" class="btn-danger cl-activated" value="버튼">
+        <cl:flowlayoutdata std:sid="f-data-92a32657" width="68px" height="24px" autosize="none"/>
+      </cl:button>
+      <cl:button std:sid="button-4ed61167" id="btn4" class="btn-danger" enabled="false" value="버튼">
+        <cl:flowlayoutdata std:sid="f-data-c876e987" width="68px" height="24px" autosize="none"/>
+      </cl:button>
+      <cl:flowlayout std:sid="f-layout-a4e7556c" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
     </cl:group>
     <cl:group std:sid="group-ab93413c" clipcontent="false">
       <cl:verticaldata std:sid="v-data-6eb4d0a4" width="1440px" height="24px" autosize="both"/>
