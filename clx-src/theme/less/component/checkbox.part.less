@@ -11,6 +11,9 @@
 
 @import (reference) "../common/_include.part.less";
 
+/* 파일 지역 변수 (@checkbox-- 접두어) — 아이콘·텍스트 간격 */
+@checkbox--gap: @gap-4; /* 8px */
+
 /* ==========================================================================
  Mixins
  ========================================================================== */
@@ -97,32 +100,13 @@
 	}
 }
 
-/* 아이콘 정렬별 텍스트 간격 (호출부(&) = iconalign 클래스를 가진 요소) */
-#checkbox--align-gap(@gap) {
-	&.cl-iconalign-left .cl-text {
-		padding: 0 0 0 @gap;
-	}
-
-	&.cl-iconalign-right .cl-text {
-		padding: 0 @gap 0 0;
-	}
-
-	&.cl-iconalign-top .cl-text {
-		padding: @gap 0 0 0;
-	}
-
-	&.cl-iconalign-bottom .cl-text {
-		padding: 0 0 @gap 0;
-	}
-}
-
-/* 아이콘 정렬 레이아웃 (기본 간격 + 아이콘 없음 + 상하 정렬 시 아이콘 여백 제거) */
+/* 아이콘 정렬 레이아웃 (호출부(&) = iconalign 클래스를 가진 .cl-checkbox) */
 #checkbox--align() {
-	#checkbox--align-gap(@size-component-gap);
-
-	&.cl-iconalign-none .cl-text {
-		padding: 0;
-	}
+	&.cl-iconalign-left .cl-text   { padding: 0 0 0 @checkbox--gap; }
+	&.cl-iconalign-right .cl-text  { padding: 0 @checkbox--gap 0 0; }
+	&.cl-iconalign-top .cl-text    { padding: @checkbox--gap 0 0 0; }
+	&.cl-iconalign-bottom .cl-text { padding: 0 0 @checkbox--gap 0; }
+	&.cl-iconalign-none .cl-text   { padding: 0; }
 
 	&.cl-iconalign-top .cl-icon-wrapper,
 	&.cl-iconalign-bottom .cl-icon-wrapper {
@@ -134,18 +118,18 @@
 #checkbox--item() {
 	/* --- Layout — 구조 --- */
 	.cl-checkbox-field .cl-text {
-		line-height: @line-height-base;
+		#font-label();
 	}
 
 	.cl-icon-wrapper {
 		line-height: 0;
-		padding-top: @gap-1;
+		padding-top: 1px; /* 아이콘(16px) 중앙 = 텍스트 줄 높이(@line-height-label 18px) 중앙 */
 		vertical-align: top;
 	}
 
 	.cl-text {
 		padding: 0;
-		padding-left: @size-component-gap;
+		padding-left: @checkbox--gap;
 	}
 
 	.cl-checkbox-icon {
@@ -241,12 +225,8 @@
 	}
 
 	/* --- Size — .large --- */
-	&.large {
-		.cl-checkbox-icon {
-			#checkbox--button(@size-8);
-		}
-
-		#checkbox--align-gap(@size-component-gap-large);
+	&.large .cl-checkbox-icon {
+		#checkbox--button(@size-8);
 	}
 }
 
@@ -270,8 +250,19 @@
 		#checkbox--item();
 	}
 
-	/* --- Layout — 정렬 (내부 .cl-text 기본 간격과 우선순위가 같아 뒤에 선언) --- */
-	#checkbox--align();
+	/* --- Layout — 정렬
+	   iconalign 클래스는 그룹 루트에 붙음. 내부 .cl-checkbox 까지 지정해
+	   .cl-checkboxgroup .cl-checkbox .cl-text 기본 간격보다 우선순위를 높임 --- */
+	&.cl-iconalign-left .cl-checkbox .cl-text   { padding: 0 0 0 @checkbox--gap; }
+	&.cl-iconalign-right .cl-checkbox .cl-text  { padding: 0 @checkbox--gap 0 0; }
+	&.cl-iconalign-top .cl-checkbox .cl-text    { padding: @checkbox--gap 0 0 0; }
+	&.cl-iconalign-bottom .cl-checkbox .cl-text { padding: 0 0 @checkbox--gap 0; }
+	&.cl-iconalign-none .cl-checkbox .cl-text   { padding: 0; }
+
+	&.cl-iconalign-top .cl-checkbox .cl-icon-wrapper,
+	&.cl-iconalign-bottom .cl-checkbox .cl-icon-wrapper {
+		padding-top: 0;
+	}
 
 	/* --- Focus — 그룹 포커스 시 개별 아이콘 아웃라인 제거, focus-visible 에만 포커스 링 --- */
 	&.cl-focus,
@@ -292,11 +283,7 @@
 	}
 
 	/* --- Size — .large --- */
-	&.large {
-		.cl-checkbox .cl-checkbox-icon {
-			#checkbox--button(@size-8);
-		}
-
-		#checkbox--align-gap(@size-component-gap-large);
+	&.large .cl-checkbox .cl-checkbox-icon {
+		#checkbox--button(@size-8);
 	}
 }
