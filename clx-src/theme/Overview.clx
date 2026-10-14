@@ -289,7 +289,7 @@
       <cl:numbereditor std:sid="n-editor-e524497d" placeholder="플레이스홀더">
         <cl:flowlayoutdata std:sid="f-data-88952f31" width="160px" height="36px"/>
       </cl:numbereditor>
-      <cl:numbereditor std:sid="n-editor-a6b4fcd7" value="0" spinbuttonposition="both">
+      <cl:numbereditor std:sid="n-editor-a6b4fcd7" value="0" spinbutton="true" spinbuttonposition="both">
         <cl:flowlayoutdata std:sid="f-data-851d5600" width="160px" height="36px"/>
       </cl:numbereditor>
       <cl:numbereditor std:sid="n-editor-e17535ea" readonly="true" value="0">
@@ -311,7 +311,7 @@
       <cl:dateinput std:sid="d-input-b12fd130" placeholder="플레이스홀더">
         <cl:flowlayoutdata std:sid="f-data-c86e7d33" width="160px" height="36px"/>
       </cl:dateinput>
-      <cl:dateinput std:sid="d-input-18a8664c" value="20260923">
+      <cl:dateinput std:sid="d-input-18a8664c" value="20260923" spinbutton="true">
         <cl:flowlayoutdata std:sid="f-data-f104b315" width="160px" height="36px"/>
       </cl:dateinput>
       <cl:dateinput std:sid="d-input-fb775894" readonly="true" value="20260923">

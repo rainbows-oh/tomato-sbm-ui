@@ -330,6 +330,7 @@
 		.cl-dateinput-decrease {
 			height: auto !important;
 			grid-column: 1 / span 1;
+			#input--icon(@size-icon-xsmall);
 		}
 		
 		.cl-dateinput-increase {
@@ -342,10 +343,13 @@
 		border: none;
 		font-size: 0;
 		
-		.cl-dateinput-increase,
+		
+		
+		.cl-dateinput-increase {
+			background-image: url("@{img-path}/icons/ico_caret_up.svg");
+		}
 		.cl-dateinput-decrease {
-			position: relative;
-			#input--icon(@size-icon-xsmall);
+			background-image: url("@{img-path}/icons/ico_caret.svg");
 		}
 	}
 	
