@@ -5,9 +5,9 @@
  ************************************************/
 .cl-container.app-header {
 	.cl-output {
+		#font-heading();
 		font-weight: 600;
-		font-size: 15px;
-		color: #0d253d;
+		color: @secondary-90;
 	}
 }
 
@@ -18,16 +18,16 @@
 	.cl-button.btn-expand {
 		text-align: left;
 		font-size: 15px;
-		font-weight: 600;
+		font-weight: 700;
 		padding: 0px;
 		background: url("../../img/icons/ico_angle_down.svg") no-repeat center right;
 		background-size: 18px;
+		color: @secondary-90;
 		
 		&:not(.cl-disabled):hover,
 		&:not(.cl-disabled).cl-hover {
 			background-color: #EFF1F5;
 		}
-		
 		
 		&.collapse {
 			background: url("../../img/icons/ico_angle_up.svg") no-repeat center right;
@@ -71,72 +71,77 @@
  ************************************************/
 .cl-container.pagination {
 	margin-top: 16px;
-	padding: 12px 0;
+	padding: 2px 0;
 	
 	.cl-output.page-info {
-		color: #64748d;
+		color: #475569;
 		font-size: 13px;
 		font-weight: @font-weight-normal;
-		letter-spacing: -0.39px;
 	}
 	
-	.cl-combobox.page-size {
-		.cl-text {
-			padding: 0 12px;
-		}
-	}
-	
-	.cl-button.page-navi {
-		border: 1px solid #e3e8ee;
-		padding: 8px 12px;
+	.cl-button {
+		padding: 0px;
+		background-color: transparent;
+		color: @gray-90;
+		font-size: 13px;
+		font-weight: 600;
 		
-		.shortcut {
-			min-height: 16px !important;
-			min-width: 16px !important;
-			margin-bottom: 1px;
+		.cl-icon {
+			width: 24px;
+			height: 24px;
 		}
 		
-		&.prev {
-			border-radius: @border-radius-full 0 0 @border-radius-full;
-			border-right-color: transparent;
-			
-			.shortcut {
-				margin-right: 4px;
-			}
-			
+		&.before {
 			.cl-icon {
-	 			background-image: url("../../img/icons/ico_angle_left.svg") !important;
+	 			background-image: url("../../img/icons/ico_pagination_before.svg") !important;
 	 		}
 	 		
 	 		&.cl-disabled {
 	 			.cl-icon {
-	 				background-image: url("../../img/icons/ico_pagination_left_disable.svg") !important;
+	 				background-image: url("../../img/icons/ico_pagination_before_disabled.svg") !important;
+	 			}
+	 		}
+		}
+		
+		&.prev {
+			.cl-icon {
+	 			background-image: url("../../img/icons/ico_pagination_prev.svg") !important;
+	 		}
+	 		
+	 		&.cl-disabled {
+	 			.cl-icon {
+	 				background-image: url("../../img/icons/ico_pagination_prev_disabled.svg") !important;
 	 			}
 	 		}
 		}
 		
 		&.next {
-			border-radius: 0 @border-radius-full @border-radius-full 0;
-			
-			.shortcut {
-				margin-left: 4px;
-			}
-			
 			.cl-icon {
-	 			background-image: url("../../img/icons/ico_angle_right.svg") !important;
+	 			background-image: url("../../img/icons/ico_pagination_next.svg") !important;
 	 		}
 	 		
 	 		&.cl-disabled {
 	 			.cl-icon {
-	 				background-image: url("../../img/icons/ico_pagination_right_disable.svg") !important;
+	 				background-image: url("../../img/icons/ico_pagination_next_disabled.svg") !important;
+	 			}
+	 		}
+		}
+
+		&.after {
+			.cl-icon {
+	 			background-image: url("../../img/icons/ico_pagination_after.svg") !important;
+	 		}
+	 		
+	 		&.cl-disabled {
+	 			.cl-icon {
+	 				background-image: url("../../img/icons/ico_pagination_after_disabled.svg") !important;
 	 			}
 	 		}
 		}
 		
 		&.cl-disabled {
 			background-color: #ffffff;
-			border-color: #e3e8ee;
-			opacity: .4;
+			color: @gray-40;
 		}
 	}
 }
