@@ -24,6 +24,8 @@
 @grid--head-padding:       10px 16px;
 @grid--cell-color-text:    #273951;  /* 데이터 텍스트 (팔레트에 없는 값) */
 @grid--cell-padding:       16px 17px;
+@grid--sort-gap:           6px;  /* 헤더 텍스트 ~ 정렬 아이콘 */
+@grid--sort-icon-size:     12px;
 
 /* ==========================================================================
  Mixins
@@ -84,8 +86,8 @@
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	width: @size-icon-small;
-	height: @size-icon-small;
+	width: @grid--sort-icon-size;
+	height: @grid--sort-icon-size !important; /* 런타임 inline height 50% 해제 */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -328,76 +330,67 @@
 			}
 		}
 		
-		+ .cl-sortable-cell {
-			&.cl-sort-asc,
-			&.cl-sort-desc {
-				.cl-sort {
-					position: absolute;
-					top: 0;
-					right: (14px + @gap-1);
-					float: none !important;
-					z-index: 1;
-				}
-			}
-			
-			> .cl-grid-cell-inherit {
-				width: 100%;
-			}
-		}
 	}
 	
-	/* 정렬 아이콘 3단계 — 직접 url */
+	/* 정렬 — 아이콘은 헤더 텍스트 오른쪽 6px, 세로 가운데
+	   런타임 DOM: .cl-sortable-cell > .cl-sort(inline float:right, 첫 번째 자식) + 텍스트(.cl-grid-cell-inherit)
+	   → flex 로 배치하고 order 로 .cl-sort 를 텍스트 뒤로 이동 (flex item 은 float 무시) */
 	.cl-sortable-cell {
-		&.cl-sort-asc,
-		&.cl-sort-desc {
-			color: @grid--head-color-sorted;
+		display: flex;
+		align-items: center;
+
+		/* 헤더 텍스트 — 내용 너비만큼, 넘치면 줄어듦 */
+		> .cl-grid-cell-inherit {
+			flex: 0 1 auto;
+			width: auto;
+			min-width: 0;
+
+			.cl-control.cl-default-cell,
+			.cl-control.cl-output {
+				padding-right: 0;
+			}
 		}
 
+		/* 아이콘 영역 */
 		.cl-sort {
-			display: none;
-			width: auto;
-			#font-micro();
-			
-			.cl-sort-icon {
-				#grid--sort-icon();
-			}
-		}
-		
-		&.cl-sortable .cl-sort {
 			display: inline-flex;
 			align-items: center;
-			flex-direction: column;
-			
+			flex-shrink: 0;
+			order: 1;
+			gap: @gap-1;
+			width: auto;
+			height: auto !important; /* 런타임 inline height(행 높이) 해제 → 세로 가운데 */
+			margin-left: @grid--sort-gap;
+			#font-micro();
+
 			.cl-sort-icon {
-				background-image: url("@{img-path}/icons/ico_sort.svg");
+				#grid--sort-icon();
+				background-image: url("@{img-path}/icons/ico_sortabled.svg"); /* 정렬 가능(미정렬) */
+
+				&::before {
+					content: none; /* 런타임 △ ▲ ▼ 텍스트 아이콘 제거 */
+				}
 			}
-			
+
 			.cl-sort-seq {
 				display: none;
 			}
 		}
-		
-		&.cl-sort-asc .cl-sort,
-		&.cl-sort-desc .cl-sort {
-			display: inline-flex;
-			align-items: center;
-			flex-direction: column;
-			
-			.cl-sort-icon {
-				&::before {
-					content: none;
-				}
-			}
-			
-			.cl-sort-seq:not(:empty) {
+
+		/* 정렬됨 — 텍스트 색 + 다중 정렬 순번 */
+		&.cl-sort-asc,
+		&.cl-sort-desc {
+			color: @grid--head-color-sorted;
+
+			.cl-sort .cl-sort-seq:not(:empty) {
 				#grid--sort-seq();
 			}
 		}
-		
+
 		&.cl-sort-asc .cl-sort .cl-sort-icon {
 			background-image: url("@{img-path}/icons/ico_sort_asc.svg");
 		}
-		
+
 		&.cl-sort-desc .cl-sort .cl-sort-icon {
 			background-image: url("@{img-path}/icons/ico_sort_desc.svg");
 		}

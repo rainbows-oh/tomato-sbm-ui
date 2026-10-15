@@ -18,7 +18,7 @@
           <std:metadata>
             <std:property key="locked" value="true"/>
           </std:metadata>
-          <cl:embeddedapp std:sid="e-app-7d5dce7a" id="ema1" src="Correspondence_details_message.clx">
+          <cl:embeddedapp std:sid="e-app-7d5dce7a" id="ema1" src="old/Correspondence_details_message.clx">
             <cl:verticaldata std:sid="v-data-3c345b91" width="320px" height="900px" autosize="height"/>
           </cl:embeddedapp>
           <cl:verticallayout std:sid="v-layout-8abe58b8" spacing="24" topmargin="24"/>
