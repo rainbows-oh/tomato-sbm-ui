@@ -5,6 +5,8 @@
  * * [History]
  * - 2026. 5. 27. : 최초 생성 (ryu)
  ************************************************/
+var util = createCommonUtil();
+
 
 /*
  * @function 
@@ -123,4 +125,14 @@ function onCmb6Open(e) {
 			debugger;
 		}
 	}, 200);
+}
+
+/*
+ * "버튼" 버튼에서 click 이벤트 발생 시 호출.
+ * 사용자가 컨트롤을 클릭할 때 발생하는 이벤트.
+ */
+function onButtonClick(e) {
+	var button = e.control;
+	
+	util.Dialog.open(app, "app/pb/SelectCompany", 896, 527, null);
 }

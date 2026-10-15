@@ -64,12 +64,11 @@
 /* ==========================================================================
    Base
    ========================================================================== */
-.cl-button,
-.cl-button.btn-primary {
-	background-color: @color-button-primary-fill-default;
+.cl-button {
+	background-color: transparent;
 	background-image: none;
-	border: none;
-	color: @color-button-primary-color;
+	border: 1px solid transparent;
+	color: @color-component-text;
 	line-height: @line-height-base !important; /* line-height: 100% 제거 */
 	text-shadow: none;
 	transition: @transition-base;
@@ -109,21 +108,17 @@
 	}
 	
 	&:not(.cl-disabled).cl-hover,
-    &:not(.cl-disabled):hover {
-    	color: @color-button-primary-color;
-    	background-color: @color-button-primary-fill-hover;
-    }
-    
+    &:not(.cl-disabled):hover,
     &:not(.cl-disabled).cl-activated,
     &:not(.cl-disabled):active,
     &.cl-focus {
+    	background-color: transparent;
     	background-image: none;
-    	color: @color-button-primary-color;
-    	background-color: @color-button-primary-fill-pressed;
+    	border-color: transparent;
     }
-    
+
     &.cl-disabled {
-    	background-color: @color-button-primary-fill-disabled;
+    	background-color: transparent;
     	color: @color-button-primary-color-disabled;
     }
 }
@@ -134,6 +129,58 @@
 
 .cl-button[class*="btn-"] {
 	#btn--base();
+}
+
+/* --- primary --- */
+.btn-primary {
+	#btn--default(@color-button-primary-fill-default, transparent, @color-button-primary-color);
+
+	&:not(.cl-disabled):hover,
+	&:not(.cl-disabled).cl-hover {
+		#btn--hover(@color-button-primary-fill-hover, transparent, @color-button-primary-color);
+	}
+
+	&:not(.cl-disabled).cl-activated,
+	&:not(.cl-disabled):active {
+		#btn--pressed(@color-button-primary-fill-pressed, transparent, @color-button-primary-color);
+	}
+
+	&.cl-focus {
+		#btn--pressed(@color-button-primary-fill-pressed, transparent, @color-button-primary-color);
+	}
+
+	&.cl-disabled {
+		#btn--default(@color-button-primary-fill-disabled, transparent, @color-button-primary-color-disabled);
+	}
+}
+
+.cl-grid-row {
+	&.cl-inserted,
+	&.cl-modified,
+	&.cl-selected,
+	&.cl-editing {
+		.cl-button.btn-primary {
+			#btn--default(@color-button-primary-fill-default, transparent, @color-button-primary-color);
+
+			&:not(.cl-disabled):hover,
+			&:not(.cl-disabled).cl-hover {
+				#btn--hover(@color-button-primary-fill-hover, transparent, @color-button-primary-color);
+			}
+
+			&:not(.cl-disabled).cl-activated,
+			&:not(.cl-disabled):active {
+				#btn--pressed(@color-button-primary-fill-pressed, transparent, @color-button-primary-color);
+			}
+
+			&.cl-focus {
+				#btn--pressed(@color-button-primary-fill-pressed, transparent, @color-button-primary-color);
+			}
+
+			&.cl-disabled {
+				#btn--default(@color-button-primary-fill-disabled, transparent, @color-button-primary-color-disabled);
+			}
+		}
+	}
 }
 
 /* --- secondary --- */
