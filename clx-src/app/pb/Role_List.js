@@ -47,3 +47,12 @@ var util = createCommonUtil();
  * (Event functions are automatically displayed below when events are created.)
  *******************************************************************************/
 
+/*
+ * "Add Role" 버튼(btn3)에서 click 이벤트 발생 시 호출.
+ * 사용자가 컨트롤을 클릭할 때 발생하는 이벤트.
+ */
+function onBtn3Click(e) {
+	var btn3 = e.control;
+	
+	util.Dialog.open(app, "app/pb/Role_AddRole", 500, -1, null);
+}

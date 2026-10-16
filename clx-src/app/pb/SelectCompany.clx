@@ -54,7 +54,7 @@
       <cl:output std:sid="output-ededbed2" id="opt1" class="font-label" value="Company Name">
         <cl:verticaldata std:sid="v-data-5ae28a3d" width="1024px" height="20px" autosize="height"/>
       </cl:output>
-      <cl:inputbox std:sid="i-box-9174ec9e" id="ipb1" placeholder="Search company name or symbol">
+      <cl:inputbox std:sid="i-box-9174ec9e" id="ipb1" fieldLabel="Company Name" placeholder="Search company name or symbol">
         <cl:verticaldata std:sid="v-data-2980af26" width="1024px" height="36px"/>
       </cl:inputbox>
       <cl:verticallayout std:sid="v-layout-711dd495"/>

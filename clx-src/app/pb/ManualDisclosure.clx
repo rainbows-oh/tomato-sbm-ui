@@ -134,7 +134,7 @@
               <cl:group std:sid="group-fed5a5dc" id="grp2">
                 <cl:attribute name="needs-auto-height" value="true"/>
                 <cl:formdata std:sid="f-data-83e4d3b5" width="100" height="25" row="0" col="0"/>
-                <cl:output std:sid="output-6b9ad6ed" id="opt1" class="label" value="Company Name">
+                <cl:output std:sid="output-6b9ad6ed" id="opt1" class="font-label" value="Company Name">
                   <cl:verticaldata std:sid="v-data-5e929e70" width="100px" height="18px" autosize="height"/>
                 </cl:output>
                 <cl:group std:sid="group-c414dac3" id="grp3" class="input-group">
@@ -157,7 +157,7 @@
               <cl:group std:sid="group-3a58a2c0" id="grp15">
                 <cl:attribute name="needs-auto-height" value="true"/>
                 <cl:formdata std:sid="f-data-46ffffaa" width="100" height="29" row="0" col="1"/>
-                <cl:output std:sid="output-cb3409d2" id="opt10" class="label" value="Template Name">
+                <cl:output std:sid="output-cb3409d2" id="opt10" class="font-label" value="Template Name">
                   <cl:verticaldata std:sid="v-data-fa1be6fb" width="100px" height="18px" autosize="height"/>
                 </cl:output>
                 <cl:group std:sid="group-14aded71" id="grp16" class="input-group">
@@ -189,7 +189,7 @@
               <cl:group std:sid="group-ef318d90" id="grp4">
                 <cl:attribute name="needs-auto-height" value="true"/>
                 <cl:formdata std:sid="f-data-50b5bd6b" width="100" height="29" row="0" col="0"/>
-                <cl:output std:sid="output-42a8bc12" id="opt2" class="label" value="Period">
+                <cl:output std:sid="output-42a8bc12" id="opt2" class="font-label" value="Period">
                   <cl:verticaldata std:sid="v-data-4d3e31ae" width="100px" height="18px" autosize="height"/>
                 </cl:output>
                 <cl:group std:sid="group-bf024368" id="grp5" class="input-group">
@@ -227,7 +227,7 @@
               <cl:group std:sid="group-beb95506" id="grp9">
                 <cl:attribute name="needs-auto-height" value="true"/>
                 <cl:formdata std:sid="f-data-7275c311" row="0" col="1"/>
-                <cl:output std:sid="output-6223e3bc" id="opt5" class="label" value="Status">
+                <cl:output std:sid="output-6223e3bc" id="opt5" class="font-label" value="Status">
                   <cl:verticaldata std:sid="v-data-d71109cd" width="100px" height="18px" autosize="height"/>
                 </cl:output>
                 <cl:checkboxgroup std:sid="cb-group-b6950bae" id="cbg1" fieldLabel="Status">
@@ -271,7 +271,7 @@
           </cl:output>
           <cl:group std:sid="group-5c3d9eb9">
             <cl:formdata std:sid="f-data-15a35e88" row="0" col="1"/>
-            <cl:combobox std:sid="c-box-d195aaaa" id="cmb3">
+            <cl:combobox std:sid="c-box-d195aaaa" id="cmb3" fieldLabel="Rows per page">
               <cl:flowlayoutdata std:sid="f-data-9b5dca83" width="110px" height="36px"/>
             </cl:combobox>
             <cl:flowlayout std:sid="f-layout-3ac577df" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
