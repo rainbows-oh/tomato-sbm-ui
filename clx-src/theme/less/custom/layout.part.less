@@ -203,8 +203,6 @@
 
 //카드 영역
 .cl-container.card-section {
-	border-top: 1px solid #e3e8ee;
-	padding: 12px;
 }
 
 //임력 폼 스타일
@@ -321,7 +319,9 @@
 	}
 }
 
-//조회 영역 grpSearch
+/* ==========================================================================
+ 조회형 (Search Box) - grpSearch
+ ========================================================================== */
 .cl-container.search-top-box {
 	background-color: #ffffff;
 	border: 1px solid @gray-30;
@@ -329,15 +329,13 @@
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.08);
 	
 	.cl-container.search-head {
-		border-bottom: 1px solid @gray-20;
-		padding: 14px 20px;
-
 		.cl-output.truncate {
 			color: @gray-70;
 			font-size: 13px;
 			font-weight: @font-weight-normal;
 			letter-spacing: -0.39px;
 			text-align: center;
+			padding: 16px 24px;
 		}
 	}
 	
@@ -353,7 +351,6 @@
 	
 	.cl-container.search-btn-wrap {
 		border-top: 1px solid @gray-20;
-		margin-top: 8px;
 		padding-top: 16px;
 		
 		.cl-button {

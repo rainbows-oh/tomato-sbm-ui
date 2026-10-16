@@ -231,6 +231,48 @@
 }
 
 /* ==========================================================================
+ .cl-checkbox.chk-sortable — 정렬 토글 체크박스 (체크박스 아이콘 대신 그리드 정렬 아이콘)
+ ========================================================================== */
+.cl-checkbox.chk-sortable {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 36px;
+	background: @primary-5;                /* #EFF6FF */
+	border: 1px solid @primary-20;         /* #BFDBFE */
+	border-radius: 6px;
+	padding: 0 @padding-5;
+	#font-label();
+	color: @primary;
+	font-weight: 600;
+
+	/* 아이콘(12px) 세로 중앙 — 기본 규칙(top + padding-top 1px, 16px 아이콘 기준) 해제 */
+	.cl-icon-wrapper {
+		padding-top: 0;
+		vertical-align: middle;
+	}
+
+	/* 미체크 — 정렬 아이콘(asc) */
+	.cl-checkbox-icon,
+	&:hover .cl-checkbox-icon,
+	&.cl-hover .cl-checkbox-icon,
+	&.cl-focus .cl-checkbox-icon,
+	.cl-checkbox-icon:focus {
+		#checkbox--button(12px);
+		background-image: url("@{img-path}/icons/ico_sort_asc.svg");
+	}
+
+	/* 체크 — 정렬 아이콘(desc) */
+	&.cl-checked .cl-checkbox-icon,
+	&.cl-checked:hover .cl-checkbox-icon,
+	&.cl-checked.cl-hover .cl-checkbox-icon,
+	&.cl-checked.cl-focus .cl-checkbox-icon,
+	&.cl-checked .cl-checkbox-icon:focus {
+		background-image: url("@{img-path}/icons/ico_sort_desc.svg");
+	}
+}
+
+/* ==========================================================================
  .cl-checkboxgroup — 체크박스 그룹
  (기본 CSS 우선순위를 이기기 위해 .cl-checkboxgroup .cl-checkbox 로 명시)
  ========================================================================== */

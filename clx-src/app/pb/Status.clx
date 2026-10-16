@@ -7,50 +7,122 @@
     <cl:model std:sid="model-csm000006">
       <cl:dataset std:sid="d-set-csm000007" id="dsList">
         <cl:datacolumnlist>
-          <cl:datacolumn comment="No" std:sid="d-column-csm000008" name="no"/>
-          <cl:datacolumn comment="Subject" std:sid="d-column-csm000009" name="subject"/>
-          <cl:datacolumn comment="From" std:sid="d-column-csm000010" name="from"/>
-          <cl:datacolumn comment="Reply Status" std:sid="d-column-csm000011" name="replyStatus"/>
-          <cl:datacolumn comment="Date and Time" std:sid="d-column-csm000012" name="date"/>
-          <cl:datacolumn comment="Urgent" std:sid="d-column-csm000013" name="urgent"/>
-          <cl:datacolumn comment="Badge" std:sid="d-column-csm000014" name="badge"/>
+          <cl:datacolumn comment="No" std:sid="d-column-07b9ddd0" name="no"/>
+          <cl:datacolumn comment="Template Name" std:sid="d-column-41c8e63c" name="templateName"/>
+          <cl:datacolumn comment="Endorsement Date and Time" std:sid="d-column-f240b7b4" name="endorsementDate"/>
+          <cl:datacolumn comment="Endorsed To" std:sid="d-column-9779a50c" name="endorsedTo"/>
+          <cl:datacolumn comment="Status" std:sid="d-column-9568ead7" name="status"/>
+          <cl:datacolumn comment="Submission Date and Time" std:sid="d-column-4930d6e0" name="submissionDate"/>
+          <cl:datacolumn comment="Reference No" std:sid="d-column-e25a50b5" name="referenceNo"/>
         </cl:datacolumnlist>
         <cl:datarowlist>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[1]]></cl:datavalue>
-            <cl:datavalue columnname="subject"><![CDATA[Please review the updated disclosure submission requirements.]]></cl:datavalue>
-            <cl:datavalue columnname="from"><![CDATA[Listings & Disclosure]]></cl:datavalue>
-            <cl:datavalue columnname="replyStatus"><![CDATA[open]]></cl:datavalue>
-            <cl:datavalue columnname="date"><![CDATA[08252026011429]]></cl:datavalue>
-            <cl:datavalue columnname="urgent"><![CDATA[1]]></cl:datavalue>
-            <cl:datavalue columnname="badge"><![CDATA[1]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Material Information Disclosure]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260825145618]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Maria Santos]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Submitted]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260825144109]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000033-2026]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[2]]></cl:datavalue>
-            <cl:datavalue columnname="subject"><![CDATA[Additional information is required for the submitted report.]]></cl:datavalue>
-            <cl:datavalue columnname="from"><![CDATA[Disclosure Department]]></cl:datavalue>
-            <cl:datavalue columnname="replyStatus"><![CDATA[]]></cl:datavalue>
-            <cl:datavalue columnname="date"><![CDATA[08252026011429]]></cl:datavalue>
-            <cl:datavalue columnname="urgent"><![CDATA[0]]></cl:datavalue>
-            <cl:datavalue columnname="badge"><![CDATA[4]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Quarterly Financial Results]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260824101429]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[John Reyes]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Approved]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260824095843]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000032-2026]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[3]]></cl:datavalue>
-            <cl:datavalue columnname="subject"><![CDATA[Your filing has been received and is now under review.]]></cl:datavalue>
-            <cl:datavalue columnname="from"><![CDATA[Market Surveillance]]></cl:datavalue>
-            <cl:datavalue columnname="replyStatus"><![CDATA[]]></cl:datavalue>
-            <cl:datavalue columnname="date"><![CDATA[08252026011429]]></cl:datavalue>
-            <cl:datavalue columnname="urgent"><![CDATA[]]></cl:datavalue>
-            <cl:datavalue columnname="badge"><![CDATA[]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Notice of Cash Dividend]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260823160531]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Angela Cruz]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Rejected]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260823154716]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000031-2026]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[4]]></cl:datavalue>
-            <cl:datavalue columnname="subject"><![CDATA[A reply has been added to your inquiry.]]></cl:datavalue>
-            <cl:datavalue columnname="from"><![CDATA[Listings & Disclosure]]></cl:datavalue>
-            <cl:datavalue columnname="replyStatus"><![CDATA[closed]]></cl:datavalue>
-            <cl:datavalue columnname="date"><![CDATA[08252026011429]]></cl:datavalue>
-            <cl:datavalue columnname="urgent"><![CDATA[0]]></cl:datavalue>
-            <cl:datavalue columnname="badge"><![CDATA[2]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Annual Shareholding Disclosure]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260822114207]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Daniel Lim]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Changed]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260822111852]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000030-2026]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[5]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[REIT Monthly Asset Report]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260821152450]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Sofia Garcia]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Submitted]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260821150621]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000029-2026]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[6]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Corporate Governance Scorecard]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260820133305]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Miguel Tan]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Approved]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260820131238]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000028-2026]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[7]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[ETF Portfolio Composition]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260819094612]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Patricia Lee]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Approved]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260819092854]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000027-2026]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[8]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Disclosure Filing Guidelines Update]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260818170847]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Carlo Mendoza]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Submitted]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260818164926]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000026-2026]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[9]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Beneficial Ownership Disclosure]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260817144809]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Noel Ramos]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Rejected]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260817143144]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000025-2026]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[10]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[ACGR Supporting Document]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260816104207]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Irene Flores]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Submitted]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260816102012]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000024-2026]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[11]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[ETF Fund Factsheet]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260815131536]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Ramon Diaz]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Changed]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260815125704]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000023-2026]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[12]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Company Profile Update]]></cl:datavalue>
+            <cl:datavalue columnname="endorsementDate"><![CDATA[20260814093012]]></cl:datavalue>
+            <cl:datavalue columnname="endorsedTo"><![CDATA[Liza Bautista]]></cl:datavalue>
+            <cl:datavalue columnname="status"><![CDATA[Approved]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260814090839]]></cl:datavalue>
+            <cl:datavalue columnname="referenceNo"><![CDATA[0000022-2026]]></cl:datavalue>
           </cl:datarow>
         </cl:datarowlist>
       </cl:dataset>
@@ -65,6 +137,13 @@
       </cl:udc>
       <cl:group std:sid="group-csm000020" class="btn-wrap">
         <cl:formdata std:sid="f-data-csm000021" valign="FILL" height="32" row="0" col="1"/>
+        <cl:group std:sid="group-a9c7fa09" id="grp6" class="btn-wrap">
+          <cl:flowlayoutdata std:sid="f-data-9093a755" width="136px" height="36px" autosize="none"/>
+          <cl:button std:sid="button-fd2c6076" id="btn3" class="btn-primary btn-add" value="Add" icon="0">
+            <cl:flowlayoutdata std:sid="f-data-986375a9" width="100px" height="36px" autosize="width"/>
+          </cl:button>
+          <cl:flowlayout std:sid="f-layout-260fdf25" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
+        </cl:group>
         <cl:flowlayout std:sid="f-layout-csm000022" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
       </cl:group>
       <cl:formlayout std:sid="f-layout-csm000023" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
@@ -74,13 +153,13 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-csm000024" id="grpBody" class="inner">
-      <cl:verticaldata std:sid="v-data-csm000025" width="1024px" height="1103px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-csm000025" width="1024px" height="979px" autosize="height"/>
       <cl:group std:sid="group-csm000026" id="grpSearch" class="search-top-box">
-        <cl:verticaldata std:sid="v-data-csm000027" width="976px" height="402px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-csm000027" width="960px" height="266px" autosize="height"/>
         <cl:group std:sid="group-csm000028" class="search-head">
-          <cl:verticaldata std:sid="v-data-csm000029" width="974px" height="81px" autosize="height"/>
+          <cl:verticaldata std:sid="v-data-csm000029" width="958px" height="89px" autosize="height"/>
           <cl:udc std:sid="ud-control-csm000030" id="udccomsearchtoggle1" type="udc.pse.com.udcComSearchToggle">
-            <cl:verticaldata std:sid="v-data-csm000031" width="942px" height="24px" autosize="height"/>
+            <cl:verticaldata std:sid="v-data-csm000031" width="942px" height="52px" autosize="height"/>
             <cl:property name="optMsg" value="optMessage" type="control"/>
             <cl:property name="grpId" value="grpSearchFilter" type="control"/>
             <cl:property name="targetOutput" value="optMessage" type="control"/>
@@ -89,62 +168,35 @@
           <cl:output std:sid="output-csm000032" id="optMessage" class="truncate" visible="false" value="No filters applied">
             <cl:verticaldata std:sid="v-data-csm000033" width="100px" height="20px" autosize="height"/>
           </cl:output>
-          <cl:verticallayout std:sid="v-layout-csm000034" scrollable="false" spacing="4"/>
+          <cl:verticallayout std:sid="v-layout-csm000034" scrollable="false" spacing="0"/>
         </cl:group>
         <cl:group std:sid="group-csm000035" id="grpSearchFilter" class="sch-filter-box">
-          <cl:verticaldata std:sid="v-data-csm000036" width="974px" height="319px" autosize="height"/>
+          <cl:verticaldata std:sid="v-data-csm000036" width="958px" height="175px" autosize="height"/>
           <cl:group std:sid="group-csm000037" class="filter-form">
-            <cl:verticaldata std:sid="v-data-csm000038" width="926px" height="206px" autosize="height"/>
+            <cl:verticaldata std:sid="v-data-csm000038" width="910px" height="62px" autosize="height"/>
             <cl:group std:sid="group-csm000039" class="row">
               <cl:attribute name="mobile-column-count" value="1"/>
-              <cl:verticaldata std:sid="v-data-csm000040" width="926px" height="58px" autosize="height"/>
+              <cl:verticaldata std:sid="v-data-csm000040" width="910px" height="62px" autosize="height"/>
               <cl:group std:sid="group-csm000060" id="grp1">
                 <cl:attribute name="needs-auto-height" value="true"/>
                 <cl:formdata std:sid="f-data-60e31ddd" row="0" col="1"/>
                 <cl:output std:sid="output-csm000062" id="opt1" class="label" value="Period">
                   <cl:verticaldata std:sid="v-data-csm000063" width="100px" height="18px" autosize="height"/>
                 </cl:output>
-                <cl:group std:sid="group-csm000064" id="grp2" class="input-group">
-                  <cl:attribute name="mobile-column-count" value="1"/>
-                  <cl:verticaldata std:sid="v-data-csm000065" width="457px" height="32px" autosize="height"/>
-                  <cl:group std:sid="group-csm000066" id="grp3">
-                    <cl:formdata std:sid="f-data-csm000067" row="0" col="0" rowspan="1" colspan="1"/>
-                    <cl:dateinput std:sid="d-input-csm000068" id="dti1" fieldLabel="Period start" hidebutton="true" placeholder="MM-DD-YYYY">
-                      <cl:formdata std:sid="f-data-csm000069" row="0" col="0"/>
-                    </cl:dateinput>
-                    <cl:output std:sid="output-csm000070" id="opt2" value="~">
-                      <cl:formdata std:sid="f-data-csm000071" row="0" col="1"/>
-                    </cl:output>
-                    <cl:dateinput std:sid="d-input-csm000072" id="dti2" fieldLabel="Period end" hidebutton="true" placeholder="MM-DD-YYYY">
-                      <cl:formdata std:sid="f-data-csm000073" row="0" col="2"/>
-                    </cl:dateinput>
-                    <cl:formlayout std:sid="f-layout-csm000074" scrollable="false" hspace="8px" vspace="8px">
-                      <cl:rows length="32" unit="PIXEL"/>
-                      <cl:columns length="1" unit="FRACTION"/>
-                      <cl:columns length="10" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-                      <cl:columns length="1" unit="FRACTION"/>
-                    </cl:formlayout>
-                  </cl:group>
-                  <cl:combobox std:sid="c-box-csm000075" id="cmb1" fieldLabel="Select period">
-                    <cl:formdata std:sid="f-data-csm000076" row="0" col="1"/>
-                  </cl:combobox>
-                  <cl:formlayout std:sid="f-layout-csm000077" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-                    <cl:rows length="32" unit="PIXEL"/>
-                    <cl:columns length="2" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
-                    <cl:columns length="1" unit="FRACTION"/>
-                  </cl:formlayout>
-                </cl:group>
+                <cl:udc std:sid="ud-control-1e2e1406" id="udccomdateperiodpicker1" type="udc.pse.com.udcComDatePeriodPicker">
+                  <cl:verticaldata std:sid="v-data-18962377" width="300px" height="36px"/>
+                </cl:udc>
                 <cl:verticallayout std:sid="v-layout-csm000078"/>
               </cl:group>
               <cl:group std:sid="group-csm000079" id="grp4">
                 <cl:attribute name="needs-auto-height" value="true"/>
-                <cl:formdata std:sid="f-data-f3224089" row="0" col="0"/>
+                <cl:formdata std:sid="f-data-f3224089" width="100" height="29" row="0" col="0"/>
                 <cl:output std:sid="output-csm000081" id="opt3" class="label" value="Deadline">
                   <cl:verticaldata std:sid="v-data-csm000082" width="100px" height="18px" autosize="height"/>
                 </cl:output>
                 <cl:group std:sid="group-csm000083" id="grp5" class="input-group">
                   <cl:attribute name="mobile-column-count" value="1"/>
-                  <cl:verticaldata std:sid="v-data-csm000084" width="457px" height="32px" autosize="height"/>
+                  <cl:verticaldata std:sid="v-data-csm000084" width="539px" height="36px" autosize="height"/>
                   <cl:combobox std:sid="c-box-csm000094" id="cmb2" fieldLabel="Select period">
                     <cl:formdata std:sid="f-data-59816279" row="0" col="0"/>
                   </cl:combobox>
@@ -152,7 +204,7 @@
                     <cl:formdata std:sid="f-data-93d98ceb" row="0" col="1"/>
                   </cl:inputbox>
                   <cl:formlayout std:sid="f-layout-csm000096" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-                    <cl:rows length="32" unit="PIXEL"/>
+                    <cl:rows length="36" unit="PIXEL"/>
                     <cl:columns length="160" unit="PIXEL"/>
                     <cl:columns length="1" unit="FRACTION"/>
                   </cl:formlayout>
@@ -163,46 +215,6 @@
                 <cl:rows length="1" unit="FRACTION"/>
                 <cl:columns length="3" unit="FRACTION"/>
                 <cl:columns length="2" unit="FRACTION" minlength="0"/>
-              </cl:formlayout>
-            </cl:group>
-            <cl:group std:sid="group-csm000058" class="row">
-              <cl:attribute name="mobile-column-count" value="1"/>
-              <cl:verticaldata std:sid="v-data-csm000059" width="926px" height="58px" autosize="height"/>
-              <cl:formlayout std:sid="f-layout-csm000098" scrollable="false" hspace="12px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-                <cl:rows length="1" unit="FRACTION"/>
-                <cl:columns length="1" unit="FRACTION"/>
-                <cl:columns length="1" unit="FRACTION" minlength="0"/>
-              </cl:formlayout>
-            </cl:group>
-            <cl:group std:sid="group-csm000099" class="row">
-              <cl:attribute name="mobile-column-count" value="1"/>
-              <cl:verticaldata std:sid="v-data-csm000100" width="926px" height="58px" autosize="height"/>
-              <cl:group std:sid="group-csm000101">
-                <cl:attribute name="needs-auto-height" value="true"/>
-                <cl:formdata std:sid="f-data-csm000102" row="0" col="0"/>
-                <cl:output std:sid="output-csm000103" class="label" value="Subject">
-                  <cl:verticaldata std:sid="v-data-csm000104" width="100px" height="18px" autosize="height"/>
-                </cl:output>
-                <cl:inputbox std:sid="i-box-csm000105" fieldLabel="Subject" placeholder="Search by subject">
-                  <cl:verticaldata std:sid="v-data-csm000106" width="100px" height="32px"/>
-                </cl:inputbox>
-                <cl:verticallayout std:sid="v-layout-csm000107"/>
-              </cl:group>
-              <cl:group std:sid="group-csm000108">
-                <cl:attribute name="needs-auto-height" value="true"/>
-                <cl:formdata std:sid="f-data-csm000109" row="0" col="1"/>
-                <cl:output std:sid="output-csm000110" class="label" value="Keyword">
-                  <cl:verticaldata std:sid="v-data-csm000111" width="100px" height="18px" autosize="height"/>
-                </cl:output>
-                <cl:inputbox std:sid="i-box-csm000112" fieldLabel="Keyword" placeholder="Search by keyword">
-                  <cl:verticaldata std:sid="v-data-csm000113" width="457px" height="32px" autosize="none"/>
-                </cl:inputbox>
-                <cl:verticallayout std:sid="v-layout-csm000114"/>
-              </cl:group>
-              <cl:formlayout std:sid="f-layout-csm000115" scrollable="false" hspace="12px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-                <cl:rows length="1" unit="FRACTION"/>
-                <cl:columns length="1" unit="FRACTION"/>
-                <cl:columns length="1" unit="FRACTION" minlength="0"/>
               </cl:formlayout>
             </cl:group>
             <cl:verticallayout std:sid="v-layout-csm000116" scrollable="false" spacing="16"/>
@@ -217,86 +229,119 @@
             </cl:button>
             <cl:flowlayout std:sid="f-layout-csm000123" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
           </cl:group>
-          <cl:verticallayout std:sid="v-layout-csm000124" scrollable="false" spacing="16" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+          <cl:verticallayout std:sid="v-layout-csm000124" scrollable="false" spacing="16" leftmargin="24" rightmargin="24" topmargin="20" bottommargin="20"/>
         </cl:group>
         <cl:verticallayout std:sid="v-layout-csm000125" scrollable="false" spacing="0"/>
       </cl:group>
       <cl:group std:sid="group-csm000126" id="grpContent" class="section">
-        <cl:verticaldata std:sid="v-data-csm000127" width="976px" height="637px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-csm000127" width="960px" height="649px" autosize="height"/>
         <cl:group std:sid="group-csm000128" class="search-list-top">
-          <cl:verticaldata std:sid="v-data-csm000129" width="400px" height="64px" autosize="height"/>
-          <cl:output std:sid="output-csm000130" class="sch-info" value="12" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; correspondence items&quot;">
-            <cl:formdata std:sid="f-data-csm000131" row="0" col="0"/>
-          </cl:output>
-          <cl:group std:sid="group-csm000132">
+          <cl:attribute name="mobile-column-count" value="1"/>
+          <cl:verticaldata std:sid="v-data-csm000129" width="400px" height="36px" autosize="height"/>
+          <cl:group std:sid="group-csm000132" id="grp2">
             <cl:formdata std:sid="f-data-csm000133" row="0" col="1"/>
+            <cl:button std:sid="button-d5b375b3" id="btn1" class="btn-inline btn-excel" value="Excel Download" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-cef36371" width="133px" height="36px" autosize="width"/>
+            </cl:button>
             <cl:udc std:sid="ud-control-csm000134" id="udccomviewbutton1" type="udc.pse.com.udcComViewButton">
-              <cl:flowlayoutdata std:sid="f-data-csm000135" width="68px" height="32px" autosize="both"/>
+              <cl:flowlayoutdata std:sid="f-data-csm000135" width="76px" height="36px" autosize="both"/>
               <cl:property name="targetCard" value="grpCardSection" type="control"/>
               <cl:property name="targetTable" value="grpGridSection" type="control"/>
             </cl:udc>
-            <cl:flowlayout std:sid="f-layout-csm000136" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
+            <cl:combobox std:sid="c-box-d195aaaa" id="cmb3" fieldLabel="Rows per page">
+              <cl:flowlayoutdata std:sid="f-data-9b5dca83" width="110px" height="36px" autosize="none"/>
+            </cl:combobox>
+            <cl:flowlayout std:sid="f-layout-csm000136" scrollable="false" hspacing="12" vspacing="12" halign="right" valign="middle"/>
           </cl:group>
-          <cl:formlayout std:sid="f-layout-csm000137" scrollable="false" hspace="1fr" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:group std:sid="group-1756a39c" id="grp3">
+            <cl:formdata std:sid="f-data-36d7ccef" row="0" col="0" rowspan="1" colspan="1"/>
+            <cl:output std:sid="output-csm000130" id="opt2" class="sch-info" value="12" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; submissions&quot;">
+              <cl:flowlayoutdata std:sid="f-data-552053ab" width="96px" height="36px" autosize="width"/>
+            </cl:output>
+            <cl:udc std:sid="ud-control-9d1604a8" type="udc.pse.com.udcComStatusSelection">
+              <cl:flowlayoutdata std:sid="f-data-548be618" width="100px" height="36px" autosize="width"/>
+            </cl:udc>
+            <cl:checkbox std:sid="c-box-6b2dfd98" id="cbx1" class="chk-sortable" text="Endorsement date" iconalign="right">
+              <cl:flowlayoutdata std:sid="f-data-49b78d68" width="160px" height="36px" autosize="width"/>
+            </cl:checkbox>
+            <cl:flowlayout std:sid="f-layout-537e7170" hspacing="12"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-csm000137" scrollable="false" hspace="1fr" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="1" unit="FRACTION"/>
-            <cl:columns length="300" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-            <cl:columns length="68" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="500" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="400" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
           </cl:formlayout>
         </cl:group>
-        <cl:grid std:sid="grid-csm000138" id="grpGridSection" datasetid="dsList" autofit="1, 2, 3, 4" resizablecolumns="all" columnMovable="true">
+        <cl:grid std:sid="grid-csm000138" id="grpGridSection" datasetid="dsList" autofit="1, 2, 3, 4, 5, 6" resizablecolumns="all" columnMovable="true">
           <cl:verticaldata std:sid="v-data-csm000139" width="400px" height="200px" autosize="height"/>
-          <cl:gridcolumn std:sid="g-column-csm000140" width="56px"/>
-          <cl:gridcolumn std:sid="g-column-csm000141" width="420px"/>
-          <cl:gridcolumn std:sid="g-column-csm000142" width="200px"/>
-          <cl:gridcolumn std:sid="g-column-csm000143" width="140px"/>
-          <cl:gridcolumn std:sid="g-column-csm000144" width="190px"/>
+          <cl:gridcolumn std:sid="g-column-351bb53e" width="56px"/>
+          <cl:gridcolumn std:sid="g-column-0f1f8617" width="260px"/>
+          <cl:gridcolumn std:sid="g-column-e7dbe10e" width="200px"/>
+          <cl:gridcolumn std:sid="g-column-93a2aa84" width="160px"/>
+          <cl:gridcolumn std:sid="g-column-4727c95e" width="120px"/>
+          <cl:gridcolumn std:sid="g-column-68d1c63e" width="200px"/>
+          <cl:gridcolumn std:sid="g-column-8c2edeae" width="140px"/>
           <cl:gridheader std:sid="gh-band-csm000145">
             <cl:gridrow std:sid="g-row-csm000146" height="32px"/>
-            <cl:gridcell std:sid="gh-cell-csm000147" rowindex="0" colindex="0" targetcolumnname="no" sortable="false" filterable="false" text="No"/>
-            <cl:gridcell std:sid="gh-cell-csm000148" rowindex="0" colindex="1" targetcolumnname="subject" sortable="false" filterable="false" text="Subject"/>
-            <cl:gridcell std:sid="gh-cell-csm000149" rowindex="0" colindex="2" targetcolumnname="from" sortable="false" filterable="false" text="From"/>
-            <cl:gridcell std:sid="gh-cell-csm000150" rowindex="0" colindex="3" targetcolumnname="replyStatus" sortable="false" filterable="false" text="Reply Status"/>
-            <cl:gridcell std:sid="gh-cell-csm000151" rowindex="0" colindex="4" targetcolumnname="date" sortable="false" filterable="false" text="Date and Time"/>
+            <cl:gridcell std:sid="gh-cell-93a10b8a" rowindex="0" colindex="0" targetcolumnname="no" sortable="false" filterable="false" text="No"/>
+            <cl:gridcell std:sid="gh-cell-a4283922" rowindex="0" colindex="1" targetcolumnname="templateName" sortable="true" filterable="false" text="Template Name"/>
+            <cl:gridcell std:sid="gh-cell-dacdcc6a" rowindex="0" colindex="2" targetcolumnname="endorsementDate" sortable="true" filterable="false" text="Endorsement Date and Time"/>
+            <cl:gridcell std:sid="gh-cell-e00d6fc8" rowindex="0" colindex="3" targetcolumnname="endorsedTo" sortable="true" filterable="false" text="Endorsed To"/>
+            <cl:gridcell std:sid="gh-cell-9551e474" rowindex="0" colindex="4" targetcolumnname="status" sortable="true" filterable="false" text="Status"/>
+            <cl:gridcell std:sid="gh-cell-5f4b340a" rowindex="0" colindex="5" targetcolumnname="submissionDate" sortable="true" filterable="false" text="Submission Date and Time"/>
+            <cl:gridcell std:sid="gh-cell-eaa06c1a" rowindex="0" colindex="6" targetcolumnname="referenceNo" sortable="true" filterable="false" text="Reference No"/>
           </cl:gridheader>
           <cl:griddetail std:sid="gd-band-csm000152">
             <cl:gridrow std:sid="g-row-csm000153" height="50px"/>
-            <cl:gridcell std:sid="gd-cell-csm000154" rowindex="0" colindex="0" columnname="no">
-              <cl:output std:sid="output-csm000155">
-                <cl:celldata std:sid="c-data-csm000156"/>
+            <cl:gridcell std:sid="gd-cell-cc8de38c" rowindex="0" colindex="0" columnname="no">
+              <cl:output std:sid="output-855e3bea">
+                <cl:celldata std:sid="c-data-787a155c"/>
               </cl:output>
             </cl:gridcell>
-            <cl:gridcell std:sid="gd-cell-csm000157" rowindex="0" colindex="1" columnname="subject">
-              <cl:button std:sid="button-csm000158" value="Button" displayexp="switch(urgent){case &quot;1&quot; : subject + sstr(badge, [&quot;btn-grid-badge-red&quot;]) case &quot;&quot; : subject default : subject + sstr(badge, [&quot;btn-grid-badge-gray&quot;])}">
-                <cl:celldata std:sid="c-data-csm000159"/>
+            <cl:gridcell std:sid="gd-cell-0d38dd72" rowindex="0" colindex="1" columnname="templateName">
+              <cl:button std:sid="button-c2f6af37" class="btn-link">
+                <cl:expbind property="value" category="PROPERTY" expression="templateName"/>
+                <cl:celldata std:sid="c-data-04e22ca0"/>
               </cl:button>
             </cl:gridcell>
-            <cl:gridcell std:sid="gd-cell-csm000160" rowindex="0" colindex="2" columnname="from">
-              <cl:output std:sid="output-csm000161">
-                <cl:celldata std:sid="c-data-csm000162"/>
+            <cl:gridcell std:sid="gd-cell-191ac60e" rowindex="0" colindex="2" columnname="endorsementDate">
+              <cl:output std:sid="output-da01796e" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+                <cl:celldata std:sid="c-data-a7b6f7b7"/>
               </cl:output>
             </cl:gridcell>
-            <cl:gridcell std:sid="gd-cell-csm000163" rowindex="0" colindex="3" columnname="replyStatus">
-              <cl:output std:sid="output-csm000164" displayexp="sstr(@getBadgeText(value), @getBadgeClass(value))">
-                <cl:celldata std:sid="c-data-csm000165"/>
+            <cl:gridcell std:sid="gd-cell-00bbb930" rowindex="0" colindex="3" columnname="endorsedTo">
+              <cl:output std:sid="output-ed80e1a0">
+                <cl:celldata std:sid="c-data-8aaaab48"/>
               </cl:output>
             </cl:gridcell>
-            <cl:gridcell std:sid="gd-cell-csm000166" rowindex="0" colindex="4" columnname="date">
-              <cl:output std:sid="output-csm000167" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
-                <cl:celldata std:sid="c-data-csm000168"/>
+            <cl:gridcell std:sid="gd-cell-08f96613" rowindex="0" colindex="4" columnname="status">
+              <cl:output std:sid="output-b5fed590" value="Output" displayexp="sstr(text, switch(status){&#xD;&#xA;&#x9;case &quot;Approved&quot; : &quot;badge fill success&quot;&#xD;&#xA;&#x9;case &quot;Submitted&quot; : &quot;badge fill information&quot;&#xD;&#xA;&#x9;case &quot;Changed&quot; : &quot;badge fill warning&quot;&#xD;&#xA;&#x9;case &quot;Rejected&quot; : &quot;badge fill danger&quot;&#xD;&#xA;})">
+                <cl:celldata std:sid="c-data-2086610f"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-8d2732f6" rowindex="0" colindex="5" columnname="submissionDate">
+              <cl:output std:sid="output-bee2039f" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+                <cl:celldata std:sid="c-data-48d3619f"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-531c05f0" rowindex="0" colindex="6" columnname="referenceNo">
+              <cl:output std:sid="output-dd421b67">
+                <cl:celldata std:sid="c-data-31a35585"/>
               </cl:output>
             </cl:gridcell>
           </cl:griddetail>
         </cl:grid>
         <cl:group std:sid="group-1b791d41" id="grpCardSection" class="card-section" visible="false">
+          <cl:attribute name="mobile-column-count" value="1"/>
           <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="313px" autosize="height"/>
-          <cl:udc std:sid="ud-control-ad0e01c0" id="udccomcorrespondencecard1" type="udc.pse.com.udcComCorrespondenceCard">
-            <cl:formdata std:sid="f-data-8435e5f0" row="0" col="0" rowspan="1" colspan="1"/>
+          <cl:udc std:sid="ud-control-735fe473" id="udccomstatuscard1" type="udc.pse.com.udcComStatusCard">
+            <cl:formdata std:sid="f-data-b0193e9f" row="0" col="0"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-683a232b" id="udccomcorrespondencecard2" type="udc.pse.com.udcComCorrespondenceCard">
-            <cl:formdata std:sid="f-data-968318a8" row="0" col="1"/>
+          <cl:udc std:sid="ud-control-29a72cfe" id="udccomstatuscard2" type="udc.pse.com.udcComStatusCard">
+            <cl:formdata std:sid="f-data-8e5f5025" row="0" col="1"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-2984af96" id="udccomcorrespondencecard3" type="udc.pse.com.udcComCorrespondenceCard">
-            <cl:formdata std:sid="f-data-84932084" row="0" col="2"/>
+          <cl:udc std:sid="ud-control-57a7b72b" id="udccomstatuscard3" type="udc.pse.com.udcComStatusCard">
+            <cl:formdata std:sid="f-data-c9ea6fb7" row="0" col="2"/>
           </cl:udc>
           <cl:formlayout std:sid="f-layout-9ec8d59e" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="1" unit="FRACTION"/>
@@ -306,9 +351,9 @@
           </cl:formlayout>
         </cl:group>
         <cl:udc std:sid="ud-control-csm000169" id="udccompagination1" type="udc.pse.com.udcComPagination">
-          <cl:verticaldata std:sid="v-data-csm000170" width="1024px" height="60px" autosize="height"/>
+          <cl:verticaldata std:sid="v-data-csm000170" width="1024px" height="40px" autosize="height"/>
         </cl:udc>
-        <cl:verticallayout std:sid="v-layout-csm000171" scrollable="false" spacing="0"/>
+        <cl:verticallayout std:sid="v-layout-csm000171" scrollable="false" spacing="20"/>
       </cl:group>
       <cl:verticallayout std:sid="v-layout-csm000172" scrollable="false" spacing="16" leftmargin="32" rightmargin="32" topmargin="24" bottommargin="24"/>
     </cl:group>

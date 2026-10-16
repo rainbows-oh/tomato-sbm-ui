@@ -290,6 +290,8 @@
 /* --- Inline --- */
 .btn-inline {
 	#btn--default(@color-button-secondary-fill-default, @color-component-text-active, @color-component-text-active);
+	font-weight: 600 !important;
+	font-size: 13px !important;	
 	
 	&:not(.cl-disabled):hover,
 	&:not(.cl-disabled).cl-hover {
@@ -439,10 +441,12 @@
 /* --- Link --- */
 .btn-link {
 	#btn--default(@color-button-text-fill-default, transparent, @color-component-text-active);
+	text-align: left;
 	
 	&:not(.cl-disabled):hover,
 	&:not(.cl-disabled).cl-hover {
 		#btn--hover(@color-button-text-fill-default, transparent, @color-component-text-active);
+		text-decoration: underline;
 	}
 	
 	&:not(.cl-disabled).cl-activated,
@@ -547,7 +551,7 @@
    Icon Button (아이콘 전용)
    ========================================================================== */
 .cl-button.icon {
-	min-width: @size-button-height;
+//	min-width: @size-button-height;
 	padding: 0 !important;
 	
 	.cl-text {
@@ -556,6 +560,58 @@
 	
 	.cl-icon {
 		margin: 0 !important;
+	}
+}
+
+/* ==========================================================================
+   Grid Icon Button (그리드 셀 배치용 아이콘 전용 28×28 — class: grd-icon, .icon 불필요)
+   @note 크기는 celldata width/height="28" 로도 지정 (속성 우선, 여기 값은 기본 보장)
+          기본 .cl-button 의 hover/active/focus 투명 배경에 덮이지 않도록 상태별 동일 값 재선언
+         .cl-grid-row 편집 상태에서도 유지
+   ========================================================================== */
+.cl-button.grd-icon {
+	width: 28px;
+	height: 28px;
+	min-width: 28px;
+	min-height: 28px;
+	padding: 0 !important;
+	border-radius: 6px;
+	#btn--default(@white, @gray-30, @color-component-text);
+	
+	/* 아이콘 표출 전용 — 텍스트는 스크린리더용으로만 */
+	.cl-text {
+		#sound-only();
+	}
+	
+	.cl-icon {
+		margin: 0 !important;
+	}
+	
+	&:not(.cl-disabled):hover,
+	&:not(.cl-disabled).cl-hover,
+	&:not(.cl-disabled).cl-activated,
+	&:not(.cl-disabled):active,
+	&.cl-focus {
+		#btn--hover(@white, @gray-30, @color-component-text);
+	}
+}
+
+.cl-grid-row {
+	&.cl-inserted,
+	&.cl-modified,
+	&.cl-selected,
+	&.cl-editing {
+		.cl-button.grd-icon {
+			#btn--default(@white, @gray-30, @color-component-text);
+			
+			&:not(.cl-disabled):hover,
+			&:not(.cl-disabled).cl-hover,
+			&:not(.cl-disabled).cl-activated,
+			&:not(.cl-disabled):active,
+			&.cl-focus {
+				#btn--hover(@white, @gray-30, @color-component-text);
+			}
+		}
 	}
 }
 
@@ -626,37 +682,45 @@
 	background-image: url("@{img-path}/icons/ico_download_white.svg") !important;
 }
 
+.btn-mail .cl-icon {
+	background-image: url("@{img-path}/icons/ico_mail.svg") !important;
+}
+
+.btn-mail-open .cl-icon {
+	background-image: url("@{img-path}/icons/ico_mail_open.svg") !important;
+}
+
 /* ==========================================================================
    Icon Variant Styles (아이콘 버튼 유형별 색상)
    ========================================================================== */
 
 /* --- Tertiary 계열 --- */
-.btn-insert,
-.btn-revert,
-.btn-delete,
-.btn-print,
-.btn-pop,
-.btn-excel,
-.btn-pdf,
-.btn-reset,
-.btn-refresh,
-.btn-single-search {
-	#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-component-text);
-	
-	&:not(.cl-disabled):hover,
-	&:not(.cl-disabled).cl-hover {
-		#btn--hover(@color-button-tertiary-fill-hover, @color-button-tertiary-border, @color-component-text);
-	}
-	
-	&:not(.cl-disabled).cl-activated,
-	&:not(.cl-disabled):active {
-		#btn--pressed(@color-button-tertiary-fill-pressed, @color-button-tertiary-border, @color-component-text);
-	}
-	
-	&.cl-focus {
-		#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-component-text);
-	}
-}
+//.btn-insert,
+//.btn-revert,
+//.btn-delete,
+//.btn-print,
+//.btn-pop,
+//.btn-excel,
+//.btn-pdf,
+//.btn-reset,
+//.btn-refresh,
+//.btn-single-search {
+//	#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-component-text);
+//	
+//	&:not(.cl-disabled):hover,
+//	&:not(.cl-disabled).cl-hover {
+//		#btn--hover(@color-button-tertiary-fill-hover, @color-button-tertiary-border, @color-component-text);
+//	}
+//	
+//	&:not(.cl-disabled).cl-activated,
+//	&:not(.cl-disabled):active {
+//		#btn--pressed(@color-button-tertiary-fill-pressed, @color-button-tertiary-border, @color-component-text);
+//	}
+//	
+//	&.cl-focus {
+//		#btn--default(@color-button-tertiary-fill-default, @color-button-tertiary-border, @color-component-text);
+//	}
+//}
 
 /* --- Submit (Primary) 계열 --- */
 .btn-search,
