@@ -43,25 +43,39 @@
 	.cl-button {
 		border-radius: 6px;
 		padding: 0;
+		background-color: @secondary-10;
 		
 		.cl-icon {
 			margin: 0;
+			background-size: auto;
 		}
 		
 		&.btn-grid {
 			.cl-icon {
-				background-image: url("@{img-path}/icons/pages/ico_grid.svg") !important;
+				background-image: url("@{img-path}/icons/ico_grid.svg") !important;
+			}
+			
+			&.active {
+				.cl-icon {
+					background-image: url("@{img-path}/icons/ico_grid_on.svg") !important;
+				}
 			}
 		}
 		
 		&.btn-card {
 			.cl-icon {
-				background-image: url("@{img-path}/icons/pages/ico_card.svg") !important;
+				background-image: url("@{img-path}/icons/ico_card.svg") !important;
+			}
+			
+			&.active {
+				.cl-icon {
+					background-image: url("@{img-path}/icons/ico_card_on.svg") !important;
+				}
 			}
 		}
 		
 		&.active {
-			background-color: #eef1f5;
+			background-color: @secondary-90;
 		}
 	}
 }
