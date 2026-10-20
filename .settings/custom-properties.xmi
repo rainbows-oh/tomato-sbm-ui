@@ -286,6 +286,8 @@
     <controlProperties name="mobile-right-margin"/>
     <controlProperties name="mobile-bottom-margin"/>
     <controlProperties name="mobile-spacing"/>
+    <controlProperties name="mobile-fit"/>
+    <controlProperties name="tablet-fit"/>
   </settings:CustomProperties>
   <settings:CustomProperties type="XYLayout"/>
 </xmi:XMI>

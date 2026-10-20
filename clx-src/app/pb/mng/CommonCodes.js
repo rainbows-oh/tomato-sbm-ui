@@ -78,3 +78,22 @@ function onBodyScreenChange(e) {
 		util.FreeForm.setRowVisible(app, "grp1", 0, vbMobile);
 	});
 }
+
+/*
+ * 라디오 버튼에서 item-click 이벤트 발생 시 호출.
+ * 아이템 클릭시 발생하는 이벤트.
+ */
+function onRdb1ItemClick(e) {
+	var rdb1 = e.control;
+	util.FreeForm.setRowVisible(app, "grp17", 0, false);
+	util.FreeForm.setRowVisible(app, "grp17", 1, true);
+}
+
+/*
+ * 루트 컨테이너에서 load 이벤트 발생 시 호출.
+ * 앱이 최초 구성된후 최초 랜더링 직후에 발생하는 이벤트 입니다.
+ */
+function onBodyLoad(e) {
+	util.FreeForm.setRowVisible(app, "grp17", 0, true);
+	util.FreeForm.setRowVisible(app, "grp17", 1, false);
+}

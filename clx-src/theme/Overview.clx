@@ -1454,7 +1454,7 @@
       <cl:output std:sid="output-c0f052c6" value="탭폴더 (라인형)">
         <cl:flowlayoutdata std:sid="f-data-e844e32f" width="160px" height="24px" syncminheight="true" autosize="height"/>
       </cl:output>
-      <cl:tabfolder std:sid="t-folder-791fe89d" class="line" childcombinatorclass="tablist">
+      <cl:tabfolder std:sid="t-folder-791fe89d" class="line" childcombinatorclass="tablist" item-sizing="fill">
         <cl:flowlayoutdata std:sid="f-data-cc6a9b12" width="1024px" height="200px"/>
         <cl:tabitem std:sid="t-item-44c01d1c" text="텍스트">
           <cl:group std:sid="group-ef210b15">
