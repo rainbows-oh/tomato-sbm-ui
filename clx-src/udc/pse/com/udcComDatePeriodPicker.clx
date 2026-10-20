@@ -42,9 +42,11 @@
     <cl:listener std:sid="listener-f3cb9495" name="load" handler="onBodyLoad"/>
     <cl:listener std:sid="listener-b4af6b28" name="property-change" handler="onBodyPropertyChange"/>
     <cl:group std:sid="group-csm000064" id="grpDate" class="input-group">
-      <cl:attribute name="mobile-column-count" value=""/>
-      <cl:verticaldata std:sid="v-data-0f26e0ef" width="300px" height="36px"/>
+      <cl:attribute name="mobile-column-count" value="1"/>
+      <cl:attribute name="needs-auto-height" value="true"/>
+      <cl:verticaldata std:sid="v-data-0f26e0ef" width="300px" height="36px" autosize="height"/>
       <cl:group std:sid="group-csm000066" id="grpPeriod">
+        <cl:attribute name="needs-auto-height" value="true"/>
         <cl:formdata std:sid="f-data-csm000067" row="0" col="0" rowspan="1" colspan="1"/>
         <cl:dateinput std:sid="d-input-csm000068" id="dtiStartDate" fieldLabel="Period start" hidebutton="true" placeholder="MM-DD-YYYY" preventinput="true">
           <cl:apppropbind property="value" app-property="startDate"/>
@@ -68,6 +70,7 @@
       </cl:group>
       <cl:combobox std:sid="c-box-csm000075" id="cmbPeriod" fieldLabel="Select period">
         <cl:listener std:sid="listener-f93cc726" name="item-click" handler="onCmbPeriodItemClick"/>
+        <cl:attribute name="needs-auto-height" value=""/>
         <cl:formdata std:sid="f-data-csm000076" row="0" col="1"/>
         <cl:item std:sid="t-item-9dbbcb75" label="today" value="today"/>
         <cl:item std:sid="t-item-eca82110" label="1 week" value="1week"/>

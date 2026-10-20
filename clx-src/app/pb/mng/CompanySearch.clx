@@ -1,0 +1,344 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-de5392e7" version="1.0.6190">
+  <head std:sid="head-f2e6f0fe">
+    <screen std:sid="screen-366f56a7" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-d0a03339" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-ca13aa67" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-93e21bd9">
+      <cl:dataset std:sid="d-set-26b0111d" id="dsList">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="No" std:sid="d-column-5d35c9f2" name="no"/>
+          <cl:datacolumn comment="Company Name" std:sid="d-column-e4314797" name="companyName"/>
+          <cl:datacolumn comment="Symbol" std:sid="d-column-19cd5615" name="symbol"/>
+          <cl:datacolumn comment="Sector" std:sid="d-column-b8635726" name="sector"/>
+          <cl:datacolumn comment="Subsector" std:sid="d-column-2314abee" name="subsector"/>
+          <cl:datacolumn comment="Fiscal Year" std:sid="d-column-52d6230f" name="fiscalYear"/>
+          <cl:datacolumn comment="Telephone" std:sid="d-column-981858cd" name="telephone"/>
+          <cl:datacolumn comment="FAX" std:sid="d-column-1177dddd" name="fax"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[1]]></cl:datavalue>
+            <cl:datavalue columnname="companyName"><![CDATA[[Delisted] Visayas Chemical Works, Inc.]]></cl:datavalue>
+            <cl:datavalue columnname="symbol"><![CDATA[VCW]]></cl:datavalue>
+            <cl:datavalue columnname="sector"><![CDATA[Industrials]]></cl:datavalue>
+            <cl:datavalue columnname="subsector"><![CDATA[Chemicals]]></cl:datavalue>
+            <cl:datavalue columnname="fiscalYear"><![CDATA[0630]]></cl:datavalue>
+            <cl:datavalue columnname="telephone"><![CDATA[+63 2 8555 0190]]></cl:datavalue>
+            <cl:datavalue columnname="fax"><![CDATA[+63 2 8555 0191]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[2]]></cl:datavalue>
+            <cl:datavalue columnname="companyName"><![CDATA[Sulu Basin Energy, Inc.]]></cl:datavalue>
+            <cl:datavalue columnname="symbol"><![CDATA[SBE]]></cl:datavalue>
+            <cl:datavalue columnname="sector"><![CDATA[Mining and Oil]]></cl:datavalue>
+            <cl:datavalue columnname="subsector"><![CDATA[Oil]]></cl:datavalue>
+            <cl:datavalue columnname="fiscalYear"><![CDATA[0131]]></cl:datavalue>
+            <cl:datavalue columnname="telephone"><![CDATA[+63 2 8288 6700]]></cl:datavalue>
+            <cl:datavalue columnname="fax"><![CDATA[+63 2 8288 6711]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[3]]></cl:datavalue>
+            <cl:datavalue columnname="companyName"><![CDATA[Quezon Cloud Systems, Inc.]]></cl:datavalue>
+            <cl:datavalue columnname="symbol"><![CDATA[QCS]]></cl:datavalue>
+            <cl:datavalue columnname="sector"><![CDATA[Services]]></cl:datavalue>
+            <cl:datavalue columnname="subsector"><![CDATA[Information Technology]]></cl:datavalue>
+            <cl:datavalue columnname="fiscalYear"><![CDATA[1031]]></cl:datavalue>
+            <cl:datavalue columnname="telephone"><![CDATA[+63 2 8636 7788]]></cl:datavalue>
+            <cl:datavalue columnname="fax"><![CDATA[+63 2 8636 7799]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[4]]></cl:datavalue>
+            <cl:datavalue columnname="companyName"><![CDATA[[Delisted] Pearl Archipelago Holdings, Inc.]]></cl:datavalue>
+            <cl:datavalue columnname="symbol"><![CDATA[PAH]]></cl:datavalue>
+            <cl:datavalue columnname="sector"><![CDATA[Holding Firms]]></cl:datavalue>
+            <cl:datavalue columnname="subsector"><![CDATA[Holding Firms]]></cl:datavalue>
+            <cl:datavalue columnname="fiscalYear"><![CDATA[0903]]></cl:datavalue>
+            <cl:datavalue columnname="telephone"><![CDATA[+63 2 8700 4411]]></cl:datavalue>
+            <cl:datavalue columnname="fax"><![CDATA[+63 2 8700 4422]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[5]]></cl:datavalue>
+            <cl:datavalue columnname="companyName"><![CDATA[Pasig River Bank, Inc.]]></cl:datavalue>
+            <cl:datavalue columnname="symbol"><![CDATA[PRB]]></cl:datavalue>
+            <cl:datavalue columnname="sector"><![CDATA[Financials]]></cl:datavalue>
+            <cl:datavalue columnname="subsector"><![CDATA[Banks]]></cl:datavalue>
+            <cl:datavalue columnname="fiscalYear"><![CDATA[0101]]></cl:datavalue>
+            <cl:datavalue columnname="telephone"><![CDATA[+63 2 8891 2345]]></cl:datavalue>
+            <cl:datavalue columnname="fax"><![CDATA[+63 2 8891 2346]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[6]]></cl:datavalue>
+            <cl:datavalue columnname="companyName"><![CDATA[Pampanga Transit Lines, Inc.]]></cl:datavalue>
+            <cl:datavalue columnname="symbol"><![CDATA[PTL]]></cl:datavalue>
+            <cl:datavalue columnname="sector"><![CDATA[Services]]></cl:datavalue>
+            <cl:datavalue columnname="subsector"><![CDATA[Transportation Services]]></cl:datavalue>
+            <cl:datavalue columnname="fiscalYear"><![CDATA[1101]]></cl:datavalue>
+            <cl:datavalue columnname="telephone"><![CDATA[+63 34 433 5511]]></cl:datavalue>
+            <cl:datavalue columnname="fax"><![CDATA[+63 34 433 5522]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[7]]></cl:datavalue>
+            <cl:datavalue columnname="companyName"><![CDATA[Palawan Reef Resorts Corp.]]></cl:datavalue>
+            <cl:datavalue columnname="symbol"><![CDATA[PRR]]></cl:datavalue>
+            <cl:datavalue columnname="sector"><![CDATA[Services]]></cl:datavalue>
+            <cl:datavalue columnname="subsector"><![CDATA[Hotel & Leisure]]></cl:datavalue>
+            <cl:datavalue columnname="fiscalYear"><![CDATA[1127]]></cl:datavalue>
+            <cl:datavalue columnname="telephone"><![CDATA[+63 2 8777 3300]]></cl:datavalue>
+            <cl:datavalue columnname="fax"><![CDATA[+63 2 8777 3311]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[8]]></cl:datavalue>
+            <cl:datavalue columnname="companyName"><![CDATA[Ortigas Vista Estates, Inc.]]></cl:datavalue>
+            <cl:datavalue columnname="symbol"><![CDATA[OVE]]></cl:datavalue>
+            <cl:datavalue columnname="sector"><![CDATA[Property]]></cl:datavalue>
+            <cl:datavalue columnname="subsector"><![CDATA[Property]]></cl:datavalue>
+            <cl:datavalue columnname="fiscalYear"><![CDATA[0926]]></cl:datavalue>
+            <cl:datavalue columnname="telephone"><![CDATA[+63 49 545 6600]]></cl:datavalue>
+            <cl:datavalue columnname="fax"><![CDATA[+63 49 545 6611]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[9]]></cl:datavalue>
+            <cl:datavalue columnname="companyName"><![CDATA[Metrovolt Components Corp.]]></cl:datavalue>
+            <cl:datavalue columnname="symbol"><![CDATA[MVC]]></cl:datavalue>
+            <cl:datavalue columnname="sector"><![CDATA[Industrials]]></cl:datavalue>
+            <cl:datavalue columnname="subsector"><![CDATA[Electrical Components & Equipment]]></cl:datavalue>
+            <cl:datavalue columnname="fiscalYear"><![CDATA[0831]]></cl:datavalue>
+            <cl:datavalue columnname="telephone"><![CDATA[+63 33 320 7788]]></cl:datavalue>
+            <cl:datavalue columnname="fax"><![CDATA[+63 33 320 7799]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[10]]></cl:datavalue>
+            <cl:datavalue columnname="companyName"><![CDATA[Mayon Capital Holdings Corp.]]></cl:datavalue>
+            <cl:datavalue columnname="symbol"><![CDATA[MCH]]></cl:datavalue>
+            <cl:datavalue columnname="sector"><![CDATA[Financials]]></cl:datavalue>
+            <cl:datavalue columnname="subsector"><![CDATA[Other Financial Institutions]]></cl:datavalue>
+            <cl:datavalue columnname="fiscalYear"><![CDATA[0131]]></cl:datavalue>
+            <cl:datavalue columnname="telephone"><![CDATA[+63 2 8123 4500]]></cl:datavalue>
+            <cl:datavalue columnname="fax"><![CDATA[+63 2 8123 4501]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec/>
+  </head>
+  <body std:sid="body-c90bbfe3">
+    <cl:group std:sid="group-e6d3a8f4" id="grpHeader" class="page-title-wrap">
+      <cl:verticaldata std:sid="v-data-98340ade" width="1024px" height="48px" autosize="height" sticky="true" stickytopoffset="0"/>
+      <cl:udc std:sid="ud-control-e529ea22" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
+        <cl:formdata std:sid="f-data-dc2be6ec" row="0" col="0"/>
+        <cl:property name="title" value="Company Search" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a9c7fa09" class="btn-wrap">
+        <cl:formdata std:sid="f-data-7f7c89bb" valign="FILL" height="32" row="0" col="1"/>
+        <cl:flowlayout std:sid="f-layout-260fdf25" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
+      </cl:group>
+      <cl:formlayout std:sid="f-layout-e3d9b3e3" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="1" unit="FRACTION"/>
+        <cl:columns length="1" unit="FRACTION"/>
+        <cl:columns length="136" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:group std:sid="group-ac6a9860" id="grpBody" class="inner">
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:verticaldata std:sid="v-data-0a24619d" width="1024px" height="1113px" autosize="height"/>
+      <cl:group std:sid="group-37a6ee44" id="grpSearch" class="search-top-box">
+        <cl:verticaldata std:sid="v-data-b7116695" width="976px" height="363px" autosize="height"/>
+        <cl:group std:sid="group-0771f1c4" class="search-head">
+          <cl:verticaldata std:sid="v-data-4ee66d3f" width="974px" height="108px" autosize="height"/>
+          <cl:udc std:sid="ud-control-0b242f72" type="udc.pse.com.udcComSearchToggle">
+            <cl:verticaldata std:sid="v-data-b4d5c369" width="1000px" height="44px" autosize="height"/>
+            <cl:property name="optMsg" value="optMessage" type="control"/>
+            <cl:property name="grpId" value="grpSearchFilter" type="control"/>
+            <cl:property name="targetOutput" value="optMessage" type="control"/>
+            <cl:property name="targetGroup" value="grpSearchFilter" type="control"/>
+          </cl:udc>
+          <cl:output std:sid="output-eddee998" id="optMessage" class="truncate" visible="false" value="No filters applied">
+            <cl:verticaldata std:sid="v-data-f0ffe926" width="100px" height="64px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-7510003c" scrollable="false" spacing="0"/>
+        </cl:group>
+        <cl:group std:sid="group-a53d2a53" id="grpSearchFilter" class="sch-filter-box">
+          <cl:verticaldata std:sid="v-data-85fc84d5" width="974px" height="253px" autosize="height"/>
+          <cl:group std:sid="group-bc2a3258" class="filter-form">
+            <cl:verticaldata std:sid="v-data-d17e9f6b" width="926px" height="140px" autosize="height"/>
+            <cl:group std:sid="group-1e44581c" class="row">
+              <cl:attribute name="mobile-column-count" value="1"/>
+              <cl:verticaldata std:sid="v-data-af8a5cba" width="926px" height="62px" autosize="height"/>
+              <cl:group std:sid="group-114810d9" id="grp2">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-0c65cd44" row="0" col="0"/>
+                <cl:output std:sid="output-90e274b0" id="opt4" class="font-label" value="Listing Type">
+                  <cl:verticaldata std:sid="v-data-aac6752c" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:checkboxgroup std:sid="cb-group-b7a90677" id="cbg2" fieldLabel="Status">
+                  <cl:verticaldata std:sid="v-data-1d982509" width="200px" height="36px" syncminheight="false" autosize="height"/>
+                  <cl:item std:sid="item-4f246da2" label="Listed" value="value1"/>
+                  <cl:item std:sid="item-7f1b997c" label="Delisted" value="value2"/>
+                </cl:checkboxgroup>
+                <cl:verticallayout std:sid="v-layout-816e297b"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-9ef51124" scrollable="false" hspace="12px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:group std:sid="group-a144ab32" id="grp1" class="row">
+              <cl:attribute name="mobile-column-count" value="1"/>
+              <cl:verticaldata std:sid="v-data-543ef5e6" width="926px" height="62px" autosize="height"/>
+              <cl:group std:sid="group-ef318d90" id="grp4">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-50b5bd6b" width="100" height="29" row="0" col="0"/>
+                <cl:output std:sid="output-42a8bc12" id="opt2" class="font-label" value="Company Name">
+                  <cl:verticaldata std:sid="v-data-4d3e31ae" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:udc std:sid="ud-control-fa5c5d2d" id="udccomdateperiodpicker1" type="udc.pse.com.udcComDatePeriodPicker">
+                  <cl:verticaldata std:sid="v-data-ae7a7d10" width="300px" height="36px" syncminheight="false" autosize="height"/>
+                </cl:udc>
+                <cl:verticallayout std:sid="v-layout-b6ee6393"/>
+              </cl:group>
+              <cl:group std:sid="group-beb95506" id="grp9">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-7275c311" row="0" col="1"/>
+                <cl:output std:sid="output-6223e3bc" id="opt5" class="font-label" value="Company Type">
+                  <cl:verticaldata std:sid="v-data-d71109cd" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:checkboxgroup std:sid="cb-group-b6950bae" id="cbg1" fieldLabel="Status">
+                  <cl:verticaldata std:sid="v-data-8e5cc669" width="200px" height="36px" syncminheight="false" autosize="height"/>
+                  <cl:item std:sid="item-bd0b0d35" label="PSE" value="value1"/>
+                  <cl:item std:sid="item-77e8e0f8" label="PDEx" value="value2"/>
+                  <cl:item std:sid="item-eda175d4" label="TP" value="value3"/>
+                </cl:checkboxgroup>
+                <cl:verticallayout std:sid="v-layout-0fb33905"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-48f8b419" scrollable="false" hspace="12px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION" minlength="0"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-d0aafa06" scrollable="false" spacing="16"/>
+          </cl:group>
+          <cl:group std:sid="group-abf3f235" class="search-btn-wrap">
+            <cl:verticaldata std:sid="v-data-cbb2af53" width="400px" height="49px" autosize="height"/>
+            <cl:button std:sid="button-1a5d6b29" class="btn-secondary" value="Clear">
+              <cl:flowlayoutdata std:sid="f-data-c07e8d8d" width="69px" height="32px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-748f6743" class="btn-search" value="Search" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-d7f5f78d" width="104px" height="32px" autosize="width"/>
+            </cl:button>
+            <cl:flowlayout std:sid="f-layout-3c093e4d" scrollable="false" hspacing="12" vspacing="8" halign="right" valign="middle"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-6b81345c" scrollable="false" spacing="16" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-faa65e12" scrollable="false" spacing="0"/>
+      </cl:group>
+      <cl:group std:sid="group-6a84c5cc" id="grpContent" class="section">
+        <cl:attribute name="mobile-spacing" value="16"/>
+        <cl:attribute name="mobile-fit" value="true"/>
+        <cl:verticaldata std:sid="v-data-fc0c0fb0" width="400px" height="686px" autosize="height"/>
+        <cl:group std:sid="group-5d5796c1" class="search-list-top">
+          <cl:attribute name="mobile-column-count" value="1"/>
+          <cl:verticaldata std:sid="v-data-71103673" width="400px" height="36px" autosize="height"/>
+          <cl:output std:sid="output-3ac2ed84" class="sch-info" value="20" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; companies&quot;">
+            <cl:attribute name="needs-auto-height" value="true"/>
+            <cl:formdata std:sid="f-data-c4b6fe60" row="0" col="0"/>
+          </cl:output>
+          <cl:group std:sid="group-5c3d9eb9">
+            <cl:attribute name="needs-auto-height" value="true"/>
+            <cl:formdata std:sid="f-data-15a35e88" row="0" col="1"/>
+            <cl:button std:sid="button-d5b375b3" id="btn1" class="btn-inline btn-excel" value="Excel Download" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-cef36371" width="133px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:combobox std:sid="c-box-d195aaaa" id="cmb3" fieldLabel="Rows per page">
+              <cl:flowlayoutdata std:sid="f-data-9b5dca83" width="110px" height="36px"/>
+            </cl:combobox>
+            <cl:flowlayout std:sid="f-layout-3ac577df" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-da312581" scrollable="false" hspace="1fr" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="300" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="422" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:grid std:sid="grid-2390dbda" datasetid="dsList" autofit="1" resizablecolumns="all" columnMovable="true">
+          <cl:verticaldata std:sid="v-data-903f06e1" width="400px" height="200px" autosize="height"/>
+          <cl:gridcolumn std:sid="g-column-e104e3dd" width="56px"/>
+          <cl:gridcolumn std:sid="g-column-c72593f9" width="400px"/>
+          <cl:gridcolumn std:sid="g-column-a47768f9" width="90px"/>
+          <cl:gridcolumn std:sid="g-column-ffd723ae" width="160px"/>
+          <cl:gridcolumn std:sid="g-column-073ee13b" width="230px"/>
+          <cl:gridcolumn std:sid="g-column-7b2e2c0b" width="110px"/>
+          <cl:gridcolumn std:sid="g-column-80715877" width="165px"/>
+          <cl:gridcolumn std:sid="g-column-fce9b89c" width="165px"/>
+          <cl:gridheader std:sid="gh-band-46ac1d80">
+            <cl:gridrow std:sid="g-row-0657b73e" height="37px"/>
+            <cl:gridcell std:sid="gh-cell-89b97833" rowindex="0" colindex="0" targetcolumnname="no" sortable="false" filterable="false" text="No"/>
+            <cl:gridcell std:sid="gh-cell-f6992a6f" rowindex="0" colindex="1" targetcolumnname="companyName" sortable="true" filterable="false" text="Company Name"/>
+            <cl:gridcell std:sid="gh-cell-8e914d20" rowindex="0" colindex="2" targetcolumnname="symbol" sortable="true" filterable="false" text="Symbol"/>
+            <cl:gridcell std:sid="gh-cell-eb5563e7" rowindex="0" colindex="3" targetcolumnname="sector" sortable="true" filterable="false" text="Sector"/>
+            <cl:gridcell std:sid="gh-cell-91fed337" rowindex="0" colindex="4" targetcolumnname="subsector" sortable="true" filterable="false" text="Subsector"/>
+            <cl:gridcell std:sid="gh-cell-00506f9d" rowindex="0" colindex="5" targetcolumnname="fiscalYear" sortable="true" filterable="false" text="Fiscal Year"/>
+            <cl:gridcell std:sid="gh-cell-2a05a719" rowindex="0" colindex="6" targetcolumnname="telephone" sortable="true" filterable="false" text="Telephone"/>
+            <cl:gridcell std:sid="gh-cell-1aeba764" rowindex="0" colindex="7" targetcolumnname="fax" sortable="true" filterable="false" text="FAX"/>
+          </cl:gridheader>
+          <cl:griddetail std:sid="gd-band-511ea2b0">
+            <cl:gridrow std:sid="g-row-adf0964b" height="54px"/>
+            <cl:gridcell std:sid="gd-cell-798e18ca" rowindex="0" colindex="0" columnname="no">
+              <cl:output std:sid="output-37d29663">
+                <cl:celldata std:sid="c-data-e00b7c9a"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-40e344fe" rowindex="0" colindex="1" columnname="companyName">
+              <cl:button std:sid="button-5ae5f7c1" class="btn-link" displayexp="text.indexOf(&quot;[Delisted]&quot;) == 0 ? sstr(&quot;[Delisted]&quot;, {&quot;color&quot;: &quot;#64748B&quot;}) + text.substring(10) : text">
+                <cl:expbind property="value" category="PROPERTY" expression="companyName"/>
+                <cl:celldata std:sid="c-data-b3dd111e"/>
+              </cl:button>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-980a882e" rowindex="0" colindex="2" columnname="symbol">
+              <cl:output std:sid="output-4e3ab173">
+                <cl:celldata std:sid="c-data-2e25f538"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-0cd88417" rowindex="0" colindex="3" columnname="sector">
+              <cl:output std:sid="output-3ddcbff6">
+                <cl:celldata std:sid="c-data-caab64f2"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-436db5c4" rowindex="0" colindex="4" columnname="subsector">
+              <cl:output std:sid="output-02eedecd">
+                <cl:celldata std:sid="c-data-8072beea"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-cdcc95a0" rowindex="0" colindex="5" columnname="fiscalYear">
+              <cl:output std:sid="output-9fe86b5d">
+                <cl:celldata std:sid="c-data-080140ad"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-83ae62be" rowindex="0" colindex="6" columnname="telephone">
+              <cl:output std:sid="output-e9c253c7">
+                <cl:celldata std:sid="c-data-3c00f561"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-26de6d46" rowindex="0" colindex="7" columnname="fax">
+              <cl:output std:sid="output-c7ca4ed0">
+                <cl:celldata std:sid="c-data-207685b9"/>
+              </cl:output>
+            </cl:gridcell>
+          </cl:griddetail>
+        </cl:grid>
+        <cl:udc std:sid="ud-control-eaa7f396" id="udccompagination1" type="udc.pse.com.udcComPagination">
+          <cl:verticaldata std:sid="v-data-98b2d615" width="1024px" height="40px" autosize="height"/>
+        </cl:udc>
+        <cl:verticallayout std:sid="v-layout-40e46285" scrollable="false" spacing="20"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-fc7fc5a9" scrollable="false" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+    </cl:group>
+    <cl:verticallayout std:sid="v-layout-3c32ff37" scrollable="true" spacing="0"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

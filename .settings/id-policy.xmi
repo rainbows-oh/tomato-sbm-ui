@@ -48,7 +48,6 @@
   <settings:IDPolicy type="udc.com.udcComLoadmaskpgs" pattern="udccomloadmaskpgs" use="true"/>
   <settings:IDPolicy type="udc.com.udcComLoadmask" pattern="udccomloadmask" use="true"/>
   <settings:IDPolicy type="udc.com.udcComFormTitle" pattern="udccomformtitle" use="true"/>
-  <settings:IDPolicy type="udc.com.udcComAppHeader" pattern="udccomappheader" use="true"/>
   <settings:IDPolicy type="udc.com.udcComMdiDiv" pattern="udccommdidiv" use="true"/>
   <settings:IDPolicy type="udc.com.udcComGridTitle" pattern="udccomgridtitle" use="true"/>
   <settings:IDPolicy type="udc.com.udcComGridCudBtns" pattern="udccomgridcudbtns" use="true"/>
@@ -56,4 +55,18 @@
   <settings:IDPolicy type="udc.com.udcComDateRangePicker" pattern="udccomdaterangepicker" use="true"/>
   <settings:IDPolicy type="udc.com.chart.chart_Pie" pattern="chart_pie" use="true"/>
   <settings:IDPolicy type="udc.com.chart.chart_Candle" pattern="chart_candle" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComStatusCard" pattern="udccomstatuscard" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComUserCard" pattern="udccomusercard" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComPagination" pattern="udccompagination" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComCompanyManagementCard" pattern="udccomcompanymanagementcard" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComCorrespondenceCard" pattern="udccomcorrespondencecard" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComViewButton" pattern="udccomviewbutton" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComRepliesToggle" pattern="udccomrepliestoggle" use="true"/>
+  <settings:IDPolicy type="udc.com.chart.chart_Donut" pattern="chart_donut" use="true"/>
+  <settings:IDPolicy type="udc.com.chart.chart_Bar" pattern="chart_bar" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComSearchToggle" pattern="udccomsearchtoggle" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComAppHeader" pattern="udccomappheader" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComStatusSelection" pattern="udccomstatusselection" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComQnACard" pattern="udccomqnacard" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComDatePeriodPicker" pattern="udccomdateperiodpicker" use="true"/>
 </xmi:XMI>

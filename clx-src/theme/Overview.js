@@ -134,5 +134,11 @@ function onCmb6Open(e) {
 function onButtonClick(e) {
 	var button = e.control;
 	
-	util.Dialog.open(app, "app/pb/SelectCompany", 896, 527, null);
+	util.Dialog.open(app, "app/pb/mng/CompanySearch_modal", 600, 527, function(){
+		
+	}, {
+		
+	}, {
+		resizable: true
+	});
 }

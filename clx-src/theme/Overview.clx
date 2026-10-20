@@ -844,6 +844,9 @@
       <cl:output std:sid="output-95f3d8f3" class="badge fill information" value="Submitted">
         <cl:flowlayoutdata std:sid="f-data-f94d18da" width="68px" height="20px" autosize="both"/>
       </cl:output>
+      <cl:output std:sid="output-69e59d1d" id="opt6" class="badge fill close" value="Submitted">
+        <cl:flowlayoutdata std:sid="f-data-34112b50" width="68px" height="20px" autosize="both"/>
+      </cl:output>
       <cl:flowlayout std:sid="f-layout-9167dbc8" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
     </cl:group>
     <cl:group std:sid="group-155f786b" clipcontent="false">

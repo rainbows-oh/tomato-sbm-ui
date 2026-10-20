@@ -1,9 +1,8 @@
 @import (reference) "../../custom-settings.part.less";
 
-.btn-wrap {
-	.cl-button {
-		padding: 0px 12px;
-	}
+.btn-footer-wrap {
+	border-top: 1px solid @gray-20;
+	padding-top: 20px;
 }
 
 //페이지 하단 버튼 영역
@@ -18,9 +17,9 @@
 
 //카드
 .cl-container.card {
-	border: 1px solid #e3e8ee;
+	border: 1px solid @gray-30;
 	background-color: @white;
-	box-shadow: 0 1px 3px rgba(0,55,112,0.08);
+	border-radius: 8px;
 	
 	//user management - total 표시
 	&.type01 {
@@ -129,8 +128,8 @@
 
 .cl-container.separate {
 	&:not(.cl-last-row) {
-		border-bottom: 1px solid #e3e8ee;
-		padding-bottom: 24px;
+		border-bottom: 1px solid @gray-20;
+		padding-bottom: 16px;
 	}
 }
 
@@ -178,15 +177,15 @@
 //타이틀 영역
 .cl-container.page-title-wrap {
 	background-color: #ffffff;
-//	border-bottom: 1px solid #e3e8ee;
 	padding: 6px 24px;
-
-	.cl-container.btn-wrap {
-		.cl-button {
-//			font-size: 14px;
-//			font-weight: @font-weight-semibold;
-//			padding: 0 12px;
-		}
+	
+	@media(max-width: 767px) {
+		border-bottom: 1px solid @gray-20;
+		padding: 12px 16px;
+	}
+	
+	.icon {
+		min-width: 36px;
 	}
 }
 
@@ -331,21 +330,23 @@
 	.cl-container.search-head {
 		.cl-output.truncate {
 			color: @gray-70;
-			font-size: 13px;
-			font-weight: @font-weight-normal;
-			letter-spacing: -0.39px;
+			#font-body-s();
 			text-align: center;
 			padding: 16px 24px;
 		}
 	}
 	
-	.cl-container.filter-form {
-		.cl-output.label {
-			color: #0d253d;
-			font-size: 13px;
-			font-weight: @font-weight-semibold;
-			letter-spacing: -0.39px;
-			text-align: left;
+	.cl-container.sch-filter-box {
+		.font-label {
+			color: @gray-90 !important;
+		}
+		
+		.cl-checkboxgroup {
+			min-height: 36px;
+			
+			@media(max-width: 767px) {
+				min-height: 0px;
+			}
 		}
 	}
 	

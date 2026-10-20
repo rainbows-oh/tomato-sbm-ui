@@ -22,13 +22,14 @@
     <cl:listener std:sid="listener-e2975343" name="load" handler="onBodyLoad"/>
     <cl:listener std:sid="listener-f0c29aac" name="screen-change" handler="onBodyScreenChange"/>
     <cl:attribute name="mobile-column-count" value="1"/>
-    <cl:output std:sid="output-202fc71c" id="optTit" class="tit h4">
+    <cl:output std:sid="output-202fc71c" id="optTit">
       <cl:listener std:sid="listener-b5fbb49d" name="dblclick" handler="onOutputDblclick"/>
+      <cl:attribute name="needs-auto-height" value="true"/>
       <cl:apppropbind property="value" category="PROPERTY" app-property="title"/>
       <cl:formdata std:sid="f-data-e63f45a2" row="0" col="0"/>
     </cl:output>
     <cl:formlayout std:sid="f-layout-ce0da0fb" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-      <cl:rows length="36" unit="PIXEL" autoSizing="true"/>
+      <cl:rows length="1" unit="FRACTION" autoSizing="true"/>
       <cl:columns length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
     </cl:formlayout>
   </body>

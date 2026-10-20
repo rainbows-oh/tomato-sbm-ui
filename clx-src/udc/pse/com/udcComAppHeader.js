@@ -163,10 +163,10 @@ function onBodyScreenChange(e){
 					voLayout._org_rightMargin = voLayout.rightMargin;
 					voLayout._org_bottomMargin = voLayout.bottomMargin;
 					voLayout._org_leftMargin = voLayout.leftMargin;
-					voLayout.topMargin = 5;
-					voLayout.bottomMargin = 5;
-					voLayout.leftMargin = 10;
-					voLayout.rightMargin = 5;
+					voLayout.topMargin = 16;
+					voLayout.bottomMargin = 16;
+					voLayout.leftMargin = 16;
+					voLayout.rightMargin = 16;
 				} else {
 					var vnOrgTopMargin = voLayout._org_topMargin;
 					if (vnOrgTopMargin != undefined) {

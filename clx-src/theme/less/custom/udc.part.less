@@ -5,9 +5,13 @@
  ************************************************/
 .cl-container.app-header {
 	.cl-output {
-		#font-heading();
-		font-weight: 600;
+		font-size: 19px;
+		font-weight: 700;
 		color: @secondary-90;
+		
+		@media(max-width: 767px) {
+			font-size: 18px;
+		}
 	}
 }
 
@@ -28,7 +32,7 @@
 		
 		&:not(.cl-disabled):hover,
 		&:not(.cl-disabled).cl-hover {
-			background-color: #EFF1F5;
+//			background-color: #EFF1F5;
 		}
 		
 		&.collapse {

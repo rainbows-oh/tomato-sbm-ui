@@ -12,7 +12,7 @@
       <cl:listener std:sid="listener-f72a745a" name="value-change" handler="onChkStatusValueChange"/>
       <cl:verticaldata std:sid="v-data-704a577e" width="120px" height="36px" autosize="none"/>
     </cl:checkbox>
-    <cl:group std:sid="group-1aec6b2f" id="grpCard" class="status-card" visible="false">
+    <cl:group std:sid="group-1aec6b2f" id="grpCard" class="status-card">
       <cl:verticaldata std:sid="v-data-0b19a5e4" width="440px" height="256px" autosize="height"/>
       <cl:group std:sid="group-7dda9030" id="grp1">
         <cl:verticaldata std:sid="v-data-a66cbd39" width="408px" height="58px" autosize="height"/>

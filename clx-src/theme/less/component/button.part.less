@@ -528,6 +528,44 @@
 	}
 }
 
+/* --- Combo (콤보박스 필드와 동일한 스타일의 버튼 — class: btn-combo) --- */
+.cl-button.btn-combo {
+	#input--base();
+	/* 우측 화살표 (콤보박스 버튼 ico_angle) — background-image 로 표시 */
+	background-image: url("@{img-path}/icons/ico_angle.svg");
+	background-position: right (@size-input-padding-x / 2) center;
+	background-repeat: no-repeat;
+	background-size: @size-component-icon;
+	justify-content: flex-start;
+	padding: 0 @size-component-icon 0 12px;
+	text-align: left;
+	
+	/* 기본 .cl-button 의 hover/activated/active/focus 규칙(투명 배경·화살표 제거·보더 투명)이
+	   우선순위가 더 높으므로, 상태별로 배경·화살표·보더를 모두 다시 지정 */
+	&:not(.cl-disabled):hover,
+	&:not(.cl-disabled).cl-hover,
+	&:not(.cl-disabled).cl-activated,
+	&:not(.cl-disabled):active {
+		background-color: @color-input-surface;
+		background-image: url("@{img-path}/icons/ico_angle.svg");
+		border-color: @color-input-border;
+		color: @color-input-text;
+	}
+	
+	&.cl-focus,
+	&:not(.cl-disabled).cl-focus {
+		background-color: @color-input-surface;
+		background-image: url("@{img-path}/icons/ico_angle.svg");
+		color: @color-input-text;
+		#input--focus();
+	}
+	
+	&.cl-disabled {
+		#input--disabled();
+		background-image: url("@{img-path}/icons/ico_angle_disable.svg");
+	}
+}
+
 /* ==========================================================================
    Sizes
    ========================================================================== */
