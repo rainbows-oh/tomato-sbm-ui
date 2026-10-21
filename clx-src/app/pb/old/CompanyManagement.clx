@@ -18,7 +18,7 @@
         <cl:datarowlist>
           <cl:datarow>
             <cl:datavalue columnname="version"><![CDATA[1]]></cl:datavalue>
-            <cl:datavalue columnname="submissionDate"><![CDATA[08202026091244]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260820091244]]></cl:datavalue>
             <cl:datavalue columnname="submittedBy"><![CDATA[Alex Thompson]]></cl:datavalue>
             <cl:datavalue columnname="endorsedTo"><![CDATA[Alex Thompson]]></cl:datavalue>
             <cl:datavalue columnname="approverResult"><![CDATA[pending]]></cl:datavalue>
@@ -27,7 +27,7 @@
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="version"><![CDATA[2]]></cl:datavalue>
-            <cl:datavalue columnname="submissionDate"><![CDATA[08202026091244]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260820091244]]></cl:datavalue>
             <cl:datavalue columnname="submittedBy"><![CDATA[Alex Thompson]]></cl:datavalue>
             <cl:datavalue columnname="endorsedTo"><![CDATA[Alex Thompson]]></cl:datavalue>
             <cl:datavalue columnname="approverResult"><![CDATA[approved]]></cl:datavalue>
@@ -36,7 +36,7 @@
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="version"><![CDATA[3]]></cl:datavalue>
-            <cl:datavalue columnname="submissionDate"><![CDATA[08202026091244]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260820091244]]></cl:datavalue>
             <cl:datavalue columnname="submittedBy"><![CDATA[Alex Thompson]]></cl:datavalue>
             <cl:datavalue columnname="endorsedTo"><![CDATA[Alex Thompson]]></cl:datavalue>
             <cl:datavalue columnname="approverResult"><![CDATA[rejected]]></cl:datavalue>
@@ -45,7 +45,7 @@
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="version"><![CDATA[4]]></cl:datavalue>
-            <cl:datavalue columnname="submissionDate"><![CDATA[08202026091244]]></cl:datavalue>
+            <cl:datavalue columnname="submissionDate"><![CDATA[20260820091244]]></cl:datavalue>
             <cl:datavalue columnname="submittedBy"><![CDATA[Alex Thompson]]></cl:datavalue>
             <cl:datavalue columnname="endorsedTo"><![CDATA[Alex Thompson]]></cl:datavalue>
             <cl:datavalue columnname="approverResult"><![CDATA[approved]]></cl:datavalue>
@@ -59,49 +59,65 @@
   </head>
   <body std:sid="body-cm000015">
     <cl:group std:sid="group-cm000016" id="grpHeader" class="page-title-wrap">
-      <cl:verticaldata std:sid="v-data-cm000017" width="1024px" height="56px" autosize="height" sticky="true" stickytopoffset="0"/>
+      <cl:attribute name="mobile-column-count" value="1"/>
+      <cl:attribute name="needs-auto-height" value="true"/>
+      <cl:verticaldata std:sid="v-data-cm000017" width="1024px" height="48px" autosize="height" sticky="true" stickytopoffset="0"/>
       <cl:group std:sid="group-cm000020" class="btn-wrap">
-        <cl:formdata std:sid="f-data-cm000021" valign="FILL" height="32" row="0" col="1"/>
-        <cl:button std:sid="button-cm000022" class="btn-base" value="Logo">
+        <cl:formdata std:sid="f-data-cm000021" valign="FILL" height="36" row="0" col="1"/>
+        <cl:button std:sid="button-cm000022" class="btn-secondary" value="Logo">
           <cl:listener std:sid="listener-9f0eb538" name="click" handler="onButtonClick2"/>
-          <cl:flowlayoutdata std:sid="f-data-cm000023" width="86px" height="32px" autosize="width"/>
+          <cl:flowlayoutdata std:sid="f-data-cm000023" width="86px" height="36px" autosize="width"/>
         </cl:button>
-        <cl:button std:sid="button-cm000024" class="btn-add" value="Update Company Info" icon="0">
-          <cl:flowlayoutdata std:sid="f-data-cm000025" width="180px" height="32px" autosize="width"/>
+        <cl:button std:sid="button-cm000024" class="btn-primary btn-add" value="Update Company Info" icon="0">
+          <cl:flowlayoutdata std:sid="f-data-cm000025" width="180px" height="36px" autosize="width"/>
         </cl:button>
         <cl:flowlayout std:sid="f-layout-cm000026" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
       </cl:group>
       <cl:udc std:sid="ud-control-a245490b" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
+        <cl:attribute name="needs-auto-height" value="true"/>
         <cl:formdata std:sid="f-data-b53b218e" row="0" col="0"/>
       </cl:udc>
-      <cl:formlayout std:sid="f-layout-cm000027" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-        <cl:rows length="1" unit="FRACTION"/>
+      <cl:formlayout std:sid="f-layout-cm000027" scrollable="false" hspace="8px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="36" unit="PIXEL"/>
         <cl:columns length="1" unit="FRACTION"/>
         <cl:columns length="300" unit="PIXEL" autoSizing="true" syncminlength="false"/>
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-cm000028" id="grpBody" class="inner">
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
       <cl:verticaldata std:sid="v-data-cm000029" width="1024px" height="685px" autosize="height"/>
       <cl:group std:sid="group-cm000030" id="grpContent" class="section">
-        <cl:verticaldata std:sid="v-data-cm000031" width="976px" height="637px" autosize="height"/>
+        <cl:attribute name="mobile-spacing" value="16"/>
+        <cl:attribute name="mobile-fit" value="true"/>
+        <cl:verticaldata std:sid="v-data-cm000031" width="960px" height="649px" autosize="height"/>
         <cl:group std:sid="group-cm000032" class="search-list-top">
-          <cl:verticaldata std:sid="v-data-cm000033" width="400px" height="64px" autosize="height"/>
-          <cl:output std:sid="output-cm000034" class="sch-info" value="4" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; company information update versions&quot;">
-            <cl:formdata std:sid="f-data-cm000035" row="0" col="0"/>
-          </cl:output>
+          <cl:attribute name="mobile-column-count" value="1"/>
+          <cl:verticaldata std:sid="v-data-cm000033" width="400px" height="36px" autosize="height"/>
           <cl:group std:sid="group-cm000036">
             <cl:formdata std:sid="f-data-cm000037" row="0" col="1"/>
             <cl:udc std:sid="ud-control-cm000038" id="udccomviewbutton1" type="udc.pse.com.udcComViewButton">
-              <cl:flowlayoutdata std:sid="f-data-cm000039" width="68px" height="32px" autosize="both"/>
-              <cl:property name="targetTable" value="grpGridSection" type="control"/>
-              <cl:property name="targetCard" value="grpCardSection" type="control"/>
-            </cl:udc>
-            <cl:flowlayout std:sid="f-layout-cm000040" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
+                <cl:flowlayoutdata std:sid="f-data-cm000039" width="76px" height="36px" autosize="both"/>
+                <cl:property name="targetTable" value="grpGridSection" type="control"/>
+                <cl:property name="targetCard" value="grpCardSection" type="control"/>
+              </cl:udc>
+            <cl:combobox std:sid="c-box-87b3d90e" fieldLabel="Rows per page" value="15">
+              <cl:flowlayoutdata std:sid="f-data-5bab1eec" width="110px" height="36px" autosize="none"/>
+              <cl:item std:sid="item-215b8892" label="15/page" value="15"/>
+            </cl:combobox>
+            <cl:flowlayout std:sid="f-layout-b9d8249e" scrollable="false" hspacing="12" vspacing="12" halign="right" valign="middle"/>
           </cl:group>
-          <cl:formlayout std:sid="f-layout-cm000041" scrollable="false" hspace="1fr" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:group std:sid="group-3126b9c3">
+            <cl:formdata std:sid="f-data-cm000035" row="0" col="0" rowspan="1" colspan="1"/>
+            <cl:output std:sid="output-cm000034" class="sch-info" value="4" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; company information update versions&quot;">
+              <cl:flowlayoutdata std:sid="f-data-44732494" width="96px" height="36px" autosize="width"/>
+            </cl:output>
+            <cl:flowlayout std:sid="f-layout-71cf92e3" hspacing="12"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-039a7b88" scrollable="false" hspace="1fr" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="1" unit="FRACTION"/>
-            <cl:columns length="300" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-            <cl:columns length="68" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="500" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="400" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
           </cl:formlayout>
         </cl:group>
         <cl:grid std:sid="grid-cm000042" id="grpGridSection" datasetid="dsList" autofit="1, 2, 3, 4, 5, 6" resizablecolumns="all" columnMovable="true">
@@ -164,6 +180,9 @@
           </cl:griddetail>
         </cl:grid>
         <cl:group std:sid="group-1b791d41" id="grpCardSection" class="card-section" visible="false">
+          <cl:attribute name="mobile-column-count" value="1"/>
+          <cl:attribute name="mobile-h-spacing" value="12"/>
+          <cl:attribute name="mobile-v-spacing" value="12"/>
           <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="313px" autosize="height"/>
           <cl:udc std:sid="ud-control-8fe2ffed" id="udccomcompanymanagementcard1" type="udc.pse.com.udcComCompanyManagementCard">
             <cl:formdata std:sid="f-data-5d7803f1" row="0" col="0"/>
@@ -174,7 +193,7 @@
           <cl:udc std:sid="ud-control-116b3599" id="udccomcompanymanagementcard3" type="udc.pse.com.udcComCompanyManagementCard">
             <cl:formdata std:sid="f-data-898a7ab7" row="0" col="2"/>
           </cl:udc>
-          <cl:formlayout std:sid="f-layout-9ec8d59e" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:formlayout std:sid="f-layout-9ec8d59e" scrollable="false" hspace="16px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="1" unit="FRACTION"/>
             <cl:columns length="1" unit="FRACTION"/>
             <cl:columns length="1" unit="FRACTION"/>
@@ -182,11 +201,11 @@
           </cl:formlayout>
         </cl:group>
         <cl:udc std:sid="ud-control-cm000083" id="udccompagination1" type="udc.pse.com.udcComPagination">
-          <cl:verticaldata std:sid="v-data-cm000084" width="1024px" height="60px" autosize="height"/>
+          <cl:verticaldata std:sid="v-data-cm000084" width="1024px" height="40px" autosize="height"/>
         </cl:udc>
-        <cl:verticallayout std:sid="v-layout-cm000085" scrollable="false" spacing="0"/>
+        <cl:verticallayout std:sid="v-layout-cm000085" scrollable="false" spacing="20"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-cm000086" scrollable="false" spacing="16" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+      <cl:verticallayout std:sid="v-layout-cm000086" scrollable="false" spacing="20" leftmargin="32" rightmargin="32" topmargin="24" bottommargin="24"/>
     </cl:group>
     <cl:verticallayout std:sid="v-layout-cm000087" scrollable="true" spacing="0"/>
   </body>

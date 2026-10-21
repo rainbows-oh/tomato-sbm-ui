@@ -871,6 +871,16 @@
       <cl:button std:sid="button-b31d18b7" id="btn8" class="btn-download btn-inline" value="Button" icon="0">
         <cl:flowlayoutdata std:sid="f-data-cbc65776" width="100px" height="36px"/>
       </cl:button>
+      <cl:combobox std:sid="c-box-45de4b81" id="cmb7">
+        <cl:listener std:sid="listener-a39aeaf0" name="item-click" handler="onCmb7ItemClick"/>
+        <cl:flowlayoutdata std:sid="f-data-9eb71461" width="230px" height="36px"/>
+        <cl:item std:sid="t-item-9e318d43" label="label1" value="value1" icon="theme/img/icons/ico_download.svg"/>
+        <cl:item std:sid="t-item-9e9e797b" label="label2" value="value2" icon="theme/img/icons/ico_download.svg"/>
+        <cl:item std:sid="t-item-a7d0321e" label="label3" value="value3" icon="theme/img/icons/ico_download.svg"/>
+        <cl:item std:sid="t-item-681bfde5" label="label4" value="value4" icon="theme/img/icons/ico_download.svg"/>
+        <cl:item std:sid="t-item-b812fe13" label="label5" value="value5" icon="theme/img/icons/ico_download.svg"/>
+        <cl:liststyle class="cmb-fild-down"/>
+      </cl:combobox>
       <cl:group std:sid="group-86320e6f" id="grp6" class="attachments">
         <std:metadata>
           <std:property key="template-uuid" value="6e6db236-c296-4287-a02f-d522573e7b3f"/>

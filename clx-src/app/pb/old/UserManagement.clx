@@ -27,11 +27,17 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-0b464f24" id="grpData" class="inner">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="502px" autosize="height"/>
-      <cl:group std:sid="group-b5aa1204" id="grpTotal" class="card type01">
-        <cl:verticaldata std:sid="v-data-6ec449da" width="1024px" height="62px" autosize="height"/>
-        <cl:group std:sid="group-a32b676f" id="grp1">
-          <cl:formdata std:sid="f-data-30475dcb" row="0" col="0"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="500px" autosize="height"/>
+      <cl:group std:sid="group-b5aa1204" id="grpTotal" class="total-box">
+        <cl:attribute name="mobile-column-count" value="2"/>
+        <cl:attribute name="mobile-horizontal-margin" value="0"/>
+        <cl:attribute name="mobile-vertical-margin" value="0"/>
+        <cl:attribute name="mobile-h-spacing" value="8"/>
+        <cl:attribute name="mobile-v-spacing" value="8"/>
+        <cl:verticaldata std:sid="v-data-6ec449da" width="976px" height="68px" autosize="height"/>
+        <cl:group std:sid="group-a32b676f" id="grp1" class="total-cell">
+          <cl:attribute name="mobile-min-height" value="72"/>
+          <cl:formdata std:sid="f-data-30475dcb" width="100" height="23" row="0" col="0"/>
           <cl:output std:sid="output-61a995dd" id="opt45" class="font-display" value="5" displayexp="text + &quot;/5&quot;">
             <cl:verticaldata std:sid="v-data-c2d03623" width="100px" height="20px" autosize="height"/>
           </cl:output>
@@ -40,7 +46,8 @@
           </cl:output>
           <cl:verticallayout std:sid="v-layout-243fe52b" spacing="2"/>
         </cl:group>
-        <cl:group std:sid="group-4da2e215" id="grp34">
+        <cl:group std:sid="group-4da2e215" id="grp34" class="total-cell">
+          <cl:attribute name="mobile-min-height" value="72"/>
           <cl:formdata std:sid="f-data-6f562416" row="0" col="1"/>
           <cl:output std:sid="output-91084a4a" id="opt50" class="font-display" value="4" displayexp="text + &quot;/5&quot;">
             <cl:verticaldata std:sid="v-data-bcd49e66" width="100px" height="20px" autosize="height"/>
@@ -50,7 +57,8 @@
           </cl:output>
           <cl:verticallayout std:sid="v-layout-7ee30dc7" spacing="2"/>
         </cl:group>
-        <cl:group std:sid="group-7fefb073" id="grp35">
+        <cl:group std:sid="group-7fefb073" id="grp35" class="total-cell">
+          <cl:attribute name="mobile-min-height" value="72"/>
           <cl:formdata std:sid="f-data-549a1283" width="100" height="33" row="0" col="2"/>
           <cl:output std:sid="output-83991441" id="opt52" class="font-display" value="8" displayexp="text + &quot;/9&quot;">
             <cl:verticaldata std:sid="v-data-b50e502a" width="100px" height="20px" autosize="height"/>
@@ -60,8 +68,8 @@
           </cl:output>
           <cl:verticallayout std:sid="v-layout-10cd9db0" spacing="2"/>
         </cl:group>
-        <cl:formlayout std:sid="f-layout-3bace4d3" scrollable="false" hspace="24px" vspace="0px" top-margin="8px" right-margin="12px" bottom-margin="8px" left-margin="12px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
-          <cl:rows length="44" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+        <cl:formlayout std:sid="f-layout-3bace4d3" scrollable="false" hspace="32px" vspace="8px" top-margin="12px" right-margin="16px" bottom-margin="12px" left-margin="16px" hseparatorwidth="0" vseparatorwidth="1" vseparatortype="BY_CLASS">
+          <cl:rows length="42" unit="PIXEL" autoSizing="true" syncminlength="false"/>
           <cl:columns length="1" unit="FRACTION"/>
           <cl:columns length="1" unit="FRACTION"/>
           <cl:columns length="1" unit="FRACTION"/>
