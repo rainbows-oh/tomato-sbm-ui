@@ -31,6 +31,13 @@
 	}
 }
 
+//details 페이지 헤더 카드
+.cl-container.detail-head {
+	border: 1px solid @gray-20;
+	background-color: @white;
+	box-shadow: 0 1px 3px 0 rgba(15, 23, 41, 0.06);
+}
+
 //카드
 .cl-container.card {
 	border: 1px solid @gray-30;
@@ -41,74 +48,109 @@
 		background-color: @primary-5;
 	}
 	
-	//user management - total 표시
-	&.type01 {
-		border-radius: 12px;
-		
-		.cl-formlayout-vertical-separator {
-			background-color: #e3e8ee;
-		}
-		
-		.cl-output.tit {
-			font-size: 20px;
-			font-weight: 600;
-		}
-	}
-	
-	//details 페이지 헤더 카드
-	&.type03 {
-		border-radius: 12px;
-		
-		.cl-output.c-tit {
-			font-size: 15px;
-			font-weight: 600;
-			color: #0d253d;
-		}
-		
-		.cl-output.c-tit-sub {
-			font-size: 13px;
-			font-weight: 400;
-			color: #273951;
-		}
-	}
-	
-	//details 페이지 카드 형태 그룹 스타일
-	&.type04 {
-		padding: 16px;
+//	//user management - total 표시
+//	&.type01 {
+//		border-radius: 12px;
+//		
+//		.cl-formlayout-vertical-separator {
+//			background-color: #e3e8ee;
+//		}
+//		
+//		.cl-output.tit {
+//			font-size: 20px;
+//			font-weight: 600;
+//		}
+//	}
+//	
+//	
+//	&.type03 {
+//		border-radius: 12px;
+//		
+//		.cl-output.c-tit {
+//			font-size: 15px;
+//			font-weight: 600;
+//			color: #0d253d;
+//		}
+//		
+//		.cl-output.c-tit-sub {
+//			font-size: 13px;
+//			font-weight: 400;
+//			color: #273951;
+//		}
+//	}
+//	
+//	//details 페이지 카드 형태 그룹 스타일
+//	&.type04 {
+//		padding: 16px;
+//		border-radius: 8px;
+//		
+//		&.highlight {
+//			background-color: #eeecff;
+//			border: 1px solid #533afd;
+//		}
+//		
+//		.cl-output.c-tit {
+//			font-size: 15px;
+//			font-weight: 600;
+//			color: #0d253d;
+//		}
+//	}
+//	
+//	//details 페이지 카드 형태 그룹 입력 스타일
+//	&.type05 {
+//		padding: 16px;
+//		border-radius: 8px;
+//		
+//		&.highlight {
+//			background-color: #eeecff;
+//			border: 1px solid #533afd;
+//		}
+//		
+//		.cl-output.c-tit {
+//			font-size: 15px;
+//			font-weight: 600;
+//			color: #0d253d;
+//		}
+//		
+//		.label {
+//			font-size: 13px;
+//			color: #273951;
+//		}
+//	}
+}
+
+.cl-container.replies {
+	.cl-container.other-chat,
+	.cl-container.my-chat {
+		border: 1px solid  @gray-20;
 		border-radius: 8px;
-		
-		&.highlight {
-			background-color: #eeecff;
-			border: 1px solid #533afd;
-		}
-		
-		.cl-output.c-tit {
-			font-size: 15px;
-			font-weight: 600;
-			color: #0d253d;
-		}
+		padding: 12px 14px;
 	}
 	
-	//details 페이지 카드 형태 그룹 입력 스타일
-	&.type05 {
-		padding: 16px;
-		border-radius: 8px;
-		
-		&.highlight {
-			background-color: #eeecff;
-			border: 1px solid #533afd;
-		}
-		
-		.cl-output.c-tit {
-			font-size: 15px;
-			font-weight: 600;
-			color: #0d253d;
-		}
-		
-		.label {
-			font-size: 13px;
-			color: #273951;
-		}
+	.cl-container.other-chat {
+		margin-right: 16px;
+	}
+	
+	.cl-container.my-chat {
+		margin-left: 16px;
+		background-color: @gray-5;
+	}
+}
+
+.cl-container.qna {
+	border: 1px solid #e3e8ee;
+	border-radius: 12px;
+	padding: 24px;
+}
+
+.cl-button.btn-go-back {
+//	text-align: center;
+	font-weight: 600;
+	font-size: 15px;
+	color: #0d253d;
+	
+	.cl-icon {
+		background-image: url("../../img/icons/ico_arrow_left.svg") !important;
 	}
 }
 
@@ -152,33 +194,6 @@
 	}
 }
 
-//그리드 숫자 표시 뱃지
-.cl-button {
-	.btn-grid-badge-red,
-	.btn-grid-badge-gray {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		min-width: 16px;
-		min-height: 16px;
-		font-size: 10px;
-		font-weight: 600;
-		border-radius: @border-radius-full;
-		margin-left: 8px;
-		padding: 0px 4px;
-	}
-	
-	.btn-grid-badge-red {
-		background-color: @danger;
-		color: @white;
-	}
-
-	.btn-grid-badge-gray {
-		background-color: @gray-20;
-		color: @color-component-text-disabled;
-	}
-}
-
 //타이틀 영역
 .cl-container.page-title-wrap {
 	background-color: #ffffff;
@@ -218,111 +233,13 @@
 	min-height: 36px;
 	
 	.cl-text {
-		padding-left: 18px;
+		padding-left: 26px;
 		#font-body-s();
 	}
 	
 	.size {
 		#font-caption();
 		color: @gray-50;
-	}
-}
-
-
-//임력 폼 스타일
-.cl-container.form-group {
-	background-color: #ffffff;
-	border: 1px solid #e3e8ee;
-	border-radius: 12px;
-	box-shadow: 0 1px 3px rgba(0,55,112,0.08);
-	
-	.label {
-		font-size: 13px;
-		color: #0d253d;
-	}
-	
-	.group {
-		&:not(.cl-last-row) {
-			border-bottom: 1px solid #e3e8ee;
-			padding-bottom: 24px;
-		}
-		
-		.group-tit {
-			font-size: 15px;
-			font-weight: 600;
-			color: #0d253d;
-		}
-		
-
-		
-		.cl-container.recipients {
-			padding: 16px;
-			border: 1px solid  #e3e8ee;
-			border-radius: 8px;
-			background-color: #f6f9fc;
-			
-			.cl-output.tit {
-				font-weight: 600;
-			}
-			
-			.cl-output.name {
-				font-weight: 600;
-				font-size: 11px;
-				border: 1px solid  #e3e8ee;
-				background-color: @white;
-				padding: 4px 8px;
-				border-radius: 999px;
-			}
-		}
-		
-		.cl-container.replies {
-			.cl-container.other-chat,
-			.cl-container.my-chat {
-				border: 1px solid  #e3e8ee;
-				border-radius: 8px;
-				padding: 12px;
-				
-				.name {
-					font-weight: 600;
-				}
-				
-				.dept {
-					color: #64748d;
-				}
-				
-				.date {
-					font-size: 11px;
-					color: #64748d;
-				}
-			}
-			
-			.cl-container.other-chat {
-				margin-right: 24px;
-			}
-			
-			.cl-container.my-chat {
-				margin-left: 24px;
-				background-color: #f6f9fc;
-			}
-		}
-		
-		.cl-container.qna {
-			border: 1px solid #e3e8ee;
-			border-radius: 12px;
-			padding: 24px;
-		}
-		
-	}
-}
-
-.cl-button.btn-go-back {
-	text-align: left;
-	font-weight: 600;
-	font-size: 15px;
-	color: #0d253d;
-	
-	.cl-icon {
-		background-image: url("../../img/icons/ico_arrow_left.svg") !important;
 	}
 }
 

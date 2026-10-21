@@ -62,23 +62,11 @@
           <cl:output std:sid="output-07837972" id="optLabel4" class="font-label required" value="Attach File">
             <cl:verticaldata std:sid="v-data-e895ed66" width="100px" height="20px" autosize="height"/>
           </cl:output>
-          <cl:group std:sid="group-b8d9fa0d" id="grpDropzone" class="dropzone">
-            <std:metadata>
-              <std:property key="template-uuid" value="62738af7-e6c1-4c3f-bdec-dc3abe5495ba"/>
-              <std:property key="template-rev" value="1"/>
-            </std:metadata>
-            <cl:verticaldata std:sid="v-data-77ef5d33" width="600px" height="140px" autosize="height"/>
-            <cl:output std:sid="output-a3c3f402" id="optDropTitle" class="font-label dark" value="Drag and drop files here, or select files">
-              <cl:verticaldata std:sid="v-data-b4d4a503" width="548px" height="20px" autosize="height" topspacing="8"/>
-            </cl:output>
-            <cl:output std:sid="output-b5c3f504" id="optDropSizeInfo" class="font-label" value="Total size limit: 10MB (0MB used).">
-              <cl:verticaldata std:sid="v-data-c6d4a605" width="548px" height="16px" autosize="height" topspacing="4"/>
-            </cl:output>
-            <cl:output std:sid="output-c6d4a706" id="optDropTypeInfo" class="font-label" value="Only PDF or image files are allowed.">
-              <cl:verticaldata std:sid="v-data-d7e5b807" width="548px" height="16px" autosize="height" topspacing="2"/>
-            </cl:output>
-            <cl:verticallayout std:sid="v-layout-c5e5b604" scrollable="false" spacing="6" leftmargin="24" rightmargin="24" topmargin="0" bottommargin="24"/>
-          </cl:group>
+          <cl:udc std:sid="ud-control-8bcf7296" id="udccomfiledropzone1" type="udc.pse.com.udcComFileDropzone">
+            <cl:verticaldata std:sid="v-data-54cd9616" width="600px" height="140px" autosize="height"/>
+            <cl:property name="isTypeInfoVisible" value="true" type="boolean"/>
+            <cl:property name="typeInfo" value="Only PDF or image files are allowed." type="string"/>
+          </cl:udc>
           <cl:verticallayout std:sid="v-layout-28e29931" scrollable="false" spacing="6"/>
         </cl:group>
         <cl:group std:sid="group-397dcdef" id="grpField5">

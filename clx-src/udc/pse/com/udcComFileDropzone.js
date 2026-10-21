@@ -29,8 +29,6 @@ exports.getText = getText;
 var maFiles = [];
 /** @type HTMLInputElement 클릭 시 파일 선택창을 띄우기 위한 숨김 input[type=file] */
 var moFileInput = null;
-/** @type Number 표시용 총 용량 제한(MB). 실제 업로드를 막지는 않고 안내 문구 계산에만 사용 */
-var MAX_TOTAL_SIZE_MB = 10;
 
 
 /*******************************************************************************
@@ -115,6 +113,13 @@ function doSetRejectedInfoVisible(pbVisible) {
 }
 
 /**
+ * 첨부된 파일이 있을 때만 파일 목록(grpFileList)을 표시한다.
+ */
+function doUpdateFileListVisible() {
+	app.lookup("grpFileList").visible = maFiles.length > 0;
+}
+
+/**
  * 파일 목록(FileList)을 행으로 만들어 grpFileList에 추가한다.
  * PDF/이미지가 아닌 파일은 경고문 표출.
  * @param {FileList} paFileList
@@ -138,7 +143,7 @@ function doAddFiles(paFileList) {
 		doSetRejectedInfoVisible(false);
 	}
 
-	doUpdateSizeInfo();
+	doUpdateFileListVisible();
 }
 
 /**
@@ -151,21 +156,7 @@ function doRemoveFileRow(poFile, pcRow) {
 	if (vnIdx > -1) maFiles.splice(vnIdx, 1);
 
 	app.lookup("grpFileList").removeChild(pcRow);
-	doUpdateSizeInfo();
-}
-
-/**
- * 현재까지 추가된 파일들의 총 용량을 계산해 드롭존 안내 문구를 갱신한다.
- */
-function doUpdateSizeInfo() {
-	var vnTotalBytes = 0;
-	var vnIdx;
-	for (vnIdx = 0; vnIdx < maFiles.length; vnIdx++) {
-		vnTotalBytes += maFiles[vnIdx].size;
-	}
-
-	var vnUsedMB = vnTotalBytes / (1024 * 1024);
-	app.lookup("optDropSizeInfo").value = "Total size limit: " + MAX_TOTAL_SIZE_MB + "MB (" + vnUsedMB.toFixed(1) + "MB used).";
+	doUpdateFileListVisible();
 }
 
 /**

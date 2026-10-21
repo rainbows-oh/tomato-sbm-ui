@@ -9,35 +9,38 @@
   </head>
   <body std:sid="body-6585a0fc">
     <cl:group std:sid="group-0319b359" id="grpHeader" class="page-title-wrap">
-      <cl:verticaldata std:sid="v-data-dddbbb01" width="1024px" height="57px" autosize="height" sticky="true"/>
+      <cl:attribute name="mobile-column-count" value="1"/>
+      <cl:attribute name="needs-auto-height" value="true"/>
+      <cl:verticaldata std:sid="v-data-dddbbb01" width="1024px" height="48px" autosize="height" sticky="true" stickytopoffset="0"/>
       <cl:udc std:sid="ud-control-1d70da47" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
+        <cl:attribute name="needs-auto-height" value="true"/>
         <cl:formdata std:sid="f-data-dc4ac2b2" row="0" col="0"/>
       </cl:udc>
-      <cl:group std:sid="group-d1de98a3" id="grp3" class="btn-wrap">
-        <cl:formdata std:sid="f-data-e5a11c32" row="0" col="1"/>
-        <cl:flowlayout std:sid="f-layout-ea5ceda2" halign="right"/>
-      </cl:group>
-      <cl:formlayout std:sid="f-layout-631b2075" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-        <cl:rows length="32" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-        <cl:columns length="512" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-        <cl:columns length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+      <cl:formlayout std:sid="f-layout-631b2075" scrollable="false" hspace="8px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="36" unit="PIXEL"/>
+        <cl:columns length="1" unit="FRACTION"/>
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-0b464f24" id="grpData" class="inner">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1440px" autosize="height"/>
-      <cl:group std:sid="group-9677c655" id="grp35" class="card type03">
-        <cl:attribute name="mobile-column-count" value="2"/>
-        <cl:attribute name="tablet-column-count" value="2"/>
-        <cl:verticaldata std:sid="v-data-b8422b32" width="976px" height="60px" autosize="none"/>
-        <cl:button std:sid="button-2551d9d7" id="btn6" class="btn-go-back" fieldLabel="Go back" value="" icon="0">
-          <cl:formdata std:sid="f-data-d00a3209" row="0" col="0" rowspan="1" colspan="1"/>
-        </cl:button>
-        <cl:output std:sid="output-efdeb18e" id="opt31" class="c-tit" value="User Details">
-          <cl:formdata std:sid="f-data-2944e629" row="0" col="1"/>
-        </cl:output>
-        <cl:formlayout std:sid="f-layout-9210d825" scrollable="false" hspace="8px" vspace="4px" top-margin="16px" right-margin="16px" bottom-margin="16px" left-margin="16px">
-          <cl:rows length="26" unit="PIXEL" autoSizing="false" syncminlength="true"/>
-          <cl:columns length="26" unit="PIXEL" shadetype="NONE" shadecolor="transparent"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1442px" autosize="height"/>
+      <cl:group std:sid="group-9677c655" id="grp35" class="detail-head">
+        <cl:verticaldata std:sid="v-data-b8422b32" width="976px" height="70px" autosize="height"/>
+        <cl:group std:sid="group-a6a3a450">
+          <cl:formdata std:sid="f-data-0c5c7fd0" row="0" col="0"/>
+          <cl:button std:sid="button-2551d9d7" id="btn6" class="btn-go-back icon" fieldLabel="Go back" value="" icon="0">
+            <cl:formdata std:sid="f-data-d00a3209" row="0" col="0" rowspan="1" colspan="1"/>
+          </cl:button>
+          <cl:output std:sid="output-efdeb18e" id="opt31" class="font-subheading" value="User Details">
+            <cl:formdata std:sid="f-data-2944e629" row="0" col="1"/>
+          </cl:output>
+          <cl:formlayout std:sid="f-layout-128b2f33" scrollable="false" hspace="8px" vspace="4px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="36" unit="PIXEL"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:formlayout std:sid="f-layout-d23f0824" scrollable="false" hspace="12px" vspace="0px" top-margin="12px" right-margin="16px" bottom-margin="12px" left-margin="16px" hseparatorwidth="0" vseparatorwidth="0">
+          <cl:rows length="44" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
           <cl:columns length="1" unit="FRACTION"/>
         </cl:formlayout>
       </cl:group>

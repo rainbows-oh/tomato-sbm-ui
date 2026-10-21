@@ -280,7 +280,7 @@
                       </cl:checkboxgroup>
                       <cl:verticallayout std:sid="v-layout-608ec84c" spacing="10"/>
                     </cl:group>
-                    <cl:verticallayout std:sid="v-layout-d309d6f0" spacing="16"/>
+                    <cl:verticallayout std:sid="v-layout-d309d6f0" spacing="10"/>
                   </cl:group>
                   <cl:verticallayout std:sid="v-layout-17da616c" spacing="20" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="0"/>
                 </cl:group>

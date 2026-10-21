@@ -9,16 +9,16 @@
   </head>
   <body std:sid="body-6585a0fc">
     <cl:tabfolder std:sid="t-folder-bacf902d" id="fld1" class="line" childcombinatorclass="tablist" item-sizing="fill" item-spacing="0">
-      <cl:verticaldata std:sid="v-data-e447e368" width="926px" height="966px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-e447e368" width="1024px" height="960px" autosize="height"/>
       <cl:tabitem std:sid="t-item-94ea1e2e" selected="true" text="Message">
         <cl:group std:sid="group-0c899a3d" id="grp1">
           <std:metadata>
             <std:property key="locked" value="true"/>
           </std:metadata>
-          <cl:embeddedapp std:sid="e-app-7d5dce7a" id="ema1" src="old/Correspondence_details_message.clx">
+          <cl:embeddedapp std:sid="e-app-7d5dce7a" id="ema1" src="Correspondence_details_message.clx">
             <cl:verticaldata std:sid="v-data-3c345b91" width="320px" height="900px" autosize="height"/>
           </cl:embeddedapp>
-          <cl:verticallayout std:sid="v-layout-8abe58b8" spacing="24" topmargin="24"/>
+          <cl:verticallayout std:sid="v-layout-8abe58b8" spacing="24" topmargin="20"/>
         </cl:group>
       </cl:tabitem>
       <cl:tabitem std:sid="t-item-178c7f99" selected="true" text="Replies" displayexp="text + &quot;(&quot; + userAttr(&quot;total&quot;) + &quot;)&quot;">
@@ -30,21 +30,20 @@
           <std:metadata>
             <std:property key="locked" value="true"/>
           </std:metadata>
-          <cl:group std:sid="group-b443274c" id="grp11" class="group">
-            <cl:verticaldata std:sid="v-data-0d709c3e" width="926px" height="233px" autosize="height"/>
+          <cl:group std:sid="group-b443274c" id="grp11" class="separate">
+            <cl:verticaldata std:sid="v-data-0d709c3e" width="1024px" height="233px" autosize="height"/>
             <cl:group std:sid="group-180dd289" id="grp24">
               <cl:attribute name="mobile-column-count" value="1"/>
-              <cl:verticaldata std:sid="v-data-2cb1b303" width="926px" height="32px" autosize="height"/>
-              <cl:output std:sid="output-b15fba66" id="opt9" value="Reply thread with PSE Management. Company and management messages appear in chronological order.">
+              <cl:verticaldata std:sid="v-data-2cb1b303" width="1024px" height="36px" autosize="height"/>
+              <cl:output std:sid="output-b15fba66" id="opt9" class="font-body-s gray" value="Reply thread with PSE Management. Company and management messages appear in chronological order.">
                 <cl:attribute name="needs-auto-height" value="true"/>
                 <cl:formdata std:sid="f-data-58ffc923" row="0" col="0"/>
               </cl:output>
-              <cl:udc std:sid="ud-control-dfb38332" id="udccomrepliestoggle1" type="udc.pse.com.udcComRepliesToggle">
-                <cl:attribute name="needs-auto-height" value="true"/>
-                <cl:formdata std:sid="f-data-33c332d5" row="0" col="1"/>
-              </cl:udc>
-              <cl:formlayout std:sid="f-layout-3637cd08" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-                <cl:rows length="32" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+              <cl:button std:sid="button-b9ea6b21" id="btn1" class="btn-secondary" value="Close replies">
+                <cl:formdata std:sid="f-data-428f7072" row="0" col="1"/>
+              </cl:button>
+              <cl:formlayout std:sid="f-layout-3637cd08" scrollable="false" hspace="6px" vspace="6px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="36" unit="PIXEL" autoSizing="false" syncminlength="true"/>
                 <cl:columns length="1" unit="FRACTION"/>
                 <cl:columns length="140" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
               </cl:formlayout>
@@ -59,31 +58,27 @@
                   <cl:verticaldata std:sid="v-data-90ddaa25" width="400px" height="20px" autosize="height"/>
                   <cl:group std:sid="group-04f6dec6" id="grp18">
                     <cl:formdata std:sid="f-data-d5371e5b" row="0" col="0"/>
-                    <cl:output std:sid="output-244d8d6a" id="opt13" class="name" value="Maria Santos">
+                    <cl:output std:sid="output-244d8d6a" id="opt13" class="font-label" value="Maria Santos">
                       <cl:attribute name="needs-auto-height" value="true"/>
                       <cl:flowlayoutdata std:sid="f-data-2015fdfa" width="100px" height="20px" autosize="both"/>
                     </cl:output>
-                    <cl:output std:sid="output-bb053dd9" id="opt14" class="dept" value="Company">
+                    <cl:output std:sid="output-7a8117bc" id="opt2" class="font-caption" value="Company" displayexp="&quot;· &quot; + text">
                       <cl:attribute name="needs-auto-height" value="true"/>
-                      <cl:flowlayoutdata std:sid="f-data-0955eea3" width="100px" height="20px" autosize="both"/>
+                      <cl:flowlayoutdata std:sid="f-data-0688de96" width="100px" height="20px" autosize="both"/>
                     </cl:output>
-                    <cl:flowlayout std:sid="f-layout-6f8cd661" hspacing="8" vspacing="8"/>
+                    <cl:flowlayout std:sid="f-layout-6f8cd661" hspacing="6" vspacing="6"/>
                   </cl:group>
-                  <cl:group std:sid="group-e22fedfe" id="grp19">
-                    <cl:formdata std:sid="f-data-b3993e89" row="0" col="1" rowspan="1" colspan="1"/>
-                    <cl:output std:sid="output-b575f0f6" id="opt12" class="date" value="08-25-2026 01:14:29 PM">
-                      <cl:attribute name="needs-auto-height" value="true"/>
-                      <cl:flowlayoutdata std:sid="f-data-2142eb2f" width="149px" height="20px" autosize="both"/>
-                    </cl:output>
-                    <cl:flowlayout std:sid="f-layout-c9d91a9f"/>
-                  </cl:group>
-                  <cl:formlayout std:sid="f-layout-b33c48f9" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                  <cl:output std:sid="output-b575f0f6" id="opt12" class="font-caption" value="08-25-2026 01:14:29 PM">
+                    <cl:attribute name="needs-auto-height" value="true"/>
+                    <cl:formdata std:sid="f-data-a7f33a6a" row="0" col="1"/>
+                  </cl:output>
+                  <cl:formlayout std:sid="f-layout-b33c48f9" scrollable="false" hspace="6px" vspace="6px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
                     <cl:rows length="20" unit="PIXEL" autoSizing="true" syncminlength="false"/>
                     <cl:columns length="1" unit="FRACTION"/>
                     <cl:columns length="150" unit="PIXEL" autoSizing="true" syncminlength="false"/>
                   </cl:formlayout>
                 </cl:group>
-                <cl:output std:sid="output-1ee26fc9" id="opt10" value="Supporting schedules for the EDGE filing are being prepared. We expect internal sign-off by end of week.">
+                <cl:output std:sid="output-1ee26fc9" id="opt10" class="font-body-s" value="Supporting schedules for the EDGE filing are being prepared. We expect internal sign-off by end of week.">
                   <cl:verticaldata std:sid="v-data-699226b7" width="100px" height="20px" autosize="height"/>
                 </cl:output>
                 <cl:verticallayout std:sid="v-layout-4338a082"/>
@@ -96,49 +91,55 @@
                   <cl:verticaldata std:sid="v-data-56a50b84" width="900px" height="20px" autosize="height"/>
                   <cl:group std:sid="group-22730465" id="grp22">
                     <cl:formdata std:sid="f-data-f9d827d1" row="0" col="0"/>
-                    <cl:output std:sid="output-9185e773" id="opt20" class="name" value="PSE System Admin">
+                    <cl:output std:sid="output-9185e773" id="opt20" class="font-label" value="PSE System Admin">
                       <cl:attribute name="needs-auto-height" value="true"/>
                       <cl:flowlayoutdata std:sid="f-data-c2e5071e" width="153px" height="20px" autosize="both"/>
                     </cl:output>
-                    <cl:output std:sid="output-27b1340f" id="opt21" class="dept" value="Management">
+                    <cl:output std:sid="output-27b1340f" id="opt21" class="font-caption" value="Management" displayexp="&quot;· &quot; + text">
                       <cl:attribute name="needs-auto-height" value="true"/>
                       <cl:flowlayoutdata std:sid="f-data-7ab92965" width="100px" height="20px" autosize="both"/>
                     </cl:output>
-                    <cl:flowlayout std:sid="f-layout-74c5c14a" hspacing="8" vspacing="8"/>
+                    <cl:flowlayout std:sid="f-layout-74c5c14a" hspacing="6" vspacing="6"/>
                   </cl:group>
-                  <cl:group std:sid="group-4c02f386" id="grp23">
-                    <cl:formdata std:sid="f-data-1667d88b" row="0" col="1" rowspan="1" colspan="1"/>
-                    <cl:output std:sid="output-627b2d6c" id="opt22" class="date" value="08-25-2026 01:14:29 PM">
-                      <cl:attribute name="needs-auto-height" value="true"/>
-                      <cl:flowlayoutdata std:sid="f-data-6b8292fb" width="149px" height="20px" autosize="both"/>
-                    </cl:output>
-                    <cl:flowlayout std:sid="f-layout-f023475e"/>
-                  </cl:group>
-                  <cl:formlayout std:sid="f-layout-47fb3faa" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                  <cl:output std:sid="output-627b2d6c" id="opt22" class="font-caption" value="08-25-2026 01:14:29 PM">
+                    <cl:attribute name="needs-auto-height" value="true"/>
+                    <cl:formdata std:sid="f-data-883daff9" row="0" col="1"/>
+                  </cl:output>
+                  <cl:formlayout std:sid="f-layout-47fb3faa" scrollable="false" hspace="6px" vspace="6px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
                     <cl:rows length="20" unit="PIXEL" autoSizing="true" syncminlength="false"/>
                     <cl:columns length="1" unit="FRACTION"/>
                     <cl:columns length="150" unit="PIXEL" autoSizing="true" syncminlength="false"/>
                   </cl:formlayout>
                 </cl:group>
-                <cl:output std:sid="output-9bb280f0" id="opt11" value="We have reviewed your draft. Please clarify the ownership disclosure footnote before we can close this item.">
+                <cl:output std:sid="output-9bb280f0" id="opt11" class="font-body-s" value="We have reviewed your draft. Please clarify the ownership disclosure footnote before we can close this item.">
                   <cl:verticaldata std:sid="v-data-e59f6b4a" width="100px" height="20px" autosize="height"/>
                 </cl:output>
                 <cl:verticallayout std:sid="v-layout-a04a21d2"/>
               </cl:group>
               <cl:verticallayout std:sid="v-layout-6ae3af16" spacing="12"/>
             </cl:group>
-            <cl:verticallayout std:sid="v-layout-76f631f7" spacing="16"/>
+            <cl:verticallayout std:sid="v-layout-76f631f7" spacing="20"/>
           </cl:group>
-          <cl:group std:sid="group-3165ef78" id="grp20" class="group">
-            <cl:verticaldata std:sid="v-data-855aec50" width="926px" height="272px" autosize="height"/>
-            <cl:output std:sid="output-e6ba5e9d" id="opt19" class="group-tit" value="Your reply">
+          <cl:group std:sid="group-3165ef78" id="grp20" class="separate">
+            <cl:verticaldata std:sid="v-data-855aec50" width="1024px" height="247px" autosize="height"/>
+            <cl:output std:sid="output-e6ba5e9d" id="opt19" class="font-label" value="Your reply">
               <cl:verticaldata std:sid="v-data-166103a1" width="926px" height="20px" autosize="height"/>
             </cl:output>
             <cl:textarea std:sid="t-area-aa7b1c11" id="txa2" class="resizable" placeholder="Write a reply...">
               <cl:verticaldata std:sid="v-data-4159417c" width="100px" height="200px" syncminheight="false" autosize="height"/>
             </cl:textarea>
+            <cl:verticallayout std:sid="v-layout-f1089401" spacing="10"/>
+          </cl:group>
+          <cl:group std:sid="group-69ad0455" id="grp2">
+            <cl:verticaldata std:sid="v-data-f09bad83" width="1024px" height="216px" autosize="height"/>
+            <cl:output std:sid="output-f2f4d934" id="opt3" class="font-label" value="Attachment">
+              <cl:verticaldata std:sid="v-data-40ee5804" width="926px" height="20px" autosize="height"/>
+            </cl:output>
+            <cl:udc std:sid="ud-control-5cdbc919" id="udccomfiledropzone1" type="udc.pse.com.udcComFileDropzone">
+              <cl:verticaldata std:sid="v-data-34748e8c" width="600px" height="140px" autosize="height"/>
+            </cl:udc>
             <cl:group std:sid="group-2d048319" id="grp32" class="btn-wrap">
-              <cl:verticaldata std:sid="v-data-15c632b2" width="926px" height="36px" autosize="height"/>
+              <cl:verticaldata std:sid="v-data-15c632b2" width="1024px" height="36px" autosize="height"/>
               <cl:group std:sid="group-ca849921" id="grp30">
                 <cl:formdata std:sid="f-data-5677a1b6" row="0" col="0"/>
                 <cl:button std:sid="button-f12b589d" id="btn3" class="btn-primary" value="Post reply">
@@ -151,9 +152,9 @@
                 <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
               </cl:formlayout>
             </cl:group>
-            <cl:verticallayout std:sid="v-layout-f1089401"/>
+            <cl:verticallayout std:sid="v-layout-c8dd4fa3" spacing="10"/>
           </cl:group>
-          <cl:verticallayout std:sid="v-layout-3f3b2b66" spacing="24" topmargin="24"/>
+          <cl:verticallayout std:sid="v-layout-3f3b2b66" spacing="16" topmargin="20"/>
         </cl:group>
       </cl:tabitem>
     </cl:tabfolder>
