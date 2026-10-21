@@ -8,7 +8,7 @@
     <cl:appspec title="Q&amp;A 카드"/>
   </head>
   <body std:sid="body-fcdb4012" style="top:0px; left:0px; width:416px; height:350px;">
-    <cl:group std:sid="group-9b74addf" id="grp6" class="card highlight">
+    <cl:group std:sid="group-9b74addf" id="grp6" class="card">
       <cl:formdata std:sid="f-data-0e777ed4" width="100" height="72" row="0" col="0"/>
       <cl:group std:sid="group-9d82c18b" id="grp8">
         <cl:verticaldata std:sid="v-data-95041e7f" width="390px" height="56px" autosize="height"/>

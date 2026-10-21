@@ -1,14 +1,14 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-51527cfb" version="1.0.6164">
   <head std:sid="head-53b8a0b2">
-    <screen std:sid="screen-bb0bd430" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="815" customWidth="800" active="true"/>
-    <screen std:sid="screen-271811f5" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
-    <screen std:sid="screen-e32f4a2a" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <screen std:sid="screen-2f723b89" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="815" customWidth="800" active="true"/>
+    <screen std:sid="screen-8d2016d2" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-5b207704" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
     <cl:model std:sid="model-edf07a5e"/>
     <cl:appspec title="상태 카드"/>
   </head>
-  <body std:sid="body-fcdb4012" style="top:0px; left:0px; width:416px; height:350px;">
-    <cl:group std:sid="group-9b74addf" id="grp6" class="card type02">
+  <body std:sid="body-fcdb4012" style="top:0px; left:0px; width:416px; height:400px;">
+    <cl:group std:sid="group-9b74addf" id="grp6" class="card">
       <cl:formdata std:sid="f-data-0e777ed4" width="100" height="72" row="0" col="0"/>
       <cl:group std:sid="group-9d82c18b" id="grp8">
         <cl:verticaldata std:sid="v-data-95041e7f" width="390px" height="56px" autosize="height"/>
@@ -102,7 +102,7 @@
         </cl:output>
         <cl:verticallayout std:sid="v-layout-5c7f336b" spacing="4"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-5b10945a" spacing="10"/>
+      <cl:verticallayout std:sid="v-layout-5b10945a" spacing="10" leftmargin="16" rightmargin="16" topmargin="16" bottommargin="16"/>
     </cl:group>
     <cl:formlayout std:sid="f-layout-a1315a53" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
       <cl:rows length="1" unit="FRACTION"/>

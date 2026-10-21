@@ -77,15 +77,15 @@ exports.getBadgeClass = function(status) {
 		// Success (초록색)
 		case "approved":
 		case "closed":
-			return "badge soft success md";
+			return "badge fill green";
 
 		// Danger (빨간색)
 		case "rejected":
-			return "badge soft danger md";
+			return "badge fill red";
 
 		// Primary (파란색)
 		case "answered":
-			return "badge soft primary md";
+			return "badge fill blue";
 
 		// Warning (노란색)
 		case "pending":
@@ -93,11 +93,11 @@ exports.getBadgeClass = function(status) {
 		case "pendingApproval":
 		case "open":
 		case "submitted":
-			return "badge soft warning md";
+			return "badge fill yellow";
 
 		// Default
 		default:
-			return "badge soft information md";
+			return "badge fill blue";
 	}
 };
  
