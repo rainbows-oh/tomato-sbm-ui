@@ -868,6 +868,9 @@
       <cl:udc std:sid="ud-control-63006cc6" type="udc.pse.com.udcComFileDropzone">
         <cl:flowlayoutdata std:sid="f-data-08847859" width="600px" height="147px" autosize="height"/>
       </cl:udc>
+      <cl:button std:sid="button-b31d18b7" id="btn8" class="btn-download btn-inline" value="Button" icon="0">
+        <cl:flowlayoutdata std:sid="f-data-cbc65776" width="100px" height="36px"/>
+      </cl:button>
       <cl:group std:sid="group-86320e6f" id="grp6" class="attachments">
         <std:metadata>
           <std:property key="template-uuid" value="6e6db236-c296-4287-a02f-d522573e7b3f"/>

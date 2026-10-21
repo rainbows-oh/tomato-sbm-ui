@@ -23,7 +23,13 @@
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-0b464f24" id="grpData" class="inner">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="686px" autosize="height"/>
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="736px" autosize="height"/>
       <cl:group std:sid="group-a20acfba" id="grp1" class="detail-head">
         <cl:verticaldata std:sid="v-data-1593de64" width="976px" height="70px" autosize="height"/>
         <cl:group std:sid="group-2e509e97" id="grp2">
@@ -55,18 +61,18 @@
       </cl:group>
       <cl:radiobutton std:sid="r-button-0093f602" id="rdb1">
         <cl:listener std:sid="listener-5ad45621" name="selection-change" handler="onRdb1SelectionChange"/>
-        <cl:verticaldata std:sid="v-data-58e38c9d" width="976px" height="26px" autosize="both"/>
+        <cl:verticaldata std:sid="v-data-58e38c9d" width="306px" height="26px" autosize="both"/>
         <cl:item std:sid="item-f6a4d8d2" label="단일 msg" value="value1" tooltip=""/>
         <cl:item std:sid="item-d302fd0a" label="TAB(해당 라디오버튼은 화면 호출 확인용입니다. 확인 후 삭제 가능)" value="value2"/>
       </cl:radiobutton>
-      <cl:group std:sid="group-c9d6abb5" id="grpContent" class="form-group">
+      <cl:group std:sid="group-c9d6abb5" id="grpContent" class="card">
         <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="544px" autosize="height"/>
         <cl:embeddedapp std:sid="e-app-95eefe20" id="emb">
           <cl:verticaldata std:sid="v-data-4d5d68b4" width="320px" height="494px" autosize="height"/>
         </cl:embeddedapp>
         <cl:verticallayout std:sid="v-layout-edd42a47" spacing="24" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-9dda75e2" spacing="24" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+      <cl:verticallayout std:sid="v-layout-9dda75e2" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>
     <cl:verticallayout std:sid="v-layout-85c69965" spacing="0"/>
   </body>
