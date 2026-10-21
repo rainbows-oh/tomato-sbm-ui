@@ -77,7 +77,7 @@
           <cl:button std:sid="button-6514893a" id="btn2" class="btn-close" fieldLabel="delete" value="" icon="0">
             <cl:flowlayoutdata std:sid="f-data-46cbf643" width="32px" height="32px" autosize="none"/>
           </cl:button>
-          <cl:button std:sid="button-bb1924b8" id="btn3" class="btn-save" value="Upload">
+          <cl:button std:sid="button-bb1924b8" id="btn3" class="btn-primary" value="Upload">
             <cl:flowlayoutdata std:sid="f-data-d378fdd3" width="100px" height="36px" autosize="width"/>
           </cl:button>
           <cl:flowlayout std:sid="f-layout-aba6ffe8" hspacing="8" vspacing="8" halign="right"/>

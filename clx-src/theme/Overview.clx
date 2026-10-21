@@ -829,25 +829,38 @@
     </cl:group>
     <cl:group std:sid="group-355146cf" clipcontent="false">
       <cl:verticaldata std:sid="v-data-3bab6640" width="1440px" height="24px" autosize="both"/>
-      <cl:output std:sid="output-9901a99e" value="배지">
+      <cl:output std:sid="output-9901a99e" value="배지- fill">
         <cl:flowlayoutdata std:sid="f-data-4394db20" width="160px" height="24px" syncminheight="true" autosize="height"/>
       </cl:output>
-      <cl:output std:sid="output-12886102" class="badge fill danger" value="Rejected">
-        <cl:flowlayoutdata std:sid="f-data-a1dbd6eb" width="68px" height="20px" autosize="both"/>
+      <cl:output std:sid="output-12886102" class="badge fill red" value="Rejected">
+        <cl:flowlayoutdata std:sid="f-data-a1dbd6eb" width="68px" height="24px" autosize="both"/>
       </cl:output>
-      <cl:output std:sid="output-8f8252d4" class="badge fill warning" value="Changed">
-        <cl:flowlayoutdata std:sid="f-data-1982d6fe" width="68px" height="20px" autosize="both"/>
+      <cl:output std:sid="output-8f8252d4" class="badge fill yellow" value="Changed">
+        <cl:flowlayoutdata std:sid="f-data-1982d6fe" width="68px" height="24px" autosize="both"/>
       </cl:output>
-      <cl:output std:sid="output-83c870c9" class="badge fill success" value="Approved">
-        <cl:flowlayoutdata std:sid="f-data-03243110" width="68px" height="20px" autosize="both"/>
+      <cl:output std:sid="output-83c870c9" class="badge fill green" value="Approved">
+        <cl:flowlayoutdata std:sid="f-data-03243110" width="68px" height="24px" autosize="both"/>
       </cl:output>
-      <cl:output std:sid="output-95f3d8f3" class="badge fill information" value="Submitted">
-        <cl:flowlayoutdata std:sid="f-data-f94d18da" width="68px" height="20px" autosize="both"/>
+      <cl:output std:sid="output-95f3d8f3" class="badge fill blue" value="Submitted">
+        <cl:flowlayoutdata std:sid="f-data-f94d18da" width="68px" height="24px" autosize="both"/>
       </cl:output>
       <cl:output std:sid="output-69e59d1d" id="opt6" class="badge fill close" value="Submitted">
-        <cl:flowlayoutdata std:sid="f-data-34112b50" width="68px" height="20px" autosize="both"/>
+        <cl:flowlayoutdata std:sid="f-data-34112b50" width="68px" height="24px" autosize="both"/>
       </cl:output>
       <cl:flowlayout std:sid="f-layout-9167dbc8" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
+    </cl:group>
+    <cl:group std:sid="group-2b075b14" id="grp7" clipcontent="false">
+      <cl:verticaldata std:sid="v-data-2c347e78" width="1440px" height="24px" autosize="both"/>
+      <cl:output std:sid="output-ad54f651" id="opt9" value="배지 - count">
+        <cl:flowlayoutdata std:sid="f-data-de9c3ade" width="160px" height="24px" syncminheight="true" autosize="height"/>
+      </cl:output>
+      <cl:output std:sid="output-0cbe7b65" id="opt10" class="badge count answered" value="20">
+        <cl:flowlayoutdata std:sid="f-data-944edab0" width="68px" height="20px" autosize="both"/>
+      </cl:output>
+      <cl:output std:sid="output-34d456c5" id="opt14" class="badge count close" value="4">
+        <cl:flowlayoutdata std:sid="f-data-6c7b9c15" width="68px" height="20px" autosize="both"/>
+      </cl:output>
+      <cl:flowlayout std:sid="f-layout-6d799f56" scrollable="false" hspacing="48" vspacing="24" linewrap="true"/>
     </cl:group>
     <cl:group std:sid="group-155f786b" clipcontent="false">
       <cl:verticaldata std:sid="v-data-12b01a4e" width="1440px" height="400px" autosize="both"/>

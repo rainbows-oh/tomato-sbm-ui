@@ -56,23 +56,23 @@ exports.getBadgeClass = function(status) {
 	switch (val) {
 		// Success (초록색)
 		case "Approved":
-			return "badge fill success md";
+			return "badge fill green";
 
 		// Information (파란색)
 		case "Submitted":
-			return "badge fill information md";
+			return "badge fill blue";
 
 		// Warning (노란색)
 		case "Changed":
-			return "badge fill warning md";
+			return "badge fill yellow";
 
 		// Danger (빨간색)
 		case "Rejected":
-			return "badge fill danger md";
+			return "badge fill red";
 
 		// Default
 		default:
-			return "badge fill information md";
+			return "badge fill blue";
 	}
 };
  

@@ -609,6 +609,7 @@
          .cl-grid-row 편집 상태에서도 유지
    ========================================================================== */
 .cl-button.grd-icon {
+	text-align: center !important;
 	width: 28px;
 	height: 28px;
 	min-width: 28px;
@@ -675,10 +676,6 @@
 
 .btn-pop .cl-icon {
 	background-image: url("@{img-path}/icons/ico_pop.svg") !important;
-}
-
-.btn-excel .cl-icon {
-	background-image: url("@{img-path}/icons/ico_file_excel.svg") !important;
 }
 
 .btn-pdf .cl-icon {
@@ -767,11 +764,7 @@
 
 /* --- Submit (Primary) 계열 --- */
 .btn-search,
-.btn-save,
-.btn-add,
-.btn-remove,
-.btn-upload,
-.btn-download {
+.btn-add {
 	#btn--default(@color-button-primary-fill-default, @color-button-primary-border, @color-text-inverse);
 	
 	&:not(.cl-disabled):hover,

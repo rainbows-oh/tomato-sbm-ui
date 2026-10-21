@@ -505,7 +505,7 @@
             <cl:combobox std:sid="c-box-0d8cd274" id="cmb1" fieldLabel="Assignee">
               <cl:flowlayoutdata std:sid="f-data-c67f0fd3" width="120px" height="32px"/>
             </cl:combobox>
-            <cl:button std:sid="button-8e03d9c0" id="btn5" class="btn-save" value="Submit">
+            <cl:button std:sid="button-8e03d9c0" id="btn5" class="btn-primary" value="Submit">
               <cl:flowlayoutdata std:sid="f-data-b63b04d4" width="83px" height="36px" autosize="width"/>
             </cl:button>
             <cl:flowlayout std:sid="f-layout-884e8937" halign="right"/>

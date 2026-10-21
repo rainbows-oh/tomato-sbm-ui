@@ -248,7 +248,7 @@
           <cl:group std:sid="group-5c3d9eb9">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-15a35e88" row="0" col="1"/>
-            <cl:button std:sid="button-d5b375b3" id="btn1" class="btn-inline btn-excel" value="Excel Download" icon="0">
+            <cl:button std:sid="button-d5b375b3" id="btn1" class="btn-inline btn-file" value="Excel Download" icon="0">
               <cl:flowlayoutdata std:sid="f-data-cef36371" width="133px" height="36px" autosize="width"/>
             </cl:button>
             <cl:combobox std:sid="c-box-d195aaaa" id="cmb3" fieldLabel="Rows per page">

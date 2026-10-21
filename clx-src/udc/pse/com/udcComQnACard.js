@@ -14,13 +14,13 @@
 /*******************************************************************************
  * Common Module Area
  *******************************************************************************/
- 
+var util = createCommonUtil();
  
 /*******************************************************************************
  * Business Common Module Area
  *******************************************************************************/
- exports.getText = getText;
- 
+exports.getText = getText;
+
  
 /*******************************************************************************
  * Local Variable Declarations within File
@@ -42,8 +42,8 @@
  * User-Defined JavaScript Functions
  *******************************************************************************/
 /**
-  * Returns the text to be displayed for the UDC control in the grid's view mode.
-  */
+ * Returns the text to be displayed for the UDC control in the grid's view mode.
+ */
 function getText() {
 	// TODO: Write code to return the text to be displayed in the grid's view mode.
 	return "";

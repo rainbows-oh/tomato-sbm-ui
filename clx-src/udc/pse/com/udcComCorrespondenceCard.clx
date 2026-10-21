@@ -21,19 +21,19 @@
             <cl:formdata std:sid="f-data-8502ba9b" row="0" col="0"/>
           </cl:button>
           <cl:group std:sid="group-667d8e15" id="grp1">
-            <cl:formdata std:sid="f-data-032d8950" valign="CENTER" height="16" row="0" col="1" rowspan="1" colspan="1"/>
-            <cl:output std:sid="output-25d5f96c" id="opt5" class="badge fill danger sm" value="1">
-              <cl:flowlayoutdata std:sid="f-data-8aa2c813" width="16px" height="16px"/>
+            <cl:formdata std:sid="f-data-032d8950" valign="FILL" height="16" row="0" col="1" rowspan="1" colspan="1"/>
+            <cl:output std:sid="output-25d5f96c" id="opt2" class="badge count answered" value="1">
+              <cl:flowlayoutdata std:sid="f-data-8aa2c813" width="20px" height="20px" autosize="both"/>
             </cl:output>
-            <cl:output std:sid="output-e3a7ceb2" id="opt9" class="badge fill disable sm" value="2">
-              <cl:flowlayoutdata std:sid="f-data-e0855bbd" width="16px" height="16px" autosize="none"/>
+            <cl:output std:sid="output-e3a7ceb2" id="opt9" class="badge count close" value="2">
+              <cl:flowlayoutdata std:sid="f-data-e0855bbd" width="20px" height="20px" autosize="both"/>
             </cl:output>
             <cl:flowlayout std:sid="f-layout-b809e389"/>
           </cl:group>
           <cl:formlayout std:sid="f-layout-16b76eca" scrollable="false" hspace="8px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="20" unit="PIXEL" autoSizing="true" syncminlength="false"/>
             <cl:columns length="1" unit="FRACTION"/>
-            <cl:columns length="40" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="50" unit="PIXEL" autoSizing="true" syncminlength="false"/>
           </cl:formlayout>
         </cl:group>
         <cl:verticallayout std:sid="v-layout-0b0db046" spacing="4"/>
