@@ -69,4 +69,5 @@
   <settings:IDPolicy type="udc.pse.com.udcComStatusSelection" pattern="udccomstatusselection" use="true"/>
   <settings:IDPolicy type="udc.pse.com.udcComQnACard" pattern="udccomqnacard" use="true"/>
   <settings:IDPolicy type="udc.pse.com.udcComDatePeriodPicker" pattern="udccomdateperiodpicker" use="true"/>
+  <settings:IDPolicy type="udc.pse.com.udcComFileDropzone" pattern="udccomfiledropzone" use="true"/>
 </xmi:XMI>

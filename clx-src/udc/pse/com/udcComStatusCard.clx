@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-51527cfb" version="1.0.6164">
   <head std:sid="head-53b8a0b2">
-    <screen std:sid="screen-bb0bd430" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="801" customWidth="800" active="true"/>
+    <screen std:sid="screen-bb0bd430" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="815" customWidth="800" active="true"/>
     <screen std:sid="screen-271811f5" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
     <screen std:sid="screen-e32f4a2a" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
     <cl:model std:sid="model-edf07a5e"/>
@@ -9,22 +9,22 @@
   </head>
   <body std:sid="body-fcdb4012" style="top:0px; left:0px; width:416px; height:350px;">
     <cl:group std:sid="group-9b74addf" id="grp6" class="card type02">
-      <cl:formdata std:sid="f-data-0e777ed4" width="100" height="58" row="0" col="0"/>
+      <cl:formdata std:sid="f-data-0e777ed4" width="100" height="72" row="0" col="0"/>
       <cl:group std:sid="group-9d82c18b" id="grp8">
-        <cl:verticaldata std:sid="v-data-95041e7f" width="390px" height="48px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-95041e7f" width="390px" height="56px" autosize="height"/>
         <cl:group std:sid="group-70328f03" id="grp4">
-          <cl:verticaldata std:sid="v-data-22485002" width="390px" height="28px"/>
+          <cl:verticaldata std:sid="v-data-22485002" width="390px" height="36px"/>
           <cl:group std:sid="group-16eee5fc" id="grp3">
             <cl:formdata std:sid="f-data-cd84cafe" row="0" col="0"/>
-            <cl:output std:sid="output-2557dbe6" id="opt4" class="label" value="1" displayexp="&quot;No. &quot; + text">
-              <cl:flowlayoutdata std:sid="f-data-202116dd" width="115px" height="28px" autosize="width"/>
+            <cl:output std:sid="output-2557dbe6" id="opt4" class="font-caption-strong" value="1" displayexp="&quot;No. &quot; + text">
+              <cl:flowlayoutdata std:sid="f-data-202116dd" width="115px" height="36px" autosize="width"/>
             </cl:output>
             <cl:flowlayout std:sid="f-layout-8c1f2505"/>
           </cl:group>
           <cl:group std:sid="group-4c62b0b1" id="grp5">
             <cl:formdata std:sid="f-data-394cab49" row="0" col="1"/>
-            <cl:button std:sid="button-f4f99039" class="icon btn-tertiary btn-excel" value="Button" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-7e3970c6" width="28px" height="28px"/>
+            <cl:button std:sid="button-f4f99039" class="icon btn-excel" value="Button" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-7e3970c6" width="28px" height="36px"/>
             </cl:button>
             <cl:flowlayout std:sid="f-layout-462010f4" halign="right"/>
           </cl:group>
@@ -60,7 +60,7 @@
         <cl:verticallayout std:sid="v-layout-e2ea05d3" spacing="3"/>
       </cl:group>
       <cl:group std:sid="group-07caed73" id="grp12">
-        <cl:verticaldata std:sid="v-data-181d6e5c" width="390px" height="52px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-181d6e5c" width="390px" height="50px" autosize="height"/>
         <cl:output std:sid="output-1fe3586b" id="opt12" class="font-micro" value="Status">
           <cl:verticaldata std:sid="v-data-286fd438" width="100px" height="20px" autosize="height"/>
         </cl:output>

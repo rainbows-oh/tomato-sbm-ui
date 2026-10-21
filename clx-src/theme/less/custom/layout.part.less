@@ -239,6 +239,26 @@
 .cl-container.card-section {
 }
 
+.cl-container.attachments {
+	padding: 4px 12px;
+	border: 1px solid  @gray-20;
+	background-image: url("../../img/icons/ico_file_excel.svg");
+	background-position: center left 12px;
+	background-repeat: no-repeat;
+	min-height: 36px;
+	
+	.cl-text {
+		padding-left: 18px;
+		#font-body-s();
+	}
+	
+	.size {
+		#font-caption();
+		color: @gray-50;
+	}
+}
+
+
 //임력 폼 스타일
 .cl-container.form-group {
 	background-color: #ffffff;
@@ -263,24 +283,7 @@
 			color: #0d253d;
 		}
 		
-		.cl-output.attachments {
-			padding: 8px;
-			border-radius: 6px;
-			border: 1px solid  #e3e8ee;
-			font-weight: 600;
-			background-image: url("../../img/icons/ico_file.svg");
-			background-position: center left 8px;
-			background-repeat: no-repeat;
-			
-			.cl-text {
-				padding-left: 28px;
-			}
-			
-			.size {
-				color: #64748d;
-				font-weight: 400;
-			}
-		}
+
 		
 		.cl-container.recipients {
 			padding: 16px;

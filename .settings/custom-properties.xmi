@@ -263,7 +263,9 @@
   </settings:CustomProperties>
   <settings:CustomProperties type="DataWindow"/>
   <settings:CustomProperties type="SideNavigation"/>
-  <settings:CustomProperties type="FlowLayout"/>
+  <settings:CustomProperties type="FlowLayout">
+    <controlProperties name="mobile-index"/>
+  </settings:CustomProperties>
   <settings:CustomProperties type="FormLayout">
     <controlProperties name="mobile-vertical-margin"/>
     <controlProperties name="mobile-horizontal-margin"/>
@@ -273,6 +275,8 @@
     <controlProperties name="mobile-v-spacing"/>
     <controlProperties name="mobile-h-spacing"/>
     <controlProperties name="tablet-h-spacing"/>
+    <controlProperties name="mobile-index"/>
+    <controlProperties name="tablet-index"/>
   </settings:CustomProperties>
   <settings:CustomProperties type="ResponsiveXYLayout"/>
   <settings:CustomProperties type="VerticalLayout">
@@ -288,6 +292,7 @@
     <controlProperties name="mobile-spacing"/>
     <controlProperties name="mobile-fit"/>
     <controlProperties name="tablet-fit"/>
+    <controlProperties name="mobile-index"/>
   </settings:CustomProperties>
   <settings:CustomProperties type="XYLayout"/>
 </xmi:XMI>

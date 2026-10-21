@@ -134,7 +134,7 @@ function onCmb6Open(e) {
 function onButtonClick(e) {
 	var button = e.control;
 	
-	util.Dialog.open(app, "app/pb/mng/CompanySearch_modal", 600, 527, function(){
+	util.Dialog.open(app, "app/pb/mng/NewManualDisclosure_modal", 600, 527, function(){
 		
 	}, {
 		

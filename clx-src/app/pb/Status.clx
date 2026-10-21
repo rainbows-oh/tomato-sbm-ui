@@ -14,6 +14,8 @@
           <cl:datacolumn comment="Status" std:sid="d-column-9568ead7" name="status"/>
           <cl:datacolumn comment="Submission Date and Time" std:sid="d-column-4930d6e0" name="submissionDate"/>
           <cl:datacolumn comment="Reference No" std:sid="d-column-e25a50b5" name="referenceNo"/>
+          <cl:datacolumn comment="Exchange Status" std:sid="d-column-46237fbe" name="exchangeStatus"/>
+          <cl:datacolumn comment="Remarks" std:sid="d-column-f5c0173a" name="remarks"/>
         </cl:datacolumnlist>
         <cl:datarowlist>
           <cl:datarow>
@@ -24,6 +26,8 @@
             <cl:datavalue columnname="status"><![CDATA[Submitted]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260825144109]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000033-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Under Review]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[2]]></cl:datavalue>
@@ -33,6 +37,8 @@
             <cl:datavalue columnname="status"><![CDATA[Approved]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260824095843]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000032-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Filed]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[3]]></cl:datavalue>
@@ -42,6 +48,8 @@
             <cl:datavalue columnname="status"><![CDATA[Rejected]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260823154716]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000031-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Rejected]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[4]]></cl:datavalue>
@@ -51,6 +59,8 @@
             <cl:datavalue columnname="status"><![CDATA[Changed]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260822111852]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000030-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Released as Circular]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[5]]></cl:datavalue>
@@ -60,6 +70,8 @@
             <cl:datavalue columnname="status"><![CDATA[Submitted]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260821150621]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000029-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Released as Company Report]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[6]]></cl:datavalue>
@@ -69,6 +81,8 @@
             <cl:datavalue columnname="status"><![CDATA[Approved]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260820131238]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000028-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Filed]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[7]]></cl:datavalue>
@@ -78,6 +92,8 @@
             <cl:datavalue columnname="status"><![CDATA[Approved]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260819092854]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000027-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Under Review]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[8]]></cl:datavalue>
@@ -87,6 +103,8 @@
             <cl:datavalue columnname="status"><![CDATA[Submitted]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260818164926]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000026-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Released as Company Report]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[9]]></cl:datavalue>
@@ -96,6 +114,8 @@
             <cl:datavalue columnname="status"><![CDATA[Rejected]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260817143144]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000025-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Cancelled]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[10]]></cl:datavalue>
@@ -105,6 +125,8 @@
             <cl:datavalue columnname="status"><![CDATA[Submitted]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260816102012]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000024-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Released as Circular]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[11]]></cl:datavalue>
@@ -114,6 +136,8 @@
             <cl:datavalue columnname="status"><![CDATA[Changed]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260815125704]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000023-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Under Review]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
           <cl:datarow>
             <cl:datavalue columnname="no"><![CDATA[12]]></cl:datavalue>
@@ -123,6 +147,8 @@
             <cl:datavalue columnname="status"><![CDATA[Approved]]></cl:datavalue>
             <cl:datavalue columnname="submissionDate"><![CDATA[20260814090839]]></cl:datavalue>
             <cl:datavalue columnname="referenceNo"><![CDATA[0000022-2026]]></cl:datavalue>
+            <cl:datavalue columnname="exchangeStatus"><![CDATA[Filed]]></cl:datavalue>
+            <cl:datavalue columnname="remarks"><![CDATA[Remarks]]></cl:datavalue>
           </cl:datarow>
         </cl:datarowlist>
       </cl:dataset>
@@ -258,7 +284,7 @@
               <cl:flowlayoutdata std:sid="f-data-552053ab" width="96px" height="36px" autosize="width"/>
             </cl:output>
             <cl:udc std:sid="ud-control-9d1604a8" type="udc.pse.com.udcComStatusSelection">
-              <cl:flowlayoutdata std:sid="f-data-548be618" width="100px" height="36px" autosize="width"/>
+              <cl:flowlayoutdata std:sid="f-data-548be618" width="110px" height="36px" autosize="none"/>
             </cl:udc>
             <cl:checkbox std:sid="c-box-6b2dfd98" id="cbx1" class="chk-sortable" text="Endorsement date" iconalign="right">
               <cl:flowlayoutdata std:sid="f-data-49b78d68" width="160px" height="36px" autosize="width"/>
@@ -280,6 +306,8 @@
           <cl:gridcolumn std:sid="g-column-4727c95e" width="120px"/>
           <cl:gridcolumn std:sid="g-column-68d1c63e" width="200px"/>
           <cl:gridcolumn std:sid="g-column-8c2edeae" width="140px"/>
+          <cl:gridcolumn std:sid="g-column-d05d387b" width="220px"/>
+          <cl:gridcolumn std:sid="g-column-f1060ed6" width="80px"/>
           <cl:gridheader std:sid="gh-band-csm000145">
             <cl:gridrow std:sid="g-row-csm000146" height="32px"/>
             <cl:gridcell std:sid="gh-cell-93a10b8a" rowindex="0" colindex="0" targetcolumnname="no" sortable="false" filterable="false" text="No"/>
@@ -289,6 +317,8 @@
             <cl:gridcell std:sid="gh-cell-9551e474" rowindex="0" colindex="4" targetcolumnname="status" sortable="true" filterable="false" text="Status"/>
             <cl:gridcell std:sid="gh-cell-5f4b340a" rowindex="0" colindex="5" targetcolumnname="submissionDate" sortable="true" filterable="false" text="Submission Date and Time"/>
             <cl:gridcell std:sid="gh-cell-eaa06c1a" rowindex="0" colindex="6" targetcolumnname="referenceNo" sortable="true" filterable="false" text="Reference No"/>
+            <cl:gridcell std:sid="gh-cell-7dd8643b" rowindex="0" colindex="7" targetcolumnname="exchangeStatus" sortable="true" filterable="false" text="Exchange Status"/>
+            <cl:gridcell std:sid="gh-cell-c1f0cbe4" rowindex="0" colindex="8" targetcolumnname="remarks" sortable="true" filterable="false" text="Remarks"/>
           </cl:gridheader>
           <cl:griddetail std:sid="gd-band-csm000152">
             <cl:gridrow std:sid="g-row-csm000153" height="50px"/>
@@ -327,6 +357,16 @@
               <cl:output std:sid="output-dd421b67">
                 <cl:celldata std:sid="c-data-31a35585"/>
               </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-b87c4774" rowindex="0" colindex="7" columnname="exchangeStatus">
+              <cl:output std:sid="output-a00d907f" value="Output" displayexp="sstr(text, switch(exchangeStatus){&#xD;&#xA;&#x9;case &quot;Rejected&quot; : &quot;badge fill danger&quot;&#xD;&#xA;&#x9;case &quot;Cancelled&quot; : &quot;badge fill danger&quot;&#xD;&#xA;&#x9;default : &quot;badge fill information&quot;&#xD;&#xA;})">
+                <cl:celldata std:sid="c-data-54a742e9"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-ac293151" rowindex="0" colindex="8" columnname="remarks">
+              <cl:button std:sid="button-2ab0fcf0" class="icon btn-file" icon="0">
+                <cl:celldata std:sid="c-data-3e7e8961" halign="CENTER" valign="CENTER" width="24" height="24"/>
+              </cl:button>
             </cl:gridcell>
           </cl:griddetail>
         </cl:grid>

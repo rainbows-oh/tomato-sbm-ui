@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<settings:CannedTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:settings="kr.co.tomatosystem.exbuilder.model.ui.settings" uuid="62738af7-e6c1-4c3f-bdec-dc3abe5495ba" name="첨부 파일 정보" preferredWidth="600" preferredHeight="140" description="드롭존에서 첨부된 파일의 정보를 나타내는 그룹">
+  <control xsi:type="cl:Group" sid="group-b8d9fa0d" id="grpDropzone" class="dropzone">
+    <layoutData xsi:type="cl:VerticalData" sid="v-data-d0fa0c0f" width="600px" height="140px" autoSize="height"/>
+    <controls xsi:type="cl:Output" sid="output-a3c3f402" id="optDropTitle" class="font-label dark" value="Drag and drop files here, or select files">
+      <layoutData xsi:type="cl:VerticalData" sid="v-data-b4d4a503" width="548px" height="20px" autoSize="height" topSpacing="8"/>
+    </controls>
+    <controls xsi:type="cl:Output" sid="output-b5c3f504" id="optDropSizeInfo" class="font-label" value="Total size limit: 10MB (0MB used).">
+      <layoutData xsi:type="cl:VerticalData" sid="v-data-c6d4a605" width="548px" height="16px" autoSize="height" topSpacing="4"/>
+    </controls>
+    <controls xsi:type="cl:Output" sid="output-c6d4a706" id="optDropTypeInfo" class="font-label" value="Only PDF or image files are allowed.">
+      <layoutData xsi:type="cl:VerticalData" sid="v-data-d7e5b807" width="548px" height="16px" autoSize="height" topSpacing="2"/>
+    </controls>
+    <layout xsi:type="cl:VerticalLayout" sid="v-layout-c5e5b604" scrollable="false" spacing="6" leftMargin="24" rightMargin="24" topMargin="0" bottomMargin="24"/>
+  </control>
+</settings:CannedTemplate>
