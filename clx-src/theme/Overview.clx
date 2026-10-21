@@ -861,6 +861,16 @@
     </cl:group>
     <cl:group std:sid="group-155f786b" clipcontent="false">
       <cl:verticaldata std:sid="v-data-12b01a4e" width="1440px" height="400px" autosize="both"/>
+      <cl:combobox std:sid="c-box-45de4b81" id="cmb7">
+        <cl:listener std:sid="listener-a39aeaf0" name="item-click" handler="onCmb7ItemClick"/>
+        <cl:flowlayoutdata std:sid="f-data-9eb71461" width="136px" height="36px"/>
+        <cl:item std:sid="t-item-9e318d43" label="label1label1label1label1label1label1label1label1" value="value1" icon="theme/img/icons/ico_download.svg"/>
+        <cl:item std:sid="t-item-9e9e797b" label="label2" value="value2" icon="theme/img/icons/ico_download.svg"/>
+        <cl:item std:sid="t-item-a7d0321e" label="label3" value="value3" icon="theme/img/icons/ico_download.svg"/>
+        <cl:item std:sid="t-item-681bfde5" label="label4" value="value4" icon="theme/img/icons/ico_download.svg"/>
+        <cl:item std:sid="t-item-b812fe13" label="label5" value="value5" icon="theme/img/icons/ico_download.svg"/>
+        <cl:liststyle class="cmb-fild-down"/>
+      </cl:combobox>
       <cl:output std:sid="output-cd28e241" id="opt8" class="opt-attachments" value="correspondence-1-notice.pdf " displayexp="text + sstr(userAttr(&quot;size&quot;) + &quot;KB&quot;, [&quot;size&quot;])">
         <cl:attribute name="size" value="325"/>
         <cl:flowlayoutdata std:sid="f-data-af80c219" width="1024px" height="36px" autosize="height"/>
@@ -871,16 +881,6 @@
       <cl:button std:sid="button-b31d18b7" id="btn8" class="btn-download btn-inline" value="Button" icon="0">
         <cl:flowlayoutdata std:sid="f-data-cbc65776" width="100px" height="36px"/>
       </cl:button>
-      <cl:combobox std:sid="c-box-45de4b81" id="cmb7">
-        <cl:listener std:sid="listener-a39aeaf0" name="item-click" handler="onCmb7ItemClick"/>
-        <cl:flowlayoutdata std:sid="f-data-9eb71461" width="230px" height="36px"/>
-        <cl:item std:sid="t-item-9e318d43" label="label1" value="value1" icon="theme/img/icons/ico_download.svg"/>
-        <cl:item std:sid="t-item-9e9e797b" label="label2" value="value2" icon="theme/img/icons/ico_download.svg"/>
-        <cl:item std:sid="t-item-a7d0321e" label="label3" value="value3" icon="theme/img/icons/ico_download.svg"/>
-        <cl:item std:sid="t-item-681bfde5" label="label4" value="value4" icon="theme/img/icons/ico_download.svg"/>
-        <cl:item std:sid="t-item-b812fe13" label="label5" value="value5" icon="theme/img/icons/ico_download.svg"/>
-        <cl:liststyle class="cmb-fild-down"/>
-      </cl:combobox>
       <cl:group std:sid="group-86320e6f" id="grp6" class="attachments">
         <std:metadata>
           <std:property key="template-uuid" value="6e6db236-c296-4287-a02f-d522573e7b3f"/>
