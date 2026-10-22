@@ -64,8 +64,9 @@
 	border-radius: 8px;
 	padding: 20px;
 	
-	@media(max-width: 767px) {
-		padding: 16px;
+	
+	&.sm {
+		padding: 8px 12px;
 	}
 	
 	&.highlight {
@@ -80,6 +81,14 @@
 	&.gray {
 		border-color: transparent;
 		background-color: @gray-10;
+	}
+	
+	@media(max-width: 767px) {
+		padding: 16px;
+		
+		&.sm {
+			padding: 8px 12px;
+		}
 	}
 }
 
