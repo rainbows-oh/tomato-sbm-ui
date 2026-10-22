@@ -1,33 +1,33 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-51527cfb" version="1.0.6164">
   <head std:sid="head-53b8a0b2">
-    <screen std:sid="screen-bb0bd430" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="815" customWidth="800" active="true"/>
+    <screen std:sid="screen-bb0bd430" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="811" customWidth="800" active="true"/>
     <screen std:sid="screen-271811f5" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
     <screen std:sid="screen-e32f4a2a" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
     <cl:model std:sid="model-edf07a5e"/>
     <cl:appspec title="Q&amp;A 카드"/>
   </head>
   <body std:sid="body-fcdb4012" style="top:0px; left:0px; width:416px; height:350px;">
-    <cl:group std:sid="group-9b74addf" id="grp6" class="card">
-      <cl:formdata std:sid="f-data-0e777ed4" width="100" height="72" row="0" col="0"/>
+    <cl:group std:sid="group-9b74addf" id="grp6" class="toggle-card">
+      <cl:formdata std:sid="f-data-0e777ed4" width="100" height="68" row="0" col="0"/>
       <cl:group std:sid="group-9d82c18b" id="grp8">
-        <cl:verticaldata std:sid="v-data-95041e7f" width="390px" height="56px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-95041e7f" width="382px" height="52px" autosize="height"/>
         <cl:group std:sid="group-70328f03" id="grp4">
-          <cl:verticaldata std:sid="v-data-22485002" width="390px" height="36px"/>
+          <cl:verticaldata std:sid="v-data-22485002" width="390px" height="28px" autosize="height"/>
           <cl:group std:sid="group-16eee5fc" id="grp3">
             <cl:formdata std:sid="f-data-cd84cafe" row="0" col="0"/>
             <cl:output std:sid="output-2557dbe6" id="opt4" class="font-caption-strong" value="1" displayexp="&quot;No. &quot; + text">
-              <cl:flowlayoutdata std:sid="f-data-202116dd" width="115px" height="36px" autosize="width"/>
+              <cl:flowlayoutdata std:sid="f-data-202116dd" width="115px" height="28px" autosize="width"/>
             </cl:output>
             <cl:flowlayout std:sid="f-layout-8c1f2505"/>
           </cl:group>
           <cl:group std:sid="group-4c62b0b1" id="grp5">
             <cl:formdata std:sid="f-data-394cab49" row="0" col="1"/>
-            <cl:button std:sid="button-f4f99039" class="icon btn-mail" value="Button" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-7e3970c6" width="36px" height="36px"/>
+            <cl:button std:sid="button-f4f99039" class="card-icon btn-mail" value="Button" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-7e3970c6" width="28px" height="28px"/>
             </cl:button>
-            <cl:button std:sid="button-2c575a8c" id="btn1" class="icon btn-mail-open" value="Button" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-7b9dfbdd" width="36px" height="36px" autosize="none"/>
+            <cl:button std:sid="button-2c575a8c" id="btn1" class="card-icon btn-mail-open" value="Button" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-7b9dfbdd" width="28px" height="28px" autosize="none"/>
             </cl:button>
             <cl:flowlayout std:sid="f-layout-462010f4" halign="right"/>
           </cl:group>
@@ -58,7 +58,7 @@
             <cl:columns length="50" unit="PIXEL"/>
           </cl:formlayout>
         </cl:group>
-        <cl:verticallayout std:sid="v-layout-0b0db046" spacing="0"/>
+        <cl:verticallayout std:sid="v-layout-0b0db046" spacing="4"/>
       </cl:group>
       <cl:group std:sid="group-3b29f173" id="grp2">
         <cl:verticaldata std:sid="v-data-fcffe510" width="390px" height="43px" autosize="height"/>
@@ -104,7 +104,7 @@
         </cl:group>
         <cl:verticallayout std:sid="v-layout-7b942b72" spacing="4"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-5b10945a" spacing="10" leftmargin="16" rightmargin="16" topmargin="16" bottommargin="16"/>
+      <cl:verticallayout std:sid="v-layout-5b10945a" spacing="10"/>
     </cl:group>
     <cl:formlayout std:sid="f-layout-a1315a53" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
       <cl:rows length="1" unit="FRACTION"/>

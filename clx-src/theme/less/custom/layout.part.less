@@ -1,17 +1,12 @@
 @import (reference) "../../custom-settings.part.less";
 
-.btn-footer-wrap {
+//페이지 하단 버튼 영역
+.cl-container.btn-footer-wrap {
 	border-top: 1px solid @gray-20;
 	padding-top: 20px;
-}
-
-//페이지 하단 버튼 영역
-.cl-container.footer-btn-wrap {
-	padding-top: 16px;
-	border-top: 1px solid #e3e8ee;
 	
-	.cl-button {
-		padding: 0px 12px;
+	@media(max-width: 767px) {
+		padding-top: 16px;
 	}
 }
 
@@ -86,76 +81,22 @@
 		border-color: transparent;
 		background-color: @gray-10;
 	}
+}
+
+//카드
+.cl-container.toggle-card {
+	border: 1px solid @gray-30;
+	background-color: @white;
+	border-radius: 8px;
+	padding: 16px;
 	
-//	//user management - total 표시
-//	&.type01 {
-//		border-radius: 12px;
-//		
-//		.cl-formlayout-vertical-separator {
-//			background-color: #e3e8ee;
-//		}
-//		
-//		.cl-output.tit {
-//			font-size: 20px;
-//			font-weight: 600;
-//		}
-//	}
-//	
-//	
-//	&.type03 {
-//		border-radius: 12px;
-//		
-//		.cl-output.c-tit {
-//			font-size: 15px;
-//			font-weight: 600;
-//			color: #0d253d;
-//		}
-//		
-//		.cl-output.c-tit-sub {
-//			font-size: 13px;
-//			font-weight: 400;
-//			color: #273951;
-//		}
-//	}
-//	
-//	//details 페이지 카드 형태 그룹 스타일
-//	&.type04 {
-//		padding: 16px;
-//		border-radius: 8px;
-//		
-//		&.highlight {
-//			background-color: #eeecff;
-//			border: 1px solid #533afd;
-//		}
-//		
-//		.cl-output.c-tit {
-//			font-size: 15px;
-//			font-weight: 600;
-//			color: #0d253d;
-//		}
-//	}
-//	
-//	//details 페이지 카드 형태 그룹 입력 스타일
-//	&.type05 {
-//		padding: 16px;
-//		border-radius: 8px;
-//		
-//		&.highlight {
-//			background-color: #eeecff;
-//			border: 1px solid #533afd;
-//		}
-//		
-//		.cl-output.c-tit {
-//			font-size: 15px;
-//			font-weight: 600;
-//			color: #0d253d;
-//		}
-//		
-//		.label {
-//			font-size: 13px;
-//			color: #273951;
-//		}
-//	}
+	@media(max-width: 767px) {
+	}
+	
+	&.highlight {
+		background-color: @primary-5;
+		border: 1px solid @primary-60;
+	}
 }
 
 .cl-container.replies {

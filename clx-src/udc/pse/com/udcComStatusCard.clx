@@ -1,30 +1,30 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-51527cfb" version="1.0.6164">
   <head std:sid="head-53b8a0b2">
-    <screen std:sid="screen-2f723b89" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="815" customWidth="800" active="true"/>
-    <screen std:sid="screen-8d2016d2" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
-    <screen std:sid="screen-5b207704" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <screen std:sid="screen-81b0b4a9" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="811" customWidth="800" active="true"/>
+    <screen std:sid="screen-c5f4f3cf" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-fc190c97" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
     <cl:model std:sid="model-edf07a5e"/>
     <cl:appspec title="상태 카드"/>
   </head>
-  <body std:sid="body-fcdb4012" style="top:0px; left:0px; width:416px; height:400px;">
-    <cl:group std:sid="group-9b74addf" id="grp6" class="card">
-      <cl:formdata std:sid="f-data-0e777ed4" width="100" height="72" row="0" col="0"/>
+  <body std:sid="body-fcdb4012" style="top:0px; left:0px; width:416px; height:600px;">
+    <cl:group std:sid="group-9b74addf" id="grp6" class="toggle-card">
+      <cl:formdata std:sid="f-data-0e777ed4" width="100" height="68" row="0" col="0"/>
       <cl:group std:sid="group-9d82c18b" id="grp8">
-        <cl:verticaldata std:sid="v-data-95041e7f" width="390px" height="56px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-95041e7f" width="382px" height="52px" autosize="height"/>
         <cl:group std:sid="group-70328f03" id="grp4">
-          <cl:verticaldata std:sid="v-data-22485002" width="390px" height="36px"/>
+          <cl:verticaldata std:sid="v-data-22485002" width="390px" height="28px" autosize="height"/>
           <cl:group std:sid="group-16eee5fc" id="grp3">
             <cl:formdata std:sid="f-data-cd84cafe" row="0" col="0"/>
             <cl:output std:sid="output-2557dbe6" id="opt4" class="font-caption-strong" value="1" displayexp="&quot;No. &quot; + text">
-              <cl:flowlayoutdata std:sid="f-data-202116dd" width="115px" height="36px" autosize="width"/>
+              <cl:flowlayoutdata std:sid="f-data-202116dd" width="115px" height="28px" autosize="width"/>
             </cl:output>
             <cl:flowlayout std:sid="f-layout-8c1f2505"/>
           </cl:group>
           <cl:group std:sid="group-4c62b0b1" id="grp5">
             <cl:formdata std:sid="f-data-394cab49" row="0" col="1"/>
-            <cl:button std:sid="button-f4f99039" class="icon btn-file" value="Button" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-7e3970c6" width="36px" height="36px"/>
+            <cl:button std:sid="button-f4f99039" class="card-icon btn-file" value="Button" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-7e3970c6" width="28px" height="28px"/>
             </cl:button>
             <cl:flowlayout std:sid="f-layout-462010f4" halign="right"/>
           </cl:group>
@@ -37,7 +37,7 @@
         <cl:button std:sid="button-6e223a62" id="btn3" class="btn-link ellipsis-2 p-0" value="Please review the updated disclosure submission requirements. Please review the updated disclosure submission requirements.">
           <cl:verticaldata std:sid="v-data-885ac0d8" width="390px" height="20px" autosize="height"/>
         </cl:button>
-        <cl:verticallayout std:sid="v-layout-0b0db046" spacing="0"/>
+        <cl:verticallayout std:sid="v-layout-0b0db046" spacing="4"/>
       </cl:group>
       <cl:group std:sid="group-9c07a888" id="grp9">
         <cl:verticaldata std:sid="v-data-694d2a11" width="390px" height="43px" autosize="height"/>
@@ -47,7 +47,7 @@
         <cl:output std:sid="output-9b78d97c" id="opt7" class="font-body-s" value="08-25-2026 02:56:18 PM">
           <cl:verticaldata std:sid="v-data-d9536140" width="353px" height="20px" autosize="height"/>
         </cl:output>
-        <cl:verticallayout std:sid="v-layout-6557bf2d" spacing="3"/>
+        <cl:verticallayout std:sid="v-layout-6557bf2d" spacing="4"/>
       </cl:group>
       <cl:group std:sid="group-3b29f173" id="grp2">
         <cl:verticaldata std:sid="v-data-fcffe510" width="390px" height="43px" autosize="height"/>
@@ -57,7 +57,7 @@
         <cl:output std:sid="output-568caf7d" id="opt3" class="font-body-s" value="Maria Santos">
           <cl:verticaldata std:sid="v-data-cc443d2f" width="353px" height="20px" autosize="height"/>
         </cl:output>
-        <cl:verticallayout std:sid="v-layout-e2ea05d3" spacing="3"/>
+        <cl:verticallayout std:sid="v-layout-e2ea05d3" spacing="4"/>
       </cl:group>
       <cl:group std:sid="group-07caed73" id="grp12">
         <cl:verticaldata std:sid="v-data-181d6e5c" width="390px" height="50px" autosize="height"/>
@@ -102,7 +102,24 @@
         </cl:output>
         <cl:verticallayout std:sid="v-layout-5c7f336b" spacing="4"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-5b10945a" spacing="10" leftmargin="16" rightmargin="16" topmargin="16" bottommargin="16"/>
+      <cl:group std:sid="group-9c9b0d62" id="grp10">
+        <cl:verticaldata std:sid="v-data-66b7aa91" width="382px" height="50px" autosize="height"/>
+        <cl:output std:sid="output-c5aa776b" id="opt14" class="font-micro" value="Exchange Status">
+          <cl:verticaldata std:sid="v-data-77635039" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:group std:sid="group-0238a02c" id="grp14">
+          <cl:verticaldata std:sid="v-data-5ebcba20" width="299px" height="26px" autosize="height"/>
+          <cl:output std:sid="output-12886102" id="opt1" class="badge fill red" value="Rejected/Canclled">
+            <cl:flowlayoutdata std:sid="f-data-a1dbd6eb" width="130px" height="24px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-95f3d8f3" id="opt15" class="badge fill blue" value="etc">
+            <cl:flowlayoutdata std:sid="f-data-f94d18da" width="68px" height="24px" autosize="both"/>
+          </cl:output>
+          <cl:flowlayout std:sid="f-layout-85408193"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-2ec1017c" spacing="4"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5b10945a" spacing="10"/>
     </cl:group>
     <cl:formlayout std:sid="f-layout-a1315a53" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
       <cl:rows length="1" unit="FRACTION"/>

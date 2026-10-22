@@ -8,7 +8,7 @@
     <cl:appspec title="고객 카드"/>
   </head>
   <body std:sid="body-fa580df4" style="top:0px; left:0px; width:416px; height:400px;">
-    <cl:group std:sid="group-487a2066" id="grp2" class="card">
+    <cl:group std:sid="group-487a2066" id="grp2" class="toggle-card">
       <cl:formdata std:sid="f-data-078fc8b9" width="100" height="36" row="0" col="0"/>
       <cl:group std:sid="group-64fb22aa" id="grp18">
         <cl:verticaldata std:sid="v-data-ea6e3a44" width="400px" height="20px" autosize="height"/>
@@ -21,18 +21,18 @@
         </cl:group>
         <cl:group std:sid="group-81c590e6" id="grp19">
           <cl:formdata std:sid="f-data-a5daf87d" row="0" col="1"/>
-          <cl:output std:sid="output-9a44aa8b" id="opt32" class="badge fill yellow" value="S">
-            <cl:flowlayoutdata std:sid="f-data-74717476" width="29px" height="20px" autosize="both"/>
-          </cl:output>
           <cl:output std:sid="output-3f043cee" id="opt33" class="badge fill blue" value="M">
             <cl:flowlayoutdata std:sid="f-data-4e5ce908" width="29px" height="20px" autosize="both"/>
           </cl:output>
-          <cl:output std:sid="output-fca9560a" id="opt21" class="badge fill green" value="A">
-            <cl:flowlayoutdata std:sid="f-data-2e80c369" width="29px" height="20px" autosize="both"/>
+          <cl:output std:sid="output-493079e2" id="opt2" class="badge fill blue" value="A">
+            <cl:flowlayoutdata std:sid="f-data-8e187902" width="29px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-2a76289e" id="opt3" class="badge fill blue" value="S">
+            <cl:flowlayoutdata std:sid="f-data-5740d522" width="29px" height="20px" autosize="both"/>
           </cl:output>
           <cl:flowlayout std:sid="f-layout-9a50dfbd" hspacing="4" vspacing="0" halign="right"/>
         </cl:group>
-        <cl:formlayout std:sid="f-layout-d2eafebf" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:formlayout std:sid="f-layout-d2eafebf" scrollable="false" hspace="1fr" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
           <cl:rows length="1" unit="FRACTION"/>
           <cl:columns length="1" unit="FRACTION"/>
           <cl:columns length="1" unit="FRACTION"/>
@@ -88,7 +88,7 @@
         </cl:output>
         <cl:verticallayout std:sid="v-layout-dd9aef3f" spacing="4"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-5094a2ec" spacing="10" leftmargin="16" rightmargin="16" topmargin="16" bottommargin="16"/>
+      <cl:verticallayout std:sid="v-layout-5094a2ec" spacing="10"/>
     </cl:group>
     <cl:formlayout std:sid="f-layout-b7d3ab05" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
       <cl:rows length="1" unit="FRACTION"/>

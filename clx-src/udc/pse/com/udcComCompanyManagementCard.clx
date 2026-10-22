@@ -8,7 +8,7 @@
     <cl:appspec title="회사 카드"/>
   </head>
   <body std:sid="body-fa580df4" style="top:0px; left:0px; width:416px; height:400px;">
-    <cl:group std:sid="group-d6edc174" id="grp31" class="card">
+    <cl:group std:sid="group-d6edc174" id="grp31" class="toggle-card">
       <cl:formdata std:sid="f-data-d43695b9" width="100" height="-6" row="0" col="0"/>
       <cl:group std:sid="group-80442cf3" id="grp32">
         <cl:verticaldata std:sid="v-data-a305aef1" width="299px" height="20px" autosize="none"/>
@@ -94,7 +94,7 @@
         </cl:group>
         <cl:verticallayout std:sid="v-layout-fd8c0e53" spacing="4"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-256cdb9d" spacing="10" leftmargin="16" rightmargin="16" topmargin="16" bottommargin="16"/>
+      <cl:verticallayout std:sid="v-layout-256cdb9d" spacing="10"/>
     </cl:group>
     <cl:formlayout std:sid="f-layout-b7d3ab05" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
       <cl:rows length="1" unit="FRACTION" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
