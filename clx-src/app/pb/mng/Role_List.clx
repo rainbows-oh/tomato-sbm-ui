@@ -353,8 +353,8 @@
               </cl:button>
               <cl:flowlayout std:sid="f-layout-cb8b5294" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
             </cl:group>
-            <cl:formlayout std:sid="f-layout-54304a52" scrollable="false" hspace="8px" vspace="0px">
-              <cl:rows length="36" unit="PIXEL" shadetype="NONE" shadecolor="transparent"/>
+            <cl:formlayout std:sid="f-layout-54304a52" scrollable="false" hspace="8px" vspace="8px">
+              <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
               <cl:columns length="1" unit="FRACTION"/>
               <cl:columns length="283" unit="PIXEL" autoSizing="true" syncminlength="false"/>
             </cl:formlayout>

@@ -507,7 +507,7 @@
           <cl:flowlayout std:sid="f-layout-0dfd9082" halign="right"/>
         </cl:group>
         <cl:formlayout std:sid="f-layout-d1f5a0c9" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-          <cl:rows length="36" unit="PIXEL" shadetype="NONE" shadecolor="transparent"/>
+          <cl:rows length="1" unit="FRACTION" autoSizing="true" shadetype="NONE" shadecolor="transparent"/>
           <cl:columns length="484" unit="PIXEL" autoSizing="true" syncminlength="false"/>
           <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
         </cl:formlayout>

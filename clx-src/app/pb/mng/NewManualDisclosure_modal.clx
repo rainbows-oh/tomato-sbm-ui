@@ -130,7 +130,7 @@
           </cl:formlayout>
         </cl:group>
         <cl:formlayout std:sid="f-layout-b2eefcdd" scrollable="false" hspace="12px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-          <cl:rows length="36" unit="PIXEL"/>
+          <cl:rows length="1" unit="FRACTION"/>
           <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
           <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
         </cl:formlayout>

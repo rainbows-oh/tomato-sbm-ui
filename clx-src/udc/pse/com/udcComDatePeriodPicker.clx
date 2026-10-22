@@ -86,7 +86,7 @@
         <cl:columns length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
       </cl:formlayout>
     </cl:group>
-    <cl:output std:sid="output-csm000062" id="opt2" class="form-hint error" visible="false" value="From date must be on or before To date.">
+    <cl:output std:sid="output-csm000062" id="opt2" class="font-caption error" visible="false" value="From date must be on or before To date.">
       <cl:verticaldata std:sid="v-data-csm000063" width="457px" height="18px" autosize="height"/>
     </cl:output>
     <cl:verticallayout std:sid="v-layout-5125b06f" spacing="6"/>

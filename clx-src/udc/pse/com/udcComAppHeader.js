@@ -147,38 +147,39 @@ function onOutputDblclick(e){
  * 스크린 크기 변경 시 전파되는 이벤트.
  */
 function onBodyScreenChange(e){
-	cpr.core.DeferredUpdateManager.INSTANCE.asyncExec(function() {
-		var hostApp = app.getHostAppInstance();
-		if(!hostApp) return;
+	// 카드(subpage/content-box/card) 클래스 레이아웃 마진을 모바일(EXB-PART)에서 16으로 임의 지정하던 로직 — 사용하지 않아 주석 처리
+//	cpr.core.DeferredUpdateManager.INSTANCE.asyncExec(function() {
+//		var hostApp = app.getHostAppInstance();
+//		if(!hostApp) return;
 		
-		var vaCtrls = hostApp.getContainer().getAllRecursiveChildren(true);
-		var vsScreenNm = e.screen.name;
-		vaCtrls.filter(function(each) {
-			return each.style.hasClass("subpage") || each.style.hasClass("content-box") || each.style.hasClass("card");
-		}).forEach(function( /*cpr.controls.Container*/ each) {
-			var voLayout = each.getLayout();
-			if (voLayout instanceof cpr.controls.layouts.VerticalLayout || voLayout instanceof cpr.controls.layouts.FormLayout) {
-				if (vsScreenNm == "EXB-PART") {
-					voLayout._org_topMargin = voLayout.topMargin;
-					voLayout._org_rightMargin = voLayout.rightMargin;
-					voLayout._org_bottomMargin = voLayout.bottomMargin;
-					voLayout._org_leftMargin = voLayout.leftMargin;
-					voLayout.topMargin = 16;
-					voLayout.bottomMargin = 16;
-					voLayout.leftMargin = 16;
-					voLayout.rightMargin = 16;
-				} else {
-					var vnOrgTopMargin = voLayout._org_topMargin;
-					if (vnOrgTopMargin != undefined) {
-						voLayout.topMargin = voLayout._org_topMargin;
-						voLayout.rightMargin = voLayout._org_rightMargin;
-						voLayout.bottomMargin = voLayout._org_bottomMargin;
-						voLayout.leftMargin = voLayout._org_leftMargin;
-					}
-				}				
-			}
-		});
-	});
+//		var vaCtrls = hostApp.getContainer().getAllRecursiveChildren(true);
+//		var vsScreenNm = e.screen.name;
+//		vaCtrls.filter(function(each) {
+//			return each.style.hasClass("subpage") || each.style.hasClass("content-box") || each.style.hasClass("card");
+//		}).forEach(function( /*cpr.controls.Container*/ each) {
+//			var voLayout = each.getLayout();
+//			if (voLayout instanceof cpr.controls.layouts.VerticalLayout || voLayout instanceof cpr.controls.layouts.FormLayout) {
+//				if (vsScreenNm == "EXB-PART") {
+//					voLayout._org_topMargin = voLayout.topMargin;
+//					voLayout._org_rightMargin = voLayout.rightMargin;
+//					voLayout._org_bottomMargin = voLayout.bottomMargin;
+//					voLayout._org_leftMargin = voLayout.leftMargin;
+//					voLayout.topMargin = 16;
+//					voLayout.bottomMargin = 16;
+//					voLayout.leftMargin = 16;
+//					voLayout.rightMargin = 16;
+//				} else {
+//					var vnOrgTopMargin = voLayout._org_topMargin;
+//					if (vnOrgTopMargin != undefined) {
+//						voLayout.topMargin = voLayout._org_topMargin;
+//						voLayout.rightMargin = voLayout._org_rightMargin;
+//						voLayout.bottomMargin = voLayout._org_bottomMargin;
+//						voLayout.leftMargin = voLayout._org_leftMargin;
+//					}
+//				}				
+//			}
+//		});
+//	});
 }
 
 /*
