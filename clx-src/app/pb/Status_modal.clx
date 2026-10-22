@@ -9,34 +9,39 @@
   </head>
   <body std:sid="body-fa5f6637" style="top:0px; left:0px; width:640px; height:520px;">
     <cl:attribute name="mobile-spacing" value=""/>
-    <cl:group std:sid="group-aeb301ea" id="grp1">
+    <cl:group std:sid="group-aeb301ea" id="grpBody">
       <cl:attribute name="mobile-fit" value="true"/>
       <cl:attribute name="mobile-bottom-margin" value="16"/>
       <cl:attribute name="mobile-left-margin" value="16"/>
       <cl:attribute name="mobile-right-margin" value="16"/>
       <cl:attribute name="tablet-bottom-margin" value=""/>
       <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
       <cl:verticaldata std:sid="v-data-f9431e1f" width="1024px" height="484px" autosize="height"/>
-      <cl:group std:sid="group-4cbd26ca" id="grpCompany" class="dot-separate">
-        <cl:verticaldata std:sid="v-data-7aba902b" width="976px" height="20px" autosize="height"/>
-        <cl:output std:sid="output-ac9ddfa2" id="optCompany1" class="font-body-s" value="Company ID: PSE-0006">
-          <cl:flowlayoutdata std:sid="f-data-cd29daf8" width="150px" height="20px" autosize="both"/>
-        </cl:output>
-        <cl:output std:sid="output-4af23b18" id="optCompany3" class="font-body-s" value="Symbol: VCW">
-          <cl:flowlayoutdata std:sid="f-data-58017f90" width="100px" height="20px" autosize="both"/>
-        </cl:output>
-        <cl:output std:sid="output-53a3635d" id="optCompany5" class="font-body-s" value="VISAYAS CHEM">
-          <cl:flowlayoutdata std:sid="f-data-cea226cb" width="130px" height="20px" autosize="both"/>
-        </cl:output>
-        <cl:flowlayout std:sid="f-layout-93080131" hspacing="0" valign="middle"/>
+      <cl:group std:sid="group-80bc9b0f" id="grpContentHeader">
+        <cl:verticaldata std:sid="v-data-f3021694" width="976px" height="20px" autosize="height"/>
+        <cl:group std:sid="group-4cbd26ca" id="grpCompany" class="dot-separate">
+          <cl:verticaldata std:sid="v-data-7aba902b" width="976px" height="20px" autosize="height"/>
+          <cl:output std:sid="output-ac9ddfa2" id="optCompany1" class="font-body-s" value="Company ID: PSE-0006">
+            <cl:flowlayoutdata std:sid="f-data-cd29daf8" width="150px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-4af23b18" id="optCompany3" class="font-body-s" value="Symbol: VCW">
+            <cl:flowlayoutdata std:sid="f-data-58017f90" width="100px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:output std:sid="output-53a3635d" id="optCompany5" class="font-body-s" value="VISAYAS CHEM">
+            <cl:flowlayoutdata std:sid="f-data-cea226cb" width="130px" height="20px" autosize="both"/>
+          </cl:output>
+          <cl:flowlayout std:sid="f-layout-93080131" hspacing="0" valign="middle"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-d479a373" spacing="18"/>
       </cl:group>
-      <cl:combobox std:sid="c-box-ed8e689f" id="cmb1">
-        <cl:verticaldata std:sid="v-data-a7c3a314" width="100px" height="36px"/>
-      </cl:combobox>
-      <cl:group std:sid="group-9c6d43b3" id="grpInfo">
+      <cl:group std:sid="group-9c6d43b3" id="grpContent" class="content-wrap">
         <cl:attribute name="mobile-fit" value="true"/>
-        <cl:attribute name="mobile-spacing" value="10"/>
-        <cl:verticaldata std:sid="v-data-4109c237" width="976px" height="344px" autosize="height"/>
+        <cl:attribute name="mobile-spacing" value="14"/>
+        <cl:verticaldata std:sid="v-data-4109c237" width="976px" height="396px" autosize="height"/>
+        <cl:combobox std:sid="c-box-ed8e689f" id="cmb1">
+          <cl:verticaldata std:sid="v-data-a7c3a314" width="976px" height="36px" autosize="none"/>
+        </cl:combobox>
         <cl:group std:sid="group-c9f98620" id="grpRow1">
           <cl:attribute name="mobile-column-count" value="1"/>
           <cl:verticaldata std:sid="v-data-81a93979" width="592px" height="44px" autosize="height"/>
@@ -185,7 +190,7 @@
         </cl:group>
         <cl:verticallayout std:sid="v-layout-f0125bef" scrollable="false" spacing="16"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-75ec9db6" spacing="18" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+      <cl:verticallayout std:sid="v-layout-75ec9db6" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>
     <cl:verticallayout std:sid="v-layout-c56a26cf" spacing="18"/>
   </body>
