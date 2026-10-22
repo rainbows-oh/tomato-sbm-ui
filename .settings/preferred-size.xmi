@@ -39,8 +39,8 @@
   <settings:PreferredSize typeName="Tree" preferredWidth="200" preferredHeight="150"/>
   <settings:PreferredSize typeName="UIControlShell" preferredWidth="100" preferredHeight="20"/>
   <settings:PreferredSize typeName="Video" preferredWidth="400" preferredHeight="100"/>
-  <settings:PreferredSize typeName="GridCell" preferredWidth="100" preferredHeight="50"/>
-  <settings:PreferredSize typeName="GridHeaderCell" preferredWidth="100" preferredHeight="36"/>
+  <settings:PreferredSize typeName="GridCell" preferredWidth="100" preferredHeight="54"/>
+  <settings:PreferredSize typeName="GridHeaderCell" preferredWidth="100" preferredHeight="37"/>
   <settings:PreferredSize typeName="GridFooterCell" preferredWidth="100" preferredHeight="50"/>
   <settings:PreferredSize typeName="FormDivision" preferredWidth="100" preferredHeight="36"/>
 </xmi:XMI>

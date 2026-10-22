@@ -9,17 +9,18 @@
   </head>
   <body std:sid="body-fa5f6637" style="top:0px; left:0px; width:700px; height:760px;">
     <cl:attribute name="mobile-spacing" value=""/>
-    <cl:group std:sid="group-aeb301ea" id="grp1">
+    <cl:group std:sid="group-aeb301ea" id="grpData">
       <cl:attribute name="mobile-fit" value="true"/>
       <cl:attribute name="mobile-bottom-margin" value="16"/>
       <cl:attribute name="mobile-left-margin" value="16"/>
       <cl:attribute name="mobile-right-margin" value="16"/>
       <cl:attribute name="tablet-bottom-margin" value=""/>
       <cl:attribute name="mobile-top-margin" value="16"/>
-      <cl:attribute name="mobile-spacing" value="16"/>
-      <cl:verticaldata std:sid="v-data-f9431e1f" width="1024px" height="733px" autosize="height"/>
-      <cl:group std:sid="group-f547834e" id="grp4">
-        <cl:verticaldata std:sid="v-data-7164b5b2" width="976px" height="604px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-f9431e1f" width="1024px" height="719px" autosize="height"/>
+      <cl:group std:sid="group-f547834e" id="grpContent" class="content-wrap">
+        <cl:attribute name="mobile-fit" value="true"/>
+        <cl:attribute name="mobile-spacing" value="12"/>
+        <cl:verticaldata std:sid="v-data-7164b5b2" width="976px" height="594px" autosize="height"/>
         <cl:group std:sid="group-8077bed4" id="grpPreview">
           <cl:verticaldata std:sid="v-data-4d939dbc" width="652px" height="36px" autosize="height"/>
           <cl:button std:sid="button-b2096fa2" id="btnPreview" class="btn-secondary" value="Preview">
@@ -79,7 +80,7 @@
           </cl:textarea>
           <cl:verticallayout std:sid="v-layout-d69eed04" scrollable="false" spacing="6"/>
         </cl:group>
-        <cl:verticallayout std:sid="v-layout-11d46297" spacing="18"/>
+        <cl:verticallayout std:sid="v-layout-11d46297" spacing="16"/>
       </cl:group>
       <cl:group std:sid="group-af78ab22" id="grpFooter" class="btn-footer-wrap">
         <cl:attribute name="mobile-column-count" value="1"/>
@@ -129,7 +130,7 @@
           <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
         </cl:formlayout>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-75ec9db6" spacing="24" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+      <cl:verticallayout std:sid="v-layout-75ec9db6" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>
     <cl:verticallayout std:sid="v-layout-c56a26cf" spacing="18"/>
   </body>

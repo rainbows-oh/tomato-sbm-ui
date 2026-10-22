@@ -67,9 +67,19 @@
 	border: 1px solid @gray-30;
 	background-color: @white;
 	border-radius: 8px;
+	padding: 20px;
+	
+	@media(max-width: 767px) {
+		padding: 16px;
+	}
 	
 	&.highlight {
 		background-color: @primary-5;
+		border: 1px solid @primary-60;
+		
+		.cl-formlayout-horizontal-separator {
+			background-color: @primary-60;
+		}
 	}
 	
 	&.gray {

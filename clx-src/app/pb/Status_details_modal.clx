@@ -14,7 +14,7 @@
       <cl:attribute name="mobile-left-margin" value="16"/>
       <cl:attribute name="mobile-right-margin" value="16"/>
       <cl:attribute name="mobile-top-margin" value="16"/>
-      <cl:verticaldata std:sid="v-data-bd69fe29" width="1024px" height="696px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-bd69fe29" width="1024px" height="694px" autosize="height"/>
       <cl:group std:sid="group-08bccc9a" id="grp1">
         <cl:verticaldata std:sid="v-data-e93b6b77" width="400px" height="36px" autosize="height"/>
         <cl:button std:sid="button-0e2ac02c" id="btn1" class="btn-inline btn-print" value="Print" icon="0">
@@ -52,11 +52,11 @@
         <cl:verticallayout std:sid="v-layout-617959ce" spacing="6"/>
       </cl:group>
       <cl:group std:sid="group-8b33e968" class="card gray">
-        <cl:verticaldata std:sid="v-data-1a1afe87" width="976px" height="64px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-1a1afe87" width="976px" height="62px" autosize="height"/>
         <cl:output std:sid="output-92edcf45" class="font-title" value="Ex-Date: 09-30, 2026">
           <cl:verticaldata std:sid="v-data-3fd42359" width="100px" height="20px" autosize="height"/>
         </cl:output>
-        <cl:verticallayout std:sid="v-layout-035b7399" spacing="0" leftmargin="24" rightmargin="24" topmargin="20" bottommargin="20"/>
+        <cl:verticallayout std:sid="v-layout-035b7399" spacing="0"/>
       </cl:group>
       <cl:group std:sid="group-bb2edb20" class="card gray">
         <cl:verticaldata std:sid="v-data-377b9aa2" width="976px" height="150px" autosize="height"/>
@@ -73,7 +73,7 @@
           </cl:output>
           <cl:verticallayout std:sid="v-layout-c30d8b76" spacing="4" leftmargin="18" rightmargin="18" topmargin="12" bottommargin="12"/>
         </cl:group>
-        <cl:verticallayout std:sid="v-layout-cc11d357" spacing="10" leftmargin="24" rightmargin="24" topmargin="20" bottommargin="20"/>
+        <cl:verticallayout std:sid="v-layout-cc11d357" spacing="10"/>
       </cl:group>
       <cl:group std:sid="group-126a1e48" class="card">
         <cl:verticaldata std:sid="v-data-238642ea" width="976px" height="230px" autosize="height"/>
@@ -95,7 +95,7 @@
         <cl:output std:sid="output-c60a3cab" class="font-body" value="The Company undertakes to update this disclosure should any material change arise subsequent to this filing.">
           <cl:verticaldata std:sid="v-data-3729c619" width="100px" height="20px" autosize="height"/>
         </cl:output>
-        <cl:verticallayout std:sid="v-layout-f5cae3bf" spacing="12" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+        <cl:verticallayout std:sid="v-layout-f5cae3bf" spacing="12"/>
       </cl:group>
       <cl:verticallayout std:sid="v-layout-fb7ff337" spacing="16" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>

@@ -9,7 +9,12 @@
   </head>
   <body std:sid="body-6585a0fc">
     <cl:group std:sid="group-0b464f24" id="grpData" class="inner">
-      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1133px" autosize="height"/>
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="1235px" autosize="height"/>
       <cl:group std:sid="group-c9d6abb5" id="grpContent">
         <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="1111px" autosize="height"/>
         <cl:group std:sid="group-6b56372d" id="grp34">
@@ -414,31 +419,31 @@
           </cl:group>
           <cl:verticallayout std:sid="v-layout-1f0b571d" spacing="24"/>
         </cl:group>
-        <cl:group std:sid="group-2d048319" id="grp32" class="footer-btn-wrap">
-          <cl:verticaldata std:sid="v-data-15c632b2" width="926px" height="52px" autosize="height"/>
-          <cl:group std:sid="group-d1d984cf" id="grp33">
-            <cl:formdata std:sid="f-data-538be251" row="0" col="0" rowspan="1" colspan="1"/>
-            <cl:flowlayout std:sid="f-layout-3f27f967"/>
-          </cl:group>
-          <cl:group std:sid="group-ca849921" id="grp30">
-            <cl:formdata std:sid="f-data-5677a1b6" row="0" col="1"/>
-            <cl:button std:sid="button-0c4a93a7" id="btn2" class="btn-inline" value="Reject">
-              <cl:flowlayoutdata std:sid="f-data-860ce9ba" width="100px" height="36px" autosize="width"/>
-            </cl:button>
-            <cl:button std:sid="button-f12b589d" id="btn3" class="btn-primary" value="Save">
-              <cl:flowlayoutdata std:sid="f-data-ee167293" width="100px" height="36px" autosize="width"/>
-            </cl:button>
-            <cl:flowlayout std:sid="f-layout-278d2042" hspacing="8" vspacing="8" halign="right"/>
-          </cl:group>
-          <cl:formlayout std:sid="f-layout-d1f5a0c9" scrollable="false" hspace="1fr" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-            <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
-            <cl:columns length="459" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-            <cl:columns length="459" unit="PIXEL" autoSizing="true" syncminlength="false"/>
-          </cl:formlayout>
-        </cl:group>
         <cl:verticallayout std:sid="v-layout-edd42a47" spacing="24"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-9dda75e2" spacing="24" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+      <cl:group std:sid="group-2d048319" id="grp32" class="btn-footer-wrap">
+        <cl:verticaldata std:sid="v-data-15c632b2" width="976px" height="52px" autosize="height"/>
+        <cl:group std:sid="group-d1d984cf" id="grp33">
+          <cl:formdata std:sid="f-data-538be251" row="0" col="0" rowspan="1" colspan="1"/>
+          <cl:flowlayout std:sid="f-layout-3f27f967"/>
+        </cl:group>
+        <cl:group std:sid="group-ca849921" id="grp30">
+          <cl:formdata std:sid="f-data-5677a1b6" row="0" col="1"/>
+          <cl:button std:sid="button-0c4a93a7" id="btn2" class="btn-inline" value="Reject">
+            <cl:flowlayoutdata std:sid="f-data-860ce9ba" width="100px" height="36px" autosize="width"/>
+          </cl:button>
+          <cl:button std:sid="button-f12b589d" id="btn3" class="btn-primary" value="Save">
+            <cl:flowlayoutdata std:sid="f-data-ee167293" width="100px" height="36px" autosize="width"/>
+          </cl:button>
+          <cl:flowlayout std:sid="f-layout-278d2042" hspacing="8" vspacing="8" halign="right"/>
+        </cl:group>
+        <cl:formlayout std:sid="f-layout-d1f5a0c9" scrollable="false" hspace="1fr" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+          <cl:columns length="459" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          <cl:columns length="459" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-9dda75e2" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>
     <cl:verticallayout std:sid="v-layout-85c69965" spacing="0"/>
   </body>
