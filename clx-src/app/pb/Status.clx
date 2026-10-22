@@ -176,10 +176,15 @@
     <cl:group std:sid="group-csm000024" id="grpBody" class="inner">
       <cl:attribute name="mobile-fit" value="true"/>
       <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-index" value=""/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
       <cl:verticaldata std:sid="v-data-csm000025" width="1024px" height="990px" autosize="height"/>
       <cl:group std:sid="group-csm000026" id="grpSearch" class="search-top-box">
         <cl:verticaldata std:sid="v-data-csm000027" width="960px" height="277px" autosize="height"/>
-        <cl:group std:sid="group-csm000028" class="search-head">
+        <cl:group std:sid="group-csm000028" id="grpSearchHeader" class="search-head">
           <cl:verticaldata std:sid="v-data-csm000029" width="958px" height="102px" autosize="height"/>
           <cl:udc std:sid="ud-control-csm000030" id="udccomsearchtoggle1" type="udc.pse.com.udcComSearchToggle">
             <cl:verticaldata std:sid="v-data-csm000031" width="942px" height="52px" autosize="height"/>
@@ -194,6 +199,12 @@
           <cl:verticallayout std:sid="v-layout-csm000034" scrollable="false" spacing="0"/>
         </cl:group>
         <cl:group std:sid="group-csm000035" id="grpSearchFilter" class="sch-filter-box">
+          <cl:attribute name="mobile-fit" value="true"/>
+          <cl:attribute name="mobile-bottom-margin" value="16"/>
+          <cl:attribute name="mobile-left-margin" value="16"/>
+          <cl:attribute name="mobile-right-margin" value="16"/>
+          <cl:attribute name="mobile-top-margin" value="16"/>
+          <cl:attribute name="mobile-spacing" value="14"/>
           <cl:verticaldata std:sid="v-data-csm000036" width="958px" height="173px" autosize="height"/>
           <cl:group std:sid="group-csm000037" class="filter-form">
             <cl:verticaldata std:sid="v-data-csm000038" width="910px" height="60px" autosize="height"/>
@@ -256,7 +267,7 @@
         </cl:group>
         <cl:verticallayout std:sid="v-layout-csm000125" scrollable="false" spacing="0"/>
       </cl:group>
-      <cl:group std:sid="group-csm000126" id="grpContent" class="section">
+      <cl:group std:sid="group-csm000126" id="grpContent" class="content-wrap">
         <cl:attribute name="mobile-spacing" value="16"/>
         <cl:attribute name="mobile-fit" value="true"/>
         <cl:verticaldata std:sid="v-data-csm000127" width="960px" height="649px" autosize="height"/>
@@ -396,7 +407,7 @@
         </cl:udc>
         <cl:verticallayout std:sid="v-layout-csm000171" scrollable="false" spacing="20"/>
       </cl:group>
-      <cl:verticallayout std:sid="v-layout-csm000172" scrollable="false" spacing="20" leftmargin="32" rightmargin="32" topmargin="24" bottommargin="24"/>
+      <cl:verticallayout std:sid="v-layout-csm000172" scrollable="false" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>
     <cl:verticallayout std:sid="v-layout-csm000173" scrollable="true" spacing="0"/>
   </body>
