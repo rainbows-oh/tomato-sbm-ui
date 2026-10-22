@@ -62,6 +62,10 @@
       <cl:attribute name="mobile-column-count" value="1"/>
       <cl:attribute name="needs-auto-height" value="true"/>
       <cl:verticaldata std:sid="v-data-cm000017" width="1024px" height="48px" autosize="height" sticky="true" stickytopoffset="0"/>
+      <cl:udc std:sid="ud-control-a245490b" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
+        <cl:attribute name="needs-auto-height" value="true"/>
+        <cl:formdata std:sid="f-data-b53b218e" row="0" col="0"/>
+      </cl:udc>
       <cl:group std:sid="group-cm000020" class="btn-wrap">
         <cl:formdata std:sid="f-data-cm000021" valign="FILL" height="36" row="0" col="1"/>
         <cl:button std:sid="button-cm000022" class="btn-secondary" value="Logo">
@@ -73,10 +77,6 @@
         </cl:button>
         <cl:flowlayout std:sid="f-layout-cm000026" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
       </cl:group>
-      <cl:udc std:sid="ud-control-a245490b" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
-        <cl:attribute name="needs-auto-height" value="true"/>
-        <cl:formdata std:sid="f-data-b53b218e" row="0" col="0"/>
-      </cl:udc>
       <cl:formlayout std:sid="f-layout-cm000027" scrollable="false" hspace="8px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
         <cl:rows length="36" unit="PIXEL"/>
         <cl:columns length="1" unit="FRACTION"/>
@@ -94,6 +94,13 @@
         <cl:group std:sid="group-cm000032" class="search-list-top">
           <cl:attribute name="mobile-column-count" value="1"/>
           <cl:verticaldata std:sid="v-data-cm000033" width="400px" height="36px" autosize="height"/>
+          <cl:group std:sid="group-3126b9c3">
+            <cl:formdata std:sid="f-data-cm000035" row="0" col="0" rowspan="1" colspan="1"/>
+            <cl:output std:sid="output-cm000034" class="sch-info" value="4" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; company information update versions&quot;">
+              <cl:flowlayoutdata std:sid="f-data-44732494" width="96px" height="36px" autosize="width"/>
+            </cl:output>
+            <cl:flowlayout std:sid="f-layout-71cf92e3" hspacing="12"/>
+          </cl:group>
           <cl:group std:sid="group-cm000036">
             <cl:formdata std:sid="f-data-cm000037" row="0" col="1"/>
             <cl:udc std:sid="ud-control-cm000038" id="udccomviewbutton1" type="udc.pse.com.udcComViewButton">
@@ -106,13 +113,6 @@
               <cl:item std:sid="item-215b8892" label="15/page" value="15"/>
             </cl:combobox>
             <cl:flowlayout std:sid="f-layout-b9d8249e" scrollable="false" hspacing="12" vspacing="12" halign="right" valign="middle"/>
-          </cl:group>
-          <cl:group std:sid="group-3126b9c3">
-            <cl:formdata std:sid="f-data-cm000035" row="0" col="0" rowspan="1" colspan="1"/>
-            <cl:output std:sid="output-cm000034" class="sch-info" value="4" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; company information update versions&quot;">
-              <cl:flowlayoutdata std:sid="f-data-44732494" width="96px" height="36px" autosize="width"/>
-            </cl:output>
-            <cl:flowlayout std:sid="f-layout-71cf92e3" hspacing="12"/>
           </cl:group>
           <cl:formlayout std:sid="f-layout-039a7b88" scrollable="false" hspace="1fr" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="1" unit="FRACTION"/>

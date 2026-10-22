@@ -211,17 +211,6 @@
             <cl:group std:sid="group-csm000039" class="row">
               <cl:attribute name="mobile-column-count" value="1"/>
               <cl:verticaldata std:sid="v-data-csm000040" width="910px" height="60px" autosize="height"/>
-              <cl:group std:sid="group-csm000060" id="grp1">
-                <cl:attribute name="needs-auto-height" value="true"/>
-                <cl:formdata std:sid="f-data-60e31ddd" row="0" col="1"/>
-                <cl:output std:sid="output-csm000062" id="opt1" class="font-label" value="Period">
-                  <cl:verticaldata std:sid="v-data-csm000063" width="100px" height="18px" autosize="height"/>
-                </cl:output>
-                <cl:udc std:sid="ud-control-1e2e1406" id="udccomdateperiodpicker1" type="udc.pse.com.udcComDatePeriodPicker">
-                  <cl:verticaldata std:sid="v-data-18962377" width="300px" height="36px" autosize="height"/>
-                </cl:udc>
-                <cl:verticallayout std:sid="v-layout-csm000078" spacing="6"/>
-              </cl:group>
               <cl:group std:sid="group-csm000079" id="grp4">
                 <cl:attribute name="needs-auto-height" value="true"/>
                 <cl:formdata std:sid="f-data-f3224089" width="100" height="27" row="0" col="0"/>
@@ -234,7 +223,7 @@
                   <cl:combobox std:sid="c-box-csm000094" id="cmb2" fieldLabel="Select period">
                     <cl:formdata std:sid="f-data-59816279" row="0" col="0"/>
                   </cl:combobox>
-                  <cl:inputbox std:sid="i-box-ad094e1c" id="ipb1">
+                  <cl:inputbox std:sid="i-box-ad094e1c" id="ipb1" fieldLabel="Deadline">
                     <cl:formdata std:sid="f-data-93d98ceb" row="0" col="1"/>
                   </cl:inputbox>
                   <cl:formlayout std:sid="f-layout-csm000096" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
@@ -244,6 +233,17 @@
                   </cl:formlayout>
                 </cl:group>
                 <cl:verticallayout std:sid="v-layout-csm000097" spacing="6"/>
+              </cl:group>
+              <cl:group std:sid="group-csm000060" id="grp1">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-60e31ddd" row="0" col="1"/>
+                <cl:output std:sid="output-csm000062" id="opt1" class="font-label" value="Period">
+                  <cl:verticaldata std:sid="v-data-csm000063" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:udc std:sid="ud-control-1e2e1406" id="udccomdateperiodpicker1" type="udc.pse.com.udcComDatePeriodPicker">
+                  <cl:verticaldata std:sid="v-data-18962377" width="300px" height="36px" autosize="height"/>
+                </cl:udc>
+                <cl:verticallayout std:sid="v-layout-csm000078" spacing="6"/>
               </cl:group>
               <cl:formlayout std:sid="f-layout-csm000057" scrollable="false" hspace="12px" vspace="14px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
                 <cl:rows length="1" unit="FRACTION"/>
@@ -274,6 +274,19 @@
         <cl:group std:sid="group-csm000128" class="search-list-top">
           <cl:attribute name="mobile-column-count" value="1"/>
           <cl:verticaldata std:sid="v-data-csm000129" width="400px" height="36px" autosize="height"/>
+          <cl:group std:sid="group-1756a39c" id="grp3">
+            <cl:formdata std:sid="f-data-36d7ccef" row="0" col="0" rowspan="1" colspan="1"/>
+            <cl:output std:sid="output-csm000130" id="opt2" class="sch-info" value="12" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; submissions&quot;">
+              <cl:flowlayoutdata std:sid="f-data-552053ab" width="96px" height="36px" autosize="width"/>
+            </cl:output>
+            <cl:udc std:sid="ud-control-9d1604a8" type="udc.pse.com.udcComStatusSelection">
+              <cl:flowlayoutdata std:sid="f-data-548be618" width="110px" height="36px" autosize="none"/>
+            </cl:udc>
+            <cl:checkbox std:sid="c-box-6b2dfd98" id="cbx1" class="chk-sortable" fieldLabel="Endorsement date" text="Endorsement date" iconalign="right">
+              <cl:flowlayoutdata std:sid="f-data-49b78d68" width="160px" height="36px" autosize="width"/>
+            </cl:checkbox>
+            <cl:flowlayout std:sid="f-layout-537e7170" hspacing="12"/>
+          </cl:group>
           <cl:group std:sid="group-csm000132" id="grp2">
             <cl:formdata std:sid="f-data-csm000133" row="0" col="1"/>
             <cl:button std:sid="button-d5b375b3" id="btn1" class="btn-inline btn-file" value="Excel Download" icon="0">
@@ -288,19 +301,6 @@
               <cl:flowlayoutdata std:sid="f-data-9b5dca83" width="110px" height="36px" autosize="none"/>
             </cl:combobox>
             <cl:flowlayout std:sid="f-layout-csm000136" scrollable="false" hspacing="12" vspacing="12" halign="right" valign="middle"/>
-          </cl:group>
-          <cl:group std:sid="group-1756a39c" id="grp3">
-            <cl:formdata std:sid="f-data-36d7ccef" row="0" col="0" rowspan="1" colspan="1"/>
-            <cl:output std:sid="output-csm000130" id="opt2" class="sch-info" value="12" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; submissions&quot;">
-              <cl:flowlayoutdata std:sid="f-data-552053ab" width="96px" height="36px" autosize="width"/>
-            </cl:output>
-            <cl:udc std:sid="ud-control-9d1604a8" type="udc.pse.com.udcComStatusSelection">
-              <cl:flowlayoutdata std:sid="f-data-548be618" width="110px" height="36px" autosize="none"/>
-            </cl:udc>
-            <cl:checkbox std:sid="c-box-6b2dfd98" id="cbx1" class="chk-sortable" text="Endorsement date" iconalign="right">
-              <cl:flowlayoutdata std:sid="f-data-49b78d68" width="160px" height="36px" autosize="width"/>
-            </cl:checkbox>
-            <cl:flowlayout std:sid="f-layout-537e7170" hspacing="12"/>
           </cl:group>
           <cl:formlayout std:sid="f-layout-csm000137" scrollable="false" hspace="1fr" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="1" unit="FRACTION"/>

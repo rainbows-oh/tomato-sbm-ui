@@ -161,10 +161,10 @@
             <cl:output std:sid="output-6665db3c" id="opt1" class="font-subheading" value="Roles">
               <cl:verticaldata std:sid="v-data-c65501a5" width="100px" height="20px" autosize="height"/>
             </cl:output>
-            <cl:inputbox std:sid="i-box-c13c92e9" id="ipb1" placeholder="Group Name">
+            <cl:inputbox std:sid="i-box-c13c92e9" id="ipb1" fieldLabel="Group Name" placeholder="Group Name">
               <cl:verticaldata std:sid="v-data-6b3309c8" width="100px" height="36px"/>
             </cl:inputbox>
-            <cl:radiobutton std:sid="r-button-f09496e4" id="rdb1" class="rdb-select use" colcount="1" hspacing="20" displayexp="sstr(value, [&quot;caption&quot;]) + &quot;\n&quot; + label" enableditemexp="value != &quot;00002&quot; &amp;&amp; value != &quot;00005&quot;" hideicon="true" clickRegion="item">
+            <cl:radiobutton std:sid="r-button-f09496e4" id="rdb1" class="rdb-select use" fieldLabel="Common Code Group" colcount="1" hspacing="20" displayexp="sstr(value, [&quot;caption&quot;]) + &quot;\n&quot; + label" enableditemexp="value != &quot;00002&quot; &amp;&amp; value != &quot;00005&quot;" hideicon="true" clickRegion="item">
               <cl:listener std:sid="listener-cf1b43c3" name="item-click" handler="onRdb1ItemClick"/>
               <cl:verticaldata std:sid="v-data-4d5db2e4" width="300px" height="515px" autosize="height"/>
               <cl:item std:sid="item-20860afe" label="Disclosure Type" value="00001"/>
@@ -232,7 +232,7 @@
                       <cl:output std:sid="output-fec9e4e8" id="opt3" class="font-label" value="Group ID">
                         <cl:verticaldata std:sid="v-data-56f71b55" width="100px" height="20px" autosize="height"/>
                       </cl:output>
-                      <cl:inputbox std:sid="i-box-0d08ad8f" id="ipb2">
+                      <cl:inputbox std:sid="i-box-0d08ad8f" id="ipb2" fieldLabel="Group ID">
                         <cl:verticaldata std:sid="v-data-a2591b20" width="100px" height="36px"/>
                       </cl:inputbox>
                       <cl:verticallayout std:sid="v-layout-e2a5bfeb" spacing="6"/>
@@ -243,7 +243,7 @@
                       <cl:output std:sid="output-fee1075d" id="opt5" class="font-label" value="Group Name">
                         <cl:verticaldata std:sid="v-data-d090709d" width="100px" height="20px" autosize="height"/>
                       </cl:output>
-                      <cl:inputbox std:sid="i-box-df90ac19" id="ipb3">
+                      <cl:inputbox std:sid="i-box-df90ac19" id="ipb3" fieldLabel="Group Name">
                         <cl:verticaldata std:sid="v-data-3a216ba3" width="100px" height="36px"/>
                       </cl:inputbox>
                       <cl:verticallayout std:sid="v-layout-ec9d9096" spacing="6"/>
@@ -254,7 +254,7 @@
                       <cl:output std:sid="output-baf02c51" id="opt6" class="font-label" value="Use">
                         <cl:formdata std:sid="f-data-25be05e1" row="0" col="0"/>
                       </cl:output>
-                      <cl:checkbox std:sid="c-box-4c936374" id="cbx1" class="toggle-switch" text="Label" clickRegion="item">
+                      <cl:checkbox std:sid="c-box-4c936374" id="cbx1" class="toggle-switch" fieldLabel="Use" text="Label" clickRegion="item">
                         <cl:formdata std:sid="f-data-e4700a47" row="1" col="0"/>
                       </cl:checkbox>
                       <cl:button std:sid="button-115a036b" id="btn1" class="btn-primary" value="Save">

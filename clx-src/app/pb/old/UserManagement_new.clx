@@ -350,12 +350,12 @@
               <cl:output std:sid="output-d488fd3f" id="opt22" class="font-label" value="Maker seats are full (5/5).">
                 <cl:verticaldata std:sid="v-data-8293aa22" width="457px" height="18px" autosize="height"/>
               </cl:output>
-              <cl:checkboxgroup std:sid="cb-group-08ee850b" id="cbg1">
+              <cl:checkboxgroup std:sid="cb-group-08ee850b" id="cbg1" fieldLabel="Role">
                 <cl:verticaldata std:sid="v-data-4980fac9" width="200px" height="20px" autosize="height"/>
                 <cl:item std:sid="item-f3649d8f" label="Maker (5/5 full)" value="value1"/>
                 <cl:item std:sid="item-66cee5a4" label="Approver" value="value2"/>
               </cl:checkboxgroup>
-              <cl:checkbox std:sid="c-box-a65bf494" id="cbx1" style="padding-left:16px;" text="Correspondence access allowed&#xD;&#xA;">
+              <cl:checkbox std:sid="c-box-a65bf494" id="cbx1" fieldLabel="Correspondence access allowed" style="padding-left:16px;" text="Correspondence access allowed&#xD;&#xA;">
                 <cl:verticaldata std:sid="v-data-c5b36200" width="100px" height="20px" autosize="height"/>
               </cl:checkbox>
               <cl:verticallayout std:sid="v-layout-d17980da" spacing="4"/>

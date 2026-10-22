@@ -161,10 +161,10 @@
         </cl:output>
         <cl:group std:sid="group-3b9612a0" id="grp1">
           <cl:verticaldata std:sid="v-data-270a2bf1" width="1024px" height="78px" autosize="height"/>
-          <cl:inputbox std:sid="i-box-09c3d41b" id="ipb1" readonly="true" value="Quezon Cloud Systems, Inc.">
+          <cl:inputbox std:sid="i-box-09c3d41b" id="ipb1" fieldLabel="Recipient 1" readonly="true" value="Quezon Cloud Systems, Inc.">
             <cl:verticaldata std:sid="v-data-ea302a81" width="100px" height="36px"/>
           </cl:inputbox>
-          <cl:inputbox std:sid="i-box-05f75e7d" id="ipb2" readonly="true" value="Quezon Cloud Systems, Inc.">
+          <cl:inputbox std:sid="i-box-05f75e7d" id="ipb2" fieldLabel="Recipient 2" readonly="true" value="Quezon Cloud Systems, Inc.">
             <cl:verticaldata std:sid="v-data-5239bcee" width="1024px" height="36px" autosize="none"/>
           </cl:inputbox>
           <cl:verticallayout std:sid="v-layout-2500ecd3" spacing="6"/>

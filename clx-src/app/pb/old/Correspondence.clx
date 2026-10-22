@@ -215,6 +215,13 @@
         <cl:group std:sid="group-csm000128" class="search-list-top">
           <cl:attribute name="mobile-column-count" value="1"/>
           <cl:verticaldata std:sid="v-data-csm000129" width="400px" height="36px" autosize="height"/>
+          <cl:group std:sid="group-978f18a7">
+            <cl:formdata std:sid="f-data-csm000131" row="0" col="0" rowspan="1" colspan="1"/>
+            <cl:output std:sid="output-csm000130" class="sch-info" value="12" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; correspondence items&quot;">
+              <cl:flowlayoutdata std:sid="f-data-4e86c4fa" width="96px" height="36px" autosize="width"/>
+            </cl:output>
+            <cl:flowlayout std:sid="f-layout-6c7ab5c9" hspacing="12"/>
+          </cl:group>
           <cl:group std:sid="group-csm000132">
             <cl:formdata std:sid="f-data-csm000133" row="0" col="1"/>
             <cl:udc std:sid="ud-control-csm000134" id="udccomviewbutton1" type="udc.pse.com.udcComViewButton">
@@ -227,13 +234,6 @@
               <cl:item std:sid="item-156393d8" label="15/page" value="15"/>
             </cl:combobox>
             <cl:flowlayout std:sid="f-layout-045f21da" scrollable="false" hspacing="12" vspacing="12" halign="right" valign="middle"/>
-          </cl:group>
-          <cl:group std:sid="group-978f18a7">
-            <cl:formdata std:sid="f-data-csm000131" row="0" col="0" rowspan="1" colspan="1"/>
-            <cl:output std:sid="output-csm000130" class="sch-info" value="12" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; correspondence items&quot;">
-              <cl:flowlayoutdata std:sid="f-data-4e86c4fa" width="96px" height="36px" autosize="width"/>
-            </cl:output>
-            <cl:flowlayout std:sid="f-layout-6c7ab5c9" hspacing="12"/>
           </cl:group>
           <cl:formlayout std:sid="f-layout-611244c0" scrollable="false" hspace="1fr" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="1" unit="FRACTION"/>

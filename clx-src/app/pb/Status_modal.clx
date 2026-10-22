@@ -39,7 +39,7 @@
         <cl:attribute name="mobile-fit" value="true"/>
         <cl:attribute name="mobile-spacing" value="14"/>
         <cl:verticaldata std:sid="v-data-4109c237" width="976px" height="396px" autosize="height"/>
-        <cl:combobox std:sid="c-box-ed8e689f" id="cmb1">
+        <cl:combobox std:sid="c-box-ed8e689f" id="cmb1" fieldLabel="Company">
           <cl:verticaldata std:sid="v-data-a7c3a314" width="976px" height="36px" autosize="none"/>
         </cl:combobox>
         <cl:group std:sid="group-c9f98620" id="grpRow1">

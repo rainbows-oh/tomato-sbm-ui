@@ -124,7 +124,7 @@
             <cl:output std:sid="output-e6ba5e9d" id="opt19" class="font-label" value="Your reply">
               <cl:verticaldata std:sid="v-data-166103a1" width="926px" height="20px" autosize="height"/>
             </cl:output>
-            <cl:textarea std:sid="t-area-aa7b1c11" id="txa2" class="resizable" placeholder="Write a reply...">
+            <cl:textarea std:sid="t-area-aa7b1c11" id="txa2" class="resizable" fieldLabel="Your reply" placeholder="Write a reply...">
               <cl:verticaldata std:sid="v-data-4159417c" width="100px" height="200px" syncminheight="false" autosize="height"/>
             </cl:textarea>
             <cl:verticallayout std:sid="v-layout-f1089401" spacing="10"/>

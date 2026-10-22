@@ -85,6 +85,17 @@
               </cl:output>
               <cl:verticallayout std:sid="v-layout-ca42ab71" spacing="4"/>
             </cl:group>
+            <cl:group std:sid="group-32f48461" id="grp12">
+              <cl:attribute name="needs-auto-height" value="true"/>
+              <cl:formdata std:sid="f-data-ec8dff55" width="100" height="21" row="0" col="2"/>
+              <cl:output std:sid="output-4b9da3e6" id="opt12" class="font-caption" value="Submitted By">
+                <cl:verticaldata std:sid="v-data-4450d6be" width="100px" height="18px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-0c2e61f1" id="opt13" class="font-body" value="Alex Thompson">
+                <cl:verticaldata std:sid="v-data-841d8a0c" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-c7b1f383" spacing="4"/>
+            </cl:group>
             <cl:group std:sid="group-b872622f" id="grp10">
               <cl:attribute name="needs-auto-height" value="true"/>
               <cl:formdata std:sid="f-data-eab1883e" row="1" col="0"/>
@@ -106,17 +117,6 @@
                 <cl:verticaldata std:sid="v-data-91a3fba5" width="100px" height="20px" autosize="height"/>
               </cl:output>
               <cl:verticallayout std:sid="v-layout-4043811d" spacing="4"/>
-            </cl:group>
-            <cl:group std:sid="group-32f48461" id="grp12">
-              <cl:attribute name="needs-auto-height" value="true"/>
-              <cl:formdata std:sid="f-data-ec8dff55" width="100" height="21" row="0" col="2"/>
-              <cl:output std:sid="output-4b9da3e6" id="opt12" class="font-caption" value="Submitted By">
-                <cl:verticaldata std:sid="v-data-4450d6be" width="100px" height="18px" autosize="height"/>
-              </cl:output>
-              <cl:output std:sid="output-0c2e61f1" id="opt13" class="font-body" value="Alex Thompson">
-                <cl:verticaldata std:sid="v-data-841d8a0c" width="100px" height="20px" autosize="height"/>
-              </cl:output>
-              <cl:verticallayout std:sid="v-layout-c7b1f383" spacing="4"/>
             </cl:group>
             <cl:formlayout std:sid="f-layout-f58f6164" scrollable="false" hspace="24px" vspace="14px" hseparatorwidth="1">
               <cl:rows length="1" unit="FRACTION"/>
