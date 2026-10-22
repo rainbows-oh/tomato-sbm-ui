@@ -48,7 +48,7 @@
           <cl:group std:sid="group-552593a7" id="grpField1">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-7c20375a" row="0" col="0"/>
-            <cl:output std:sid="output-e37d3e24" id="optLabel1" class="font-label" value="Listing Date">
+            <cl:output std:sid="output-e37d3e24" id="optLabel1" class="font-caption" value="Listing Date">
               <cl:verticaldata std:sid="v-data-2cda843b" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:output std:sid="output-cf52f3c3" id="optValue1" class="font-body" value="11-21-1999">
@@ -59,7 +59,7 @@
           <cl:group std:sid="group-d48a0cec" id="grpField2">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-328c2824" row="0" col="1"/>
-            <cl:output std:sid="output-db9c19af" id="optLabel2" class="font-label" value="Fiscal Year">
+            <cl:output std:sid="output-db9c19af" id="optLabel2" class="font-caption" value="Fiscal Year">
               <cl:verticaldata std:sid="v-data-2140d60c" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:output std:sid="output-d922cb29" id="optValue2" class="font-body" value="0630">
@@ -67,7 +67,7 @@
             </cl:output>
             <cl:verticallayout std:sid="v-layout-9bdc030b" spacing="4"/>
           </cl:group>
-          <cl:formlayout std:sid="f-layout-585f9466" scrollable="false" hspace="24px" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:formlayout std:sid="f-layout-585f9466" scrollable="false" hspace="24px" vspace="14px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="44" unit="PIXEL" autoSizing="true" syncminlength="false"/>
             <cl:columns length="1" unit="FRACTION"/>
             <cl:columns length="1" unit="FRACTION"/>
@@ -79,7 +79,7 @@
           <cl:group std:sid="group-93ffc2ed" id="grpField3">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-8bdc27da" row="0" col="0"/>
-            <cl:output std:sid="output-01697cd2" id="optLabel3" class="font-label" value="Sector">
+            <cl:output std:sid="output-01697cd2" id="optLabel3" class="font-caption" value="Sector">
               <cl:verticaldata std:sid="v-data-e8741742" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:output std:sid="output-140fdf64" id="optValue3" class="font-body" value="Industrials">
@@ -90,7 +90,7 @@
           <cl:group std:sid="group-e973d7be" id="grpField4">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-544ac9a6" row="0" col="1"/>
-            <cl:output std:sid="output-2871d6c9" id="optLabel4" class="font-label" value="Subsector">
+            <cl:output std:sid="output-2871d6c9" id="optLabel4" class="font-caption" value="Subsector">
               <cl:verticaldata std:sid="v-data-b0d791d0" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:output std:sid="output-c009365b" id="optValue4" class="font-body" value="Chemicals">
@@ -98,7 +98,7 @@
             </cl:output>
             <cl:verticallayout std:sid="v-layout-7835ce3c" spacing="4"/>
           </cl:group>
-          <cl:formlayout std:sid="f-layout-41d13962" scrollable="false" hspace="24px" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:formlayout std:sid="f-layout-41d13962" scrollable="false" hspace="24px" vspace="14px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="44" unit="PIXEL" autoSizing="true" syncminlength="false"/>
             <cl:columns length="1" unit="FRACTION"/>
             <cl:columns length="1" unit="FRACTION"/>
@@ -110,7 +110,7 @@
           <cl:group std:sid="group-ae5799b8" id="grpField5">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-57af7f3b" row="0" col="0"/>
-            <cl:output std:sid="output-46cb2699" id="optLabel5" class="font-label" value="External Auditor">
+            <cl:output std:sid="output-46cb2699" id="optLabel5" class="font-caption" value="External Auditor">
               <cl:verticaldata std:sid="v-data-607b9f7c" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:output std:sid="output-51a25625" id="optValue5" class="font-body" value="Punongbayan &amp; Araullo">
@@ -121,7 +121,7 @@
           <cl:group std:sid="group-ed2b90c4" id="grpField6">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-0d56f5dd" row="0" col="1"/>
-            <cl:output std:sid="output-871c8ab2" id="optLabel6" class="font-label" value="Stock Transfer Agent">
+            <cl:output std:sid="output-871c8ab2" id="optLabel6" class="font-caption" value="Stock Transfer Agent">
               <cl:verticaldata std:sid="v-data-4cc5160c" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:output std:sid="output-675bca85" id="optValue6" class="font-body" value="Philippine Stock Transfer &amp; Trust Corp.">
@@ -129,7 +129,7 @@
             </cl:output>
             <cl:verticallayout std:sid="v-layout-2ed56f85" spacing="4"/>
           </cl:group>
-          <cl:formlayout std:sid="f-layout-02dd927c" scrollable="false" hspace="24px" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:formlayout std:sid="f-layout-02dd927c" scrollable="false" hspace="24px" vspace="14px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="44" unit="PIXEL" autoSizing="true" syncminlength="false"/>
             <cl:columns length="1" unit="FRACTION"/>
             <cl:columns length="1" unit="FRACTION"/>
@@ -141,7 +141,7 @@
           <cl:group std:sid="group-a8c16ac3" id="grpField7">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-30c9d534" row="0" col="0"/>
-            <cl:output std:sid="output-253e85ca" id="optLabel7" class="font-label" value="Telephone">
+            <cl:output std:sid="output-253e85ca" id="optLabel7" class="font-caption" value="Telephone">
               <cl:verticaldata std:sid="v-data-2297e493" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:output std:sid="output-5813d506" id="optValue7" class="font-body" value="+63 2 8555 0190">
@@ -152,7 +152,7 @@
           <cl:group std:sid="group-70c39e3a" id="grpField8">
             <cl:attribute name="needs-auto-height" value="true"/>
             <cl:formdata std:sid="f-data-9afdb00b" row="0" col="1"/>
-            <cl:output std:sid="output-e030e301" id="optLabel8" class="font-label" value="Fax">
+            <cl:output std:sid="output-e030e301" id="optLabel8" class="font-caption" value="Fax">
               <cl:verticaldata std:sid="v-data-072ec785" width="100px" height="20px" autosize="height"/>
             </cl:output>
             <cl:output std:sid="output-5cda4e83" id="optValue8" class="font-body" value="+63 2 8555 0191">
@@ -160,7 +160,7 @@
             </cl:output>
             <cl:verticallayout std:sid="v-layout-a2d0d9ae" spacing="4"/>
           </cl:group>
-          <cl:formlayout std:sid="f-layout-8360e946" scrollable="false" hspace="24px" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:formlayout std:sid="f-layout-8360e946" scrollable="false" hspace="24px" vspace="14px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="44" unit="PIXEL" autoSizing="true" syncminlength="false"/>
             <cl:columns length="1" unit="FRACTION"/>
             <cl:columns length="1" unit="FRACTION"/>
@@ -169,7 +169,7 @@
         <cl:group std:sid="group-f0e0ec6a" id="grpField9">
           <cl:attribute name="needs-auto-height" value="true"/>
           <cl:verticaldata std:sid="v-data-3735a5ac" width="976px" height="44px" autosize="height"/>
-          <cl:output std:sid="output-ae1f6544" id="optLabel9" class="font-label" value="Address">
+          <cl:output std:sid="output-ae1f6544" id="optLabel9" class="font-caption" value="Address">
             <cl:verticaldata std:sid="v-data-781ef158" width="100px" height="20px" autosize="height"/>
           </cl:output>
           <cl:output std:sid="output-fc4c8244" id="optValue9" class="font-body" value="8/F One Corporate Center, Ortigas Avenue, Pasig City 1605">
@@ -180,7 +180,7 @@
         <cl:group std:sid="group-78b474cc" id="grpField10">
           <cl:attribute name="needs-auto-height" value="true"/>
           <cl:verticaldata std:sid="v-data-abe06848" width="976px" height="44px" autosize="height"/>
-          <cl:output std:sid="output-a5b95b35" id="optLabel10" class="font-label" value="URL">
+          <cl:output std:sid="output-a5b95b35" id="optLabel10" class="font-caption" value="URL">
             <cl:verticaldata std:sid="v-data-4c0f4a68" width="100px" height="20px" autosize="height"/>
           </cl:output>
           <cl:button std:sid="button-c08dcba1" id="btnUrl" class="btn-link text-left p-0" value="https://www.visayaschemicalworksinc.com.ph">
