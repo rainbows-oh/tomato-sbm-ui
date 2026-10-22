@@ -66,11 +66,12 @@
         <cl:item std:sid="item-d302fd0a" label="TAB(해당 라디오버튼은 화면 호출 확인용입니다. 확인 후 삭제 가능)" value="value2"/>
       </cl:radiobutton>
       <cl:group std:sid="group-c9d6abb5" id="grpContent" class="card">
+        <cl:attribute name="mobile-spacing" value="12"/>
         <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="544px" autosize="height"/>
         <cl:embeddedapp std:sid="e-app-95eefe20" id="emb">
           <cl:verticaldata std:sid="v-data-4d5d68b4" width="320px" height="494px" autosize="height"/>
         </cl:embeddedapp>
-        <cl:verticallayout std:sid="v-layout-edd42a47" spacing="24" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+        <cl:verticallayout std:sid="v-layout-edd42a47" spacing="14"/>
       </cl:group>
       <cl:verticallayout std:sid="v-layout-9dda75e2" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
     </cl:group>

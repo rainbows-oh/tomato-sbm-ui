@@ -64,6 +64,7 @@
           <cl:verticaldata std:sid="v-data-478c281d" width="100px" height="20px" autosize="height"/>
         </cl:output>
         <cl:group std:sid="group-2e9c82b1" class="card">
+          <cl:attribute name="mobile-spacing" value="12"/>
           <cl:verticaldata std:sid="v-data-ea959c21" width="928px" height="78px" autosize="height"/>
           <cl:output std:sid="output-de11cc9d" class="font-body" value="Public note for Ayala Land, Inc.: filing reviewed for completeness under the Revised Disclosure Rules.">
             <cl:verticaldata std:sid="v-data-c4069545" width="100px" height="20px" autosize="height"/>
@@ -71,7 +72,7 @@
           <cl:output std:sid="output-63b229f1" class="font-caption" value="Aug 25, 2026 10:15 AM">
             <cl:verticaldata std:sid="v-data-28dbd25e" width="100px" height="20px" autosize="height"/>
           </cl:output>
-          <cl:verticallayout std:sid="v-layout-c30d8b76" spacing="4" leftmargin="18" rightmargin="18" topmargin="12" bottommargin="12"/>
+          <cl:verticallayout std:sid="v-layout-c30d8b76" spacing="14"/>
         </cl:group>
         <cl:verticallayout std:sid="v-layout-cc11d357" spacing="10"/>
       </cl:group>
