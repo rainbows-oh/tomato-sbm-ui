@@ -156,6 +156,7 @@
     <cl:appspec/>
   </head>
   <body std:sid="body-csm000015">
+    <cl:listener std:sid="listener-6a12e634" name="load" handler="onBodyLoad"/>
     <cl:group std:sid="group-csm000016" id="grpHeader" class="page-title-wrap">
       <cl:attribute name="mobile-column-count" value="1"/>
       <cl:attribute name="needs-auto-height" value="true"/>
@@ -169,9 +170,9 @@
         <cl:formdata std:sid="f-data-e55cff44" row="0" col="1"/>
       </cl:button>
       <cl:formlayout std:sid="f-layout-csm000023" scrollable="false" hspace="8px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
-        <cl:rows length="36" unit="PIXEL"/>
+        <cl:rows length="36" unit="PIXEL" autoSizing="false" syncminlength="true"/>
         <cl:columns length="1" unit="FRACTION"/>
-        <cl:columns length="136" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+        <cl:columns length="136" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
       </cl:formlayout>
     </cl:group>
     <cl:group std:sid="group-csm000024" id="grpBody" class="inner">
@@ -181,9 +182,9 @@
       <cl:attribute name="mobile-left-margin" value="16"/>
       <cl:attribute name="mobile-right-margin" value="16"/>
       <cl:attribute name="mobile-top-margin" value="16"/>
-      <cl:verticaldata std:sid="v-data-csm000025" width="1024px" height="1058px" autosize="height"/>
+      <cl:verticaldata std:sid="v-data-csm000025" width="1024px" height="1056px" autosize="height"/>
       <cl:group std:sid="group-csm000026" id="grpSearch" class="search-top-box">
-        <cl:verticaldata std:sid="v-data-csm000027" width="960px" height="345px" autosize="height"/>
+        <cl:verticaldata std:sid="v-data-csm000027" width="976px" height="343px" autosize="height"/>
         <cl:group std:sid="group-csm000028" id="grpSearchHeader" class="search-head">
           <cl:verticaldata std:sid="v-data-csm000029" width="958px" height="102px" autosize="height"/>
           <cl:udc std:sid="ud-control-csm000030" id="udccomsearchtoggle1" type="udc.pse.com.udcComSearchToggle">
@@ -205,9 +206,9 @@
           <cl:attribute name="mobile-right-margin" value="16"/>
           <cl:attribute name="mobile-top-margin" value="16"/>
           <cl:attribute name="mobile-spacing" value="14"/>
-          <cl:verticaldata std:sid="v-data-csm000036" width="958px" height="241px" autosize="height"/>
+          <cl:verticaldata std:sid="v-data-csm000036" width="974px" height="239px" autosize="height"/>
           <cl:group std:sid="group-csm000037" class="filter-form">
-            <cl:verticaldata std:sid="v-data-csm000038" width="910px" height="136px" autosize="height"/>
+            <cl:verticaldata std:sid="v-data-csm000038" width="926px" height="134px" autosize="height"/>
             <cl:group std:sid="group-82580d1e" id="grpFilterRow1" class="row">
               <cl:attribute name="mobile-column-count" value="1"/>
               <cl:verticaldata std:sid="v-data-c5abb042" width="910px" height="60px" autosize="height"/>
@@ -273,15 +274,15 @@
                 <cl:columns length="1" unit="FRACTION"/>
               </cl:formlayout>
             </cl:group>
-            <cl:verticallayout std:sid="v-layout-csm000116" scrollable="false" spacing="16"/>
+            <cl:verticallayout std:sid="v-layout-csm000116" scrollable="false" spacing="14"/>
           </cl:group>
           <cl:group std:sid="group-csm000117" class="search-btn-wrap">
             <cl:verticaldata std:sid="v-data-csm000118" width="400px" height="49px" autosize="height"/>
             <cl:button std:sid="button-csm000119" class="btn-secondary" value="Clear">
-              <cl:flowlayoutdata std:sid="f-data-csm000120" width="69px" height="32px" autosize="width"/>
+              <cl:flowlayoutdata std:sid="f-data-csm000120" width="69px" height="36px" autosize="width"/>
             </cl:button>
             <cl:button std:sid="button-csm000121" class="btn-search" value="Search" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-csm000122" width="104px" height="32px" autosize="width"/>
+              <cl:flowlayoutdata std:sid="f-data-csm000122" width="104px" height="36px" autosize="width"/>
             </cl:button>
             <cl:flowlayout std:sid="f-layout-csm000123" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
           </cl:group>
@@ -347,38 +348,44 @@
               <cl:output std:sid="output-ff5c6d42">
                 <cl:celldata std:sid="c-data-fd28d16b"/>
               </cl:output>
+              <cl:expbind property="class" category="CLASS" expression="unread == 1 ? &quot;highlight&quot; : &quot;&quot;"/>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-657cdb10" rowindex="0" colindex="1" columnname="unread">
-              <cl:button std:sid="button-46f77330" icon="0">
-                <cl:expbind property="class" category="CLASS" expression="unread == &quot;1&quot; ? &quot;grd-icon btn-mail&quot; : &quot;grd-icon btn-mail-open&quot;"/>
-                <cl:celldata std:sid="c-data-3407e408" halign="CENTER" valign="CENTER" width="28" height="28"/>
-              </cl:button>
+              <cl:checkbox std:sid="c-box-e8649a67" id="cbx1" class="chk-mail" truevalue="0" falsevalue="1" text="Check">
+                <cl:celldata std:sid="c-data-7d65322f" halign="CENTER" valign="CENTER" width="28" height="28"/>
+              </cl:checkbox>
+              <cl:expbind property="class" category="CLASS" expression="unread == 1 ? &quot;highlight&quot; : &quot;&quot;"/>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-ce2de8b7" rowindex="0" colindex="2" columnname="subject">
               <cl:button std:sid="button-8dc5dba9" class="btn-link" displayexp="replies == &quot;&quot; ? subject : subject + sstr(replies, switch(replyStatus){&#xD;&#xA;&#x9;case &quot;answered&quot; : &quot;badge count answered&quot;&#xD;&#xA;&#x9;case &quot;closed&quot; : &quot;badge count close&quot;&#xD;&#xA;})">
                 <cl:expbind property="value" category="PROPERTY" expression="subject"/>
                 <cl:celldata std:sid="c-data-9e036dbe"/>
               </cl:button>
+              <cl:expbind property="class" category="CLASS" expression="unread == 1 ? &quot;highlight&quot; : &quot;&quot;"/>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-219ae7f3" rowindex="0" colindex="3" columnname="submittedBy">
               <cl:output std:sid="output-e58b801b">
                 <cl:celldata std:sid="c-data-90543878"/>
               </cl:output>
+              <cl:expbind property="class" category="CLASS" expression="unread == 1 ? &quot;highlight&quot; : &quot;&quot;"/>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-e4980e7b" rowindex="0" colindex="4" columnname="status">
               <cl:output std:sid="output-9fbfe47d" value="Output" displayexp="sstr(text, &quot;badge fill blue&quot;)">
                 <cl:celldata std:sid="c-data-5a0afb9d"/>
               </cl:output>
+              <cl:expbind property="class" category="CLASS" expression="unread == 1 ? &quot;highlight&quot; : &quot;&quot;"/>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-11250b53" rowindex="0" colindex="5" columnname="submissionDate">
               <cl:output std:sid="output-077dd5c7" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
                 <cl:celldata std:sid="c-data-6eac094d"/>
               </cl:output>
+              <cl:expbind property="class" category="CLASS" expression="unread == 1 ? &quot;highlight&quot; : &quot;&quot;"/>
             </cl:gridcell>
             <cl:gridcell std:sid="gd-cell-cbec2eca" rowindex="0" colindex="6" columnname="responseDate">
               <cl:output std:sid="output-835dd496" datatype="date" format="MM-DD-YYYY hh:mm:ss A" displayexp="text ? text : &quot;-&quot;">
                 <cl:celldata std:sid="c-data-61352fc9"/>
               </cl:output>
+              <cl:expbind property="class" category="CLASS" expression="unread == 1 ? &quot;highlight&quot; : &quot;&quot;"/>
             </cl:gridcell>
           </cl:griddetail>
         </cl:grid>
