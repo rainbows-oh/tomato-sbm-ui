@@ -608,53 +608,53 @@
           기본 .cl-button 의 hover/active/focus 투명 배경에 덮이지 않도록 상태별 동일 값 재선언
          .cl-grid-row 편집 상태에서도 유지
    ========================================================================== */
-.cl-button.grd-icon,
-.cl-button.card-icon {
-	text-align: center !important;
-	width: 28px;
-	height: 28px;
-	min-width: 28px;
-	min-height: 28px;
-	padding: 0 !important;
-	border-radius: 6px;
-	#btn--default(@white, @gray-30, @color-component-text);
-	
-	/* 아이콘 표출 전용 — 텍스트는 스크린리더용으로만 */
-	.cl-text {
-		#sound-only();
-	}
-	
-	.cl-icon {
-		margin: 0 !important;
-	}
-	
-	&:not(.cl-disabled):hover,
-	&:not(.cl-disabled).cl-hover,
-	&:not(.cl-disabled).cl-activated,
-	&:not(.cl-disabled):active,
-	&.cl-focus {
-		#btn--hover(@white, @gray-30, @color-component-text);
-	}
-}
-
-.cl-grid-row {
-	&.cl-inserted,
-	&.cl-modified,
-	&.cl-selected,
-	&.cl-editing {
-		.cl-button.grd-icon {
-			#btn--default(@white, @gray-30, @color-component-text);
-			
-			&:not(.cl-disabled):hover,
-			&:not(.cl-disabled).cl-hover,
-			&:not(.cl-disabled).cl-activated,
-			&:not(.cl-disabled):active,
-			&.cl-focus {
-				#btn--hover(@white, @gray-30, @color-component-text);
-			}
-		}
-	}
-}
+//.cl-button.grd-icon,
+//.cl-button.card-icon {
+//	text-align: center !important;
+//	width: 28px;
+//	height: 28px;
+//	min-width: 28px;
+//	min-height: 28px;
+//	padding: 0 !important;
+//	border-radius: 6px;
+//	#btn--default(@white, @gray-30, @color-component-text);
+//	
+//	/* 아이콘 표출 전용 — 텍스트는 스크린리더용으로만 */
+//	.cl-text {
+//		#sound-only();
+//	}
+//	
+//	.cl-icon {
+//		margin: 0 !important;
+//	}
+//	
+//	&:not(.cl-disabled):hover,
+//	&:not(.cl-disabled).cl-hover,
+//	&:not(.cl-disabled).cl-activated,
+//	&:not(.cl-disabled):active,
+//	&.cl-focus {
+//		#btn--hover(@white, @gray-30, @color-component-text);
+//	}
+//}
+//
+//.cl-grid-row {
+//	&.cl-inserted,
+//	&.cl-modified,
+//	&.cl-selected,
+//	&.cl-editing {
+//		.cl-button.grd-icon {
+//			#btn--default(@white, @gray-30, @color-component-text);
+//			
+//			&:not(.cl-disabled):hover,
+//			&:not(.cl-disabled).cl-hover,
+//			&:not(.cl-disabled).cl-activated,
+//			&:not(.cl-disabled):active,
+//			&.cl-focus {
+//				#btn--hover(@white, @gray-30, @color-component-text);
+//			}
+//		}
+//	}
+//}
 
 /* ==========================================================================
    Icon Classes (버튼별 아이콘 매핑)

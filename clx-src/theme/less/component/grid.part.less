@@ -48,7 +48,7 @@
 			padding: @grid--cell-padding;
 			text-align: left;
 		}
-
+		
 		&.cl-checkbox,
 		&.cl-checkboxgroup,
 		&.cl-radiobutton {
@@ -59,7 +59,7 @@
 			text-align: left;
 		}
 		
-		.badge.count  {
+		.badge.count {
 			margin-left: 8px;
 		}
 	}
@@ -215,6 +215,11 @@
 		padding: 0;
 		text-align: center;
 		vertical-align: middle;
+	}
+	
+	/* 아이콘 전용 버튼 — 셀 안에서 가운데 정렬 */
+	.cl-button.icon {
+		text-align: center;
 	}
 	
 	/* expander (행 확장/접기) — 직접 url */
@@ -541,6 +546,13 @@
 		.cl-grid-ctrl-inherit {
 			font-weight: inherit;
 		}
+	}
+	
+	/* 강조 — .highlight 는 추가/수정/삭제/선택/편집 등 모든 행·셀 상태 배경보다 우선 (행 또는 셀에 지정) */
+	&.highlight,
+	&.highlight .cl-grid-cell.cl-selected,
+	.cl-grid-cell.highlight {
+		background: @primary-5 !important;
 	}
 }
 

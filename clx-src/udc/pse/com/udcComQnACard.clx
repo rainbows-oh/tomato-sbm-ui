@@ -8,7 +8,8 @@
     <cl:appspec title="Q&amp;A 카드"/>
   </head>
   <body std:sid="body-fcdb4012" style="top:0px; left:0px; width:416px; height:350px;">
-    <cl:group std:sid="group-9b74addf" id="grp6" class="toggle-card">
+    <cl:listener std:sid="listener-3b7c1d01" name="init" handler="onBodyInit"/>
+    <cl:group std:sid="group-9b74addf" id="grp6" class="toggle-card highlight">
       <cl:formdata std:sid="f-data-0e777ed4" width="100" height="68" row="0" col="0"/>
       <cl:group std:sid="group-9d82c18b" id="grp8">
         <cl:verticaldata std:sid="v-data-95041e7f" width="382px" height="52px" autosize="height"/>
@@ -23,12 +24,14 @@
           </cl:group>
           <cl:group std:sid="group-4c62b0b1" id="grp5">
             <cl:formdata std:sid="f-data-394cab49" row="0" col="1"/>
-            <cl:button std:sid="button-f4f99039" class="card-icon btn-mail" value="Button" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-7e3970c6" width="28px" height="28px"/>
-            </cl:button>
-            <cl:button std:sid="button-2c575a8c" id="btn1" class="card-icon btn-mail-open" value="Button" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-7b9dfbdd" width="28px" height="28px" autosize="none"/>
-            </cl:button>
+            <cl:checkbox std:sid="c-box-e8649a67" id="cbx1" class="chk-mail" value="" text="Check">
+              <std:metadata>
+                <std:property key="template-uuid" value="70ecc1f1-5379-44fd-bd4c-c8721756d3db"/>
+                <std:property key="template-rev" value="1"/>
+              </std:metadata>
+              <cl:listener std:sid="listener-3b7c1d02" name="value-change" handler="onCbx1ValueChange"/>
+              <cl:flowlayoutdata std:sid="f-data-54a2b612" width="28px" height="28px" autosize="none"/>
+            </cl:checkbox>
             <cl:flowlayout std:sid="f-layout-462010f4" halign="right"/>
           </cl:group>
           <cl:formlayout std:sid="f-layout-b73a918b" scrollable="false" hspace="1fr" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
@@ -55,7 +58,7 @@
           <cl:formlayout std:sid="f-layout-16b76eca" scrollable="false" hspace="8px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="20" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
             <cl:columns length="1" unit="FRACTION"/>
-            <cl:columns length="50" unit="PIXEL"/>
+            <cl:columns length="50" unit="PIXEL" autoSizing="true" syncminlength="false"/>
           </cl:formlayout>
         </cl:group>
         <cl:verticallayout std:sid="v-layout-0b0db046" spacing="4"/>

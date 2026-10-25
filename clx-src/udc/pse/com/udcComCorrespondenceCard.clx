@@ -23,12 +23,9 @@
           </cl:group>
           <cl:group std:sid="group-4c62b0b1" id="grp7">
             <cl:formdata std:sid="f-data-394cab49" row="0" col="1"/>
-            <cl:button std:sid="button-f4f99039" id="btn1" class="card-icon btn-mail" value="Button" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-7e3970c6" width="28px" height="28px"/>
-            </cl:button>
-            <cl:button std:sid="button-2c575a8c" id="btn2" class="card-icon btn-mail-open" value="Button" icon="0">
-              <cl:flowlayoutdata std:sid="f-data-7b9dfbdd" width="28px" height="28px" autosize="none"/>
-            </cl:button>
+            <cl:checkbox std:sid="c-box-7d3e91a2" id="cbx1" class="chk-mail" fieldLabel="Unread" value="" text="Unread" clickRegion="item">
+              <cl:flowlayoutdata std:sid="f-data-7d3e91a3" width="28px" height="28px" autosize="none"/>
+            </cl:checkbox>
             <cl:flowlayout std:sid="f-layout-462010f4" halign="right"/>
           </cl:group>
           <cl:formlayout std:sid="f-layout-b73a918b" scrollable="false" hspace="1fr" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">

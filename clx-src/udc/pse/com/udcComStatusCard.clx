@@ -23,7 +23,7 @@
           </cl:group>
           <cl:group std:sid="group-4c62b0b1" id="grp5">
             <cl:formdata std:sid="f-data-394cab49" row="0" col="1"/>
-            <cl:button std:sid="button-f4f99039" class="card-icon btn-file" value="Button" icon="0">
+            <cl:button std:sid="button-f4f99039" class="icon btn-file" value="Button" icon="0">
               <cl:flowlayoutdata std:sid="f-data-7e3970c6" width="28px" height="28px"/>
             </cl:button>
             <cl:flowlayout std:sid="f-layout-462010f4" halign="right"/>

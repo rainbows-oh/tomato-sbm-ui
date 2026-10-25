@@ -50,7 +50,7 @@
         </cl:checkboxgroup>
         <cl:verticallayout std:sid="v-layout-11eb4c11" spacing="6"/>
       </cl:group>
-      <cl:group std:sid="group-04b902cc" id="grp3" class="btn-wrap">
+      <cl:group std:sid="group-04b902cc" id="grp3" class="btn-footer-wrap">
         <cl:verticaldata std:sid="v-data-7d7261c6" width="400px" height="54px" autosize="height"/>
         <cl:button std:sid="button-96f349c1" id="btnClear" class="btn-secondary" value="Clear Filters">
           <cl:flowlayoutdata std:sid="f-data-3a329ac6" width="110px" height="36px" autosize="width"/>
