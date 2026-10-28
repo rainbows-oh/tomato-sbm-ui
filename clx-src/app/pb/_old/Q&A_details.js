@@ -53,18 +53,17 @@
  */
 function onRdb1SelectionChange(e) {
 	var rdb1 = e.control;
-	
 	var embContent = app.lookup("emb");
 	
-	if(rdb1.value == "value1") {
-		cpr.core.App.load("app/pb/old/Correspondence_details_message", function(loadedApp) {
-			if(loadedApp) {
+	if (rdb1.value == "value1") {
+		cpr.core.App.load("app/pb/_old/Q&A_details_message", function(loadedApp) {
+			if (loadedApp) {
 				embContent.app = loadedApp;
 			}
 		})
 	} else {
-		cpr.core.App.load("app/pb/old/Correspondence_details_TAB", function(loadedApp) {
-			if(loadedApp) {
+		cpr.core.App.load("app/pb/_old/Q&A_details_TAB", function(loadedApp) {
+			if (loadedApp) {
 				embContent.app = loadedApp;
 			}
 		})

@@ -143,7 +143,7 @@ function onButtonClick(e) {
  */
 function onButtonClick2(e) {
 	var button = e.control;
-	util.Dialog.open(app, "app/pb/old/CompanyManagement_LogoDia", 400, -1, function(){
+	util.Dialog.open(app, "app/pb/_old/CompanyManagement_LogoDia", 400, -1, function(){
 		
 	});
 }
