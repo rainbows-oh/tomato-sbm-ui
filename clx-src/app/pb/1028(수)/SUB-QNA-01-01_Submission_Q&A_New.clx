@@ -1,0 +1,136 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-10700f40" version="1.0.6164">
+  <head std:sid="head-ec4ee482">
+    <screen std:sid="screen-1c425079" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-f3abc1ae" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-f0487b32" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-f5dd3c0f"/>
+    <cl:appspec title="New Question"/>
+  </head>
+  <body std:sid="body-fa5f6637" style="top:0px; left:0px; width:700px; height:760px;">
+    <cl:group std:sid="group-aeb301ea" id="grpBody">
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:verticaldata std:sid="v-data-f9431e1f" width="1024px" height="691px" autosize="height"/>
+      <cl:group std:sid="group-f547834e" id="grpContent" class="content-wrap">
+        <cl:attribute name="mobile-fit" value="true"/>
+        <cl:attribute name="mobile-spacing" value="14"/>
+        <cl:verticaldata std:sid="v-data-7164b5b2" width="976px" height="566px" autosize="height"/>
+        <cl:group std:sid="group-qas000042" id="grp4" class="row">
+          <cl:verticaldata std:sid="v-data-qas000043" width="708px" height="42px" autosize="height"/>
+          <cl:group std:sid="group-qas000044" id="grp5">
+            <cl:attribute name="needs-auto-height" value="true"/>
+            <cl:formdata std:sid="f-data-qas000045" width="100" height="9" row="0" col="0"/>
+            <cl:output std:sid="output-qas000046" id="opt1" class="font-caption" value="Company Name">
+              <cl:verticaldata std:sid="v-data-qas000047" width="100px" height="18px" autosize="height"/>
+            </cl:output>
+            <cl:output std:sid="output-497f1562" id="opt33" class="font-body" value="Pacific Horizon Securities, Inc.">
+              <cl:verticaldata std:sid="v-data-743558bc" width="100px" height="20px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-qas000062" spacing="4"/>
+          </cl:group>
+          <cl:group std:sid="group-2e4a32df" id="grp36">
+            <cl:attribute name="needs-auto-height" value="true"/>
+            <cl:formdata std:sid="f-data-78aa1c6d" row="0" col="1"/>
+            <cl:output std:sid="output-a6f9bf98" id="opt32" class="font-caption" value="Submitted By">
+              <cl:verticaldata std:sid="v-data-35ca54c6" width="100px" height="18px" autosize="height"/>
+            </cl:output>
+            <cl:output std:sid="output-d5dc7c4e" id="opt34" class="font-body" value="Sofia Garcia">
+              <cl:verticaldata std:sid="v-data-8394359d" width="100px" height="20px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-a5ef115d" spacing="4"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-qas000073" scrollable="false" hspace="12px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION" minlength="0"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:group std:sid="group-70fd196c" id="grp1">
+          <cl:verticaldata std:sid="v-data-ce436066" width="976px" height="60px" autosize="height"/>
+          <cl:output std:sid="output-6f38622b" id="optLabel4" class="font-label required" value="Subject">
+            <cl:verticaldata std:sid="v-data-9b71c993" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:combobox std:sid="c-box-898e3551" id="cmb2">
+            <cl:verticaldata std:sid="v-data-21231e58" width="100px" height="36px"/>
+          </cl:combobox>
+          <cl:verticallayout std:sid="v-layout-6de6a19d" scrollable="false" spacing="4"/>
+        </cl:group>
+        <cl:group std:sid="group-6369faa5">
+          <cl:verticaldata std:sid="v-data-8f2b6469" width="976px" height="60px" autosize="height"/>
+          <cl:output std:sid="output-4e721523" id="optLabel3" class="font-label required" value="Send To">
+            <cl:verticaldata std:sid="v-data-26a79139" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:radiobutton std:sid="r-button-6a483e17" id="rdb1">
+            <cl:verticaldata std:sid="v-data-4094a7b5" width="200px" height="36px" autosize="height"/>
+            <cl:item std:sid="item-c44cae4b" label="PSE" value="value1"/>
+            <cl:item std:sid="item-a57f1453" label="PDEx" value="value2"/>
+          </cl:radiobutton>
+          <cl:verticallayout std:sid="v-layout-bebf06b2" scrollable="false" spacing="4"/>
+        </cl:group>
+        <cl:group std:sid="group-e5cef13e">
+          <cl:verticaldata std:sid="v-data-ba4cae1a" width="976px" height="60px" autosize="height"/>
+          <cl:output std:sid="output-a62db6f8" id="optLabel2" class="font-label required" value="Department">
+            <cl:verticaldata std:sid="v-data-cfa33747" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:combobox std:sid="c-box-095d5e92" id="cmb1">
+            <cl:verticaldata std:sid="v-data-fbf406d6" width="100px" height="36px"/>
+          </cl:combobox>
+          <cl:verticallayout std:sid="v-layout-463c30cb" scrollable="false" spacing="4"/>
+        </cl:group>
+        <cl:group std:sid="group-397dcdef">
+          <cl:verticaldata std:sid="v-data-b0430023" width="976px" height="124px" autosize="height"/>
+          <cl:output std:sid="output-d6ccf485" id="optLabel5" class="font-label required" value="Content ">
+            <cl:verticaldata std:sid="v-data-8f1a8d01" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:textarea std:sid="t-area-65fac7ff" id="txa1" class="resizable" fieldLabel="Remarks" placeholder="Enter text">
+            <cl:verticaldata std:sid="v-data-d32287cf" width="100px" height="100px" autosize="height"/>
+          </cl:textarea>
+          <cl:verticallayout std:sid="v-layout-d69eed04" scrollable="false" spacing="4"/>
+        </cl:group>
+        <cl:udc std:sid="ud-control-8bcf7296" id="udccomfiledropzone1" type="udc.pse.com.udcComFileDropzone">
+          <cl:verticaldata std:sid="v-data-c395dc01" width="976px" height="140px" autosize="height"/>
+          <cl:property name="isTypeInfoVisible" value="true" type="boolean"/>
+          <cl:property name="typeInfo" value="Only PDF or image files are allowed." type="string"/>
+        </cl:udc>
+        <cl:verticallayout std:sid="v-layout-11d46297" spacing="16"/>
+      </cl:group>
+      <cl:group std:sid="group-af78ab22" id="grpFooter" class="btn-footer-wrap">
+        <cl:verticaldata std:sid="v-data-10767a7c" width="976px" height="57px" autosize="height"/>
+        <cl:group std:sid="group-42420b7f" id="grp2">
+          <cl:attribute name="needs-auto-height" value="true"/>
+          <cl:attribute name="mobile-index" value="1"/>
+          <cl:formdata std:sid="f-data-c0f43170" row="0" col="0" rowspan="1" colspan="1"/>
+          <cl:button std:sid="button-9d93fd7a" id="btnCancel" class="btn-secondary" value="Cancel">
+            <cl:flowlayoutdata std:sid="f-data-71ba1a76" width="88px" height="36px" autosize="width"/>
+          </cl:button>
+          <cl:flowlayout std:sid="f-layout-0dfd9082"/>
+        </cl:group>
+        <cl:group std:sid="group-7f0ce362" id="grp3">
+          <cl:attribute name="needs-auto-height" value="true"/>
+          <cl:attribute name="mobile-index" value="1"/>
+          <cl:formdata std:sid="f-data-82cfdbf0" row="0" col="1"/>
+          <cl:button std:sid="button-e101bf9b" id="btnCancel2" class="btn-primary" value="Submit">
+            <cl:flowlayoutdata std:sid="f-data-c66c1ac4" width="88px" height="36px" autosize="width"/>
+          </cl:button>
+          <cl:flowlayout std:sid="f-layout-ed427ef1" halign="right"/>
+        </cl:group>
+        <cl:formlayout std:sid="f-layout-b2eefcdd" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:rows length="1" unit="FRACTION"/>
+          <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
+          <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-75ec9db6" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+    </cl:group>
+    <cl:verticallayout std:sid="v-layout-c56a26cf" spacing="18"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>
