@@ -285,13 +285,13 @@
         </cl:grid>
         <cl:group std:sid="group-1b791d41" id="grpCardSection" class="card-section" visible="false">
           <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="336px" autosize="height"/>
-          <cl:udc std:sid="ud-control-52a20d4c" id="udccomqnacard1" type="udc.pse.com.udcComQnACard">
+          <cl:udc std:sid="ud-control-52a20d4c" id="udccomqnacard1" type="udc.pse.card.udcComQnACard">
             <cl:formdata std:sid="f-data-d41085cb" row="0" col="0"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-c0b67eb2" id="udccomqnacard2" type="udc.pse.com.udcComQnACard">
+          <cl:udc std:sid="ud-control-c0b67eb2" id="udccomqnacard2" type="udc.pse.card.udcComQnACard">
             <cl:formdata std:sid="f-data-e1e48913" row="0" col="1"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-286044be" id="udccomqnacard3" type="udc.pse.com.udcComQnACard">
+          <cl:udc std:sid="ud-control-286044be" id="udccomqnacard3" type="udc.pse.card.udcComQnACard">
             <cl:formdata std:sid="f-data-9827e39a" row="0" col="2"/>
           </cl:udc>
           <cl:formlayout std:sid="f-layout-d413d9c1" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">

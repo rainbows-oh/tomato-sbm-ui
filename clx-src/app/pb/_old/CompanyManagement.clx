@@ -184,13 +184,13 @@
           <cl:attribute name="mobile-h-spacing" value="12"/>
           <cl:attribute name="mobile-v-spacing" value="12"/>
           <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="313px" autosize="height"/>
-          <cl:udc std:sid="ud-control-8fe2ffed" id="udccomcompanymanagementcard1" type="udc.pse.com.udcComCompanyManagementCard">
+          <cl:udc std:sid="ud-control-8fe2ffed" id="udccomcompanymanagementcard1" type="udc.pse.card.udcComCompanyManagementCard">
             <cl:formdata std:sid="f-data-5d7803f1" row="0" col="0"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-d32188be" id="udccomcompanymanagementcard2" type="udc.pse.com.udcComCompanyManagementCard">
+          <cl:udc std:sid="ud-control-d32188be" id="udccomcompanymanagementcard2" type="udc.pse.card.udcComCompanyManagementCard">
             <cl:formdata std:sid="f-data-12fbedbd" row="0" col="1"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-116b3599" id="udccomcompanymanagementcard3" type="udc.pse.com.udcComCompanyManagementCard">
+          <cl:udc std:sid="ud-control-116b3599" id="udccomcompanymanagementcard3" type="udc.pse.card.udcComCompanyManagementCard">
             <cl:formdata std:sid="f-data-898a7ab7" row="0" col="2"/>
           </cl:udc>
           <cl:formlayout std:sid="f-layout-9ec8d59e" scrollable="false" hspace="16px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">

@@ -386,13 +386,13 @@
           <cl:attribute name="mobile-h-spacing" value="12"/>
           <cl:attribute name="mobile-v-spacing" value="12"/>
           <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="313px" autosize="height"/>
-          <cl:udc std:sid="ud-control-735fe473" id="udccomstatuscard1" type="udc.pse.com.udcComStatusCard">
+          <cl:udc std:sid="ud-control-735fe473" id="udccomstatuscard1" type="udc.pse.card.udcComStatusCard">
             <cl:formdata std:sid="f-data-b0193e9f" row="0" col="0"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-29a72cfe" id="udccomstatuscard2" type="udc.pse.com.udcComStatusCard">
+          <cl:udc std:sid="ud-control-29a72cfe" id="udccomstatuscard2" type="udc.pse.card.udcComStatusCard">
             <cl:formdata std:sid="f-data-8e5f5025" row="0" col="1"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-57a7b72b" id="udccomstatuscard3" type="udc.pse.com.udcComStatusCard">
+          <cl:udc std:sid="ud-control-57a7b72b" id="udccomstatuscard3" type="udc.pse.card.udcComStatusCard">
             <cl:formdata std:sid="f-data-c9ea6fb7" row="0" col="2"/>
           </cl:udc>
           <cl:formlayout std:sid="f-layout-9ec8d59e" scrollable="false" hspace="16px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">

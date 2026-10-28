@@ -394,13 +394,13 @@
           <cl:attribute name="mobile-v-spacing" value="12"/>
           <cl:attribute name="mobile-h-spacing" value="12"/>
           <cl:verticaldata std:sid="v-data-c174a6fd" width="976px" height="313px" autosize="height"/>
-          <cl:udc std:sid="ud-control-9df5b644" type="udc.pse.com.udcComQnACard">
+          <cl:udc std:sid="ud-control-9df5b644" type="udc.pse.card.udcComQnACard">
             <cl:formdata std:sid="f-data-03c2236e" row="0" col="0"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-a41b21d4" type="udc.pse.com.udcComQnACard">
+          <cl:udc std:sid="ud-control-a41b21d4" type="udc.pse.card.udcComQnACard">
             <cl:formdata std:sid="f-data-9fbce77f" row="0" col="1"/>
           </cl:udc>
-          <cl:udc std:sid="ud-control-80ed3d1c" type="udc.pse.com.udcComQnACard">
+          <cl:udc std:sid="ud-control-80ed3d1c" type="udc.pse.card.udcComQnACard">
             <cl:formdata std:sid="f-data-4e032112" row="0" col="2"/>
           </cl:udc>
           <cl:formlayout std:sid="f-layout-9ec8d59e" scrollable="false" hspace="16px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
