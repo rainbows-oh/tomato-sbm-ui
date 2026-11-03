@@ -20,6 +20,7 @@
  * Business Common Module Area
  *******************************************************************************/
 exports.getText = getText;
+exports.getFileList = getFileList
 
 
 /*******************************************************************************
@@ -52,6 +53,10 @@ function getText() {
 	// TODO: Write code to return the text to be displayed in the grid's view mode.
 	return "";
 };
+
+function getFileList(){
+	return maFiles;
+}
 
 /**
  * 숨김 파일 input을 생성하고 change 이벤트를 연결한다.
