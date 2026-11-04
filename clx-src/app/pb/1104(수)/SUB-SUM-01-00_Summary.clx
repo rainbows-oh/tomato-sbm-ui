@@ -1,0 +1,608 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-ab4e79cf" version="1.0.6164">
+  <head std:sid="head-fef2a59d">
+    <screen std:sid="screen-fce5e969" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-5dac1053" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-74b548ad" id="EXB-PART" name="EXB-PART" width="360px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <cl:model std:sid="model-e918cc57">
+      <cl:dataset std:sid="d-set-00000333" id="dsCorrespondence">
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-3f86298a" name="contents"/>
+          <cl:datacolumn std:sid="d-column-a2def2a0" name="from"/>
+          <cl:datacolumn std:sid="d-column-ae4bdfdc" name="receivedAt"/>
+          <cl:datacolumn std:sid="d-column-34208a76" name="isRead"/>
+          <cl:datacolumn std:sid="d-column-1d6309ab" name="unreadCnt"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="contents"><![CDATA[Updated disclosure filing guidelines]]></cl:datavalue>
+            <cl:datavalue columnname="from"><![CDATA[Disclosure Department]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260825151140]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+            <cl:datavalue columnname="unreadCnt"><![CDATA[2]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="contents"><![CDATA[Scheduled maintenance notice]]></cl:datavalue>
+            <cl:datavalue columnname="from"><![CDATA[System Administrator]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260824093012]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+            <cl:datavalue columnname="unreadCnt"><![CDATA[1]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="contents"><![CDATA[Form 17-C validation reminder]]></cl:datavalue>
+            <cl:datavalue columnname="from"><![CDATA[Listings Department]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260822160518]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+            <cl:datavalue columnname="unreadCnt"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="contents"><![CDATA[Company profile update request]]></cl:datavalue>
+            <cl:datavalue columnname="from"><![CDATA[System Administrator]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260820104207]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+            <cl:datavalue columnname="unreadCnt"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="contents"><![CDATA[August submission calendar]]></cl:datavalue>
+            <cl:datavalue columnname="from"><![CDATA[CMIC]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260818131536]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+            <cl:datavalue columnname="unreadCnt"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-00000339" id="dsCmicInquiry">
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-49770168" name="templateName"/>
+          <cl:datacolumn std:sid="d-column-7b0b8d62" name="templateType"/>
+          <cl:datacolumn std:sid="d-column-5c44d854" name="receivedAt"/>
+          <cl:datacolumn std:sid="d-column-e62ba4a1" name="isRead"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[Clarification on REIT Investment Limits]]></cl:datavalue>
+            <cl:datavalue columnname="templateType"><![CDATA[Unstructured]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260823111642]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[Material Information Disclosure Review]]></cl:datavalue>
+            <cl:datavalue columnname="templateType"><![CDATA[Structured]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260821144809]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[ACGR Supporting Document Request]]></cl:datavalue>
+            <cl:datavalue columnname="templateType"><![CDATA[Unstructured]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260819090531]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[ETF Portfolio Reporting Inquiry]]></cl:datavalue>
+            <cl:datavalue columnname="templateType"><![CDATA[Structured]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260817162215]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[Beneficial Ownership Disclosure]]></cl:datavalue>
+            <cl:datavalue columnname="templateType"><![CDATA[Unstructured]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260814103854]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-0000033f" id="dsApproval">
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-e3ce8707" name="templateName"/>
+          <cl:datacolumn std:sid="d-column-26899aa3" name="formNo"/>
+          <cl:datacolumn std:sid="d-column-ffe281f5" name="submittedBy"/>
+          <cl:datacolumn std:sid="d-column-f803c7b1" name="receivedAt"/>
+          <cl:datacolumn std:sid="d-column-6b365e7d" name="isRead"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[REIT Monthly Asset Report]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[REIT-4]]></cl:datavalue>
+            <cl:datavalue columnname="submittedBy"><![CDATA[Daniel Lim]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260825145618]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[Notice of Cash Dividend]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[4-1]]></cl:datavalue>
+            <cl:datavalue columnname="submittedBy"><![CDATA[Sofia Garcia]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260825101429]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[Material Information Disclosure]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[17-1]]></cl:datavalue>
+            <cl:datavalue columnname="submittedBy"><![CDATA[Miguel Tan]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260824170847]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[Corporate Governance Scorecard]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[ACGR-1]]></cl:datavalue>
+            <cl:datavalue columnname="submittedBy"><![CDATA[Patricia Lee]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260823133305]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[ETF Portfolio Composition]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[ETF-6]]></cl:datavalue>
+            <cl:datavalue columnname="submittedBy"><![CDATA[Noel Ramos]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260822094612]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-00000345" id="dsRejected">
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-35848a24" name="templateName"/>
+          <cl:datacolumn std:sid="d-column-82ba757a" name="formNo"/>
+          <cl:datacolumn std:sid="d-column-c10f4730" name="rejectedBy"/>
+          <cl:datacolumn std:sid="d-column-bbd18b0c" name="receivedAt"/>
+          <cl:datacolumn std:sid="d-column-5aff1c5e" name="isRead"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[REIT Monthly Asset Report]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[REIT-4]]></cl:datavalue>
+            <cl:datavalue columnname="rejectedBy"><![CDATA[Maria Santos]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260825134216]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[Quarterly Financial Results]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[17-1]]></cl:datavalue>
+            <cl:datavalue columnname="rejectedBy"><![CDATA[John Reyes]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260821152450]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[Corporate Governance Scorecard]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[ACGR-1]]></cl:datavalue>
+            <cl:datavalue columnname="rejectedBy"><![CDATA[Angela Cruz]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260818110933]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[ETF Fund Factsheet]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[ETF-6]]></cl:datavalue>
+            <cl:datavalue columnname="rejectedBy"><![CDATA[Carlo Mendoza]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260815161728]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="templateName"><![CDATA[Annual Shareholding Disclosure]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[4-1]]></cl:datavalue>
+            <cl:datavalue columnname="rejectedBy"><![CDATA[Maria Santos]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260812095104]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-0000034b" id="dsQna">
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-fca35bc4" name="contents"/>
+          <cl:datacolumn std:sid="d-column-ad10a2a0" name="from"/>
+          <cl:datacolumn std:sid="d-column-66e84da5" name="receivedAt"/>
+          <cl:datacolumn std:sid="d-column-aee60b25" name="isRead"/>
+          <cl:datacolumn std:sid="d-column-6ce72599" name="unreadCnt"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="contents"><![CDATA[How can I update the filing contact information?]]></cl:datavalue>
+            <cl:datavalue columnname="from"><![CDATA[Disclosure Review]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260825101429]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+            <cl:datavalue columnname="unreadCnt"><![CDATA[2]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="contents"><![CDATA[Which documents are required for an amendment?]]></cl:datavalue>
+            <cl:datavalue columnname="from"><![CDATA[System Administrator]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260824101429]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+            <cl:datavalue columnname="unreadCnt"><![CDATA[1]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="contents"><![CDATA[Where can I find the current REIT form?]]></cl:datavalue>
+            <cl:datavalue columnname="from"><![CDATA[Listings & Compliance]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260823101429]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+            <cl:datavalue columnname="unreadCnt"><![CDATA[3]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="contents"><![CDATA[How is the submission deadline calculated?]]></cl:datavalue>
+            <cl:datavalue columnname="from"><![CDATA[Issuer Relations]]></cl:datavalue>
+            <cl:datavalue columnname="receivedAt"><![CDATA[20260822101429]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+            <cl:datavalue columnname="unreadCnt"><![CDATA[2]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="Submission Summary"/>
+  </head>
+  <body std:sid="body-000003d9" class="summary">
+    <cl:group std:sid="group-00000301" id="grpHeader" class="page-title-wrap">
+      <cl:attribute name="mobile-column-count" value="1"/>
+      <cl:attribute name="needs-auto-height" value="true"/>
+      <cl:verticaldata std:sid="v-data-00000302" width="1024px" height="48px" autosize="height" sticky="true" stickytopoffset="0"/>
+      <cl:udc std:sid="ud-control-00000303" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
+        <cl:attribute name="needs-auto-height" value="true"/>
+        <cl:formdata std:sid="f-data-00000304" row="0" col="0"/>
+        <cl:property name="title" value="Summary" type="string"/>
+      </cl:udc>
+      <cl:formlayout std:sid="f-layout-00000305" scrollable="false" hspace="8px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="36" unit="PIXEL" autoSizing="false" syncminlength="true"/>
+        <cl:columns length="1" unit="FRACTION"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:group std:sid="group-000003d6" id="grpBody" class="inner">
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:verticaldata std:sid="v-data-000003d7" width="1024px" height="1228px" autosize="height"/>
+      <cl:group std:sid="group-00000306" id="grp1">
+        <cl:verticaldata std:sid="v-data-00000307" width="976px" height="24px" autosize="height"/>
+        <cl:output std:sid="output-00000308" id="opt1" class="font-body-s gray" value="Review your latest Submission activity and pending work.">
+          <cl:formdata std:sid="f-data-00000309" valign="FILL" row="0" col="0"/>
+        </cl:output>
+        <cl:button std:sid="button-0000030a" id="btn1" class="btn-settings-black icon" fieldLabel="Settings" icon="0">
+          <cl:formdata std:sid="f-data-0000030b" row="0" col="1"/>
+        </cl:button>
+        <cl:formlayout std:sid="f-layout-0000030c" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:rows length="24" unit="PIXEL"/>
+          <cl:columns length="1" unit="FRACTION"/>
+          <cl:columns length="24" unit="PIXEL"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:group std:sid="group-00000330" id="grpTotal" class="total-box">
+        <cl:attribute name="mobile-column-count" value="2"/>
+        <cl:attribute name="mobile-horizontal-margin" value="0"/>
+        <cl:attribute name="mobile-vertical-margin" value="0"/>
+        <cl:attribute name="mobile-h-spacing" value="8"/>
+        <cl:attribute name="mobile-v-spacing" value="8"/>
+        <cl:verticaldata std:sid="v-data-00000331" width="976px" height="68px" autosize="height"/>
+        <cl:group std:sid="group-0000030d" id="grp2" class="total-cell">
+          <cl:attribute name="mobile-min-height" value="72"/>
+          <cl:formdata std:sid="f-data-0000030e" row="0" col="0"/>
+          <cl:output std:sid="output-0000030f" id="opt2" class="font-display" value="2">
+            <cl:verticaldata std:sid="v-data-00000310" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:output std:sid="output-00000311" id="opt3" class="font-caption-strong" value="Correspondence">
+            <cl:verticaldata std:sid="v-data-00000312" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-00000313" spacing="2"/>
+        </cl:group>
+        <cl:group std:sid="group-00000314" id="grp3" class="total-cell">
+          <cl:attribute name="mobile-min-height" value="72"/>
+          <cl:formdata std:sid="f-data-00000315" row="0" col="1"/>
+          <cl:output std:sid="output-00000316" id="opt4" class="font-display" value="4">
+            <cl:verticaldata std:sid="v-data-00000317" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:output std:sid="output-00000318" id="opt5" class="font-caption-strong" value="CMIC Inquiries">
+            <cl:verticaldata std:sid="v-data-00000319" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-0000031a" spacing="2"/>
+        </cl:group>
+        <cl:group std:sid="group-0000031b" id="grp4" class="total-cell">
+          <cl:attribute name="mobile-min-height" value="72"/>
+          <cl:formdata std:sid="f-data-0000031c" row="0" col="2"/>
+          <cl:output std:sid="output-0000031d" id="opt6" class="font-display" value="5">
+            <cl:verticaldata std:sid="v-data-0000031e" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:output std:sid="output-0000031f" id="opt7" class="font-caption-strong" value="Approval">
+            <cl:verticaldata std:sid="v-data-00000320" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-00000321" spacing="2"/>
+        </cl:group>
+        <cl:group std:sid="group-00000322" id="grp5" class="total-cell">
+          <cl:attribute name="mobile-min-height" value="72"/>
+          <cl:formdata std:sid="f-data-00000323" row="0" col="3"/>
+          <cl:output std:sid="output-00000324" id="opt8" class="font-display" value="2">
+            <cl:verticaldata std:sid="v-data-00000325" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:output std:sid="output-00000326" id="opt9" class="font-caption-strong" value="Rejected">
+            <cl:verticaldata std:sid="v-data-00000327" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-00000328" spacing="2"/>
+        </cl:group>
+        <cl:group std:sid="group-00000329" id="grp6" class="total-cell">
+          <cl:attribute name="mobile-min-height" value="72"/>
+          <cl:formdata std:sid="f-data-0000032a" row="0" col="4"/>
+          <cl:output std:sid="output-0000032b" id="opt10" class="font-display" value="4">
+            <cl:verticaldata std:sid="v-data-0000032c" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:output std:sid="output-0000032d" id="opt11" class="font-caption-strong" value="Q&amp;A">
+            <cl:verticaldata std:sid="v-data-0000032e" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-0000032f" spacing="2"/>
+        </cl:group>
+        <cl:formlayout std:sid="f-layout-00000332" scrollable="false" hspace="32px" vspace="8px" top-margin="12px" right-margin="16px" bottom-margin="12px" left-margin="16px" hseparatorwidth="0" vseparatorwidth="1" vseparatortype="BY_CLASS">
+          <cl:rows length="42" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          <cl:columns length="1" unit="FRACTION"/>
+          <cl:columns length="1" unit="FRACTION"/>
+          <cl:columns length="1" unit="FRACTION"/>
+          <cl:columns length="1" unit="FRACTION"/>
+          <cl:columns length="1" unit="FRACTION"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:group std:sid="group-000003d3" id="grpContent" class="content-wrap">
+        <cl:attribute name="mobile-spacing" value="16"/>
+        <cl:attribute name="mobile-fit" value="true"/>
+        <cl:verticaldata std:sid="v-data-000003d4" width="976px" height="1048px" autosize="height"/>
+        <cl:accordion std:sid="accordion-00000366" id="acd1" item-displayexp="text + &quot;  (&quot; + userAttr(&quot;newCnt&quot;) + &quot; New)&quot;">
+          <cl:verticaldata std:sid="v-data-00000367" width="976px" height="200px" autosize="height"/>
+          <cl:sectionitem std:sid="s-item-00000368" selected="true" displayexp="title + &quot; &quot; + sstr(userAttr(&quot;badge&quot;), [&quot;badge fill blue&quot;])" title="Correspondence">
+            <std:metadata>
+              <std:property key="is-active-item" value="true"/>
+            </std:metadata>
+            <cl:attribute name="badge" value="2 New"/>
+            <cl:group std:sid="group-00000369" id="grp7">
+              <cl:grid std:sid="grid-00000360" id="grd1" fieldLabel="Correspondence list" datasetid="dsCorrespondence" autofit="0, 1, 2" columnMovable="false">
+                <cl:verticaldata std:sid="v-data-2761f0e8" width="954px" height="100px" autosize="height"/>
+                <cl:gridcolumn std:sid="g-column-5eef0c0a" width="520px"/>
+                <cl:gridcolumn std:sid="g-column-7db464ae" width="240px"/>
+                <cl:gridcolumn std:sid="g-column-16c85885" width="216px"/>
+                <cl:gridheader std:sid="gh-band-3ad7a3b7">
+                  <cl:gridrow std:sid="g-row-268f87a7" height="36px"/>
+                  <cl:gridcell std:sid="gh-cell-c622bd3e" rowindex="0" colindex="0" targetcolumnname="contents" sortable="false" filterable="false" text="Subject"/>
+                  <cl:gridcell std:sid="gh-cell-251adbaa" rowindex="0" colindex="1" targetcolumnname="from" sortable="false" filterable="false" text="From"/>
+                  <cl:gridcell std:sid="gh-cell-56a9a85d" rowindex="0" colindex="2" targetcolumnname="receivedAt" sortable="false" filterable="false" text="Date and Time"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-fffeb0a5">
+                  <cl:gridrow std:sid="g-row-4afd3f66" height="54px"/>
+                  <cl:gridcell std:sid="gd-cell-74cba186" rowindex="0" colindex="0" columnname="contents">
+                    <cl:button std:sid="button-ea1d0554" id="btn2" class="btn-link ellipsis-2" displayexp="contents + (unreadCnt ? sstr(unreadCnt, &quot;badge count answered&quot;) : &quot;&quot;)">
+                      <cl:expbind property="value" category="PROPERTY" expression="contents"/>
+                      <cl:celldata std:sid="c-data-06ae86f6"/>
+                    </cl:button>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-70a407bb" rowindex="0" colindex="1" columnname="from">
+                    <cl:output std:sid="output-69377e95" id="opt12">
+                      <cl:expbind property="value" category="PROPERTY" expression="from"/>
+                      <cl:celldata std:sid="c-data-5c26b646"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-12cd4d6c" rowindex="0" colindex="2" columnname="receivedAt">
+                    <cl:output std:sid="output-7505decf" id="opt13" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+                      <cl:expbind property="value" category="PROPERTY" expression="receivedAt"/>
+                      <cl:celldata std:sid="c-data-d472e054"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:verticallayout std:sid="v-layout-ea76a491"/>
+            </cl:group>
+          </cl:sectionitem>
+        </cl:accordion>
+        <cl:accordion std:sid="accordion-00000380" id="acd2" item-displayexp="text + &quot;  (&quot; + userAttr(&quot;newCnt&quot;) + &quot; New)&quot;">
+          <cl:verticaldata std:sid="v-data-00000381" width="976px" height="200px" autosize="height"/>
+          <cl:sectionitem std:sid="s-item-00000382" displayexp="title + &quot; &quot; + sstr(userAttr(&quot;badge&quot;), [&quot;badge fill blue&quot;])" title="CMIC Inquiry">
+            <std:metadata>
+              <std:property key="is-active-item" value="true"/>
+            </std:metadata>
+            <cl:attribute name="badge" value="4 New"/>
+            <cl:group std:sid="group-00000383" id="grp8">
+              <cl:grid std:sid="grid-0000037a" id="grd2" fieldLabel="CMIC Inquiry list" datasetid="dsCmicInquiry" autofit="0, 1, 2" columnMovable="false">
+                <cl:verticaldata std:sid="v-data-6dcb89ce" width="954px" height="100px" autosize="height"/>
+                <cl:gridcolumn std:sid="g-column-468c32b5" width="560px"/>
+                <cl:gridcolumn std:sid="g-column-a96d260c" width="244px"/>
+                <cl:gridcolumn std:sid="g-column-add14338" width="150px"/>
+                <cl:gridheader std:sid="gh-band-5641f3cf">
+                  <cl:gridrow std:sid="g-row-c65a5b2b" height="36px"/>
+                  <cl:gridcell std:sid="gh-cell-f42dd302" rowindex="0" colindex="0" targetcolumnname="templateName" sortable="false" filterable="false" text="Template Name"/>
+                  <cl:gridcell std:sid="gh-cell-942d8107" rowindex="0" colindex="1" targetcolumnname="templateType" sortable="false" filterable="false" text="Template Type"/>
+                  <cl:gridcell std:sid="gh-cell-fb931108" rowindex="0" colindex="2" targetcolumnname="receivedAt" sortable="false" filterable="false" text="Date and Time"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-85cd43aa">
+                  <cl:gridrow std:sid="g-row-4501cd02" height="54px"/>
+                  <cl:gridcell std:sid="gd-cell-2b1eb6fa" rowindex="0" colindex="0" columnname="templateName">
+                    <cl:button std:sid="button-9345b0b6" id="btn3" class="btn-link ellipsis-2">
+                      <cl:expbind property="value" category="PROPERTY" expression="templateName"/>
+                      <cl:celldata std:sid="c-data-7fc31517"/>
+                    </cl:button>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-702c00c9" rowindex="0" colindex="1" columnname="templateType">
+                    <cl:output std:sid="output-f6df36a8" id="opt14">
+                      <cl:expbind property="value" category="PROPERTY" expression="templateType"/>
+                      <cl:celldata std:sid="c-data-a0acd928"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-5f68185e" rowindex="0" colindex="2" columnname="receivedAt">
+                    <cl:output std:sid="output-bc612a60" id="opt15" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+                      <cl:expbind property="value" category="PROPERTY" expression="receivedAt"/>
+                      <cl:celldata std:sid="c-data-5374db78"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:verticallayout std:sid="v-layout-185a6891"/>
+            </cl:group>
+          </cl:sectionitem>
+        </cl:accordion>
+        <cl:accordion std:sid="accordion-0000039a" id="acd3" item-displayexp="text + &quot;  (&quot; + userAttr(&quot;newCnt&quot;) + &quot; New)&quot;">
+          <cl:verticaldata std:sid="v-data-0000039b" width="976px" height="200px" autosize="height"/>
+          <cl:sectionitem std:sid="s-item-0000039c" displayexp="title + &quot; &quot; + sstr(userAttr(&quot;badge&quot;), [&quot;badge fill blue&quot;])" title="Approval">
+            <std:metadata>
+              <std:property key="is-active-item" value="true"/>
+            </std:metadata>
+            <cl:attribute name="badge" value="3 New"/>
+            <cl:group std:sid="group-0000039d" id="grp9">
+              <cl:grid std:sid="grid-00000394" id="grd3" fieldLabel="Approval list" datasetid="dsApproval" autofit="0, 1, 2, 3" columnMovable="false">
+                <cl:verticaldata std:sid="v-data-5c42054c" width="954px" height="100px" autosize="height"/>
+                <cl:gridcolumn std:sid="g-column-c02b6850" width="350px"/>
+                <cl:gridcolumn std:sid="g-column-26f05919" width="160px"/>
+                <cl:gridcolumn std:sid="g-column-57c50825" width="164px"/>
+                <cl:gridcolumn std:sid="g-column-159f6f1c" width="280px"/>
+                <cl:gridheader std:sid="gh-band-32c9d6de">
+                  <cl:gridrow std:sid="g-row-44909781" height="36px"/>
+                  <cl:gridcell std:sid="gh-cell-f9372363" rowindex="0" colindex="0" targetcolumnname="templateName" sortable="false" filterable="false" text="Template Name"/>
+                  <cl:gridcell std:sid="gh-cell-67e2a1d5" rowindex="0" colindex="1" targetcolumnname="formNo" sortable="false" filterable="false" text="PSE Form No."/>
+                  <cl:gridcell std:sid="gh-cell-b2962746" rowindex="0" colindex="2" targetcolumnname="submittedBy" sortable="false" filterable="false" text="Submitted By"/>
+                  <cl:gridcell std:sid="gh-cell-30a0f28d" rowindex="0" colindex="3" targetcolumnname="receivedAt" sortable="false" filterable="false" text="Date and Time"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-b3bec822">
+                  <cl:gridrow std:sid="g-row-6e3c365e" height="54px"/>
+                  <cl:gridcell std:sid="gd-cell-9b51d3ac" rowindex="0" colindex="0" columnname="templateName">
+                    <cl:button std:sid="button-848fa454" id="btn4" class="btn-link ellipsis-2">
+                      <cl:expbind property="value" category="PROPERTY" expression="templateName"/>
+                      <cl:celldata std:sid="c-data-40336d89"/>
+                    </cl:button>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-47b001ec" rowindex="0" colindex="1" columnname="formNo">
+                    <cl:output std:sid="output-0e175a45" id="opt16">
+                      <cl:expbind property="value" category="PROPERTY" expression="formNo"/>
+                      <cl:celldata std:sid="c-data-6d3b363c"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-31269808" rowindex="0" colindex="2" columnname="submittedBy">
+                    <cl:output std:sid="output-f2594ed4" id="opt17">
+                      <cl:expbind property="value" category="PROPERTY" expression="submittedBy"/>
+                      <cl:celldata std:sid="c-data-c0699dde"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-50a85909" rowindex="0" colindex="3" columnname="receivedAt">
+                    <cl:output std:sid="output-07e8a875" id="opt18" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+                      <cl:expbind property="value" category="PROPERTY" expression="receivedAt"/>
+                      <cl:celldata std:sid="c-data-f30db545"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:verticallayout std:sid="v-layout-04b7a447"/>
+            </cl:group>
+          </cl:sectionitem>
+        </cl:accordion>
+        <cl:accordion std:sid="accordion-000003b4" id="acd4" item-displayexp="text + &quot;  (&quot; + userAttr(&quot;newCnt&quot;) + &quot; New)&quot;">
+          <cl:verticaldata std:sid="v-data-000003b5" width="976px" height="200px" autosize="height"/>
+          <cl:sectionitem std:sid="s-item-000003b6" displayexp="title + &quot; &quot; + sstr(userAttr(&quot;badge&quot;), [&quot;badge fill blue&quot;])" title="Rejected">
+            <std:metadata>
+              <std:property key="is-active-item" value="true"/>
+            </std:metadata>
+            <cl:attribute name="badge" value="2 New"/>
+            <cl:group std:sid="group-000003b7" id="grp10">
+              <cl:grid std:sid="grid-000003ae" id="grd4" fieldLabel="Rejected list" datasetid="dsRejected" autofit="0, 1, 2, 3" columnMovable="false">
+                <cl:verticaldata std:sid="v-data-8556d299" width="954px" height="100px" autosize="height"/>
+                <cl:gridcolumn std:sid="g-column-62c87d95" width="350px"/>
+                <cl:gridcolumn std:sid="g-column-edb99700" width="160px"/>
+                <cl:gridcolumn std:sid="g-column-34273512" width="164px"/>
+                <cl:gridcolumn std:sid="g-column-8d080da7" width="280px"/>
+                <cl:gridheader std:sid="gh-band-040cd385">
+                  <cl:gridrow std:sid="g-row-31e15ecf" height="36px"/>
+                  <cl:gridcell std:sid="gh-cell-48808436" rowindex="0" colindex="0" targetcolumnname="templateName" sortable="false" filterable="false" text="Template Name"/>
+                  <cl:gridcell std:sid="gh-cell-b868331a" rowindex="0" colindex="1" targetcolumnname="formNo" sortable="false" filterable="false" text="PSE Form No."/>
+                  <cl:gridcell std:sid="gh-cell-ec8c076e" rowindex="0" colindex="2" targetcolumnname="rejectedBy" sortable="false" filterable="false" text="Rejected By"/>
+                  <cl:gridcell std:sid="gh-cell-2b780729" rowindex="0" colindex="3" targetcolumnname="receivedAt" sortable="false" filterable="false" text="Date and Time"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-6ef41a93">
+                  <cl:gridrow std:sid="g-row-b1354b0e" height="54px"/>
+                  <cl:gridcell std:sid="gd-cell-0b5499d6" rowindex="0" colindex="0" columnname="templateName">
+                    <cl:button std:sid="button-b6447f97" id="btn5" class="btn-link ellipsis-2">
+                      <cl:expbind property="value" category="PROPERTY" expression="templateName"/>
+                      <cl:celldata std:sid="c-data-06044606"/>
+                    </cl:button>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-07163edd" rowindex="0" colindex="1" columnname="formNo">
+                    <cl:output std:sid="output-12335266" id="opt19">
+                      <cl:expbind property="value" category="PROPERTY" expression="formNo"/>
+                      <cl:celldata std:sid="c-data-2e134996"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-b461c721" rowindex="0" colindex="2" columnname="rejectedBy">
+                    <cl:output std:sid="output-ec7f784c" id="opt20">
+                      <cl:expbind property="value" category="PROPERTY" expression="rejectedBy"/>
+                      <cl:celldata std:sid="c-data-c859c70f"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-f96b12c9" rowindex="0" colindex="3" columnname="receivedAt">
+                    <cl:output std:sid="output-1c3bb59f" id="opt21" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+                      <cl:expbind property="value" category="PROPERTY" expression="receivedAt"/>
+                      <cl:celldata std:sid="c-data-d145a790"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:verticallayout std:sid="v-layout-380bab28"/>
+            </cl:group>
+          </cl:sectionitem>
+        </cl:accordion>
+        <cl:accordion std:sid="accordion-000003ce" id="acd5" item-displayexp="text + &quot;  (&quot; + userAttr(&quot;newCnt&quot;) + &quot; New)&quot;">
+          <cl:verticaldata std:sid="v-data-000003cf" width="976px" height="200px" autosize="height"/>
+          <cl:sectionitem std:sid="s-item-000003d0" displayexp="title + &quot; &quot; + sstr(userAttr(&quot;badge&quot;), [&quot;badge fill blue&quot;])" title="Q&amp;A">
+            <std:metadata>
+              <std:property key="is-active-item" value="true"/>
+            </std:metadata>
+            <cl:attribute name="badge" value="4 New"/>
+            <cl:group std:sid="group-000003d1" id="grp11">
+              <cl:grid std:sid="grid-000003c8" id="grd5" fieldLabel="Q&amp;A list" datasetid="dsQna" autofit="0, 1, 2" columnMovable="false">
+                <cl:verticaldata std:sid="v-data-d9ccb35d" width="954px" height="100px" autosize="height"/>
+                <cl:gridcolumn std:sid="g-column-8dd8caa9" width="520px"/>
+                <cl:gridcolumn std:sid="g-column-1c24a0d4" width="240px"/>
+                <cl:gridcolumn std:sid="g-column-c90bc8e7" width="216px"/>
+                <cl:gridheader std:sid="gh-band-1c89b7f7">
+                  <cl:gridrow std:sid="g-row-16c9e32d" height="36px"/>
+                  <cl:gridcell std:sid="gh-cell-4c976e43" rowindex="0" colindex="0" targetcolumnname="contents" sortable="false" filterable="false" text="Subject"/>
+                  <cl:gridcell std:sid="gh-cell-2ff75012" rowindex="0" colindex="1" targetcolumnname="from" sortable="false" filterable="false" text="From"/>
+                  <cl:gridcell std:sid="gh-cell-6c34da89" rowindex="0" colindex="2" targetcolumnname="receivedAt" sortable="false" filterable="false" text="Date and Time"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-3d38f16c">
+                  <cl:gridrow std:sid="g-row-3e60f194" height="54px"/>
+                  <cl:gridcell std:sid="gd-cell-82a9d139" rowindex="0" colindex="0" columnname="contents">
+                    <cl:button std:sid="button-ec359aa7" id="btn6" class="btn-link ellipsis-2" displayexp="contents + (unreadCnt ? sstr(unreadCnt, &quot;badge count answered&quot;) : &quot;&quot;)">
+                      <cl:expbind property="value" category="PROPERTY" expression="contents"/>
+                      <cl:celldata std:sid="c-data-3ef6cc41"/>
+                    </cl:button>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-a28fca1d" rowindex="0" colindex="1" columnname="from">
+                    <cl:output std:sid="output-933267f5" id="opt22">
+                      <cl:expbind property="value" category="PROPERTY" expression="from"/>
+                      <cl:celldata std:sid="c-data-72e34016"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-c3a97d3d" rowindex="0" colindex="2" columnname="receivedAt">
+                    <cl:output std:sid="output-a7803508" id="opt23" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+                      <cl:expbind property="value" category="PROPERTY" expression="receivedAt"/>
+                      <cl:celldata std:sid="c-data-381c36ce"/>
+                    </cl:output>
+                    <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;highlight&quot; : &quot;&quot;"/>
+                  </cl:gridcell>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:verticallayout std:sid="v-layout-ef1de780"/>
+            </cl:group>
+          </cl:sectionitem>
+        </cl:accordion>
+        <cl:verticallayout std:sid="v-layout-000003d5" spacing="12"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-000003d8" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+    </cl:group>
+    <cl:verticallayout std:sid="v-layout-000003d9" spacing="0"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

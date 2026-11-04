@@ -1,0 +1,341 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-00001085" version="1.0.6190">
+  <head std:sid="head-00001008">
+    <screen std:sid="screen-00001009" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-0000100a" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-0000100b" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-0000100c">
+      <cl:dataset std:sid="d-set-00001001" id="dsList">
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-0000202e" name="no"/>
+          <cl:datacolumn std:sid="d-column-0000202f" name="templateName"/>
+          <cl:datacolumn std:sid="d-column-00002030" name="replyStatus"/>
+          <cl:datacolumn std:sid="d-column-00002031" name="inquiryDate"/>
+          <cl:datacolumn std:sid="d-column-00002032" name="isRead"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[1]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Material Information Disclosure]]></cl:datavalue>
+            <cl:datavalue columnname="replyStatus"><![CDATA[No Reply]]></cl:datavalue>
+            <cl:datavalue columnname="inquiryDate"><![CDATA[20260825145618]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[2]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[REIT Monthly Asset Report]]></cl:datavalue>
+            <cl:datavalue columnname="replyStatus"><![CDATA[Replied]]></cl:datavalue>
+            <cl:datavalue columnname="inquiryDate"><![CDATA[20260824101429]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[3]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Notice of Cash Dividend]]></cl:datavalue>
+            <cl:datavalue columnname="replyStatus"><![CDATA[No Reply]]></cl:datavalue>
+            <cl:datavalue columnname="inquiryDate"><![CDATA[20260823160531]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[4]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Corporate Governance Scorecard]]></cl:datavalue>
+            <cl:datavalue columnname="replyStatus"><![CDATA[Replied]]></cl:datavalue>
+            <cl:datavalue columnname="inquiryDate"><![CDATA[20260822114207]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[5]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[ETF Portfolio Composition]]></cl:datavalue>
+            <cl:datavalue columnname="replyStatus"><![CDATA[Replied]]></cl:datavalue>
+            <cl:datavalue columnname="inquiryDate"><![CDATA[20260821152450]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[Y]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[6]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Quarterly Financial Results]]></cl:datavalue>
+            <cl:datavalue columnname="replyStatus"><![CDATA[No Reply]]></cl:datavalue>
+            <cl:datavalue columnname="inquiryDate"><![CDATA[20260820133305]]></cl:datavalue>
+            <cl:datavalue columnname="isRead"><![CDATA[N]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="CMIC Inquiry"/>
+  </head>
+  <body std:sid="body-0000107e">
+    <cl:group std:sid="group-0000100d" id="grpHeader" class="page-title-wrap">
+      <cl:attribute name="mobile-column-count" value="1"/>
+      <cl:attribute name="needs-auto-height" value="true"/>
+      <cl:verticaldata std:sid="v-data-0000100e" width="1024px" height="48px" autosize="height" sticky="true" stickytopoffset="0"/>
+      <cl:udc std:sid="ud-control-0000100f" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
+        <cl:attribute name="needs-auto-height" value="true"/>
+        <cl:formdata std:sid="f-data-00001010" row="0" col="0"/>
+        <cl:property name="title" value="CMIC Inquiry" type="string"/>
+      </cl:udc>
+      <cl:formlayout std:sid="f-layout-00001011" scrollable="false" hspace="8px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="36" unit="PIXEL" autoSizing="false" syncminlength="true"/>
+        <cl:columns length="1" unit="FRACTION"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:group std:sid="group-0000107f" id="grpBody" class="inner">
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:verticaldata std:sid="v-data-00001080" width="1024px" height="1163px" autosize="height"/>
+      <cl:output std:sid="output-00001081" class="font-caption" value="Review CMIC inquiries and replies for submitted templates.">
+        <cl:verticaldata std:sid="v-data-00001082" width="100px" height="20px" autosize="height"/>
+      </cl:output>
+      <cl:group std:sid="group-00001012" id="grpSearch" class="search-top-box">
+        <cl:verticaldata std:sid="v-data-00001013" width="976px" height="319px" autosize="height"/>
+        <cl:group std:sid="group-00001014" id="grpSearchHeader" class="search-head">
+          <cl:verticaldata std:sid="v-data-00001015" width="958px" height="102px" autosize="height"/>
+          <cl:udc std:sid="ud-control-00001016" id="udccomsearchtoggle1" type="udc.pse.com.udcComSearchToggle">
+            <cl:verticaldata std:sid="v-data-00001017" width="942px" height="52px" autosize="height"/>
+            <cl:property name="optMsg" value="optMessage" type="control"/>
+            <cl:property name="grpId" value="grpSearchFilter" type="control"/>
+            <cl:property name="targetOutput" value="optMessage" type="control"/>
+            <cl:property name="targetGroup" value="grpSearchFilter" type="control"/>
+          </cl:udc>
+          <cl:output std:sid="output-00001018" id="optMessage" class="truncate" visible="false" value="No filters applied">
+            <cl:verticaldata std:sid="v-data-00001019" width="100px" height="50px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-0000101a" scrollable="false" spacing="0"/>
+        </cl:group>
+        <cl:group std:sid="group-0000101b" id="grpSearchFilter" class="sch-filter-box">
+          <cl:attribute name="mobile-fit" value="true"/>
+          <cl:attribute name="mobile-bottom-margin" value="16"/>
+          <cl:attribute name="mobile-left-margin" value="16"/>
+          <cl:attribute name="mobile-right-margin" value="16"/>
+          <cl:attribute name="mobile-top-margin" value="16"/>
+          <cl:attribute name="mobile-spacing" value="14"/>
+          <cl:verticaldata std:sid="v-data-0000101c" width="974px" height="215px" autosize="height"/>
+          <cl:group std:sid="group-0000101d" class="filter-form">
+            <cl:verticaldata std:sid="v-data-0000101e" width="926px" height="102px" autosize="height"/>
+            <cl:group std:sid="group-0000101f" class="row">
+              <cl:attribute name="mobile-column-count" value="1"/>
+              <cl:verticaldata std:sid="v-data-00001020" width="926px" height="102px" autosize="height"/>
+              <cl:group std:sid="group-00001021">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-00001022" width="100" height="67" row="0" col="0"/>
+                <cl:output std:sid="output-00001023" class="font-label" value="Template Name">
+                  <cl:verticaldata std:sid="v-data-00001024" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:group std:sid="group-00001025" class="input-group">
+                  <cl:attribute name="mobile-column-count" value="1"/>
+                  <cl:verticaldata std:sid="v-data-00001026" width="539px" height="36px" autosize="height"/>
+                  <cl:combobox std:sid="c-box-00001027" fieldLabel="Select Template Name" multiple="true">
+                    <cl:formdata std:sid="f-data-00001028" row="0" col="0"/>
+                  </cl:combobox>
+                  <cl:inputbox std:sid="i-box-00001029" fieldLabel="Template Name" placeholder="Enter a template name">
+                    <cl:formdata std:sid="f-data-0000102a" row="0" col="1"/>
+                  </cl:inputbox>
+                  <cl:formlayout std:sid="f-layout-0000102b" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                    <cl:rows length="36" unit="PIXEL"/>
+                    <cl:columns length="160" unit="PIXEL"/>
+                    <cl:columns length="1" unit="FRACTION"/>
+                  </cl:formlayout>
+                </cl:group>
+                <cl:group std:sid="group-85f184e0" id="grpSelectChips">
+                  <cl:verticaldata std:sid="v-data-e306f0c4" width="457px" height="36px" autosize="height"/>
+                  <cl:udc std:sid="ud-control-aba4c70e" type="udc.pse.com.udcComSearchCompanyNameChip">
+                    <cl:flowlayoutdata std:sid="f-data-1a42721e" width="161px" height="24px" autosize="width"/>
+                  </cl:udc>
+                  <cl:udc std:sid="ud-control-b7a1774f" type="udc.pse.com.udcComSearchCompanyNameChip">
+                    <cl:flowlayoutdata std:sid="f-data-9f4fb02b" width="161px" height="24px" autosize="width"/>
+                  </cl:udc>
+                  <cl:flowlayout std:sid="f-layout-6dedc86a" hspacing="8"/>
+                </cl:group>
+                <cl:verticallayout std:sid="v-layout-0000102c" spacing="6"/>
+              </cl:group>
+              <cl:group std:sid="group-0000102d">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-0000102e" row="0" col="1"/>
+                <cl:output std:sid="output-0000102f" class="font-label" value="Period">
+                  <cl:verticaldata std:sid="v-data-00001030" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:udc std:sid="ud-control-00001031" id="udccomdateperiodpicker1" type="udc.pse.com.udcComDatePeriodPicker">
+                  <cl:verticaldata std:sid="v-data-00001032" width="300px" height="36px" autosize="height"/>
+                </cl:udc>
+                <cl:verticallayout std:sid="v-layout-00001033" spacing="6"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-00001034" scrollable="false" hspace="12px" vspace="14px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION" minlength="0"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-00001035" scrollable="false" spacing="14"/>
+          </cl:group>
+          <cl:group std:sid="group-00001036" class="search-btn-wrap">
+            <cl:verticaldata std:sid="v-data-00001037" width="400px" height="54px" autosize="height"/>
+            <cl:button std:sid="button-00001038" class="btn-secondary" value="Clear">
+              <cl:flowlayoutdata std:sid="f-data-00001039" width="69px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-0000103a" class="btn-search" value="Search" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-0000103b" width="104px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:flowlayout std:sid="f-layout-0000103c" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-0000103d" scrollable="false" spacing="16" leftmargin="24" rightmargin="24" topmargin="20" bottommargin="20"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-0000103e" scrollable="false" spacing="0"/>
+      </cl:group>
+      <cl:group std:sid="group-00001079" id="grpContent" class="content-wrap">
+        <cl:attribute name="mobile-spacing" value="16"/>
+        <cl:attribute name="mobile-fit" value="true"/>
+        <cl:verticaldata std:sid="v-data-0000107a" width="976px" height="736px" autosize="height"/>
+        <cl:group std:sid="group-0000103f" class="search-list-top">
+          <cl:attribute name="mobile-column-count" value="1"/>
+          <cl:verticaldata std:sid="v-data-00001040" width="400px" height="36px" autosize="height"/>
+          <cl:output std:sid="output-00001041" class="sch-info" value="12" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; CMIC inquiries&quot;">
+            <cl:attribute name="needs-auto-height" value="true"/>
+            <cl:formdata std:sid="f-data-00001042" row="0" col="0"/>
+          </cl:output>
+          <cl:group std:sid="group-00001043">
+            <cl:formdata std:sid="f-data-00001044" row="0" col="1"/>
+            <cl:udc std:sid="ud-control-00001045" id="udccomviewbutton1" type="udc.pse.com.udcComViewButton">
+              <cl:flowlayoutdata std:sid="f-data-00001046" width="76px" height="36px" autosize="both"/>
+              <cl:property name="targetCard" value="grpCardSection" type="control"/>
+              <cl:property name="targetTable" value="grpGridSection" type="control"/>
+            </cl:udc>
+            <cl:combobox std:sid="c-box-00001047" fieldLabel="Rows per page">
+              <cl:flowlayoutdata std:sid="f-data-00001048" width="110px" height="36px" autosize="none"/>
+            </cl:combobox>
+            <cl:flowlayout std:sid="f-layout-00001049" scrollable="false" hspacing="12" vspacing="12" halign="right" valign="middle"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-0000104a" scrollable="false" hspace="1fr" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="500" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="400" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:grid std:sid="grid-0000204b" id="grpGridSection" fieldLabel="CMIC Inquiry list" datasetid="dsList" autofit="2" resizablecolumns="2, 3, 4" columnMovable="true">
+          <cl:verticaldata std:sid="v-data-0000204c" width="400px" height="200px" autosize="height"/>
+          <cl:rowstyle>
+            <cl:expbind property="background-color" category="STYLER" expression="isRead == &quot;N&quot; ? &quot;#EFF6FF&quot; : &quot;&quot;"/>
+          </cl:rowstyle>
+          <cl:gridcolumn std:sid="g-column-00002033" width="52px"/>
+          <cl:gridcolumn std:sid="g-column-00002034" width="60px"/>
+          <cl:gridcolumn std:sid="g-column-00002035" width="400px"/>
+          <cl:gridcolumn std:sid="g-column-00002036" width="200px"/>
+          <cl:gridcolumn std:sid="g-column-00002037" width="260px"/>
+          <cl:gridheader std:sid="gh-band-0000204d">
+            <cl:gridrow std:sid="g-row-0000204e" height="32px"/>
+            <cl:gridcell std:sid="gh-cell-00002038" rowindex="0" colindex="0" targetcolumnname="no" sortable="false" filterable="false" text="No"/>
+            <cl:gridcell std:sid="gh-cell-00002039" rowindex="0" colindex="1" sortable="false" filterable="false" text=""/>
+            <cl:gridcell std:sid="gh-cell-0000203a" rowindex="0" colindex="2" targetcolumnname="templateName" sortable="true" filterable="false" text="Template Name"/>
+            <cl:gridcell std:sid="gh-cell-0000203b" rowindex="0" colindex="3" targetcolumnname="replyStatus" sortable="true" filterable="false" text="Reply Status"/>
+            <cl:gridcell std:sid="gh-cell-0000203c" rowindex="0" colindex="4" targetcolumnname="inquiryDate" sortable="true" filterable="false" text="Date and Time"/>
+          </cl:gridheader>
+          <cl:griddetail std:sid="gd-band-0000204f">
+            <cl:gridrow std:sid="g-row-00002050" height="50px"/>
+            <cl:gridcell std:sid="gd-cell-0000203f" rowindex="0" colindex="0" columnname="no">
+              <cl:output std:sid="output-0000203d">
+                <cl:expbind property="class" category="CLASS" expression="isRead == &quot;N&quot; ? &quot;fw-bold&quot; : &quot;&quot;"/>
+                <cl:celldata std:sid="c-data-0000203e"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-00002041" rowindex="0" colindex="1" columnname="isRead">
+              <cl:checkbox std:sid="c-box-e8649a67" id="cbx1" class="chk-mail" fieldLabel="Unread" value="" truevalue="Y" falsevalue="N">
+                <std:metadata>
+                  <std:property key="template-uuid" value="70ecc1f1-5379-44fd-bd4c-c8721756d3db"/>
+                  <std:property key="template-rev" value="1"/>
+                </std:metadata>
+                <cl:celldata std:sid="c-data-e67368e8" halign="CENTER" valign="CENTER" width="28" height="28"/>
+              </cl:checkbox>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-00002044" rowindex="0" colindex="2" columnname="templateName">
+              <cl:button std:sid="button-00002042" class="btn-link">
+                <cl:expbind property="value" category="PROPERTY" expression="templateName"/>
+                <cl:celldata std:sid="c-data-00002043"/>
+              </cl:button>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-00002047" rowindex="0" colindex="3" columnname="replyStatus">
+              <cl:output std:sid="output-00002045">
+                <cl:celldata std:sid="c-data-00002046"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-0000204a" rowindex="0" colindex="4" columnname="inquiryDate">
+              <cl:output std:sid="output-00002048" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+                <cl:celldata std:sid="c-data-00002049"/>
+              </cl:output>
+            </cl:gridcell>
+          </cl:griddetail>
+        </cl:grid>
+        <cl:group std:sid="group-00001076" id="grpCardSection" class="card-section" visible="false">
+          <cl:attribute name="mobile-column-count" value="1"/>
+          <cl:attribute name="mobile-h-spacing" value="12"/>
+          <cl:attribute name="mobile-v-spacing" value="12"/>
+          <cl:verticaldata std:sid="v-data-00001077" width="976px" height="400px" autosize="height"/>
+          <cl:udc std:sid="ud-control-00002051" type="udc.pse.card.udcComCmicInquiryCard">
+            <cl:formdata std:sid="f-data-00002052" row="0" col="0"/>
+            <cl:property name="no" value="1" type="string"/>
+            <cl:property name="templateName" value="Material Information Disclosure" type="string"/>
+            <cl:property name="replyStatus" value="No Reply" type="string"/>
+            <cl:property name="inquiryDate" value="20260825145618" type="string"/>
+            <cl:property name="isRead" value="N" type="string"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-00002053" type="udc.pse.card.udcComCmicInquiryCard">
+            <cl:formdata std:sid="f-data-00002054" row="0" col="1"/>
+            <cl:property name="no" value="2" type="string"/>
+            <cl:property name="templateName" value="REIT Monthly Asset Report" type="string"/>
+            <cl:property name="replyStatus" value="Replied" type="string"/>
+            <cl:property name="inquiryDate" value="20260824101429" type="string"/>
+            <cl:property name="isRead" value="Y" type="string"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-00002055" type="udc.pse.card.udcComCmicInquiryCard">
+            <cl:formdata std:sid="f-data-00002056" row="0" col="2"/>
+            <cl:property name="no" value="3" type="string"/>
+            <cl:property name="templateName" value="Notice of Cash Dividend" type="string"/>
+            <cl:property name="replyStatus" value="No Reply" type="string"/>
+            <cl:property name="inquiryDate" value="20260823160531" type="string"/>
+            <cl:property name="isRead" value="N" type="string"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-00002057" type="udc.pse.card.udcComCmicInquiryCard">
+            <cl:formdata std:sid="f-data-00002058" row="1" col="0"/>
+            <cl:property name="no" value="4" type="string"/>
+            <cl:property name="templateName" value="Corporate Governance Scorecard" type="string"/>
+            <cl:property name="replyStatus" value="Replied" type="string"/>
+            <cl:property name="inquiryDate" value="20260822114207" type="string"/>
+            <cl:property name="isRead" value="Y" type="string"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-00002059" type="udc.pse.card.udcComCmicInquiryCard">
+            <cl:formdata std:sid="f-data-0000205a" row="1" col="1"/>
+            <cl:property name="no" value="5" type="string"/>
+            <cl:property name="templateName" value="ETF Portfolio Composition" type="string"/>
+            <cl:property name="replyStatus" value="Replied" type="string"/>
+            <cl:property name="inquiryDate" value="20260821152450" type="string"/>
+            <cl:property name="isRead" value="Y" type="string"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-0000205b" type="udc.pse.card.udcComCmicInquiryCard">
+            <cl:formdata std:sid="f-data-0000205c" row="1" col="2"/>
+            <cl:property name="no" value="6" type="string"/>
+            <cl:property name="templateName" value="Quarterly Financial Results" type="string"/>
+            <cl:property name="replyStatus" value="No Reply" type="string"/>
+            <cl:property name="inquiryDate" value="20260820133305" type="string"/>
+            <cl:property name="isRead" value="N" type="string"/>
+          </cl:udc>
+          <cl:formlayout std:sid="f-layout-00001078" scrollable="false" hspace="16px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:udc std:sid="ud-control-0000107b" id="udccompagination1" type="udc.pse.com.udcComPagination">
+          <cl:verticaldata std:sid="v-data-0000107c" width="1024px" height="40px" autosize="height"/>
+        </cl:udc>
+        <cl:verticallayout std:sid="v-layout-0000107d" scrollable="false" spacing="20"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-00001083" scrollable="false" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+    </cl:group>
+    <cl:verticallayout std:sid="v-layout-00001084" scrollable="true" spacing="0"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

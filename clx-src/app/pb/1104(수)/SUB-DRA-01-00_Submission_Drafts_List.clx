@@ -1,0 +1,320 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-00001083" version="1.0.6190">
+  <head std:sid="head-00001006">
+    <screen std:sid="screen-00001007" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-00001008" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-00001009" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-0000100a">
+      <cl:dataset std:sid="d-set-00001001" id="dsList">
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-00001002" name="no"/>
+          <cl:datacolumn std:sid="d-column-00001003" name="templateName"/>
+          <cl:datacolumn std:sid="d-column-00001004" name="formNo"/>
+          <cl:datacolumn std:sid="d-column-00001005" name="lastSaved"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[1]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[REIT Monthly Asset Report]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[REIT-4]]></cl:datavalue>
+            <cl:datavalue columnname="lastSaved"><![CDATA[20260825145618]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[2]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Notice of Cash Dividend]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[4-1]]></cl:datavalue>
+            <cl:datavalue columnname="lastSaved"><![CDATA[20260824101429]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[3]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Corporate Governance Scorecard]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[ACGR-1]]></cl:datavalue>
+            <cl:datavalue columnname="lastSaved"><![CDATA[20260823160531]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[4]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Material Information Disclosure]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[17-1]]></cl:datavalue>
+            <cl:datavalue columnname="lastSaved"><![CDATA[20260822114207]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[5]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[ETF Portfolio Composition]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[ETF-6]]></cl:datavalue>
+            <cl:datavalue columnname="lastSaved"><![CDATA[20260821152450]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="no"><![CDATA[6]]></cl:datavalue>
+            <cl:datavalue columnname="templateName"><![CDATA[Quarterly Financial Results]]></cl:datavalue>
+            <cl:datavalue columnname="formNo"><![CDATA[17-Q]]></cl:datavalue>
+            <cl:datavalue columnname="lastSaved"><![CDATA[20260820133305]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="Drafts"/>
+  </head>
+  <body std:sid="body-0000107c">
+    <cl:group std:sid="group-0000100b" id="grpHeader" class="page-title-wrap">
+      <cl:attribute name="mobile-column-count" value="1"/>
+      <cl:attribute name="needs-auto-height" value="true"/>
+      <cl:verticaldata std:sid="v-data-0000100c" width="1024px" height="48px" autosize="height" sticky="true" stickytopoffset="0"/>
+      <cl:udc std:sid="ud-control-0000100d" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
+        <cl:attribute name="needs-auto-height" value="true"/>
+        <cl:formdata std:sid="f-data-0000100e" row="0" col="0"/>
+        <cl:property name="title" value="Drafts" type="string"/>
+      </cl:udc>
+      <cl:formlayout std:sid="f-layout-0000100f" scrollable="false" hspace="8px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="36" unit="PIXEL" autoSizing="false" syncminlength="true"/>
+        <cl:columns length="1" unit="FRACTION"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:group std:sid="group-0000107d" id="grpBody" class="inner">
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:verticaldata std:sid="v-data-0000107e" width="1024px" height="1163px" autosize="height"/>
+      <cl:output std:sid="output-0000107f" class="font-caption" value="Continue working on your saved drafts.">
+        <cl:verticaldata std:sid="v-data-00001080" width="100px" height="20px" autosize="height"/>
+      </cl:output>
+      <cl:group std:sid="group-00001010" id="grpSearch" class="search-top-box">
+        <cl:verticaldata std:sid="v-data-00001011" width="976px" height="319px" autosize="height"/>
+        <cl:group std:sid="group-00001012" id="grpSearchHeader" class="search-head">
+          <cl:verticaldata std:sid="v-data-00001013" width="958px" height="102px" autosize="height"/>
+          <cl:udc std:sid="ud-control-00001014" id="udccomsearchtoggle1" type="udc.pse.com.udcComSearchToggle">
+            <cl:verticaldata std:sid="v-data-00001015" width="942px" height="52px" autosize="height"/>
+            <cl:property name="optMsg" value="optMessage" type="control"/>
+            <cl:property name="grpId" value="grpSearchFilter" type="control"/>
+            <cl:property name="targetOutput" value="optMessage" type="control"/>
+            <cl:property name="targetGroup" value="grpSearchFilter" type="control"/>
+          </cl:udc>
+          <cl:output std:sid="output-00001016" id="optMessage" class="truncate" visible="false" value="No filters applied">
+            <cl:verticaldata std:sid="v-data-00001017" width="100px" height="50px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-00001018" scrollable="false" spacing="0"/>
+        </cl:group>
+        <cl:group std:sid="group-00001019" id="grpSearchFilter" class="sch-filter-box">
+          <cl:attribute name="mobile-fit" value="true"/>
+          <cl:attribute name="mobile-bottom-margin" value="16"/>
+          <cl:attribute name="mobile-left-margin" value="16"/>
+          <cl:attribute name="mobile-right-margin" value="16"/>
+          <cl:attribute name="mobile-top-margin" value="16"/>
+          <cl:attribute name="mobile-spacing" value="14"/>
+          <cl:verticaldata std:sid="v-data-0000101a" width="974px" height="215px" autosize="height"/>
+          <cl:group std:sid="group-0000101b" class="filter-form">
+            <cl:verticaldata std:sid="v-data-0000101c" width="926px" height="102px" autosize="height"/>
+            <cl:group std:sid="group-0000101d" class="row">
+              <cl:attribute name="mobile-column-count" value="1"/>
+              <cl:verticaldata std:sid="v-data-0000101e" width="926px" height="102px" autosize="height"/>
+              <cl:group std:sid="group-0000101f">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-00001020" width="100" height="67" row="0" col="0"/>
+                <cl:output std:sid="output-00001021" class="font-label" value="Template Name">
+                  <cl:verticaldata std:sid="v-data-00001022" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:group std:sid="group-00001023" class="input-group">
+                  <cl:attribute name="mobile-column-count" value="1"/>
+                  <cl:verticaldata std:sid="v-data-00001024" width="539px" height="36px" autosize="height"/>
+                  <cl:combobox std:sid="c-box-00001025" fieldLabel="Select Template Name" multiple="true">
+                    <cl:formdata std:sid="f-data-00001026" row="0" col="0"/>
+                  </cl:combobox>
+                  <cl:inputbox std:sid="i-box-00001027" fieldLabel="Template Name" placeholder="Enter a template name">
+                    <cl:formdata std:sid="f-data-00001028" row="0" col="1"/>
+                  </cl:inputbox>
+                  <cl:formlayout std:sid="f-layout-00001029" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                    <cl:rows length="36" unit="PIXEL"/>
+                    <cl:columns length="160" unit="PIXEL"/>
+                    <cl:columns length="1" unit="FRACTION"/>
+                  </cl:formlayout>
+                </cl:group>
+                <cl:group std:sid="group-397a7623" id="grpSelectChips">
+                  <cl:verticaldata std:sid="v-data-c40d31b5" width="457px" height="36px" autosize="height"/>
+                  <cl:udc std:sid="ud-control-2106119e" type="udc.pse.com.udcComSearchCompanyNameChip">
+                    <cl:flowlayoutdata std:sid="f-data-d1711cbd" width="161px" height="24px" autosize="width"/>
+                  </cl:udc>
+                  <cl:udc std:sid="ud-control-0c83e786" type="udc.pse.com.udcComSearchCompanyNameChip">
+                    <cl:flowlayoutdata std:sid="f-data-f675299b" width="161px" height="24px" autosize="width"/>
+                  </cl:udc>
+                  <cl:flowlayout std:sid="f-layout-b464c554" hspacing="8"/>
+                </cl:group>
+                <cl:verticallayout std:sid="v-layout-0000102a" spacing="6"/>
+              </cl:group>
+              <cl:group std:sid="group-0000102b">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-0000102c" row="0" col="1"/>
+                <cl:output std:sid="output-0000102d" class="font-label" value="Period">
+                  <cl:verticaldata std:sid="v-data-0000102e" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:udc std:sid="ud-control-0000102f" id="udccomdateperiodpicker1" type="udc.pse.com.udcComDatePeriodPicker">
+                  <cl:verticaldata std:sid="v-data-00001030" width="300px" height="36px" autosize="height"/>
+                </cl:udc>
+                <cl:verticallayout std:sid="v-layout-00001031" spacing="6"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-00001032" scrollable="false" hspace="12px" vspace="14px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION" minlength="0"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-00001033" scrollable="false" spacing="14"/>
+          </cl:group>
+          <cl:group std:sid="group-00001034" class="search-btn-wrap">
+            <cl:verticaldata std:sid="v-data-00001035" width="400px" height="54px" autosize="height"/>
+            <cl:button std:sid="button-00001036" class="btn-secondary" value="Clear">
+              <cl:flowlayoutdata std:sid="f-data-00001037" width="69px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-00001038" class="btn-search" value="Search" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-00001039" width="104px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:flowlayout std:sid="f-layout-0000103a" scrollable="false" hspacing="8" vspacing="8" halign="right" valign="middle"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-0000103b" scrollable="false" spacing="16" leftmargin="24" rightmargin="24" topmargin="20" bottommargin="20"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-0000103c" scrollable="false" spacing="0"/>
+      </cl:group>
+      <cl:group std:sid="group-00001077" id="grpContent" class="content-wrap">
+        <cl:attribute name="mobile-spacing" value="16"/>
+        <cl:attribute name="mobile-fit" value="true"/>
+        <cl:verticaldata std:sid="v-data-00001078" width="976px" height="736px" autosize="height"/>
+        <cl:group std:sid="group-0000103d" class="search-list-top">
+          <cl:attribute name="mobile-column-count" value="1"/>
+          <cl:verticaldata std:sid="v-data-0000103e" width="400px" height="36px" autosize="height"/>
+          <cl:output std:sid="output-0000103f" class="sch-info" value="12" datatype="number" format="#,##0" displayexp="sstr(text, [&quot;point&quot;]) + &quot; saved drafts&quot;">
+            <cl:attribute name="needs-auto-height" value="true"/>
+            <cl:formdata std:sid="f-data-00001040" row="0" col="0"/>
+          </cl:output>
+          <cl:group std:sid="group-00001041">
+            <cl:formdata std:sid="f-data-00001042" row="0" col="1"/>
+            <cl:udc std:sid="ud-control-00001043" id="udccomviewbutton1" type="udc.pse.com.udcComViewButton">
+              <cl:flowlayoutdata std:sid="f-data-00001044" width="76px" height="36px" autosize="both"/>
+              <cl:property name="targetCard" value="grpCardSection" type="control"/>
+              <cl:property name="targetTable" value="grpGridSection" type="control"/>
+            </cl:udc>
+            <cl:combobox std:sid="c-box-00001045" fieldLabel="Rows per page">
+              <cl:flowlayoutdata std:sid="f-data-00001046" width="110px" height="36px" autosize="none"/>
+            </cl:combobox>
+            <cl:flowlayout std:sid="f-layout-00001047" scrollable="false" hspacing="12" vspacing="12" halign="right" valign="middle"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-00001048" scrollable="false" hspace="1fr" vspace="10px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="500" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="400" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:grid std:sid="grid-0000104e" id="grpGridSection" fieldLabel="Drafts list" datasetid="dsList" autofit="1" resizablecolumns="1, 2, 3" columnMovable="true">
+          <cl:verticaldata std:sid="v-data-0000104f" width="400px" height="200px" autosize="height"/>
+          <cl:gridcolumn std:sid="g-column-00001049" width="52px"/>
+          <cl:gridcolumn std:sid="g-column-0000104a" width="400px"/>
+          <cl:gridcolumn std:sid="g-column-0000104b" width="200px"/>
+          <cl:gridcolumn std:sid="g-column-0000104c" width="220px"/>
+          <cl:gridcolumn std:sid="g-column-0000104d" width="80px"/>
+          <cl:gridheader std:sid="gh-band-00001050">
+            <cl:gridrow std:sid="g-row-00001051" height="32px"/>
+            <cl:gridcell std:sid="gh-cell-00001052" rowindex="0" colindex="0" targetcolumnname="no" sortable="false" filterable="false" text="No"/>
+            <cl:gridcell std:sid="gh-cell-00001053" rowindex="0" colindex="1" targetcolumnname="templateName" sortable="true" filterable="false" text="Template Name"/>
+            <cl:gridcell std:sid="gh-cell-00001054" rowindex="0" colindex="2" targetcolumnname="formNo" sortable="true" filterable="false" text="PSE Form No."/>
+            <cl:gridcell std:sid="gh-cell-00001055" rowindex="0" colindex="3" targetcolumnname="lastSaved" sortable="true" filterable="false" text="Last Saved"/>
+            <cl:gridcell std:sid="gh-cell-00001056" rowindex="0" colindex="4"/>
+          </cl:gridheader>
+          <cl:griddetail std:sid="gd-band-00001057">
+            <cl:gridrow std:sid="g-row-00001058" height="50px"/>
+            <cl:gridcell std:sid="gd-cell-00001059" rowindex="0" colindex="0" columnname="no">
+              <cl:output std:sid="output-0000105a">
+                <cl:celldata std:sid="c-data-0000105b"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-0000105c" rowindex="0" colindex="1" columnname="templateName">
+              <cl:button std:sid="button-0000105d" class="btn-link">
+                <cl:expbind property="value" category="PROPERTY" expression="templateName"/>
+                <cl:celldata std:sid="c-data-0000105e"/>
+              </cl:button>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-0000105f" rowindex="0" colindex="2" columnname="formNo">
+              <cl:output std:sid="output-00001060">
+                <cl:celldata std:sid="c-data-00001061"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-00001062" rowindex="0" colindex="3" columnname="lastSaved">
+              <cl:output std:sid="output-00001063" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+                <cl:celldata std:sid="c-data-00001064"/>
+              </cl:output>
+            </cl:gridcell>
+            <cl:gridcell std:sid="gd-cell-00001065" rowindex="0" colindex="4">
+              <cl:button std:sid="button-00001066" class="icon btn-delete" fieldLabel="Delete" icon="0">
+                <cl:celldata std:sid="c-data-00001067" halign="CENTER" valign="CENTER" width="28" height="28"/>
+              </cl:button>
+            </cl:gridcell>
+          </cl:griddetail>
+        </cl:grid>
+        <cl:group std:sid="group-00001074" id="grpCardSection" class="card-section" visible="false">
+          <cl:attribute name="mobile-column-count" value="1"/>
+          <cl:attribute name="mobile-h-spacing" value="12"/>
+          <cl:attribute name="mobile-v-spacing" value="12"/>
+          <cl:verticaldata std:sid="v-data-00001075" width="976px" height="400px" autosize="height"/>
+          <cl:udc std:sid="ud-control-00001068" type="udc.pse.card.udcComDraftCard">
+            <cl:formdata std:sid="f-data-00001069" row="0" col="0"/>
+            <cl:property name="no" value="1" type="string"/>
+            <cl:property name="templateName" value="REIT Monthly Asset Report" type="string"/>
+            <cl:property name="formNo" value="REIT-4" type="string"/>
+            <cl:property name="lastSaved" value="20260825145618" type="string"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-0000106a" type="udc.pse.card.udcComDraftCard">
+            <cl:formdata std:sid="f-data-0000106b" row="0" col="1"/>
+            <cl:property name="no" value="2" type="string"/>
+            <cl:property name="templateName" value="Notice of Cash Dividend" type="string"/>
+            <cl:property name="formNo" value="4-1" type="string"/>
+            <cl:property name="lastSaved" value="20260824101429" type="string"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-0000106c" type="udc.pse.card.udcComDraftCard">
+            <cl:formdata std:sid="f-data-0000106d" row="0" col="2"/>
+            <cl:property name="no" value="3" type="string"/>
+            <cl:property name="templateName" value="Corporate Governance Scorecard" type="string"/>
+            <cl:property name="formNo" value="ACGR-1" type="string"/>
+            <cl:property name="lastSaved" value="20260823160531" type="string"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-0000106e" type="udc.pse.card.udcComDraftCard">
+            <cl:formdata std:sid="f-data-0000106f" row="1" col="0"/>
+            <cl:property name="no" value="4" type="string"/>
+            <cl:property name="templateName" value="Material Information Disclosure" type="string"/>
+            <cl:property name="formNo" value="17-1" type="string"/>
+            <cl:property name="lastSaved" value="20260822114207" type="string"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-00001070" type="udc.pse.card.udcComDraftCard">
+            <cl:formdata std:sid="f-data-00001071" row="1" col="1"/>
+            <cl:property name="no" value="5" type="string"/>
+            <cl:property name="templateName" value="ETF Portfolio Composition" type="string"/>
+            <cl:property name="formNo" value="ETF-6" type="string"/>
+            <cl:property name="lastSaved" value="20260821152450" type="string"/>
+          </cl:udc>
+          <cl:udc std:sid="ud-control-00001072" type="udc.pse.card.udcComDraftCard">
+            <cl:formdata std:sid="f-data-00001073" row="1" col="2"/>
+            <cl:property name="no" value="6" type="string"/>
+            <cl:property name="templateName" value="Quarterly Financial Results" type="string"/>
+            <cl:property name="formNo" value="17-Q" type="string"/>
+            <cl:property name="lastSaved" value="20260820133305" type="string"/>
+          </cl:udc>
+          <cl:formlayout std:sid="f-layout-00001076" scrollable="false" hspace="16px" vspace="16px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:udc std:sid="ud-control-00001079" id="udccompagination1" type="udc.pse.com.udcComPagination">
+          <cl:verticaldata std:sid="v-data-0000107a" width="1024px" height="40px" autosize="height"/>
+        </cl:udc>
+        <cl:verticallayout std:sid="v-layout-0000107b" scrollable="false" spacing="20"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-00001081" scrollable="false" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+    </cl:group>
+    <cl:verticallayout std:sid="v-layout-00001082" scrollable="true" spacing="0"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

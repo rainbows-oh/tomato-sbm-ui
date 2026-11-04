@@ -1,0 +1,77 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-10700f40" version="1.0.6164">
+  <head std:sid="head-ec4ee482">
+    <std:metadata>
+      <std:property key="template-file" value="templates/management/CompanyName_조회_팝업.clx"/>
+    </std:metadata>
+    <screen std:sid="screen-1c425079" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
+    <screen std:sid="screen-f3abc1ae" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-f0487b32" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360" active="true"/>
+    <cl:model std:sid="model-f5dd3c0f"/>
+    <cl:appspec title="Session Out"/>
+  </head>
+  <body std:sid="body-fa5f6637" style="top:0px; left:0px; width:640px; height:520px;" class="session-out-pop">
+    <cl:group std:sid="group-cba91db8" id="grp4" class="header">
+      <cl:verticaldata std:sid="v-data-bf33e849" width="360px" height="95px" autosize="height"/>
+      <cl:verticallayout std:sid="v-layout-1790faa7" spacing="0"/>
+    </cl:group>
+    <cl:group std:sid="group-aeb301ea" id="grpBody">
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:verticaldata std:sid="v-data-f9431e1f" width="360px" height="303px" autosize="height"/>
+      <cl:group std:sid="group-9c6d43b3" id="grpContent" class="content-wrap">
+        <cl:attribute name="mobile-fit" value="true"/>
+        <cl:attribute name="mobile-spacing" value="14"/>
+        <cl:verticaldata std:sid="v-data-4109c237" width="312px" height="255px" autosize="height"/>
+        <cl:output std:sid="output-bdd3ce8c" id="opt2" style="text-align:center;" class="font-body text-gray-50" value="Your session has timed out.&#xA;Please sign in again to continue.">
+          <cl:verticaldata std:sid="v-data-e326df7e" width="100px" height="53px" autosize="height"/>
+        </cl:output>
+        <cl:group std:sid="group-d87715d2" id="grp3">
+          <cl:verticaldata std:sid="v-data-dc16212d" width="312px" height="134px" autosize="height"/>
+          <cl:group std:sid="group-f2ee7800" id="grp1">
+            <cl:verticaldata std:sid="v-data-8fdb6d43" width="312px" height="62px" autosize="height"/>
+            <cl:output std:sid="output-9bdbdfd8" id="opt3" class="font-label" value="ID">
+              <cl:verticaldata std:sid="v-data-cd01ca51" width="100px" height="20px" autosize="height"/>
+            </cl:output>
+            <cl:inputbox std:sid="i-box-7fab8c01" id="ipb1" fieldLabel="ID">
+              <cl:verticaldata std:sid="v-data-50d544df" width="100px" height="36px"/>
+            </cl:inputbox>
+            <cl:verticallayout std:sid="v-layout-f6372766" spacing="6"/>
+          </cl:group>
+          <cl:group std:sid="group-d135e80a" id="grp2">
+            <cl:verticaldata std:sid="v-data-75f6b0cf" width="312px" height="60px" autosize="height"/>
+            <cl:output std:sid="output-b41954cb" id="opt21" class="font-label" value="Password">
+              <cl:verticaldata std:sid="v-data-7501dd4f" width="461px" height="18px" autosize="height"/>
+            </cl:output>
+            <cl:group std:sid="group-f91a2ce6" id="grpPassword">
+              <cl:verticaldata std:sid="v-data-72999e66" width="461px" height="36px" autosize="none"/>
+              <cl:inputbox std:sid="i-box-fb0b7ed7" id="ipbPw" fieldLabel="Password" secret="true" showclearbutton="false">
+                <cl:xylayoutdata std:sid="xyl-data-5c678305" top="0px" right="0px" bottom="0px" left="0px" horizontalAnchor="BOTH" verticalAnchor="BOTH"/>
+              </cl:inputbox>
+              <cl:checkbox std:sid="c-box-498f6444" id="cbxPwChk" class="chk-pw-toggle" fieldLabel="Show password" value="">
+                <cl:xylayoutdata std:sid="xyl-data-2324b997" top="8px" right="12px" bottom="8px" width="20px" horizontalAnchor="RIGHT" verticalAnchor="BOTH"/>
+              </cl:checkbox>
+              <cl:xylayout std:sid="xylayout-5f0f7c75"/>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-cfeb2700" spacing="6"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-758f79f4" spacing="12"/>
+        </cl:group>
+        <cl:button std:sid="button-93188305" id="btn1" class="btn-primary" value="Confirm">
+          <cl:verticaldata std:sid="v-data-a41d57dc" width="100px" height="36px"/>
+        </cl:button>
+        <cl:verticallayout std:sid="v-layout-f0125bef" scrollable="false" spacing="16"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-75ec9db6" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+    </cl:group>
+    <cl:verticallayout std:sid="v-layout-c56a26cf" spacing="0"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

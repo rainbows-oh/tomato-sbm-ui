@@ -1,0 +1,56 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-10700f40" version="1.0.6164">
+  <head std:sid="head-ec4ee482">
+    <std:metadata>
+      <std:property key="template-file" value="templates/management/CompanyName_조회_팝업.clx"/>
+    </std:metadata>
+    <screen std:sid="screen-1c425079" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
+    <screen std:sid="screen-f3abc1ae" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-f0487b32" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360" active="true"/>
+    <cl:model std:sid="model-f5dd3c0f"/>
+    <cl:appspec title="Enter OTP"/>
+  </head>
+  <body std:sid="body-fa5f6637" style="top:0px; left:0px; width:640px; height:520px;">
+    <cl:group std:sid="group-aeb301ea" id="grpBody">
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:verticaldata std:sid="v-data-f9431e1f" width="1024px" height="158px" autosize="height"/>
+      <cl:group std:sid="group-9c6d43b3" id="grpContent" class="content-wrap">
+        <cl:attribute name="mobile-fit" value="true"/>
+        <cl:attribute name="mobile-spacing" value="14"/>
+        <cl:verticaldata std:sid="v-data-4109c237" width="976px" height="110px" autosize="height"/>
+        <cl:group std:sid="group-f2ee7800" id="grp1">
+          <cl:verticaldata std:sid="v-data-8fdb6d43" width="976px" height="62px" autosize="height"/>
+          <cl:output std:sid="output-9bdbdfd8" id="opt1" class="font-label" value="One-time Password">
+            <cl:verticaldata std:sid="v-data-cd01ca51" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:inputbox std:sid="i-box-3d8e0ac4" id="ipb1" fieldLabel="One-time Password">
+            <cl:verticaldata std:sid="v-data-54ecbcf0" width="100px" height="36px"/>
+          </cl:inputbox>
+          <cl:verticallayout std:sid="v-layout-f6372766" spacing="6"/>
+        </cl:group>
+        <cl:group std:sid="group-83b3b031" id="grp2">
+          <cl:verticaldata std:sid="v-data-54888a2a" width="976px" height="36px" autosize="height"/>
+          <cl:button std:sid="button-6c7a6e83" id="btn1" class="btn-secondary" value="Cancel">
+            <cl:flowlayoutdata std:sid="f-data-81a20062" width="100px" height="36px" autosize="width"/>
+          </cl:button>
+          <cl:button std:sid="button-718a061e" id="btn2" class="btn-primary" value="Continue">
+            <cl:flowlayoutdata std:sid="f-data-2441875c" width="100px" height="36px" autosize="width"/>
+          </cl:button>
+          <cl:flowlayout std:sid="f-layout-82d58f12" hspacing="8" halign="right"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-f0125bef" scrollable="false" spacing="12"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-75ec9db6" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+    </cl:group>
+    <cl:verticallayout std:sid="v-layout-c56a26cf" spacing="18"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>
