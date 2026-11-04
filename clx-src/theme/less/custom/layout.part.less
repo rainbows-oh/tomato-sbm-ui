@@ -609,9 +609,10 @@
 
 .cl-container.summary {
 	/* 그리드 바깥 테두리 제거 (행 구분선은 유지) */
-	.cl-grid {
+	/* 아코디언 안의 그리드만 대상 (팝업 등 외부 그리드는 기존 보더 유지) */
+	.cl-accordion .cl-grid {
 		border: none;
-		border-radius: none;
+		border-radius: 0;
 	}
 
 	/* 아코디언 섹션 padding 제거 */

@@ -14,7 +14,7 @@
 /*******************************************************************************
  * Common Module Area
  *******************************************************************************/
- 
+  var util = createCommonUtil();
  
 /*******************************************************************************
  * Business Common Module Area
@@ -47,3 +47,14 @@
  * (Event functions are automatically displayed below when events are created.)
  *******************************************************************************/
 
+/*
+ * 버튼(btn1)에서 click 이벤트 발생 시 호출.
+ * 사용자가 컨트롤을 클릭할 때 발생하는 이벤트.
+ */
+function onBtn1Click(e) {
+	var btn1 = e.control;
+	
+	util.Dialog.open(app, "app/pb/1104(수)/SUB-SUM-01-Temp_Summary_CustomizeCardOrder", 400, 500, function(){
+		
+	});
+}

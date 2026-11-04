@@ -1,0 +1,201 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-10700f40" version="1.0.6164">
+  <head std:sid="head-ec4ee482">
+    <std:metadata>
+      <std:property key="template-file" value="templates/management/CompanyName_조회_팝업.clx"/>
+    </std:metadata>
+    <screen std:sid="screen-1c425079" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
+    <screen std:sid="screen-f3abc1ae" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="true"/>
+    <screen std:sid="screen-f0487b32" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-f5dd3c0f">
+      <cl:dataset std:sid="d-set-17b969bf" id="ds1">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="title" std:sid="d-column-5f39fdb1" name="column1"/>
+          <cl:datacolumn comment="up" std:sid="d-column-d87a2d28" name="column2"/>
+          <cl:datacolumn comment="down" std:sid="d-column-11b7eb81" name="column3"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Correspondence]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column21]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column31]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[CMIC Inquiries]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column22]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column32]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[For Approval]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column23]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column33]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Rejected]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column24]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column34]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Q&A]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column25]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column35]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Correspondence]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column21]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column31]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[CMIC Inquiries]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column22]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column32]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[For Approval]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column23]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column33]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Rejected]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column24]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column34]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Q&A]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column25]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column35]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Correspondence]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column21]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column31]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[CMIC Inquiries]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column22]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column32]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[For Approval]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column23]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column33]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Rejected]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column24]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column34]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Q&A]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column25]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column35]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Correspondence]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column21]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column31]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[CMIC Inquiries]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column22]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column32]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[For Approval]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column23]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column33]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Rejected]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column24]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column34]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Q&A]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[column25]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[column35]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Correspondence]]></cl:datavalue>
+            <cl:datavalue columnname="column2">column21</cl:datavalue>
+            <cl:datavalue columnname="column3">column31</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[CMIC Inquiries]]></cl:datavalue>
+            <cl:datavalue columnname="column2">column22</cl:datavalue>
+            <cl:datavalue columnname="column3">column32</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[For Approval]]></cl:datavalue>
+            <cl:datavalue columnname="column2">column23</cl:datavalue>
+            <cl:datavalue columnname="column3">column33</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Rejected]]></cl:datavalue>
+            <cl:datavalue columnname="column2">column24</cl:datavalue>
+            <cl:datavalue columnname="column3">column34</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[Q&A]]></cl:datavalue>
+            <cl:datavalue columnname="column2">column25</cl:datavalue>
+            <cl:datavalue columnname="column3">column35</cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="Customize Card Order"/>
+  </head>
+  <body std:sid="body-fa5f6637" style="top:0px; left:0px; width:640px; height:520px;">
+    <cl:group std:sid="group-aeb301ea" id="grpBody">
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:formdata std:sid="f-data-c17b4cb0" row="0" col="0"/>
+      <cl:grid std:sid="grid-2ef72de5" id="grd1" datasetid="ds1" autofit="0">
+        <cl:formdata std:sid="f-data-ca2ffc07" row="1" col="0"/>
+        <cl:gridcolumn std:sid="g-column-8a3f0c67"/>
+        <cl:gridcolumn std:sid="g-column-4d36b492" width="60px"/>
+        <cl:gridcolumn std:sid="g-column-818db065" width="60px"/>
+        <cl:griddetail std:sid="gd-band-b03c063a">
+          <cl:gridrow std:sid="g-row-8fe74cad" height="54px"/>
+          <cl:gridcell std:sid="gd-cell-a02905db" rowindex="0" colindex="0" columnname="column1">
+            <cl:output std:sid="output-ba2236b0" id="opt1">
+              <cl:celldata std:sid="c-data-2dcf9af4"/>
+            </cl:output>
+          </cl:gridcell>
+          <cl:gridcell std:sid="gd-cell-53e69264" rowindex="0" colindex="1" columnname="column2">
+            <cl:button std:sid="button-12d6f3ca" id="btn1" class="btn-up icon btn-secondary" value="Button" icon="0">
+              <cl:expbind property="enabled" category="PROPERTY" expression="rowIndex == 0 ? false : true"/>
+              <cl:celldata std:sid="c-data-2b401ec3" halign="CENTER" valign="CENTER" width="28" height="28"/>
+            </cl:button>
+          </cl:gridcell>
+          <cl:gridcell std:sid="gd-cell-e2928c4d" rowindex="0" colindex="2" columnname="column3">
+            <cl:button std:sid="button-d1a797ac" id="btn2" class="btn-down icon btn-secondary" value="Button" icon="0">
+              <cl:expbind property="enabled" category="PROPERTY" expression="rowIndex == getRowCount()-1 ? false : true"/>
+              <cl:celldata std:sid="c-data-24e44e0d" halign="CENTER" valign="CENTER" width="28" height="28"/>
+            </cl:button>
+          </cl:gridcell>
+        </cl:griddetail>
+      </cl:grid>
+      <cl:output std:sid="output-ac9ddfa2" id="opt2" class="font-body-s gray" value="Drag the handle or use the arrows to reorder. Apply updates the Summary cards.">
+        <cl:formdata std:sid="f-data-d3208135" row="0" col="0"/>
+      </cl:output>
+      <cl:formlayout std:sid="f-layout-f8e9b68f" scrollable="false" hspace="0px" vspace="20px" top-margin="24px" right-margin="24px" bottom-margin="24px" left-margin="24px">
+        <cl:rows length="20" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+        <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+        <cl:columns length="1" unit="FRACTION"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:formlayout std:sid="f-layout-0980b611" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:columns length="1" unit="FRACTION"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

@@ -254,6 +254,7 @@
           <cl:formdata std:sid="f-data-00000309" valign="FILL" row="0" col="0"/>
         </cl:output>
         <cl:button std:sid="button-0000030a" id="btn1" class="btn-settings-black icon" fieldLabel="Settings" icon="0">
+          <cl:listener std:sid="listener-a2705cbd" name="click" handler="onBtn1Click"/>
           <cl:formdata std:sid="f-data-0000030b" row="0" col="1"/>
         </cl:button>
         <cl:formlayout std:sid="f-layout-0000030c" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
