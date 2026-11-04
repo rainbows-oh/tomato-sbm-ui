@@ -4,9 +4,9 @@
     <std:metadata>
       <std:property key="template-file" value="templates/management/CompanyName_조회_팝업.clx"/>
     </std:metadata>
-    <screen std:sid="screen-1c425079" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
-    <screen std:sid="screen-f3abc1ae" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="true"/>
-    <screen std:sid="screen-f0487b32" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <screen std:sid="screen-b263d392" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="false"/>
+    <screen std:sid="screen-00011026" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="504" customWidth="800" active="true"/>
+    <screen std:sid="screen-54bc70fc" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
     <cl:model std:sid="model-f5dd3c0f">
       <cl:dataset std:sid="d-set-17b969bf" id="ds1">
         <cl:datacolumnlist>
@@ -147,13 +147,10 @@
   </head>
   <body std:sid="body-fa5f6637" style="top:0px; left:0px; width:640px; height:520px;">
     <cl:group std:sid="group-aeb301ea" id="grpBody">
-      <cl:attribute name="mobile-fit" value="true"/>
-      <cl:attribute name="mobile-bottom-margin" value="16"/>
-      <cl:attribute name="mobile-left-margin" value="16"/>
-      <cl:attribute name="mobile-right-margin" value="16"/>
-      <cl:attribute name="mobile-top-margin" value="16"/>
-      <cl:attribute name="mobile-spacing" value="16"/>
-      <cl:formdata std:sid="f-data-c17b4cb0" row="0" col="0"/>
+      <cl:attribute name="mobile-v-spacing" value="16"/>
+      <cl:attribute name="mobile-horizontal-margin" value="16"/>
+      <cl:attribute name="mobile-vertical-margin" value="16"/>
+      <cl:formdata std:sid="f-data-c17b4cb0" width="100" height="729" row="0" col="0"/>
       <cl:grid std:sid="grid-2ef72de5" id="grd1" datasetid="ds1" autofit="0">
         <cl:formdata std:sid="f-data-ca2ffc07" row="1" col="0"/>
         <cl:gridcolumn std:sid="g-column-8a3f0c67"/>
@@ -183,9 +180,35 @@
       <cl:output std:sid="output-ac9ddfa2" id="opt2" class="font-body-s gray" value="Drag the handle or use the arrows to reorder. Apply updates the Summary cards.">
         <cl:formdata std:sid="f-data-d3208135" row="0" col="0"/>
       </cl:output>
+      <cl:group std:sid="group-7546fb8f" id="grpFooter" class="btn-footer-wrap">
+        <cl:attribute name="needs-auto-height" value="true"/>
+        <cl:formdata std:sid="f-data-e0290b31" width="100" height="29" row="2" col="0"/>
+        <cl:group std:sid="group-17c5a801" id="grp1">
+          <cl:attribute name="needs-auto-height" value="true"/>
+          <cl:formdata std:sid="f-data-f70cf11b" row="0" col="0"/>
+          <cl:flowlayout std:sid="f-layout-9b311093" scrollable="false" hspacing="0" halign="left"/>
+        </cl:group>
+        <cl:group std:sid="group-fec3711d" id="grp2">
+          <cl:attribute name="needs-auto-height" value="true"/>
+          <cl:formdata std:sid="f-data-a62a32f8" row="0" col="1"/>
+          <cl:button std:sid="button-9d6bdb72" id="btn3" class="btn-secondary" value="Close">
+            <cl:flowlayoutdata std:sid="f-data-8bd9e054" width="100px" height="36px" autosize="width"/>
+          </cl:button>
+          <cl:button std:sid="button-17d274e2" id="btn5" class="btn-primary" value="Apply">
+            <cl:flowlayoutdata std:sid="f-data-e6406c68" width="100px" height="36px" autosize="width"/>
+          </cl:button>
+          <cl:flowlayout std:sid="f-layout-20f5360b" scrollable="false" hspacing="8" vspacing="8" halign="right"/>
+        </cl:group>
+        <cl:formlayout std:sid="f-layout-7ce2a79e" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+          <cl:rows length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
+          <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
+          <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
+        </cl:formlayout>
+      </cl:group>
       <cl:formlayout std:sid="f-layout-f8e9b68f" scrollable="false" hspace="0px" vspace="20px" top-margin="24px" right-margin="24px" bottom-margin="24px" left-margin="24px">
         <cl:rows length="20" unit="PIXEL" autoSizing="true" syncminlength="false"/>
         <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+        <cl:rows length="57" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
         <cl:columns length="1" unit="FRACTION"/>
       </cl:formlayout>
     </cl:group>
