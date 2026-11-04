@@ -1,0 +1,82 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-7b41d001" version="1.0.6190">
+  <head std:sid="head-7b41d002">
+    <screen std:sid="screen-7b41d003" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="true"/>
+    <screen std:sid="screen-7b41d004" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-7b41d005" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-7b41d006"/>
+    <cl:appspec dev-description="임시저장 카드" title="임시저장 카드">
+      <cl:property name="no" type="string" bindable="true" std:desc="[String] 번호"/>
+      <cl:property name="templateName" type="string" bindable="true" std:desc="[String] 템플릿명"/>
+      <cl:property name="formNo" type="string" bindable="true" std:desc="[String] PSE Form No."/>
+      <cl:property name="lastSaved" type="string" bindable="true" std:desc="[String] 마지막 저장일시 (YYYYMMDDhhmmss)"/>
+    </cl:appspec>
+  </head>
+  <body std:sid="body-7b41d007" style="top:0px; left:0px; width:416px; height:200px;">
+    <cl:group std:sid="group-7b41d008" class="toggle-card">
+      <cl:formdata std:sid="f-data-7b41d009" row="0" col="0"/>
+      <cl:group std:sid="group-7b41d00a">
+        <cl:verticaldata std:sid="v-data-7b41d00b" width="382px" height="52px" autosize="height"/>
+        <cl:group std:sid="group-7b41d00c">
+          <cl:verticaldata std:sid="v-data-7b41d00d" width="390px" height="28px" autosize="height"/>
+          <cl:group std:sid="group-7b41d00e">
+            <cl:formdata std:sid="f-data-7b41d00f" row="0" col="0"/>
+            <cl:output std:sid="output-7b41d010" class="font-caption-strong" value="1" displayexp="&quot;No. &quot; + text">
+              <cl:apppropbind property="value" app-property="no"/>
+              <cl:flowlayoutdata std:sid="f-data-7b41d011" width="115px" height="28px" autosize="width"/>
+            </cl:output>
+            <cl:flowlayout std:sid="f-layout-7b41d012"/>
+          </cl:group>
+          <cl:group std:sid="group-7b41d013">
+            <cl:formdata std:sid="f-data-7b41d014" row="0" col="1"/>
+            <cl:button std:sid="button-7b41d015" class="icon btn-delete" fieldLabel="Delete" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-7b41d016" width="28px" height="28px"/>
+            </cl:button>
+            <cl:flowlayout std:sid="f-layout-7b41d017" halign="right"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-7b41d018" scrollable="false" hspace="1fr" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="150" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+            <cl:columns length="150" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:button std:sid="button-7b41d019" class="btn-link ellipsis-2 p-0" value="Template Name">
+          <cl:apppropbind property="value" app-property="templateName"/>
+          <cl:verticaldata std:sid="v-data-7b41d01a" width="390px" height="20px" autosize="height"/>
+        </cl:button>
+        <cl:verticallayout std:sid="v-layout-7b41d01b" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-7b41d01c">
+        <cl:verticaldata std:sid="v-data-7b41d01d" width="390px" height="43px" autosize="height"/>
+        <cl:output std:sid="output-7b41d01e" class="font-micro" value="PSE Form No.">
+          <cl:verticaldata std:sid="v-data-7b41d01f" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-7b41d020" class="font-body-s" value="REIT-4">
+          <cl:apppropbind property="value" app-property="formNo"/>
+          <cl:verticaldata std:sid="v-data-7b41d021" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-7b41d022" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-7b41d023">
+        <cl:verticaldata std:sid="v-data-7b41d024" width="390px" height="43px" autosize="height"/>
+        <cl:output std:sid="output-7b41d025" class="font-micro" value="Last Saved">
+          <cl:verticaldata std:sid="v-data-7b41d026" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-7b41d027" class="font-body-s" value="20260825145618" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+          <cl:apppropbind property="value" app-property="lastSaved"/>
+          <cl:verticaldata std:sid="v-data-7b41d028" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-7b41d029" spacing="4"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-7b41d02a" spacing="10"/>
+    </cl:group>
+    <cl:formlayout std:sid="f-layout-7b41d02b" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:columns length="1" unit="FRACTION"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

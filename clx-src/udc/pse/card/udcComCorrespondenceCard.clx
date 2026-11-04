@@ -8,7 +8,8 @@
     <cl:appspec title="서신 카드"/>
   </head>
   <body std:sid="body-fcdb4012" style="top:0px; left:0px; width:416px; height:400px;">
-    <cl:group std:sid="group-9b74addf" id="grp6" class="toggle-card">
+    <cl:listener std:sid="listener-3b7c1d01" name="init" handler="onBodyInit"/>
+    <cl:group std:sid="group-9b74addf" id="grp6" class="toggle-card highlight">
       <cl:formdata std:sid="f-data-0e777ed4" width="100" height="16" row="0" col="0"/>
       <cl:group std:sid="group-d9f60782" id="grp3">
         <cl:verticaldata std:sid="v-data-5aa918a2" width="382px" height="28px" autosize="height"/>
@@ -24,6 +25,11 @@
           <cl:group std:sid="group-4c62b0b1" id="grp7">
             <cl:formdata std:sid="f-data-394cab49" row="0" col="1"/>
             <cl:checkbox std:sid="c-box-7d3e91a2" id="cbx1" class="chk-mail" fieldLabel="Unread" value="" text="Unread" clickRegion="item">
+              <std:metadata>
+                <std:property key="template-uuid" value="70ecc1f1-5379-44fd-bd4c-c8721756d3db"/>
+                <std:property key="template-rev" value="1"/>
+              </std:metadata>
+              <cl:listener std:sid="listener-3b7c1d02" name="value-change" handler="onCbx1ValueChange"/>
               <cl:flowlayoutdata std:sid="f-data-7d3e91a3" width="28px" height="28px" autosize="none"/>
             </cl:checkbox>
             <cl:flowlayout std:sid="f-layout-462010f4" halign="right"/>
@@ -51,9 +57,6 @@
             <cl:output std:sid="output-65745a70" id="opt4" class="badge count answered" value="1">
               <cl:flowlayoutdata std:sid="f-data-0185c1a5" width="20px" height="20px" autosize="both"/>
             </cl:output>
-            <cl:output std:sid="output-50b2fe9b" id="opt9" class="badge count close" value="2">
-              <cl:flowlayoutdata std:sid="f-data-8c919b5c" width="20px" height="20px" autosize="both"/>
-            </cl:output>
             <cl:flowlayout std:sid="f-layout-21702581"/>
           </cl:group>
           <cl:button std:sid="button-f1b0779f" id="btn6" class="btn-link ellipsis-2 p-0" value="Please review the updated disclosure submission requirements. Please review the updated disclosure submission requirements.">
@@ -62,7 +65,7 @@
           <cl:formlayout std:sid="f-layout-9b88895d" scrollable="false" hspace="8px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
             <cl:rows length="20" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
             <cl:columns length="1" unit="FRACTION"/>
-            <cl:columns length="50" unit="PIXEL"/>
+            <cl:columns length="20" unit="PIXEL" autoSizing="true" syncminlength="false"/>
           </cl:formlayout>
         </cl:group>
         <cl:verticallayout std:sid="v-layout-b5d46983" spacing="4"/>

@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-7c51e001" version="1.0.6190">
+  <head std:sid="head-7c51e002">
+    <screen std:sid="screen-94346912" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="true"/>
+    <screen std:sid="screen-c5bdc4b5" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-7769715a" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-7c51e006"/>
+    <cl:appspec dev-description="정정 제출 카드" title="정정 제출 카드">
+      <cl:property name="no" type="string" bindable="true" std:desc="[String] 번호"/>
+      <cl:property name="templateName" type="string" bindable="true" std:desc="[String] 템플릿명"/>
+      <cl:property name="formNo" type="string" bindable="true" std:desc="[String] PSE Form No."/>
+      <cl:property name="reportNo" type="string" bindable="true" std:desc="[String] Report No."/>
+      <cl:property name="announcementDate" type="string" bindable="true" std:desc="[String] 공시일시 (YYYYMMDDhhmmss)"/>
+      <cl:property name="isRead" type="string" bindable="true" std:desc="[String] 읽음 여부 (Y/N) — N 이면 강조 표시"/>
+    </cl:appspec>
+  </head>
+  <body std:sid="body-7c51e007" style="top:0px; left:0px; width:416px; height:300px;">
+    <cl:listener std:sid="listener-7c51e028" name="load" handler="onBodyLoad"/>
+    <cl:listener std:sid="listener-7c51e029" name="property-change" handler="onBodyPropertyChange"/>
+    <cl:group std:sid="group-7c51e008" id="grpCard" class="toggle-card">
+      <cl:formdata std:sid="f-data-7c51e009" row="0" col="0"/>
+      <cl:group std:sid="group-7c51e00a">
+        <cl:verticaldata std:sid="v-data-7c51e00b" width="382px" height="52px" autosize="height"/>
+        <cl:output std:sid="output-7c51e00c" class="font-caption-strong" value="1" displayexp="&quot;No. &quot; + text">
+          <cl:apppropbind property="value" app-property="no"/>
+          <cl:verticaldata std:sid="v-data-7c51e00d" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:button std:sid="button-7c51e00e" class="btn-link ellipsis-2 p-0" value="Template Name">
+          <cl:apppropbind property="value" app-property="templateName"/>
+          <cl:verticaldata std:sid="v-data-7c51e00f" width="390px" height="20px" autosize="height"/>
+        </cl:button>
+        <cl:verticallayout std:sid="v-layout-7c51e010" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-7c51e011">
+        <cl:verticaldata std:sid="v-data-7c51e012" width="390px" height="43px" autosize="height"/>
+        <cl:output std:sid="output-7c51e013" class="font-micro" value="PSE Form No.">
+          <cl:verticaldata std:sid="v-data-7c51e014" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-7c51e015" class="font-body-s" value="17-1">
+          <cl:apppropbind property="value" app-property="formNo"/>
+          <cl:verticaldata std:sid="v-data-7c51e016" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-7c51e017" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-7c51e018">
+        <cl:verticaldata std:sid="v-data-7c51e019" width="390px" height="43px" autosize="height"/>
+        <cl:output std:sid="output-7c51e01a" class="font-micro" value="Report No.">
+          <cl:verticaldata std:sid="v-data-7c51e01b" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-7c51e01c" class="font-body-s" value="0000033-2026">
+          <cl:apppropbind property="value" app-property="reportNo"/>
+          <cl:verticaldata std:sid="v-data-7c51e01d" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-7c51e01e" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-7c51e01f">
+        <cl:verticaldata std:sid="v-data-7c51e020" width="390px" height="43px" autosize="height"/>
+        <cl:output std:sid="output-7c51e021" class="font-micro" value="Announcement Date and Time">
+          <cl:verticaldata std:sid="v-data-7c51e022" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-7c51e023" class="font-body-s" value="20260825145618" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+          <cl:apppropbind property="value" app-property="announcementDate"/>
+          <cl:verticaldata std:sid="v-data-7c51e024" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-7c51e025" spacing="4"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-7c51e026" spacing="10"/>
+    </cl:group>
+    <cl:formlayout std:sid="f-layout-7c51e027" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:columns length="1" unit="FRACTION"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

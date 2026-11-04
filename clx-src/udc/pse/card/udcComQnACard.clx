@@ -24,7 +24,7 @@
           </cl:group>
           <cl:group std:sid="group-4c62b0b1" id="grp5">
             <cl:formdata std:sid="f-data-394cab49" row="0" col="1"/>
-            <cl:checkbox std:sid="c-box-e8649a67" id="cbx1" class="chk-mail" value="" text="Check">
+            <cl:checkbox std:sid="c-box-e8649a67" id="cbx1" class="chk-mail" fieldLabel="Unread" value="" text="Unread">
               <std:metadata>
                 <std:property key="template-uuid" value="70ecc1f1-5379-44fd-bd4c-c8721756d3db"/>
                 <std:property key="template-rev" value="1"/>

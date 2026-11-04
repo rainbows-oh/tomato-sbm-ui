@@ -1,0 +1,90 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-0000200f" version="1.0.6190">
+  <head std:sid="head-00002010">
+    <screen std:sid="screen-490b914b" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800" active="true"/>
+    <screen std:sid="screen-09dec2fd" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-87c8b5c2" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-00002014"/>
+    <cl:appspec dev-description="CMIC 문의 카드" title="CMIC 문의 카드">
+      <cl:property name="no" type="string" bindable="true" std:desc="[String] 번호"/>
+      <cl:property name="templateName" type="string" bindable="true" std:desc="[String] 템플릿명"/>
+      <cl:property name="replyStatus" type="string" bindable="true" std:desc="[String] 답변 상태"/>
+      <cl:property name="inquiryDate" type="string" bindable="true" std:desc="[String] 문의일시 (YYYYMMDDhhmmss)"/>
+      <cl:property name="isRead" type="string" bindable="true" std:desc="[String] 읽음 여부 (Y/N) — N 이면 강조 표시"/>
+    </cl:appspec>
+  </head>
+  <body std:sid="body-00002015" style="top:0px; left:0px; width:416px; height:200px;">
+    <cl:listener std:sid="listener-00002016" name="load" handler="onBodyLoad"/>
+    <cl:listener std:sid="listener-00002017" name="property-change" handler="onBodyPropertyChange"/>
+    <cl:group std:sid="group-00002018" id="grpCard" class="toggle-card">
+      <cl:formdata std:sid="f-data-00002019" row="0" col="0"/>
+      <cl:group std:sid="group-0000201a">
+        <cl:verticaldata std:sid="v-data-0000201b" width="382px" height="52px" autosize="height"/>
+        <cl:group std:sid="group-0000201c">
+          <cl:verticaldata std:sid="v-data-0000201d" width="390px" height="28px" autosize="height"/>
+          <cl:group std:sid="group-0000201e">
+            <cl:formdata std:sid="f-data-0000201f" row="0" col="0"/>
+            <cl:output std:sid="output-00002020" class="font-caption-strong" value="1" displayexp="&quot;No. &quot; + text">
+              <cl:apppropbind property="value" app-property="no"/>
+              <cl:flowlayoutdata std:sid="f-data-00002021" width="115px" height="28px" autosize="width"/>
+            </cl:output>
+            <cl:flowlayout std:sid="f-layout-00002022"/>
+          </cl:group>
+          <cl:group std:sid="group-00002023">
+            <cl:formdata std:sid="f-data-00002024" row="0" col="1"/>
+            <cl:checkbox std:sid="c-box-e8649a67" id="cbxMail" class="chk-mail" fieldLabel="Unread" value="N" truevalue="Y" falsevalue="N">
+              <std:metadata>
+                <std:property key="template-uuid" value="70ecc1f1-5379-44fd-bd4c-c8721756d3db"/>
+                <std:property key="template-rev" value="1"/>
+              </std:metadata>
+              <cl:listener std:sid="listener-0395ca50" name="value-change" handler="onCbxMailValueChange"/>
+              <cl:flowlayoutdata std:sid="f-data-ad9b0edb" width="28px" height="28px" autosize="none"/>
+            </cl:checkbox>
+            <cl:flowlayout std:sid="f-layout-00002027" halign="right"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-00002028" scrollable="false" hspace="1fr" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="150" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+            <cl:columns length="150" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:button std:sid="button-00002029" class="btn-link ellipsis-2 p-0" value="Template Name">
+          <cl:apppropbind property="value" app-property="templateName"/>
+          <cl:verticaldata std:sid="v-data-0000202a" width="390px" height="20px" autosize="height"/>
+        </cl:button>
+        <cl:verticallayout std:sid="v-layout-0000202b" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-00002001">
+        <cl:verticaldata std:sid="v-data-00002002" width="390px" height="43px" autosize="height"/>
+        <cl:output std:sid="output-00002003" class="font-micro" value="Reply Status">
+          <cl:verticaldata std:sid="v-data-00002004" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-00002005" class="font-body-s" value="No Reply">
+          <cl:apppropbind property="value" app-property="replyStatus"/>
+          <cl:verticaldata std:sid="v-data-00002006" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-00002007" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-00002008">
+        <cl:verticaldata std:sid="v-data-00002009" width="390px" height="43px" autosize="height"/>
+        <cl:output std:sid="output-0000200a" class="font-micro" value="Date and Time">
+          <cl:verticaldata std:sid="v-data-0000200b" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-0000200c" class="font-body-s" value="20260825145618" datatype="date" format="MM-DD-YYYY hh:mm:ss A">
+          <cl:apppropbind property="value" app-property="inquiryDate"/>
+          <cl:verticaldata std:sid="v-data-0000200d" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-0000200e" spacing="4"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-0000202c" spacing="10"/>
+    </cl:group>
+    <cl:formlayout std:sid="f-layout-0000202d" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:columns length="1" unit="FRACTION"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

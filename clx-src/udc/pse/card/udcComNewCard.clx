@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-7a31c001" version="1.0.6190">
+  <head std:sid="head-7a31c002">
+    <screen std:sid="screen-0b52ca12" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="800" customWidth="800" active="true"/>
+    <screen std:sid="screen-2cc62f09" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-1beb4291" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-7a31c006"/>
+    <cl:appspec dev-description="템플릿 카드" title="템플릿 카드">
+      <cl:property name="no" type="string" bindable="true" std:desc="[String] 번호"/>
+      <cl:property name="templateName" type="string" bindable="true" std:desc="[String] 템플릿명"/>
+      <cl:property name="formNo" type="string" bindable="true" std:desc="[String] PSE Form No."/>
+      <cl:property name="templateType" type="string" bindable="true" std:desc="[String] 템플릿 유형"/>
+    </cl:appspec>
+  </head>
+  <body std:sid="body-7a31c007" style="top:0px; left:0px; width:416px; height:200px;">
+    <cl:group std:sid="group-7a31c008" class="toggle-card">
+      <cl:formdata std:sid="f-data-7a31c009" width="100" height="57" row="0" col="0"/>
+      <cl:group std:sid="group-7a31c00a">
+        <cl:verticaldata std:sid="v-data-7a31c00b" width="382px" height="52px" autosize="height"/>
+        <cl:output std:sid="output-7a31c00c" class="font-caption-strong" value="1" displayexp="&quot;No. &quot; + text">
+          <cl:apppropbind property="value" app-property="no"/>
+          <cl:verticaldata std:sid="v-data-7a31c00d" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:button std:sid="button-7a31c00e" class="btn-link ellipsis-2 p-0" value="Template Name">
+          <cl:apppropbind property="value" app-property="templateName"/>
+          <cl:verticaldata std:sid="v-data-7a31c00f" width="390px" height="20px" autosize="height"/>
+        </cl:button>
+        <cl:verticallayout std:sid="v-layout-7a31c010" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-7a31c011">
+        <cl:verticaldata std:sid="v-data-7a31c012" width="390px" height="43px" autosize="height"/>
+        <cl:output std:sid="output-7a31c013" class="font-micro" value="PSE Form No.">
+          <cl:verticaldata std:sid="v-data-7a31c014" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-7a31c015" class="font-body-s" value="17-TH">
+          <cl:apppropbind property="value" app-property="formNo"/>
+          <cl:verticaldata std:sid="v-data-7a31c016" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-7a31c017" spacing="4"/>
+      </cl:group>
+      <cl:group std:sid="group-7a31c018">
+        <cl:verticaldata std:sid="v-data-7a31c019" width="390px" height="43px" autosize="height"/>
+        <cl:output std:sid="output-7a31c01a" class="font-micro" value="Template Type">
+          <cl:verticaldata std:sid="v-data-7a31c01b" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:output std:sid="output-7a31c01c" class="font-body-s" value="Listing Notice">
+          <cl:apppropbind property="value" app-property="templateType"/>
+          <cl:verticaldata std:sid="v-data-7a31c01d" width="353px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-7a31c01e" spacing="4"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-7a31c01f" spacing="10"/>
+    </cl:group>
+    <cl:formlayout std:sid="f-layout-7a31c020" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:columns length="1" unit="FRACTION"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>
