@@ -154,13 +154,50 @@ AppStackKit.prototype.push = function(psAppId){
  * @param {cpr.core.AppInstance} app 앱인스턴스
  * @param {string} psAppId 이동할 App ID
  * @param {any} [poInitValue] 전달할 파라미터
- * @param {Object} poOptions? { params: {key: value}, readyCallback: fn(ea) }
+ * @param {Object} poOptions? { params: {key: value}, readyCallback: fn(ea), callAppMethod : {methodName:string , args : any[]} }
  */
 AppStackKit.prototype.openLoadPage = function(app, psAppId, poInitValue, poOptions) {
     var voMainApp = this._appKit ? this._appKit.getMainApp(app) : app.getRootAppInstance();
     
     if (voMainApp && typeof voMainApp.callAppMethod === "function") {
         voMainApp.callAppMethod("openLoadPage", psAppId, poInitValue, poOptions);
+    } else {
+        console.error("openLoadPage 메소드를 찾을 수 없습니다.");
+    }
+};
+
+
+/**
+ * 화면 전환 공통 함수 (임베디드/전체화면 메인 이전화면 호출용)
+ * @param {cpr.core.AppInstance} app 앱인스턴스
+ * @param {any} [poInitValue] 전달할 파라미터
+ * @param {Object} poOptions? { params: {key: value}, readyCallback: fn(ea), callAppMethod : {methodName:string , args : any[]} }
+ */
+AppStackKit.prototype.openLoadPrevPage = function(app, poInitValue, poOptions) {
+    var voMainApp = this._appKit ? this._appKit.getMainApp(app) : app.getRootAppInstance();
+    voMainApp.lookup("eaContent").visible = true;
+    voMainApp.lookup("eaSubContent").visible = false;
+	poOptions = poOptions || {};
+	var vcEa = voMainApp.lookup("eaContent").getEmbeddedAppInstance();
+	if (poOptions.callAppMethod) {
+		if (vcEa.hasAppMethod(poOptions.callAppMethod.methodName)) {
+			vcEa.callAppMethod(poOptions.callAppMethod.methodName, poOptions.callAppMethod.args);
+		}
+	}
+};
+    
+/**
+ * 화면 전환 공통 함수 (임베디드/전체화면 서브 호출용)
+ * @param {cpr.core.AppInstance} app 앱인스턴스
+ * @param {string} psAppId 이동할 App ID
+ * @param {any} [poInitValue] 전달할 파라미터
+ * @param {Object} poOptions? { params: {key: value}, readyCallback: fn(ea), callAppMethod : {methodName:string , args : any[]} }
+ */
+AppStackKit.prototype.openLoadSubPage = function(app, psAppId, poInitValue, poOptions) {
+    var voMainApp = this._appKit ? this._appKit.getMainApp(app) : app.getRootAppInstance();
+    
+    if (voMainApp && typeof voMainApp.callAppMethod === "function") {
+        voMainApp.callAppMethod("openLoadSubPage", psAppId, poInitValue, poOptions);
     } else {
         console.error("openLoadPage 메소드를 찾을 수 없습니다.");
     }
