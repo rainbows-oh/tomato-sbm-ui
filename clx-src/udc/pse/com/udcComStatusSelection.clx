@@ -8,11 +8,15 @@
     <cl:appspec title="상태 선택 필터"/>
   </head>
   <body std:sid="body-a40d15f7" style="top:0px; left:0px; width:440px; height:36px;" class="status-selection">
-    <cl:checkbox std:sid="c-box-6052e54c" id="chkStatus" class="chk-status" fieldLabel="Status filter" text="Status" iconalign="right">
-      <cl:listener std:sid="listener-f72a745a" name="value-change" handler="onChkStatusValueChange"/>
-      <cl:verticaldata std:sid="v-data-704a577e" width="120px" height="36px" autosize="none"/>
-    </cl:checkbox>
-    <cl:group std:sid="group-1aec6b2f" id="grpCard" class="status-card">
+    <cl:group std:sid="group-9c9916ed" id="grp4">
+      <cl:verticaldata std:sid="v-data-d9274651" width="440px" height="36px" autosize="height"/>
+      <cl:button std:sid="button-c03440f2" id="btnStatusFilterOpen" class="btn-custom-selected-status btn-down" value="Status" icon="0" iconalign="right">
+        <cl:listener std:sid="listener-5e2a97b3" name="click" handler="onBtnStatusFilterOpenClick"/>
+        <cl:flowlayoutdata std:sid="f-data-98a9d471" width="175px" height="36px" autosize="width"/>
+      </cl:button>
+      <cl:flowlayout std:sid="f-layout-26369bf4"/>
+    </cl:group>
+    <cl:group std:sid="group-1aec6b2f" id="grpCard" class="status-card" visible="false">
       <cl:verticaldata std:sid="v-data-0b19a5e4" width="440px" height="256px" autosize="height"/>
       <cl:group std:sid="group-7dda9030" id="grp1">
         <cl:verticaldata std:sid="v-data-a66cbd39" width="408px" height="58px" autosize="height"/>

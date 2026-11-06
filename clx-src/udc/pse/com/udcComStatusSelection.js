@@ -59,7 +59,7 @@ function getText() {
 };
 
 /**
- * 필터 카드를 체크박스 바로 아래에 플로팅하고 표시한다.
+ * 필터 카드를 버튼(UDC) 바로 아래에 플로팅하고 표시한다.
  * UDC 가 놓인 영역의 높이/레이아웃에 영향받지 않도록 최상위 앱(AppInstance)에 띄운다.
  * (이미 플로팅된 컨트롤이면 위치만 갱신된다)
  */
@@ -67,7 +67,7 @@ function openCard() {
 	if (!vcCard) vcCard = app.lookup("grpCard");
 
 	var vcHost = app.getHost();	// UDC 컨트롤 (단독 실행 시 null)
-	var vcAnchor = vcHost ? vcHost : app.lookup("chkStatus");
+	var vcAnchor = vcHost ? vcHost : app.lookup("btnStatusFilterOpen");
 	var vcTargetApp = vcHost ? app.getRootAppInstance() : app;
 	var vcRect = vcAnchor.getActualRect();
 
@@ -103,7 +103,7 @@ function closeCard() {
 };
 
 /**
- * 스크롤 시 카드가 체크박스(앵커) 위치를 따라가도록 갱신하는 리스너를 등록한다.
+ * 스크롤 시 카드가 버튼(앵커) 위치를 따라가도록 갱신하는 리스너를 등록한다.
  * 플로팅 레이어는 스크롤 영역 밖에 있으므로, 중첩 스크롤까지 잡도록 capture 로 등록한다.
  * (브라우저 스크롤이 먼저 그려져 미세하게 흔들릴 수 있다)
  */
@@ -142,16 +142,22 @@ function unbindScrollFollow() {
  *******************************************************************************/
 
 /*
- * "Status" 체크박스(chkStatus)에서 value-change 이벤트 발생 시 호출.
- * 체크 여부에 따라 필터 카드(grpCard)를 플로팅으로 표시/숨김한다.
+ * 버튼(btnStatusFilterOpen)에서 click 이벤트 발생 시 호출.
+ * 버튼의 눌림 상태를 클래스로 구분해 필터 카드(grpCard)를 플로팅으로 표시/숨김한다.
+ * 펼침 상태: open 클래스 있음 / 닫힘 상태: open 클래스 없음
+ * (btn-down, btn-up 은 아이콘이 바뀌므로 상태 구분에 사용하지 않는다)
  */
-function onChkStatusValueChange(e) {
-	var chkStatus = e.control;
-	if (chkStatus.checked) {
-		openCard();
-		bindScrollFollow();
-	} else {
+function onBtnStatusFilterOpenClick(e) {
+	var vcButton = e.control;
+	var vbOpened = vcButton.style.hasClass("open");
+
+	if (vbOpened) {
+		vcButton.style.removeClass("open");
 		closeCard();
 		unbindScrollFollow();
+	} else {
+		vcButton.style.addClass("open");
+		openCard();
+		bindScrollFollow();
 	}
 }
