@@ -793,6 +793,13 @@ ValueUtil = {
 		}
 		
 		return result;
+	},
+	/**
+	 * param {Number} pnFileSize fileSize
+	 * return {number} converted fileSize
+	 */
+	bytesToKilobytes : function(pnFileSize) {
+		return Math.round(Number(pnFileSize)/1024);
 	}
  };
 
@@ -977,7 +984,9 @@ DateUtil = {
             if (vnIdx != -1) {
                 vnCnt = 1;
                 for (var j=vnIdx+1; j < vnPtnLen; j++) {
-                    if (psPattern.charAt(j) != vsaFmt[i]) { break; }
+					if (psPattern.charAt(j) != vsaFmt[i]) {
+						break;
+					}
                     vnCnt++;
                 }
                 vnaNums[i] = Number(psDateTime.substring(vnIdx, vnIdx+vnCnt));
@@ -1121,7 +1130,9 @@ DateUtil = {
     	// Date 객체 생성 (월은 0부터 시작하므로 month - 1)
     	var date = new Date(vsYear, vsMonth - 1, vsDay);
     	
-		return date.toLocaleDateString('en-US', { weekday: 'short' });
+		return date.toLocaleDateString('en-US', {
+			weekday: 'short'
+		});
     },
     
     /**
@@ -1313,7 +1324,7 @@ TypeUtil = {
 	 * @return {Boolean}
 	 */
 	isEmail : function(value){
-		if (!value) return true;
+		if (!value) return false;
 		
 		if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)) {
 			return true;
@@ -1328,7 +1339,7 @@ TypeUtil = {
 	 * @return {Boolean}
 	 */
 	isURL : function(value){
-		if (!value) return true;
+		if (!value) return false;
 		
 		// w3resource.com
 		var regexp = /^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/;
@@ -1386,5 +1397,19 @@ TypeUtil = {
 		}
 		
 		return (sum % 10) === 0;
+	},
+	/**
+	 * Returns whether the value matches the password format.
+	 * foramt
+	 * Minimum 8 characters,
+	 * including at least 3 of the following: uppercase letters, lowercase letters, numbers, special characters.
+	 * @param {String | Object} value password Value
+	 * @return {Boolean}
+	 */
+	isPasswd: function(value) {
+//		if (ValueUtil.isNull(value)) return false;
+		if (/^(?=.*[a-zA-Z])(?=.*\d)(?=.*[$@$#!%*?&])[A-Za-z\d$@$#!%*?&]{8,}/.test(value)) return true;
+
+		return false;
 	}
 }
