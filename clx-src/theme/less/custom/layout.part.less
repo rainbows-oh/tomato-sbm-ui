@@ -1,12 +1,22 @@
 @import (reference) "../../custom-settings.part.less";
 
-//페이지 하단 버튼 영역
+//페이지 버튼 영역 grpContentFooter
 .cl-container.btn-footer-wrap {
 	border-top: 1px solid @gray-20;
 	padding-top: 20px;
 	
 	@media(max-width: 767px) {
 		padding-top: 16px;
+	}
+}
+
+//페이지 최하단 버튼 영역 grpBodyFooter
+.cl-container.btn-full-footer-wrap {
+	border-top: 1px solid @gray-20;
+	padding: 20px 24px 24px 24px;
+	
+	@media(max-width: 767px) {
+		padding: 16px;
 	}
 }
 
@@ -95,10 +105,6 @@
 	border-radius: 8px;
 	padding: 20px;
 	
-	&.sm {
-		padding: 8px 12px;
-	}
-	
 	&.highlight {
 		background-color: @primary-5;
 		border: 1px solid @primary-60;
@@ -116,6 +122,21 @@
 	&.gray {
 		border-color: transparent;
 		background-color: @gray-10;
+	}
+
+	&.blue {
+		border-color: transparent;
+		background-color: @primary-10;
+	}
+	
+	&.border-gary {
+		padding: 16px;
+		border: 1px solid @gray-20;
+		background-color: @gray-5;
+	}
+	
+	&.sm {
+		padding: 8px 12px;
 	}
 	
 	@media(max-width: 767px) {
@@ -579,12 +600,15 @@
 		}
 	}
 	
-	.cl-container.float-wrap {
-		.cl-container.separate {
-			&:not(.cl-last-row) {
-				border-bottom: 1px solid @gray-20;
-				padding-bottom: 12px;
-			}
+	.cl-container.editor-cal {
+		border: 1px solid @gray-20;
+		background-color: @gray-10;
+		padding: 16px;
+		border-radius: 8px;
+		
+		.cl-calendar {
+			border: none;
+			border-radius: 0px;
 		}
 	}
 }
@@ -622,3 +646,168 @@
 	}
 }
 
+.cl-container.non-trading-days {
+	.card {
+		padding: 16px;
+	}
+	
+	.cl-calendar.simple-cal {
+		border: 1px solid @gray-30;
+		background-color: @white;
+		
+		.cl-calendar-header {
+			padding: 12px 10px 8px 10px;
+			font-size: 13px;
+			font-weight: 700;
+			line-height: 16px;
+		}
+		
+		.cl-calendar-content-wrapper {
+			padding: 0 10px 12px 10px;
+			
+			/* 날짜 셀 너비/높이 고정 해제 - 런타임이 7열 x 6주를 grid 1fr 로 배치하므로 셀끼리 균등 분배 */
+			.cl-calendar-content {
+				/* 요일 행 ~ 날짜 행 간격 */
+				.cl-calendar-content-header {
+					width: auto;
+					margin: 0;
+					padding-bottom: 8px;
+					font-size: 10px;
+				}
+				
+				.cl-calendar-content-day,
+				.cl-other-month {
+					width: auto;
+					height: auto;
+					min-height: 22px;
+					margin: 0;
+					padding: 0;
+					font-size: 11px;
+					
+					/* 숫자 박스도 셀 크기를 따라감 (기본 32x32 고정 해제) */
+					.cl-text {
+						width: 100%;
+						height: 100%;
+					}
+				}
+				
+				/* 오늘 - dot 대신 보더로 표시 */
+				.cl-calendar-content-day.cl-calendar-defaultdate {
+					
+					&::after {
+						display: none;
+					}
+					
+					.cl-text {
+						border-radius: 4px;
+						border: 1px solid var(--border-brand, #1D4ED8);
+					}
+				}
+				
+				/* 이벤트가 있는 날짜 - 보더 없이 배경색만 */
+				.cl-calendar-content-day.event-day .cl-text {
+					border: none;
+					border-radius: 4px;
+					background-color: #EFF6FF;
+				}
+				
+				/* 공휴일/기념일 스타일 제거 - 기본 캘린더의 기념일 글자색(빨강)을 일반 날짜와 동일하게 (오늘/선택은 제외) */
+				.cl-calendar-content-day.cl-calendar-anniversary:not(.cl-calendar-defaultdate):not(.cl-selected) {
+					color: @gray-90;
+				}
+				
+				/* 기본 캘린더 호버 스타일 미적용 (calendar.part.less 의 호버 규칙보다 우선순위를 높여 덮어씀) */
+				.cl-calendar-content-day:not(.cl-disabled):not(.cl-selected):not(.cl-calendar-defaultdate):not(.cal-urgent):hover,
+				.cl-other-month:not(.cl-hidden):not(.cl-disabled):not(.cl-selected):not(.cl-calendar-defaultdate):not(.cal-urgent):hover {
+					/* cleopatra.css 기본 호버(color: white)를 원래 글자색으로 복원 */
+					color: @gray-90;
+					
+					.cl-text {
+						background-color: transparent;
+						border-color: transparent;
+						color: inherit;
+					}
+					
+					&.event-day .cl-text {
+						background-color: #EFF6FF;
+					}
+				}
+				
+				/* 선택된 날짜 - 파란 배경 + 흰색 텍스트 */
+				.cl-calendar-content-day.cl-selected {
+					color: #FFFFFF;
+					
+					.cl-text {
+						border-radius: 4px;
+						border: 1px solid #1D4ED8;
+						background-color: #1D4ED8;
+						color: #FFFFFF;
+					}
+				}
+			}
+		}
+	}
+	
+	/* 모바일 */
+	@media (max-width: 767px) {
+		.card {
+			padding: 12px;
+		}
+		
+		.cl-calendar.simple-cal {
+			
+			.cl-calendar-header {
+				padding: 10px 6px 10px 6px;
+			}
+			
+			.cl-calendar-content-wrapper {
+				padding: 0 6px 10px 6px;
+				
+				.cl-calendar-content {
+					.cl-calendar-content-header {
+						font-size: 9px;
+						padding-bottom: 6px;
+					}
+					
+					.cl-calendar-content-day,
+					.cl-other-month {
+						font-size: 10px;
+						min-height: 18px;
+					}
+				}
+			}
+		}
+	}
+	
+	.cl-container.non-trading-days-list {
+		.cl-button {
+			border: 1px solid @gray-20;
+			border-radius: 8px;
+			padding: 10px 12px;
+			text-align: left;
+			#font-micro();
+			color: @gray-50;
+			
+			span {
+				display: block;
+				#font-body-s();
+				color: @primary-70;
+				font-weight: 600;
+			}
+			
+			&:not(.cl-disabled).cl-activated,
+			&:not(.cl-disabled):active,
+			&.cl-focus {
+				border: 1px solid #5BC2E7;
+				background-color: @primary-5;
+			}
+		}
+	}
+}
+
+.cl-image.logo-area {
+	padding: 10px;
+	background-color: @white;
+	border: 1px solid @gray-20;
+	border-radius: 8px;
+}
