@@ -1,0 +1,487 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-a86f112f" version="1.0.6164">
+  <head std:sid="head-4559aeb5">
+    <screen std:sid="screen-9229e3cc" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="true" useCustomHeight="true" customHeight="1600" customWidth="1600" active="true"/>
+    <screen std:sid="screen-bf95613d" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-337d804b" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-230e16d0"/>
+    <cl:appspec/>
+  </head>
+  <body std:sid="body-309cf394" class="editor">
+    <cl:listener std:sid="listener-5e2a7c10" name="load" handler="onBodyLoad"/>
+    <cl:group std:sid="group-2d0e916d">
+      <cl:formdata std:sid="f-data-62627475" width="100" height="85" row="0" col="0" rowspan="1" colspan="1"/>
+      <cl:group std:sid="group-981e15cc">
+        <cl:formdata std:sid="f-data-38a122ed" row="0" col="0" rowspan="1" colspan="1"/>
+        <cl:group std:sid="group-454787aa" class="header">
+          <cl:formdata std:sid="f-data-9e27ab44" row="0" col="0"/>
+          <cl:output std:sid="output-507e6e2e" class="font-label" value="PSE Disclosure Editor">
+            <cl:formdata std:sid="f-data-d9096fcd" row="0" col="0"/>
+          </cl:output>
+          <cl:group std:sid="group-fc7e39b0">
+            <cl:formdata std:sid="f-data-3a7d5983" row="0" col="1"/>
+            <cl:output std:sid="output-9898dff4" class="font-caption text-gray-70" value="Alex Thompson">
+              <cl:flowlayoutdata std:sid="f-data-0e01f54b" width="100px" height="20px" autosize="both"/>
+            </cl:output>
+            <cl:output std:sid="output-d86bcd1b" class="font-caption" value="00:00:38">
+              <cl:flowlayoutdata std:sid="f-data-f2d42a02" width="100px" height="20px" autosize="both"/>
+            </cl:output>
+            <cl:button std:sid="button-f72d2f12" class="btn-inline btn-refresh-blue" value="Extend" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-ab68c349" width="100px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-9c2cab34" class="icon btn-close" fieldLabel="Close editor" value="" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-cddab78a" width="28px" height="28px" autosize="none"/>
+            </cl:button>
+            <cl:flowlayout std:sid="f-layout-da50990d" hspacing="12" halign="right"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-fdbbeefa" scrollable="false" hspace="8px" vspace="8px" top-margin="8px" right-margin="16px" bottom-margin="8px" left-margin="16px">
+            <cl:rows length="36" unit="PIXEL" shadetype="NONE" shadecolor="transparent"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:group std:sid="group-cfcda657" class="util-btns">
+          <cl:formdata std:sid="f-data-b0e4414c" row="1" col="0"/>
+          <cl:group std:sid="group-b6117315">
+            <cl:formdata std:sid="f-data-2ce2f19e" row="0" col="0" rowspan="1" colspan="1"/>
+            <cl:button std:sid="button-9caa3fde" class="btn-add-row" value="Add Row" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-3500eae3" width="82px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-b0971f57" class="btn-multi-rows" value="Add Multiple Rows" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-8eada317" width="100px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-381fa7af" class="btn-delete-rows" value="Delete Row" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-2792f1a3" width="82px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-f7fd2a5f" class="btn-error-chk" value="Error Check" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-0307e5b5" width="82px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-223f40d9" id="btnAttach" class="btn-cilp" value="Attachments" icon="0">
+              <cl:listener std:sid="listener-002cfae0" name="click" handler="onBtnAttachClick"/>
+              <cl:flowlayoutdata std:sid="f-data-51af39e8" width="100px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-cae64528" class="btn-html" value="HTML Preview" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-c096b38d" width="82px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:group std:sid="group-69d294cf" id="grpSubmitTo">
+              <cl:flowlayoutdata std:sid="f-data-79383bf9" width="226px" height="36px" autosize="width"/>
+              <cl:output std:sid="output-61ec69a7" id="optSubmitToDivider" style="background-color:#E2E8F0;" value="">
+                <cl:flowlayoutdata std:sid="f-data-4e19c892" width="1px" height="20px"/>
+              </cl:output>
+              <cl:output std:sid="output-c860186b" id="optSubmitToLabel" class="required" value="Submit To">
+                <cl:flowlayoutdata std:sid="f-data-af38373a" width="74px" height="20px" autosize="width"/>
+              </cl:output>
+              <cl:checkboxgroup std:sid="cb-group-1d7e49dd" id="cbgSubmitTo" fieldLabel="Submit To">
+                <cl:flowlayoutdata std:sid="f-data-32ef722e" width="125px" height="36px" autosize="width"/>
+                <cl:item std:sid="item-53a18eb7" label="PSE" value="value1"/>
+                <cl:item std:sid="item-f20ae0ed" label="PDEx" value="value2"/>
+              </cl:checkboxgroup>
+              <cl:flowlayout std:sid="f-layout-762f5c37" scrollable="false" hspacing="12" linewrap="false"/>
+            </cl:group>
+            <cl:button std:sid="button-87f0fd3e" id="btnRemarks" class="btn-remarks" value="Remarks" icon="0">
+              <cl:listener std:sid="listener-d868d7e9" name="click" handler="onBtnRemarksClick"/>
+              <cl:flowlayoutdata std:sid="f-data-011a1d54" width="82px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:flowlayout std:sid="f-layout-cb1b142e" hspacing="24"/>
+          </cl:group>
+          <cl:group std:sid="group-a6a05571">
+            <cl:formdata std:sid="f-data-5acdd5cd" row="0" col="1"/>
+            <cl:checkbox std:sid="c-box-da04fadc" class="toggle-switch" text="Auto Save: 5 min">
+              <cl:flowlayoutdata std:sid="f-data-e3f29d13" width="138px" height="36px" autosize="width"/>
+            </cl:checkbox>
+            <cl:button std:sid="button-04fe5ae4" class="btn-edit-delete text-danger" value="Delete" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-843dfbde" width="61px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-34f9083f" class="btn-edit-save" value="Save" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-bee6ddc8" width="61px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-ecf659ed" class="btn-inline-danger btn-close-red" value="Submit" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-eb9c01fe" width="80px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:button std:sid="button-264906cd" id="btn1" class="btn-primary btn-edit-submit" value="Submit" icon="0">
+              <cl:flowlayoutdata std:sid="f-data-f8a28b17" width="80px" height="36px" autosize="width"/>
+            </cl:button>
+            <cl:flowlayout std:sid="f-layout-73a5747c" hspacing="12" halign="right"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-28a7247d" scrollable="false" hspace="8px" vspace="8px" top-margin="8px" right-margin="16px" bottom-margin="8px" left-margin="16px">
+            <cl:rows length="36" unit="PIXEL" shadetype="NONE" shadecolor="transparent"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="500" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:formlayout std:sid="f-layout-6d712e47" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px" hseparatorwidth="1" hseparatortype="BY_CLASS">
+          <cl:rows length="1" unit="FRACTION"/>
+          <cl:rows length="1" unit="FRACTION"/>
+          <cl:columns length="1" unit="FRACTION"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:group std:sid="group-968e7100" id="grpPanelVisible">
+        <cl:formdata std:sid="f-data-44c20a37" width="100" height="85" row="1" col="0" rowspan="1" colspan="1"/>
+        <cl:group std:sid="group-5c98c68e">
+          <cl:formdata std:sid="f-data-63e6bc7f" width="100" height="-172" row="0" col="0"/>
+          <cl:embeddedpage std:sid="e-page-6d2d2f17" id="empDisclosureEditor" fieldLabel="Disclosure editor">
+            <cl:formdata std:sid="f-data-8f41f66b" row="0" col="0"/>
+          </cl:embeddedpage>
+          <cl:group std:sid="group-685bce63" id="grpErrorLog" class="error-log">
+            <cl:formdata std:sid="f-data-26c8e96b" width="100" height="-172" row="1" col="0"/>
+            <cl:group std:sid="group-a894c345" class="log-header">
+              <cl:formdata std:sid="f-data-a7e5db55" row="0" col="0" rowspan="1" colspan="1"/>
+              <cl:output std:sid="output-fa94668b" class="font-caption-strong" value="Error Check Results">
+                <cl:formdata std:sid="f-data-d7c51783" row="0" col="0"/>
+              </cl:output>
+              <cl:button std:sid="button-84e13dfa" id="btnShowErrorMore" class="icon btn-up" fieldLabel="Show error check results" value="" icon="0">
+                <cl:listener std:sid="listener-6b1d0e42" name="click" handler="onBtnShowErrorMoreClick"/>
+                <cl:formdata std:sid="f-data-11901fec" row="0" col="1"/>
+              </cl:button>
+              <cl:formlayout std:sid="f-layout-255ab381" scrollable="false" hspace="0px" vspace="24px">
+                <cl:rows length="30" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+                <cl:columns length="1" unit="FRACTION"/>
+                <cl:columns length="28" unit="PIXEL"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:group std:sid="group-f80ee383" id="grpErrorList">
+              <cl:formdata std:sid="f-data-029b25c4" width="100" height="-172" row="1" col="0"/>
+              <cl:output std:sid="output-151e89fc" id="optErrorMessage1" class="font-caption-strong text-danger" value="Line 12: Required field ‘Date of Report’ is empty">
+                <cl:verticaldata std:sid="v-data-e44a8890" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-0c29fb25" id="optErrorMessage2" class="font-caption-strong text-danger" value="Line 34: Invalid stock symbol format">
+                <cl:verticaldata std:sid="v-data-bebc2957" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-3be9cbd9" id="optErrorMessage3" class="font-caption-strong text-danger" value="Line 48: Number of Shares must be numeric">
+                <cl:verticaldata std:sid="v-data-33cafc3f" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-278d4ca3" id="optErrorMessage4" class="font-caption-strong text-danger" value="Line 61: Postal Code must be 4 digits">
+                <cl:verticaldata std:sid="v-data-ea3f09f5" width="100px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:output std:sid="output-3bcef399" id="optErrorMessage5" class="font-caption-strong text-danger" value="Line 77: Disclosure subject exceeds maximum length">
+                <cl:verticaldata std:sid="v-data-ae3cc66e" width="835px" height="20px" autosize="height"/>
+              </cl:output>
+              <cl:verticallayout std:sid="v-layout-e3be9a81" spacing="6"/>
+            </cl:group>
+            <cl:formlayout std:sid="f-layout-6b54b1bb" scrollable="false" hspace="0px" vspace="24px" top-margin="12px" right-margin="16px" bottom-margin="12px" left-margin="16px">
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+              <cl:rows length="1" unit="FRACTION" hidden="true"/>
+              <cl:columns length="1" unit="FRACTION"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-cc8e4d0a" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:rows length="203" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:group std:sid="group-825420ee" id="grpRightPanel" class="right">
+          <cl:formdata std:sid="f-data-528b842f" width="100" height="117" row="0" col="1"/>
+          <cl:group std:sid="group-ac5f64c2">
+            <cl:formdata std:sid="f-data-82253404" width="100" height="37" row="0" col="0" rowspan="1" colspan="1"/>
+            <cl:group std:sid="group-1c99a1a2" id="grpTemplateGuideHeader">
+              <cl:formdata std:sid="f-data-525114de" width="100" height="37" row="0" col="0" rowspan="1" colspan="1"/>
+              <cl:output std:sid="output-1aa1f5fb" id="optTemplateGuideLabel" style="padding-top:4; padding-left:8; padding-right:8;" class="font-label" value="Template Guide">
+                <cl:formdata std:sid="f-data-959e0e5e" row="0" col="0"/>
+              </cl:output>
+              <cl:button std:sid="button-4f08191b" id="btnPanelExp" class="btn-panel-exp icon" fieldLabel="Collapse side panel" value="Button" icon="0">
+                <cl:listener std:sid="listener-1728091f" name="click" handler="onBtnPanelExpClick"/>
+                <cl:formdata std:sid="f-data-d9f3ec32" row="0" col="1"/>
+              </cl:button>
+              <cl:formlayout std:sid="f-layout-59f81253" scrollable="false" hspace="8px" vspace="6px">
+                <cl:rows length="32" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+                <cl:columns length="1" unit="FRACTION"/>
+                <cl:columns length="32" unit="PIXEL"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:textarea std:sid="t-area-3f375cd4" id="txaTemplateGuide" fieldLabel="Template Guide">
+              <cl:formdata std:sid="f-data-dbd13bad" row="1" col="0"/>
+            </cl:textarea>
+            <cl:output std:sid="output-90886271" id="optMessageLabel" style="padding-top:4; padding-left:8; padding-right:8;" class="font-label" value="Message">
+              <cl:formdata std:sid="f-data-82d8ffe5" row="2" col="0"/>
+            </cl:output>
+            <cl:textarea std:sid="t-area-45cf6157" id="txaMessage" fieldLabel="Message" placeholder="Enter an internal message or comment...">
+              <cl:formdata std:sid="f-data-bed65a79" row="3" col="0"/>
+            </cl:textarea>
+            <cl:formlayout std:sid="f-layout-88b5d881" scrollable="false" hspace="0px" vspace="12px">
+              <cl:rows length="32" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+              <cl:rows length="1" unit="FRACTION"/>
+              <cl:rows length="20" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+              <cl:rows length="1" unit="FRACTION"/>
+              <cl:columns length="1" unit="FRACTION"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-25f735ed" scrollable="false" hspace="0px" vspace="12px" top-margin="14px" right-margin="14px" bottom-margin="14px" left-margin="14px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:formlayout std:sid="f-layout-adbd301b" scrollable="false" hspace="0px" vspace="0px" hseparatorwidth="1">
+          <cl:rows length="1" unit="FRACTION"/>
+          <cl:columns length="3" unit="FRACTION"/>
+          <cl:columns length="1" unit="FRACTION"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:formlayout std:sid="f-layout-86982896" scrollable="false" hspace="0px" vspace="0px" hseparatorwidth="1" hseparatortype="BY_CLASS">
+        <cl:rows length="104" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+        <cl:rows length="1" unit="FRACTION"/>
+        <cl:columns length="1" unit="FRACTION"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:group std:sid="group-516728c8" id="grpFloatContent">
+      <cl:formdata std:sid="f-data-2e85dc06" width="100" height="223" row="1" col="0"/>
+      <cl:group std:sid="group-1e6118e1" id="grpAttachments" class="card">
+        <cl:flowlayoutdata std:sid="f-data-35b6fe6e" width="400px" height="366px" autosize="both"/>
+        <cl:group std:sid="group-c0c1fe04" id="grpAttachmentsHeader">
+          <cl:verticaldata std:sid="v-data-7370822e" width="358px" height="20px"/>
+          <cl:output std:sid="output-625fc4bf" id="optAttachmentsTitle" class="font-subheading" value="Attachments">
+            <cl:formdata std:sid="f-data-8ac7d23e" row="0" col="0"/>
+          </cl:output>
+          <cl:button std:sid="button-c6953ecd" id="btnFloatClose" class="icon btn-close" fieldLabel="Close attachments" value="Button" icon="0">
+            <cl:listener std:sid="listener-ac310bc3" name="click" handler="onBtnFloatCloseClick"/>
+            <cl:formdata std:sid="f-data-143817c7" row="0" col="1"/>
+          </cl:button>
+          <cl:formlayout std:sid="f-layout-197ae1a4" scrollable="false" hspace="8px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="24" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:output std:sid="output-27790a9d" id="optAttachmentsGuide" class="font-caption" value="Add supporting files for this disclosure.">
+          <cl:verticaldata std:sid="v-data-77eaec70" width="100px" height="20px" autosize="height"/>
+        </cl:output>
+        <cl:udc std:sid="ud-control-8f78b427" id="udcFileDropzone" type="udc.pse.com.udcComFileDropzone">
+          <cl:verticaldata std:sid="v-data-f0921627" width="600px" height="140px" autosize="height"/>
+        </cl:udc>
+        <cl:group std:sid="group-a0a71923" id="grpAttachedFiles">
+          <cl:verticaldata std:sid="v-data-c32425d8" width="358px" height="108px" autosize="height"/>
+          <cl:output std:sid="output-0f304e71" id="optAttachedFilesTitle" class="font-subheading" value="Attached Files">
+            <cl:verticaldata std:sid="v-data-be79f6d1" width="400px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-86320e6f" id="grpAttachedFile1" class="attachments">
+            <std:metadata>
+              <std:property key="template-uuid" value="6e6db236-c296-4287-a02f-d522573e7b3f"/>
+              <std:property key="template-rev" value="1"/>
+            </std:metadata>
+            <cl:verticaldata std:sid="v-data-833f6c4c" width="982px" height="36px" autosize="height"/>
+            <cl:output std:sid="output-9aa9bd55" id="optAttachedFileName1" value="correspondence-1-notice.pdf " displayexp="text + sstr(&quot; · &quot;, [&quot;size&quot;]) + sstr(userAttr(&quot;size&quot;) + &quot;KB&quot;, [&quot;size&quot;])">
+              <cl:attribute name="size" value="325"/>
+              <cl:formdata std:sid="f-data-e850e7ca" row="0" col="0"/>
+            </cl:output>
+            <cl:button std:sid="button-f1e34ccd" id="btnAttachedFileDelete1" class="btn-close icon" fieldLabel="Attachment delete" icon="0">
+              <cl:formdata std:sid="f-data-d6a5186c" row="0" col="1"/>
+            </cl:button>
+            <cl:formlayout std:sid="f-layout-556a20f6" scrollable="false" hspace="8px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+              <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+              <cl:columns length="1" unit="FRACTION"/>
+              <cl:columns length="16" unit="PIXEL"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:group std:sid="group-45b46ae2" id="grpAttachedFile2" class="attachments">
+            <std:metadata>
+              <std:property key="template-uuid" value="6e6db236-c296-4287-a02f-d522573e7b3f"/>
+              <std:property key="template-rev" value="1"/>
+            </std:metadata>
+            <cl:verticaldata std:sid="v-data-678b2eba" width="400px" height="36px" autosize="height"/>
+            <cl:output std:sid="output-43b31f13" id="optAttachedFileName2" value="correspondence-1-notice.pdf " displayexp="text + sstr(&quot; · &quot;, [&quot;size&quot;]) + sstr(userAttr(&quot;size&quot;) + &quot;KB&quot;, [&quot;size&quot;])">
+              <cl:attribute name="size" value="325"/>
+              <cl:formdata std:sid="f-data-779223ef" row="0" col="0"/>
+            </cl:output>
+            <cl:button std:sid="button-c80948a2" id="btnAttachedFileDelete2" class="btn-close icon" fieldLabel="Attachment delete" icon="0">
+              <cl:formdata std:sid="f-data-bc406b48" row="0" col="1"/>
+            </cl:button>
+            <cl:formlayout std:sid="f-layout-d21d4582" scrollable="false" hspace="8px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+              <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+              <cl:columns length="1" unit="FRACTION"/>
+              <cl:columns length="16" unit="PIXEL"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-f53580b5" spacing="8"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-99b517d3" spacing="12"/>
+      </cl:group>
+      <cl:group std:sid="group-93a20dae" id="grpRemarks" class="card">
+        <cl:flowlayoutdata std:sid="f-data-8e6bba7c" width="330px" height="180px" autosize="both"/>
+        <cl:group std:sid="group-57eaeb2c" id="grpRemarksHeader">
+          <cl:verticaldata std:sid="v-data-d7fb5434" width="358px" height="20px" autosize="none"/>
+          <cl:output std:sid="output-94d952ff" id="optRemarksTitle" class="font-subheading" value="Remarks">
+            <cl:formdata std:sid="f-data-56c7e68e" row="0" col="0"/>
+          </cl:output>
+          <cl:button std:sid="button-2ebfb462" id="btnFloatClose2" class="icon btn-close" fieldLabel="Close remarks" value="Button" icon="0">
+            <cl:listener std:sid="listener-9c46e0be" name="click" handler="onBtnFloatClose2Click"/>
+            <cl:formdata std:sid="f-data-6cc7e10d" row="0" col="1"/>
+          </cl:button>
+          <cl:formlayout std:sid="f-layout-8434a130" scrollable="false" hspace="8px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="24" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:group std:sid="group-1b30f13f" id="grpRemarksInfo" class="separate">
+          <cl:verticaldata std:sid="v-data-4803b201" width="358px" height="57px" autosize="height"/>
+          <cl:group std:sid="group-9d1e27f6" id="grpRemarkBy">
+            <cl:formdata std:sid="f-data-7066bbb3" width="100" height="-1" row="0" col="0"/>
+            <cl:output std:sid="output-e21058c4" id="optRemarkByLabel" class="font-caption" value="Remark By">
+              <cl:verticaldata std:sid="v-data-2c5eb36b" width="100px" height="20px" autosize="height"/>
+            </cl:output>
+            <cl:output std:sid="output-19208e41" id="optRemarkByValue" class="font-body-s" value="Maria Santos">
+              <cl:verticaldata std:sid="v-data-3629b552" width="400px" height="20px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-1fc8bc81" spacing="4"/>
+          </cl:group>
+          <cl:group std:sid="group-c4da814e" id="grpRemarkDate">
+            <cl:formdata std:sid="f-data-a94e81fd" row="0" col="1"/>
+            <cl:output std:sid="output-a2b20784" id="optRemarkDateLabel" class="font-caption" value="Remark Date">
+              <cl:verticaldata std:sid="v-data-8b22f2a1" width="100px" height="20px" autosize="height"/>
+            </cl:output>
+            <cl:output std:sid="output-01d8949b" id="optRemarkDateValue" class="font-body-s" value="08-25-2026 02:56:18 PM">
+              <cl:verticaldata std:sid="v-data-1ae81db7" width="400px" height="20px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-c5815fd2" spacing="4"/>
+          </cl:group>
+          <cl:formlayout std:sid="f-layout-8bdcdaa2" scrollable="false" hspace="16px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:output std:sid="output-7fc07179" id="optRemarkContent" class="font-body-s" value="Please complete the missing supporting document before resubmission.">
+          <cl:verticaldata std:sid="v-data-97faa7bf" width="100px" height="37px" autosize="height"/>
+        </cl:output>
+        <cl:verticallayout std:sid="v-layout-a4e2976c" spacing="12"/>
+      </cl:group>
+      <cl:group std:sid="group-679b4486" id="grpRemarks2" class="card">
+        <cl:flowlayoutdata std:sid="f-data-81daaacb" width="487px" height="210px" autosize="both"/>
+        <cl:group std:sid="group-bacca528" id="grpFileDetailsHeader">
+          <cl:verticaldata std:sid="v-data-2d3f1a70" width="358px" height="20px" autosize="none"/>
+          <cl:output std:sid="output-7cd93824" id="optFileDetailsTitle" class="font-subheading" value="File Details">
+            <cl:formdata std:sid="f-data-71ec065d" row="0" col="0"/>
+          </cl:output>
+          <cl:button std:sid="button-31368dd0" id="btnFloatClose3" class="icon btn-close" fieldLabel="Close remarks" value="Button" icon="0">
+            <cl:formdata std:sid="f-data-914f9906" row="0" col="1"/>
+          </cl:button>
+          <cl:formlayout std:sid="f-layout-48c11e63" scrollable="false" hspace="8px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="24" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:group std:sid="group-64eced50" id="grpFileInfo" class="card gray">
+          <cl:verticaldata std:sid="v-data-7aa7c0e5" width="363px" height="88px"/>
+          <cl:group std:sid="group-6200a3ba" id="grpFileName">
+            <cl:formdata std:sid="f-data-3f352544" row="0" col="1"/>
+            <cl:output std:sid="output-4578845b" id="optFileName" class="font-label" value="PSE_EDGE_회의록_20261021-22 (1).pdf" displayexp="&quot;File Name : &quot; + text">
+              <cl:verticaldata std:sid="v-data-94873186" width="100px" height="20px" autosize="height"/>
+            </cl:output>
+            <cl:output std:sid="output-ad8982c1" id="optFileSize" class="font-label gray" value="464.7 KB" displayexp="&quot;File Size : &quot; + text">
+              <cl:verticaldata std:sid="v-data-6dd4a9fe" width="100px" height="20px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-fc0c900f" spacing="6"/>
+          </cl:group>
+          <cl:img std:sid="image-a63b4bbd" id="imgFileIcon" src="../../../../theme/img/icons/ico_clip_blue.svg" alt="Attached file icon">
+            <cl:formdata std:sid="f-data-eda8b90c" valign="CENTER" height="32" row="0" col="0"/>
+          </cl:img>
+          <cl:formlayout std:sid="f-layout-ad12c62a" scrollable="false" hspace="14px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+            <cl:columns length="32" unit="PIXEL"/>
+            <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:group std:sid="group-a060c8f2" id="grpFileActions">
+          <cl:verticaldata std:sid="v-data-370b53e3" width="400px" height="36px" autosize="height"/>
+          <cl:button std:sid="button-c7d34d2c" id="btnFileDelete" class="btn-secondary" value="Delete">
+            <cl:formdata std:sid="f-data-12f96bd3" row="0" col="1"/>
+          </cl:button>
+          <cl:button std:sid="button-4afb06da" id="btnFileDownload" class="btn-secondary" value="Download File">
+            <cl:formdata std:sid="f-data-f19b4649" row="0" col="0"/>
+          </cl:button>
+          <cl:formlayout std:sid="f-layout-486d48e0" scrollable="false" hspace="10px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="36" unit="PIXEL"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-ca985716" spacing="12"/>
+      </cl:group>
+      <cl:group std:sid="group-1709f62a" id="grpRemarks3" class="card">
+        <cl:flowlayoutdata std:sid="f-data-49731b15" width="283px" height="164px" autosize="both"/>
+        <cl:group std:sid="group-05f23048" id="grpSelectTimeHeader">
+          <cl:verticaldata std:sid="v-data-faccbffe" width="358px" height="20px" autosize="none"/>
+          <cl:output std:sid="output-dd271018" id="optSelectTimeTitle" class="font-subheading" value="Select Time">
+            <cl:formdata std:sid="f-data-06eb4004" row="0" col="0"/>
+          </cl:output>
+          <cl:button std:sid="button-e07547da" id="btnFloatClose4" class="icon btn-close" fieldLabel="Close remarks" value="Button" icon="0">
+            <cl:formdata std:sid="f-data-84963366" row="0" col="1"/>
+          </cl:button>
+          <cl:formlayout std:sid="f-layout-856dcd9d" scrollable="false" hspace="8px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="24" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:group std:sid="group-0727142f" id="grpSelectTimeBody">
+          <cl:verticaldata std:sid="v-data-33c58b6a" width="241px" height="36px" autosize="height"/>
+          <cl:output std:sid="output-13c15aed" id="optTimeSeparator" value=":">
+            <cl:formdata std:sid="f-data-743f876a" row="0" col="1"/>
+          </cl:output>
+          <cl:combobox std:sid="c-box-6206cf2b" id="cmbHour" fieldLabel="Hour" value="value1">
+            <cl:formdata std:sid="f-data-864dc4eb" row="0" col="0"/>
+            <cl:item std:sid="t-item-6ef7906e" label="00" value="value1"/>
+          </cl:combobox>
+          <cl:button std:sid="button-1e9b9278" id="btnTimeConfirm" class="btn-primary" value="Confirm">
+            <cl:formdata std:sid="f-data-a47310bf" row="0" col="3"/>
+          </cl:button>
+          <cl:combobox std:sid="c-box-e528447c" id="cmbMinute" fieldLabel="Minute" value="value1">
+            <cl:formdata std:sid="f-data-ef79cdea" row="0" col="2"/>
+            <cl:item std:sid="t-item-c6e2f688" label="00" value="value1"/>
+          </cl:combobox>
+          <cl:formlayout std:sid="f-layout-506978c2" scrollable="false" hspace="8px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="36" unit="PIXEL"/>
+            <cl:columns length="1" unit="FRACTION"/>
+            <cl:columns length="10" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+            <cl:columns length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+            <cl:columns length="69" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:group std:sid="group-c8d0ef76" id="grpTimeNotApplicable" class="card sm border-gary">
+          <cl:verticaldata std:sid="v-data-69921d0b" width="241px" height="42px" autosize="height"/>
+          <cl:checkbox std:sid="c-box-bcf30aeb" id="cbxTimeNotApplicable" text="N/A">
+            <cl:verticaldata std:sid="v-data-447a1e44" width="50px" height="24px" autosize="both"/>
+          </cl:checkbox>
+          <cl:verticallayout std:sid="v-layout-877830cc" distribution="center"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-d01f3ecf" spacing="12"/>
+      </cl:group>
+      <cl:group std:sid="group-531bfb83" id="grpEditorCalendar" class="editor-cal">
+        <cl:flowlayoutdata std:sid="f-data-73a57aa5" width="400px" height="492px" autosize="both"/>
+        <cl:calendar std:sid="calendar-c900a243" id="calEditorDate" fieldLabel="Select date" maxcalendartype="yearmonthdate" headerformat="MMMM YYYY">
+          <cl:verticaldata std:sid="v-data-a144b9e1" width="359px" height="366px" autosize="height"/>
+        </cl:calendar>
+        <cl:group std:sid="group-1f8fcfe1" id="grpCalendarOptions">
+          <cl:verticaldata std:sid="v-data-5a3e078e" width="366px" height="92px" autosize="height"/>
+          <cl:group std:sid="group-68c5df8f" id="grpDateNotApplicable" class="card sm">
+            <cl:verticaldata std:sid="v-data-b50b5904" width="241px" height="42px" autosize="height"/>
+            <cl:checkbox std:sid="c-box-badfb556" id="cbxDateNotApplicable" text="N/A">
+              <cl:verticaldata std:sid="v-data-ed6e3125" width="50px" height="24px" autosize="both"/>
+            </cl:checkbox>
+            <cl:verticallayout std:sid="v-layout-168a898f" distribution="center"/>
+          </cl:group>
+          <cl:group std:sid="group-4724c78c" id="grpDateToBeAnnounced" class="card sm">
+            <cl:verticaldata std:sid="v-data-4f95e199" width="241px" height="42px" autosize="height"/>
+            <cl:checkbox std:sid="c-box-5038dde1" id="cbxDateToBeAnnounced" text="TBA">
+              <cl:verticaldata std:sid="v-data-226c832f" width="50px" height="24px" autosize="both"/>
+            </cl:checkbox>
+            <cl:verticallayout std:sid="v-layout-31d60f08" distribution="center"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-5efed627"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-b874a36e" spacing="0"/>
+      </cl:group>
+      <cl:flowlayout std:sid="f-layout-37da3bb3"/>
+    </cl:group>
+    <cl:formlayout std:sid="f-layout-ee15e9f4" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px" hseparatorwidth="1" hseparatortype="BY_CLASS">
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:rows length="800" unit="PIXEL" autoSizing="true" hidden="true" shadetype="NONE" syncminlength="false"/>
+      <cl:columns length="1" unit="FRACTION"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

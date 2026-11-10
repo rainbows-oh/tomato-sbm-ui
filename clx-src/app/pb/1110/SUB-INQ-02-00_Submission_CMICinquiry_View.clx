@@ -1,0 +1,293 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-ab4e79cf" version="1.0.6164">
+  <head std:sid="head-fef2a59d">
+    <screen std:sid="screen-1303ea48" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="false" useCustomHeight="true" customHeight="1200" customWidth="800" active="true"/>
+    <screen std:sid="screen-1441bc3f" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-1ee987ec" id="EXB-PART" name="EXB-PART" width="360px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <cl:model std:sid="model-e918cc57">
+      <cl:dataset std:sid="d-set-f233e5c3" id="ds1">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="IP Address" std:sid="d-column-5f8681ac" name="column1"/>
+          <cl:datacolumn comment="IP Address Name" std:sid="d-column-10767fd6" name="column2"/>
+          <cl:datacolumn comment="delete" std:sid="d-column-cd8b8bba" name="column3"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[IP Address 1]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[58.69.100.10]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[IP Address 2]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[58.69.100.11]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[IP Address 3]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[58.69.100.12]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="column1"><![CDATA[IP Address 4]]></cl:datavalue>
+            <cl:datavalue columnname="column2"><![CDATA[]]></cl:datavalue>
+            <cl:datavalue columnname="column3"><![CDATA[Y]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec/>
+  </head>
+  <body std:sid="body-6585a0fc">
+    <cl:group std:sid="group-0319b359" id="grpHeader" class="page-title-wrap">
+      <cl:attribute name="mobile-column-count" value="1"/>
+      <cl:attribute name="needs-auto-height" value="true"/>
+      <cl:verticaldata std:sid="v-data-dddbbb01" width="1024px" height="48px" autosize="height" sticky="true" stickytopoffset="0"/>
+      <cl:udc std:sid="ud-control-1d70da47" id="udccomappheader1" type="udc.pse.com.udcComAppHeader">
+        <cl:attribute name="needs-auto-height" value="true"/>
+        <cl:formdata std:sid="f-data-dc4ac2b2" row="0" col="0"/>
+        <cl:property name="title" value="CMIC Inquiry" type="string"/>
+      </cl:udc>
+      <cl:button std:sid="button-3214795f" id="btn9" class="btn-primary" value="More Reply">
+        <cl:formdata std:sid="f-data-559219b2" row="0" col="1"/>
+      </cl:button>
+      <cl:formlayout std:sid="f-layout-631b2075" scrollable="false" hspace="8px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="36" unit="PIXEL" autoSizing="false" syncminlength="true"/>
+        <cl:columns length="1" unit="FRACTION"/>
+        <cl:columns length="140" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:group std:sid="group-0b464f24" id="grpBody" class="inner">
+      <cl:attribute name="mobile-fit" value="true"/>
+      <cl:attribute name="mobile-bottom-margin" value="16"/>
+      <cl:attribute name="mobile-left-margin" value="16"/>
+      <cl:attribute name="mobile-right-margin" value="16"/>
+      <cl:attribute name="mobile-spacing" value="16"/>
+      <cl:attribute name="mobile-top-margin" value="16"/>
+      <cl:verticaldata std:sid="v-data-40a89747" width="1024px" height="954px" autosize="height"/>
+      <cl:group std:sid="group-a20acfba" id="grpContentHeader" class="detail-head">
+        <cl:verticaldata std:sid="v-data-1593de64" width="976px" height="62px" autosize="height"/>
+        <cl:group std:sid="group-2e509e97" id="grp2">
+          <cl:formdata std:sid="f-data-24e2aa22" width="100" height="22" row="0" col="0"/>
+          <cl:button std:sid="button-ee96ddaf" id="btn2" class="btn-go-back icon" fieldLabel="Go back" value="" icon="0">
+            <cl:formdata std:sid="f-data-ef0b598c" row="0" col="0" rowspan="1" colspan="1"/>
+          </cl:button>
+          <cl:output std:sid="output-cf8f466f" id="opt2" class="font-subheading" value="[CMIC-042] Inquiry of Unusual Price Movement" ellipsis="true">
+            <cl:formdata std:sid="f-data-c4233e53" row="0" col="1"/>
+          </cl:output>
+          <cl:formlayout std:sid="f-layout-b77825ab" scrollable="false" hspace="8px" vspace="4px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+            <cl:rows length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
+            <cl:columns length="36" unit="PIXEL"/>
+            <cl:columns length="1" unit="FRACTION"/>
+          </cl:formlayout>
+        </cl:group>
+        <cl:formlayout std:sid="f-layout-3131f756" scrollable="false" hspace="8px" vspace="8px" top-margin="12px" right-margin="16px" bottom-margin="12px" left-margin="16px" hseparatorwidth="0" vseparatorwidth="0">
+          <cl:rows length="36" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="transparent" syncminlength="true"/>
+          <cl:columns length="1" unit="FRACTION"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:group std:sid="group-c9d6abb5" id="grpContent">
+        <cl:verticaldata std:sid="v-data-3172a4b8" width="976px" height="824px" autosize="height"/>
+        <cl:group std:sid="group-3d6bef9a" id="grp1" class="card">
+          <cl:attribute name="mobile-fit" value="true"/>
+          <cl:attribute name="mobile-spacing" value="16"/>
+          <cl:verticaldata std:sid="v-data-27d12e2f" width="976px" height="225px" autosize="height"/>
+          <cl:group std:sid="group-881ed162" id="grp4" class="separate">
+            <cl:verticaldata std:sid="v-data-6d76b07e" width="934px" height="61px" autosize="height"/>
+            <cl:group std:sid="group-81e74ef5" id="grp11" class="row">
+              <cl:attribute name="mobile-column-count" value="1"/>
+              <cl:verticaldata std:sid="v-data-36f675cc" width="934px" height="44px" autosize="height"/>
+              <cl:group std:sid="group-128b2f33" id="grp12">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-099950d8" row="0" col="0"/>
+                <cl:output std:sid="output-d23f0824" id="opt10" class="font-caption" value="PSE Form No.">
+                  <cl:verticaldata std:sid="v-data-892f902b" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:output std:sid="output-45688ea8" id="opt1" class="font-body" value="CMIC-042">
+                  <cl:verticaldata std:sid="v-data-8121b085" width="100px" height="20px" autosize="height"/>
+                </cl:output>
+                <cl:verticallayout std:sid="v-layout-1818e811" spacing="6"/>
+              </cl:group>
+              <cl:group std:sid="group-5179b1cf" id="grp3">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-2d434d92" width="100" height="9" row="0" col="1"/>
+                <cl:output std:sid="output-af44a4a4" id="opt3" class="font-caption" value="Creation Date">
+                  <cl:verticaldata std:sid="v-data-cedfe626" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:output std:sid="output-800346bf" id="opt19" class="font-body" value="08-21-2026 03:06:21 PM">
+                  <cl:verticaldata std:sid="v-data-44af0ce6" width="100px" height="20px" autosize="height"/>
+                </cl:output>
+                <cl:verticallayout std:sid="v-layout-0a52bb27" spacing="6"/>
+              </cl:group>
+              <cl:group std:sid="group-5d9dc9f8" id="grp13">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-1600a35a" row="0" col="2"/>
+                <cl:output std:sid="output-9531985d" id="opt11" class="font-caption" value="Admin">
+                  <cl:verticaldata std:sid="v-data-0ed90475" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:output std:sid="output-c4c79da7" id="opt20" class="font-body" value="PSE System Admin">
+                  <cl:verticaldata std:sid="v-data-ad1e97b8" width="100px" height="20px" autosize="height"/>
+                </cl:output>
+                <cl:verticallayout std:sid="v-layout-e8e25d94" spacing="6"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-6f03675a" scrollable="false" hspace="12px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION" minlength="0"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-7731af10" spacing="10"/>
+          </cl:group>
+          <cl:group std:sid="group-947867dc" id="grp18">
+            <cl:verticaldata std:sid="v-data-0cd25697" width="934px" height="102px" autosize="height"/>
+            <cl:group std:sid="group-3b077ba0" id="grp34" class="row">
+              <cl:attribute name="mobile-column-count" value="1"/>
+              <cl:verticaldata std:sid="v-data-dc693c2e" width="934px" height="102px" autosize="height"/>
+              <cl:group std:sid="group-32fc654e" id="grp35">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-f29f9ba7" width="100" height="67" row="0" col="0" rowspan="1" colspan="1"/>
+                <cl:output std:sid="output-495f5548" id="opt25" class="font-caption" value="Attached File">
+                  <cl:verticaldata std:sid="v-data-d750aded" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:group std:sid="group-86320e6f" id="grp30" class="attachments">
+                  <std:metadata>
+                    <std:property key="template-uuid" value="7007deda-01f4-4088-86e9-6281b9d8eff4"/>
+                    <std:property key="template-rev" value="1"/>
+                  </std:metadata>
+                  <cl:verticaldata std:sid="v-data-64dfb16a" width="891px" height="36px" autosize="height"/>
+                  <cl:output std:sid="output-9aa9bd55" id="opt4" value="correspondence-1-notice.pdf " displayexp="text + sstr(&quot; · &quot;, [&quot;size&quot;]) + sstr(userAttr(&quot;size&quot;) + &quot;KB&quot;, [&quot;size&quot;])">
+                    <cl:attribute name="size" value="325"/>
+                    <cl:formdata std:sid="f-data-e850e7ca" row="0" col="0"/>
+                  </cl:output>
+                  <cl:formlayout std:sid="f-layout-556a20f6" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                    <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+                    <cl:columns length="1" unit="FRACTION"/>
+                  </cl:formlayout>
+                </cl:group>
+                <cl:group std:sid="group-c6a69244" id="grp31" class="attachments">
+                  <std:metadata>
+                    <std:property key="template-uuid" value="7007deda-01f4-4088-86e9-6281b9d8eff4"/>
+                    <std:property key="template-rev" value="1"/>
+                  </std:metadata>
+                  <cl:verticaldata std:sid="v-data-c0e52c85" width="934px" height="36px" autosize="height"/>
+                  <cl:output std:sid="output-e36917a4" id="opt8" value="correspondence-1-notice.pdf " displayexp="text + sstr(&quot; · &quot;, [&quot;size&quot;]) + sstr(userAttr(&quot;size&quot;) + &quot;KB&quot;, [&quot;size&quot;])">
+                    <cl:attribute name="size" value="325"/>
+                    <cl:formdata std:sid="f-data-06c0758f" row="0" col="0"/>
+                  </cl:output>
+                  <cl:formlayout std:sid="f-layout-5abe8b12" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                    <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+                    <cl:columns length="1" unit="FRACTION"/>
+                  </cl:formlayout>
+                </cl:group>
+                <cl:verticallayout std:sid="v-layout-a774725c" spacing="6"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-4fe7872e" scrollable="false" hspace="12px" vspace="12px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION" minlength="0"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-ca62c510" spacing="10"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-acbdf33a" spacing="20"/>
+        </cl:group>
+        <cl:group std:sid="group-82fb4aa8" id="grp5" class="card">
+          <cl:attribute name="mobile-fit" value="true"/>
+          <cl:attribute name="mobile-spacing" value="16"/>
+          <cl:verticaldata std:sid="v-data-b02ddc9a" width="976px" height="583px" autosize="height"/>
+          <cl:group std:sid="group-7bad615d" id="grp6" class="separate">
+            <cl:verticaldata std:sid="v-data-8d20430f" width="934px" height="121px" autosize="height"/>
+            <cl:output std:sid="output-3e1df07d" id="opt5" class="font-display" value="Pacific Horizon Securities, Inc.">
+              <cl:verticaldata std:sid="v-data-6d2e6375" width="445px" height="20px" autosize="both"/>
+            </cl:output>
+            <cl:output std:sid="output-f56416f1" id="opt6" class="badge fill blue" value="PHS">
+              <cl:verticaldata std:sid="v-data-1e05a6fc" width="63px" height="20px" autosize="both"/>
+            </cl:output>
+            <cl:output std:sid="output-0de6e52f" id="opt7" class="font-title" value="CMIC Form 1 - Inquiry on : Unusual Price Movement">
+              <cl:verticaldata std:sid="v-data-c343765e" width="430px" height="20px" autosize="both"/>
+            </cl:output>
+            <cl:output std:sid="output-04091339" id="opt12" class="font-caption" value="Reference : Article XI-A, Section 5 of the CMIC Rules">
+              <cl:verticaldata std:sid="v-data-d567e399" width="430px" height="20px" autosize="both"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-94910598" distribution="center" spacing="8"/>
+          </cl:group>
+          <cl:group std:sid="group-02c689c6" id="grp20">
+            <cl:verticaldata std:sid="v-data-2d21e897" width="934px" height="324px" autosize="height"/>
+            <cl:group std:sid="group-4883290f" id="grp7">
+              <cl:verticaldata std:sid="v-data-d9774f65" width="934px" height="60px" autosize="height"/>
+              <cl:group std:sid="group-7a26264d" id="grp22">
+                <cl:attribute name="needs-auto-height" value="true"/>
+                <cl:formdata std:sid="f-data-9da62ddb" row="0" col="0"/>
+                <cl:output std:sid="output-89e2e0ae" id="opt16" class="font-label" value="Date of Inquiry">
+                  <cl:verticaldata std:sid="v-data-e7c4c71c" width="100px" height="18px" autosize="height"/>
+                </cl:output>
+                <cl:dateinput std:sid="d-input-99ebb86f" id="dti1" fieldLabel="Date of Inquiry" readonly="true" value="20260825">
+                  <cl:verticaldata std:sid="v-data-dc55e49e" width="100px" height="36px"/>
+                </cl:dateinput>
+                <cl:verticallayout std:sid="v-layout-6e1d48ae" spacing="6"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-0e5d74c6" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:group std:sid="group-b4ff023a" id="grp25">
+              <cl:attribute name="needs-auto-height" value="true"/>
+              <cl:verticaldata std:sid="v-data-5190ab2e" width="934px" height="60px" autosize="height"/>
+              <cl:output std:sid="output-b8a8178f" id="opt18" class="font-label" value="Subject">
+                <cl:verticaldata std:sid="v-data-8b54503f" width="100px" height="18px" autosize="height"/>
+              </cl:output>
+              <cl:inputbox std:sid="i-box-f46a02a7" id="ipb1" fieldLabel="Subject" readonly="true" value="Unusual trading volume and price fluctuation">
+                <cl:verticaldata std:sid="v-data-428a67d2" width="100px" height="36px"/>
+              </cl:inputbox>
+              <cl:verticallayout std:sid="v-layout-9a20c798" spacing="6"/>
+            </cl:group>
+            <cl:group std:sid="group-6ab77397" id="grp32">
+              <cl:attribute name="needs-auto-height" value="true"/>
+              <cl:verticaldata std:sid="v-data-326136a5" width="934px" height="184px" autosize="height"/>
+              <cl:output std:sid="output-2051f1bb" id="opt22" class="font-label" value="Background/Description">
+                <cl:verticaldata std:sid="v-data-e732e88e" width="100px" height="18px" autosize="height"/>
+              </cl:output>
+              <cl:textarea std:sid="t-area-09c59ab1" id="txa1" fieldLabel="Background/Description" readonly="true" value="CMIC has observed unusual price movement and trading activity in the issuer's shares during the covered period. The inquiry seeks an explanation of the circumstances that may have contributed to the price fluctuation and volume spike.&#xD;&#xA;&#xD;&#xA;Please provide a description of any material information, corporate developments, or market conditions known to the company that may reasonably account for the observed trading pattern.">
+                <cl:verticaldata std:sid="v-data-f8ab8121" width="100px" height="160px"/>
+              </cl:textarea>
+              <cl:verticallayout std:sid="v-layout-ed620cfb" spacing="6"/>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-e70f95cc" spacing="10"/>
+          </cl:group>
+          <cl:group std:sid="group-4717aa11" id="grpFooter" class="btn-footer-wrap">
+            <cl:attribute name="needs-auto-height" value="true"/>
+            <cl:verticaldata std:sid="v-data-33dba044" width="976px" height="56px" autosize="height"/>
+            <cl:group std:sid="group-39f21588" id="grp28">
+              <cl:formdata std:sid="f-data-3064de6a" row="0" col="0"/>
+              <cl:button std:sid="button-16b5fbb1" id="btn13" class="btn-inline" value="Back to list">
+                <cl:flowlayoutdata std:sid="f-data-15f6b377" width="101px" height="36px" autosize="width"/>
+              </cl:button>
+              <cl:flowlayout std:sid="f-layout-e0f110c6" hspacing="8" vspacing="8"/>
+            </cl:group>
+            <cl:group std:sid="group-a8c15b28" id="grp29">
+              <cl:formdata std:sid="f-data-1665f1e7" row="0" col="1"/>
+              <cl:button std:sid="button-b1d7692a" id="btn14" class="btn-primary" value="More Reply">
+                <cl:flowlayoutdata std:sid="f-data-3a59429b" width="111px" height="36px" autosize="width"/>
+              </cl:button>
+              <cl:flowlayout std:sid="f-layout-74d8689f" hspacing="8" vspacing="8" halign="right"/>
+            </cl:group>
+            <cl:formlayout std:sid="f-layout-7c15ccd2" scrollable="false" hspace="8px" vspace="8px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+              <cl:rows length="1" unit="FRACTION" shadetype="NONE" shadecolor="transparent"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="true" syncminlength="false"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-55337290" spacing="20"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-edd42a47" spacing="16"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-9dda75e2" spacing="20" leftmargin="24" rightmargin="24" topmargin="24" bottommargin="24"/>
+    </cl:group>
+    <cl:verticallayout std:sid="v-layout-85c69965" spacing="0"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

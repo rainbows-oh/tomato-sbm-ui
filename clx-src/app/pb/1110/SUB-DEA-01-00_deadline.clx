@@ -1,0 +1,168 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-b70a3211" version="1.0.6164">
+  <head std:sid="head-30a0630f">
+    <screen std:sid="screen-6bf6d91f" id="EXB-FULL" name="EXB-FULL" width="1024px" height="768px" useCustomWidth="true" useCustomHeight="true" customHeight="1090" customWidth="360" active="true"/>
+    <screen std:sid="screen-48740343" id="EXB-DIV" name="EXB-DIV" width="768px" height="768px" useCustomWidth="false" useCustomHeight="false" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-53a26471" id="EXB-PART" name="EXB-PART" width="0px" height="768px" useCustomWidth="true" useCustomHeight="false" customHeight="600" customWidth="360"/>
+    <cl:model std:sid="model-ebbca4da"/>
+    <cl:appspec/>
+  </head>
+  <body std:sid="body-d36a7978" class="deadline">
+    <cl:listener std:sid="listener-24c3f439" name="load" handler="onBodyLoad"/>
+    <cl:group std:sid="group-a6a4f400" id="grpHeader" class="d-header">
+      <cl:formdata std:sid="f-data-c2c19d5e" width="78" height="13" row="0" col="0"/>
+      <cl:button std:sid="button-1f7423ad" id="btnClose" class="btn-close icon" fieldLabel="Close deadline panel" value="Button" icon="0">
+        <cl:listener std:sid="listener-b4d82e60" name="click" handler="onBtnCloseClick"/>
+        <cl:formdata std:sid="f-data-d7ee0edc" row="0" col="1"/>
+      </cl:button>
+      <cl:group std:sid="group-bae96d15" id="grpTitle">
+        <cl:formdata std:sid="f-data-6f5a24f3" width="78" height="25" row="0" col="0" rowspan="1" colspan="1"/>
+        <cl:button std:sid="button-78e548b9" id="btnDeadlineExp" class="btn-exp" value="3" displayexp="sstr(formatNumber(&quot;#,##0&quot;, text), [&quot;count&quot;]) + sstr(&quot; deadlines&quot;, [&quot;cl-sound-only&quot;])" icon="0">
+          <cl:listener std:sid="listener-8a3c5f27" name="click" handler="onBtnDeadlineExpClick"/>
+          <cl:formdata std:sid="f-data-ed78ae0a" row="0" col="0"/>
+        </cl:button>
+        <cl:output std:sid="output-ceb4e921" id="optTitle" value="Deadline">
+          <cl:formdata std:sid="f-data-aa147ab8" row="0" col="1"/>
+        </cl:output>
+        <cl:formlayout std:sid="f-layout-b030f67a" scrollable="false" hspace="8px" vspace="0px">
+          <cl:rows length="1" unit="FRACTION"/>
+          <cl:columns length="24" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+          <cl:columns length="100" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:formlayout std:sid="f-layout-121d5f53" scrollable="false" hspace="1fr" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="24" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+        <cl:columns length="132" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+        <cl:columns length="24" unit="PIXEL" hidden="true"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:group std:sid="group-2838b285" id="grpBody" class="d-body" clipcontent="false">
+      <cl:formdata std:sid="f-data-1876c8da" width="100" height="815" row="1" col="0" rowspan="1" colspan="1"/>
+      <cl:calendar std:sid="calendar-28ee9c61" id="calDeadline" fieldLabel="Deadline calendar" maxcalendartype="yearmonthdate" headerformat="MMMM YYYY" footervisible="true">
+        <cl:formdata std:sid="f-data-1eddd98f" row="0" col="0"/>
+      </cl:calendar>
+      <cl:group std:sid="group-c7e1b39a" id="grpSchedule" class="schedule" clipcontent="false">
+        <cl:formdata std:sid="f-data-a935c425" width="100" height="107" row="1" col="0"/>
+        <cl:group std:sid="group-e9258495" id="grpScheduleItem1" class="list urgent">
+          <cl:verticaldata std:sid="v-data-0378833d" width="328px" height="94px" autosize="height"/>
+          <cl:output std:sid="output-3f243d68" id="optScheduleBadge1" class="show-txt" value="Urgent">
+            <cl:verticaldata std:sid="v-data-d5bf024c" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:button std:sid="button-976e020e" id="btnScheduleName1" value="Quarterly Report Template">
+            <cl:verticaldata std:sid="v-data-3a161de3" width="100px" height="20px" autosize="height"/>
+          </cl:button>
+          <cl:output std:sid="output-79165695" id="optScheduleDate1" class="text-gray-70" value="11-13-2026">
+            <cl:verticaldata std:sid="v-data-f6b473d2" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-82e1cdd7" spacing="4"/>
+        </cl:group>
+        <cl:group std:sid="group-cd499473" id="grpScheduleItem2" class="list urgent">
+          <cl:verticaldata std:sid="v-data-1f30b50f" width="328px" height="94px" autosize="height"/>
+          <cl:output std:sid="output-474caf57" id="optScheduleBadge2" class="show-txt" value="Urgent">
+            <cl:verticaldata std:sid="v-data-1406df02" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:button std:sid="button-12909269" id="btnScheduleName2" value="Safety Compliance Form">
+            <cl:verticaldata std:sid="v-data-7397b3a3" width="100px" height="20px" autosize="height"/>
+          </cl:button>
+          <cl:output std:sid="output-0c6ccc7d" id="optScheduleDate2" class="text-gray-70" value="11-20-2026">
+            <cl:verticaldata std:sid="v-data-a2f10423" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-839e86dc" spacing="4"/>
+        </cl:group>
+        <cl:group std:sid="group-d0f0e893" id="grpScheduleItem3" class="list">
+          <cl:verticaldata std:sid="v-data-6323223e" width="328px" height="92px" autosize="height"/>
+          <cl:output std:sid="output-b30ce8fe" id="optScheduleBadge3" class="show-txt" visible="false" value="Urgent">
+            <cl:verticaldata std:sid="v-data-63b0bc59" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:button std:sid="button-a2d8a51c" id="btnScheduleName3" value="Annual Submission Package">
+            <cl:verticaldata std:sid="v-data-d4e845f3" width="100px" height="20px" autosize="height"/>
+          </cl:button>
+          <cl:output std:sid="output-9569b60d" id="optScheduleDate3" class="text-gray-70" value="11-23-2026">
+            <cl:verticaldata std:sid="v-data-3a2964ca" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-2a1cb7d2" spacing="4"/>
+        </cl:group>
+        <cl:group std:sid="group-3a9941e0" id="grpScheduleItem4" class="list">
+          <cl:verticaldata std:sid="v-data-7220844d" width="328px" height="92px" autosize="height"/>
+          <cl:output std:sid="output-b527ebe4" id="optScheduleBadge4" class="show-txt" visible="false" value="Urgent">
+            <cl:verticaldata std:sid="v-data-6c9bc00c" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:button std:sid="button-1ba9eecc" id="btnScheduleName4" value="Vendor Registration Template">
+            <cl:verticaldata std:sid="v-data-f9af7941" width="100px" height="20px" autosize="height"/>
+          </cl:button>
+          <cl:output std:sid="output-542f7ce3" id="optScheduleDate4" class="text-gray-70" value="11-30-2026">
+            <cl:verticaldata std:sid="v-data-d43bd37f" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-e12ad2d4" spacing="4"/>
+        </cl:group>
+        <cl:group std:sid="group-a81c1f3b" id="grpScheduleItem5" class="list">
+          <cl:verticaldata std:sid="v-data-2fc3af79" width="328px" height="92px" autosize="height"/>
+          <cl:output std:sid="output-f8f35a28" id="optScheduleBadge5" class="show-txt" visible="false" value="Urgent">
+            <cl:verticaldata std:sid="v-data-3f4d997c" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:button std:sid="button-c0ac7dde" id="btnScheduleName5" value="Annual Submission Package">
+            <cl:verticaldata std:sid="v-data-84ee9003" width="100px" height="20px" autosize="height"/>
+          </cl:button>
+          <cl:output std:sid="output-1c29446f" id="optScheduleDate5" class="text-gray-70" value="11-23-2026">
+            <cl:verticaldata std:sid="v-data-4f307906" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-47fab6de" spacing="4"/>
+        </cl:group>
+        <cl:group std:sid="group-4b2276fd" id="grpScheduleItem6" class="list">
+          <cl:verticaldata std:sid="v-data-185fff89" width="328px" height="92px" autosize="height"/>
+          <cl:output std:sid="output-366a1906" id="optScheduleBadge6" class="show-txt" visible="false" value="Urgent">
+            <cl:verticaldata std:sid="v-data-f41f2b09" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:button std:sid="button-eb1d63b8" id="btnScheduleName6" value="Vendor Registration Template">
+            <cl:verticaldata std:sid="v-data-3970cc1d" width="100px" height="20px" autosize="height"/>
+          </cl:button>
+          <cl:output std:sid="output-9f54ce36" id="optScheduleDate6" class="text-gray-70" value="11-30-2026">
+            <cl:verticaldata std:sid="v-data-fbe96b8b" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-059ace49" spacing="4"/>
+        </cl:group>
+        <cl:group std:sid="group-bdd35b2a" id="grpScheduleItem7" class="list">
+          <cl:verticaldata std:sid="v-data-75b13f86" width="328px" height="92px" autosize="height"/>
+          <cl:output std:sid="output-0ee07b6d" id="optScheduleBadge7" class="show-txt" visible="false" value="Urgent">
+            <cl:verticaldata std:sid="v-data-23fc24c4" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:button std:sid="button-f2c7d527" id="btnScheduleName7" value="Annual Submission Package">
+            <cl:verticaldata std:sid="v-data-7425c877" width="100px" height="20px" autosize="height"/>
+          </cl:button>
+          <cl:output std:sid="output-8447255e" id="optScheduleDate7" class="text-gray-70" value="11-23-2026">
+            <cl:verticaldata std:sid="v-data-aadf67aa" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-a1f7af6b" spacing="4"/>
+        </cl:group>
+        <cl:group std:sid="group-c1a12ca9" id="grpScheduleItem8" class="list">
+          <cl:verticaldata std:sid="v-data-efe969b6" width="328px" height="92px" autosize="height"/>
+          <cl:output std:sid="output-aa1e999f" id="optScheduleBadge8" class="show-txt" visible="false" value="Urgent">
+            <cl:verticaldata std:sid="v-data-3183f3cf" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:button std:sid="button-aefc70b2" id="btnScheduleName8" value="Vendor Registration Template">
+            <cl:verticaldata std:sid="v-data-044448b7" width="100px" height="20px" autosize="height"/>
+          </cl:button>
+          <cl:output std:sid="output-5629f660" id="optScheduleDate8" class="text-gray-70" value="11-30-2026">
+            <cl:verticaldata std:sid="v-data-9dbdde91" width="100px" height="20px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-2ea0ec30" spacing="4"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-5257c300" scrollable="false"/>
+      </cl:group>
+      <cl:formlayout std:sid="f-layout-77f6cf18" scrollable="false" hspace="0px" vspace="28px" hseparatorwidth="1" hseparatortype="BY_CLASS">
+        <cl:rows length="300" unit="PIXEL" autoSizing="true" syncminlength="false"/>
+        <cl:rows length="1" unit="FRACTION"/>
+        <cl:columns length="1" unit="FRACTION"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:formlayout std:sid="f-layout-ac904307" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px" hseparatorwidth="1" hseparatortype="BY_CLASS">
+      <cl:rows length="48" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="transparent" syncminlength="false"/>
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:columns length="1" unit="FRACTION"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>
