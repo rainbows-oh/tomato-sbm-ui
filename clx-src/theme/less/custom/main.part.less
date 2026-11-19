@@ -377,6 +377,75 @@
 		
 		.cl-calendar .cl-calendar-footer {
 			padding: 0px;
+			
+			/* Today 버튼 — 왼쪽 파란 dot 제거 (dot 자리로 잡혀 있던 왼쪽 패딩도 같이 줄임) */
+			.cl-calendar-footer-text {
+				padding: 4px 8px;
+				
+				&::after {
+					display: none;
+				}
+			}
+		}
+		
+		/* 일 선택 달력 날짜 상태 — 오늘 / 일정 있음 / 긴급 (숫자 박스 .cl-text 에 모양 지정, 선택(.cl-selected)은 기본 스타일 유지) */
+		.cl-calendar-day:not(.cl-anniversaries) .cl-calendar-content-wrapper .cl-calendar-content {
+			/* 오늘 — 아래 dot 제거 (날짜를 선택한 상태에서도 동일) */
+			.cl-calendar-content-day.cl-calendar-defaultdate::after {
+				display: none;
+			}
+			
+			/* 긴급 — 느낌표 배지(::before) 제거 (날짜를 선택한 상태에서도 동일) */
+			.cl-calendar-content-day.cl-calendar-anniversary.cal-urgent .cl-text::before {
+				display: none;
+			}
+			
+			/* 오늘 — 파란 border + 파란 글자 */
+			.cl-calendar-content-day.cl-calendar-defaultdate:not(.cl-selected) {
+				color: @primary-70;
+				
+				.cl-text {
+					border: 1px solid @primary-70;
+					border-radius: 6px;
+				}
+			}
+			
+			/* 일정 있음 (기념일 className: "cal-schedule") — 흰 배경 + 회색 border + 위쪽 파란 dot */
+			.cl-calendar-content-day.cl-calendar-anniversary.cal-schedule:not(.cl-selected):not(.cl-calendar-defaultdate) {
+				color: @gray-90;
+				
+				.cl-text {
+					position: relative;
+					border: 1px solid @gray-30;
+					border-radius: 6px;
+					background-color: @white;
+					
+					&::before {
+						content: "";
+						position: absolute;
+						display: block;
+						top: 3px;
+						left: 50%;
+						width: 5px;
+						height: 5px;
+						border-radius: @border-radius-full;
+						background-color: @primary-70;
+						transform: translateX(-50%);
+					}
+				}
+			}
+			
+			/* 긴급 (기념일 className: "cal-urgent") — 연한 레드 박스 + 레드 글자 */
+			.cl-calendar-content-day.cl-calendar-anniversary.cal-urgent:not(.cl-selected) {
+				color: @danger-60;
+				
+				.cl-text {
+					border: 1px solid @danger-20;
+					border-radius: 6px;
+					background-color: @danger-5;
+					color: @danger-60;
+				}
+			}
 		}
 		
 		.cl-container.schedule {

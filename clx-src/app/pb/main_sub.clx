@@ -187,7 +187,7 @@
       </cl:group>
       <cl:group std:sid="group-0f21ddb6">
         <cl:formdata std:sid="f-data-d3ac94af" row="0" col="1"/>
-        <cl:embeddedapp std:sid="e-app-90c192cf" fieldLabel="Content" class="main-content" src="submission/new2/SUB-SUM-01-00_Summary.clx">
+        <cl:embeddedapp std:sid="e-app-90c192cf" class="main-content" fieldLabel="Content" src="submission/new2/SUB-SUM-01-00_Summary.clx">
           <cl:formdata std:sid="f-data-1fb17c23" row="0" col="0"/>
         </cl:embeddedapp>
         <cl:formlayout std:sid="f-layout-f28c105d" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
@@ -197,7 +197,7 @@
       </cl:group>
       <cl:group std:sid="group-39263059" id="grpDeadline">
         <cl:formdata std:sid="f-data-a170b338" row="0" col="2"/>
-        <cl:embeddedapp std:sid="e-app-834aa152" id="emaDeadline" fieldLabel="Deadline" src="submission/new3/SUB-DEA-01-00_deadline.clx">
+        <cl:embeddedapp std:sid="e-app-834aa152" id="emaDeadline" fieldLabel="Deadline" src="1110/SUB-DEA-01-00_deadline.clx">
           <cl:formdata std:sid="f-data-f5a16134" row="0" col="0"/>
         </cl:embeddedapp>
         <cl:formlayout std:sid="f-layout-8a6a63ec" scrollable="false" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
